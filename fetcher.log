@@ -916,3 +916,104 @@
 [2023-07-26 00:51:59] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-26 00:51:59] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-26 00:51:59] INFO root fetch - main [MainThread]: Store serial: [19035401]
+[2023-07-26 00:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035401]
+[2023-07-26 00:57:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceandb
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garrett-streamlit-auth0
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddtrace
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-services4-logic
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-messagebus
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundation-model-package
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FlashGBX
+[2023-07-26 00:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-pip-abcde-v02
+[2023-07-26 00:57:08] INFO root fetch - processPackages [pip-services4-logic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [foundation-model-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 00:57:08] WARNING root fetch - processPackages [oceandb]: Skipping, unable to determine old version
+[2023-07-26 00:57:08] INFO root fetch - processPackages [oceandb]: Start processing: archivy-static-site-gen
+[2023-07-26 00:57:08] INFO root fetch - main [MainThread]: End processing [oceandb] error
+[2023-07-26 00:57:08] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.3.0.5.dev1690261241] Old Version: [0.3.0.2]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [neon-messagebus]: New version: [1.1.1a1] Old Version: [1.1.0]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [kfish]: New version: [99.0.202307252252] Old Version: [99.0.202307252026]
+[2023-07-26 00:57:08] WARNING root fetch - processPackages [test-pip-abcde-v02]: Skipping, unable to determine old version
+[2023-07-26 00:57:08] INFO root fetch - processPackages [test-pip-abcde-v02]: Start processing: imp-toolkit-logs
+[2023-07-26 00:57:08] INFO root fetch - main [MainThread]: End processing [test-pip-abcde-v02] error
+[2023-07-26 00:57:08] INFO root fetch - processPackages [pip-services4-logic]: Downloading https://files.pythonhosted.org/packages/d7/17/654bb708960484070445a4cc57d065cc78669b7fee673672b60321f73c3d/pip_services4_logic-0.0.4.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [FlashGBX]: New version: [3.9] Old Version: [3.8]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/6a/f7/9d9467b20e93f52bc62181eec31ee789572f3ad93bea3f573ef364376eb8/kfish-99.0.202307252026-py3-none-any.whl
+[2023-07-26 00:57:08] INFO root fetch - processPackages [archivy-static-site-gen]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/a9/2b/a8e53b3e563512fced41a167536ae8b348342a823f44a3794e0f7c4b2dd8/foundation-model-package-0.0.8.tar.gz
+[2023-07-26 00:57:08] WARNING root fetch - processPackages [imp-toolkit-logs]: Skipping, unable to determine old version
+[2023-07-26 00:57:08] INFO root fetch - processPackages [imp-toolkit-logs]: Start processing: gscrew
+[2023-07-26 00:57:08] INFO root fetch - main [MainThread]: End processing [imp-toolkit-logs] error
+[2023-07-26 00:57:08] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/aa/24/609903a182902fbfa26c735df0e237657e052d8325c50f548c0237ae6062/garrett-streamlit-auth0-0.3.0.2.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [gscrew]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 00:57:08] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/ee/5a/a2eb33ad2508c9cb01b5b61a4b0a7a9188fcf55009ccaa61a5fca3fc46e8/FlashGBX-3.8.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/55/8f/5a62c2c22428770f814fbecce93f4ee6545c35f7c266f2724f845bc4e7e5/gscrew-1.0.2.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/0e/36/14c2ea2fc1a8d71ed7793d2cf887a465d0021a17d63c4ebf62114fbc468d/neon_messagebus-1.1.1a1.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [archivy-static-site-gen]: Downloading https://files.pythonhosted.org/packages/c2/90/72a7cd1e5d5bc243303710fc11bf2a6644f2aedbd665f28a7af473242bc8/archivy_static_site_gen-0.2.3.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [pip-services4-logic]: Downloading https://files.pythonhosted.org/packages/42/32/e30b78defc24f7769e4d517b0ebe5c6be12fa6c38adec0e2652b0ec98901/pip_services4_logic-0.0.5.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/91/66/601e09b55806f0f8bdf5345840df67498a4c628e84f87f7651bf4dd634c7/kfish-99.0.202307252252-py3-none-any.whl
+[2023-07-26 00:57:08] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/97/b5/3c267275b40b3c72a69e4aa2485c07f3323af642950421f965828254fdef/foundation-model-package-0.0.9.tar.gz
+[2023-07-26 00:57:08] INFO root fetch - processPackages [neon-messagebus]: executing diffoscope
+[2023-07-26 00:57:08] INFO root fetch - processPackages [neon-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_messagebus-1.1.0.tar.gz tmp/neon_messagebus-1.1.1a1.tar.gz --markdown 20230726/n/neon-messagebus/1.1.0-1.1.1a1/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/bf/e6/f5edbd0f5712f19bdc89e1f0195fb7d66b37f84eee3bd2e2d11e07eacc80/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/04/ff/aea365ff8579c63984fb8ada19f7db6ef9953dbf031fff5c8b9a1f34cb4e/gscrew-1.0.3.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [foundation-model-package]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [foundation-model-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation-model-package-0.0.8.tar.gz tmp/foundation-model-package-0.0.9.tar.gz --markdown 20230726/f/foundation-model-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [pip-services4-logic]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [pip-services4-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_services4_logic-0.0.4.tar.gz tmp/pip_services4_logic-0.0.5.tar.gz --markdown 20230726/p/pip-services4-logic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307252026-py3-none-any.whl.zip tmp/kfish-99.0.202307252252-py3-none-any.whl.zip --markdown 20230726/k/kfish/99.0.202307252026-99.0.202307252252/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/c8/72/acefb62dbeece66c9b1dd593f90453843a08169b426de937d96a24dd1242/FlashGBX-3.9.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [gscrew]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [gscrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gscrew-1.0.2.tar.gz tmp/gscrew-1.0.3.tar.gz --markdown 20230726/g/gscrew/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [archivy-static-site-gen]: Downloading https://files.pythonhosted.org/packages/61/26/c0994526236e8b4bd3e2200378b7ddf9c57fcf693977563c0d3c255b0d07/archivy_static_site_gen-0.2.4.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.3.0.2.tar.gz tmp/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz --markdown 20230726/g/garrett-streamlit-auth0/0.3.0.2-0.3.0.5.dev1690261241/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [archivy-static-site-gen]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [archivy-static-site-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archivy_static_site_gen-0.2.3.tar.gz tmp/archivy_static_site_gen-0.2.4.tar.gz --markdown 20230726/a/archivy-static-site-gen/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [FlashGBX]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [FlashGBX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlashGBX-3.8.tar.gz tmp/FlashGBX-3.9.tar.gz --markdown 20230726/F/FlashGBX/3.8-3.9/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230726/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-26 00:57:09] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-07-26 00:57:09] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-07-26 00:57:09] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230726/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-26 00:57:10] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.1.0.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.1.1a1.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [neon-messagebus]: success
+[2023-07-26 00:57:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307252026-py3-none-any.whl.zip]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307252252-py3-none-any.whl.zip]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-26 00:57:10] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.8.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.9.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [foundation-model-package]: success
+[2023-07-26 00:57:10] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.2.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.3.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [gscrew]: success
+[2023-07-26 00:57:10] INFO root fetch - processPackages [archivy-static-site-gen]: Remove: archive file [/home/abi/fetcher/tmp/archivy_static_site_gen-0.2.3.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [archivy-static-site-gen]: Remove: archive file [/home/abi/fetcher/tmp/archivy_static_site_gen-0.2.4.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [archivy-static-site-gen]: success
+[2023-07-26 00:57:10] INFO root fetch - processPackages [pip-services4-logic]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_logic-0.0.4.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - processPackages [pip-services4-logic]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_logic-0.0.5.tar.gz]
+[2023-07-26 00:57:10] INFO root fetch - main [MainThread]: End processing [pip-services4-logic]: success
+[2023-07-26 00:57:11] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-07-26 00:57:11] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-07-26 00:57:11] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-07-26 00:57:11] INFO root fetch - processPackages [FlashGBX]: Remove: archive file [/home/abi/fetcher/tmp/FlashGBX-3.8.tar.gz]
+[2023-07-26 00:57:11] INFO root fetch - processPackages [FlashGBX]: Remove: archive file [/home/abi/fetcher/tmp/FlashGBX-3.9.tar.gz]
+[2023-07-26 00:57:11] INFO root fetch - main [MainThread]: End processing [FlashGBX]: success
+[2023-07-26 00:57:13] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.0.2.tar.gz]
+[2023-07-26 00:57:13] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.3.0.5.dev1690261241.tar.gz]
+[2023-07-26 00:57:13] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-26 00:57:38] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-07-26 00:57:38] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-07-26 00:57:38] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-07-26 00:57:38] INFO root fetch - main [MainThread]: Store serial: [19035511]
