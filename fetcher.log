@@ -1577,3 +1577,63 @@
 [2023-07-26 01:34:57] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2023-07-26 01:34:57] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2023-07-26 01:34:57] INFO root fetch - main [MainThread]: Store serial: [19035717]
+[2023-07-26 01:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035717]
+[2023-07-26 01:40:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motion-python
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptcloud
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itk-elastix
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-services4-data
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nextstrain-sphinx-theme
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scicamera
+[2023-07-26 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radstar
+[2023-07-26 01:40:06] WARNING root fetch - processPackages [pip-services4-data]: Skipping, unable to determine old version
+[2023-07-26 01:40:06] INFO root fetch - main [MainThread]: End processing [pip-services4-data] error
+[2023-07-26 01:40:06] INFO root fetch - processPackages [promptcloud]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [radstar]: New version: [0.14.5] Old Version: [0.14.4]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [nextstrain-sphinx-theme]: New version: [2023.2] Old Version: [2023.1]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [motion-python]: New version: [0.1.85] Old Version: [0.1.84]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [itk-elastix]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [scicamera]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-26 01:40:06] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/6e/f5/0de4c1f7ea7a6ecea34ac7303fe9424882723c867037f25a8d05eeb333a3/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl
+[2023-07-26 01:40:06] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/f7/20/b54cc4f5761917ae95d61918a9c4e071173939ab82a6b326aeb7836af4cf/radstar-0.14.4-py3-none-any.whl
+[2023-07-26 01:40:06] INFO root fetch - processPackages [promptcloud]: Downloading https://files.pythonhosted.org/packages/8d/b0/8ccae0178673b1a1f72484c1f94c5826d32b96f5d6c7e4dfb41f61d1a98e/promptcloud-1.0.0.tar.gz
+[2023-07-26 01:40:06] INFO root fetch - processPackages [nextstrain-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/0d/a2/00728e2be77a8db17ad36ff400ae2bde94b32b3192095893cb0bf9f226d5/nextstrain-sphinx-theme-2023.1.tar.gz
+[2023-07-26 01:40:06] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/64/f9/e45b0f691fbf92976119c25ea4a4f5d329ec5e0c9c8c1b589ba4a12e123d/motion_python-0.1.84.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [scicamera]: Downloading https://files.pythonhosted.org/packages/63/9d/ca0f34597f74a30adebe2b84c7e657222eba31629f8332b70aaa588edd46/scicamera-0.4.1.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [promptcloud]: Downloading https://files.pythonhosted.org/packages/0d/29/3a62aa8457ad2dcca77e85a6c2aad401e026015e93c47758cc38c1a9a472/promptcloud-1.0.1.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [promptcloud]: executing diffoscope
+[2023-07-26 01:40:07] INFO root fetch - processPackages [promptcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptcloud-1.0.0.tar.gz tmp/promptcloud-1.0.1.tar.gz --markdown 20230726/p/promptcloud/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 01:40:07] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/06/cc/80c83907ebc6e95283419fde80617383df1e8d2d1c01e37e837e0e7bff9c/motion_python-0.1.85.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [scicamera]: Downloading https://files.pythonhosted.org/packages/c5/dc/720f55b310a30c66e12a124b1422f9d9232ed332ffe267341a132db29eaa/scicamera-0.4.2.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [nextstrain-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/3a/e4/315cf88185e1795a9db734b17d8bfcf12a22a7eeeb66f3a90cca6022930c/nextstrain-sphinx-theme-2023.2.tar.gz
+[2023-07-26 01:40:07] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/21/53/fe8f170fbc1d99869752db8288819d5bd5b59aed04ca44e95e4ece21b795/radstar-0.14.5-py3-none-any.whl
+[2023-07-26 01:40:07] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-07-26 01:40:07] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.84.tar.gz tmp/motion_python-0.1.85.tar.gz --markdown 20230726/m/motion-python/0.1.84-0.1.85/diff.md --exclude *.pyd
+[2023-07-26 01:40:07] INFO root fetch - processPackages [scicamera]: executing diffoscope
+[2023-07-26 01:40:07] INFO root fetch - processPackages [scicamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicamera-0.4.1.tar.gz tmp/scicamera-0.4.2.tar.gz --markdown 20230726/s/scicamera/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-26 01:40:07] INFO root fetch - processPackages [nextstrain-sphinx-theme]: executing diffoscope
+[2023-07-26 01:40:07] INFO root fetch - processPackages [nextstrain-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextstrain-sphinx-theme-2023.1.tar.gz tmp/nextstrain-sphinx-theme-2023.2.tar.gz --markdown 20230726/n/nextstrain-sphinx-theme/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-07-26 01:40:07] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-26 01:40:07] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.4-py3-none-any.whl.zip tmp/radstar-0.14.5-py3-none-any.whl.zip --markdown 20230726/r/radstar/0.14.4-0.14.5/diff.md --exclude *.pyd
+[2023-07-26 01:40:08] INFO root fetch - processPackages [promptcloud]: Remove: archive file [/home/abi/fetcher/tmp/promptcloud-1.0.0.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - processPackages [promptcloud]: Remove: archive file [/home/abi/fetcher/tmp/promptcloud-1.0.1.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - main [MainThread]: End processing [promptcloud]: success
+[2023-07-26 01:40:08] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.84.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.85.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-07-26 01:40:08] INFO root fetch - processPackages [scicamera]: Remove: archive file [/home/abi/fetcher/tmp/scicamera-0.4.1.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - processPackages [scicamera]: Remove: archive file [/home/abi/fetcher/tmp/scicamera-0.4.2.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - main [MainThread]: End processing [scicamera]: success
+[2023-07-26 01:40:08] INFO root fetch - processPackages [nextstrain-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-sphinx-theme-2023.1.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - processPackages [nextstrain-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-sphinx-theme-2023.2.tar.gz]
+[2023-07-26 01:40:08] INFO root fetch - main [MainThread]: End processing [nextstrain-sphinx-theme]: success
+[2023-07-26 01:40:08] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/7a/41/4832fae79f88a83dc1722b6aba7e1c0a3c084dbfb15cfed44aa620d4d317/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl
+[2023-07-26 01:40:09] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.4-py3-none-any.whl.zip]
+[2023-07-26 01:40:09] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.5-py3-none-any.whl.zip]
+[2023-07-26 01:40:09] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-26 01:40:10] INFO root fetch - processPackages [itk-elastix]: executing diffoscope
+[2023-07-26 01:40:10] INFO root fetch - processPackages [itk-elastix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230726/i/itk-elastix/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 01:40:11] INFO root fetch - processPackages [itk-elastix]: Remove: archive file [/home/abi/fetcher/tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 01:40:11] INFO root fetch - processPackages [itk-elastix]: Remove: archive file [/home/abi/fetcher/tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 01:40:11] INFO root fetch - main [MainThread]: End processing [itk-elastix]: success
+[2023-07-26 01:40:11] INFO root fetch - main [MainThread]: Store serial: [19035751]
