@@ -460,3 +460,63 @@
 [2023-07-26 00:20:39] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.4.0.tar.gz]
 [2023-07-26 00:20:39] INFO root fetch - main [MainThread]: End processing [cfr-graphem]: success
 [2023-07-26 00:20:39] INFO root fetch - main [MainThread]: Store serial: [19035154]
+[2023-07-26 00:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035154]
+[2023-07-26 00:25:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polygon-api-client
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundation-model-package
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clientele
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cc-py-commons
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iqmotion
+[2023-07-26 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memoryapi
+[2023-07-26 00:25:47] INFO root fetch - processPackages [iqmotion]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-26 00:25:47] INFO root fetch - processPackages [polygon-api-client]: New version: [1.9] Old Version: [1.8.6]
+[2023-07-26 00:25:47] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 00:25:47] WARNING root fetch - processPackages [memoryapi]: Skipping, unable to determine old version
+[2023-07-26 00:25:47] INFO root fetch - processPackages [foundation-model-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 00:25:47] INFO root fetch - main [MainThread]: End processing [memoryapi] error
+[2023-07-26 00:25:47] INFO root fetch - processPackages [clientele]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 00:25:47] INFO root fetch - processPackages [Signal8]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-07-26 00:25:47] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/ea/98/6064b454685dafe6c4e5e7122a44adfbbab5d132bc349ac3424198208b3e/iqmotion-0.9.2.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/99/36/b78f4b42d484bbdc7f52e96e46c1b4bfdd966e9ccdf029f668baba6a26f8/Signal8-5.0.3.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/90/97/bb4849db961fefede99a73b5741d7f458aa4cf192f41b88b0bdb206604e0/clientele-0.3.0.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/a9/2b/a8e53b3e563512fced41a167536ae8b348342a823f44a3794e0f7c4b2dd8/foundation-model-package-0.0.8.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/4d/65/e5f104286a8dbb485e56e41b550d2f33f04adb38b8e7545650b5f525d996/polygon_api_client-1.8.6.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/c5/bd/e0e822fe29eca6852ed05652e150c11b8dc57f4352ccdb66a34640b3b3d3/iqmotion-0.9.3.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/97/b5/3c267275b40b3c72a69e4aa2485c07f3323af642950421f965828254fdef/foundation-model-package-0.0.9.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/6e/fd/0d89fe047d94ed567c7c3032fce55b3ac070fd4ef21ff61a587463fc887e/Signal8-5.0.4.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [iqmotion]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [iqmotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmotion-0.9.2.tar.gz tmp/iqmotion-0.9.3.tar.gz --markdown 20230726/i/iqmotion/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-26 00:25:48] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/88/1c/3edab39cb739dd162c142f831e80eebddc17a36ef7845b859d6d14f20384/clientele-0.3.1.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [foundation-model-package]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [foundation-model-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation-model-package-0.0.8.tar.gz tmp/foundation-model-package-0.0.9.tar.gz --markdown 20230726/f/foundation-model-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:25:48] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-5.0.3.tar.gz tmp/Signal8-5.0.4.tar.gz --markdown 20230726/S/Signal8/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-07-26 00:25:48] INFO root fetch - processPackages [clientele]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [clientele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientele-0.3.0.tar.gz tmp/clientele-0.3.1.tar.gz --markdown 20230726/c/clientele/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 00:25:48] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/8f/30/aece6637e8450c8ac7f244b63db8145a922c359d26fdc49d860ae74256e8/polygon_api_client-1.9.tar.gz
+[2023-07-26 00:25:48] INFO root fetch - processPackages [polygon-api-client]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [polygon-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygon_api_client-1.8.6.tar.gz tmp/polygon_api_client-1.9.tar.gz --markdown 20230726/p/polygon-api-client/1.8.6-1.9/diff.md --exclude *.pyd
+[2023-07-26 00:25:48] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-07-26 00:25:48] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230726/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 00:25:49] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.8.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.9.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [foundation-model-package]: success
+[2023-07-26 00:25:49] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.3.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.4.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-26 00:25:49] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.3.0.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.3.1.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [clientele]: success
+[2023-07-26 00:25:49] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.2.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.3.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [iqmotion]: success
+[2023-07-26 00:25:49] INFO root fetch - processPackages [polygon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/polygon_api_client-1.8.6.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [polygon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/polygon_api_client-1.9.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [polygon-api-client]: success
+[2023-07-26 00:25:49] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.8.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.9.tar.gz]
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-07-26 00:25:49] INFO root fetch - main [MainThread]: Store serial: [19035182]
