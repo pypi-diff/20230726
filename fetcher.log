@@ -1326,3 +1326,50 @@
 [2023-07-26 01:13:59] INFO root fetch - processPackages [tensorflow-gcs-config]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_gcs_config-2.9.1-py3-none-any.whl.zip]
 [2023-07-26 01:13:59] INFO root fetch - main [MainThread]: End processing [tensorflow-gcs-config]: success
 [2023-07-26 01:13:59] INFO root fetch - main [MainThread]: Store serial: [19035610]
+[2023-07-26 01:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035610]
+[2023-07-26 01:19:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: machbaseAPI
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiovantage
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsface-python
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radstar
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-queue-lib
+[2023-07-26 01:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WinDbg-Copilot
+[2023-07-26 01:19:09] INFO root fetch - processPackages [radstar]: New version: [0.14.5] Old Version: [0.14.4]
+[2023-07-26 01:19:09] INFO root fetch - processPackages [nsface-python]: New version: [1.1.77] Old Version: [1.1.74]
+[2023-07-26 01:19:09] INFO root fetch - processPackages [aiovantage]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-26 01:19:09] WARNING root fetch - processPackages [machbaseAPI]: Skipping, unable to determine old version
+[2023-07-26 01:19:09] INFO root fetch - main [MainThread]: End processing [machbaseAPI] error
+[2023-07-26 01:19:09] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-26 01:19:09] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 01:19:09] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/f7/20/b54cc4f5761917ae95d61918a9c4e071173939ab82a6b326aeb7836af4cf/radstar-0.14.4-py3-none-any.whl
+[2023-07-26 01:19:09] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-07-26 01:19:09] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/72/e5/5dfbb0e9c046fef186f2710c1bd3539b76fcab3d242023bbc5464a1a07d1/aiovantage-0.8.1.tar.gz
+[2023-07-26 01:19:09] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/0d/3e/a96452ad0ee73e0b528eca8cd86da79b276a42312a08dea30fb69f8dfccd/nsface_python-1.1.74-py3-none-any.whl
+[2023-07-26 01:19:09] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/d5/03/4120b82932c71d69f50f6220123039b814c7a57dc6607ae36eac2028d45a/nsj_queue_lib-0.1.5.tar.gz
+[2023-07-26 01:19:10] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-07-26 01:19:10] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/e9/c3/9e6e3482705c499ce6777b2321f94c71e47b59ae1de3ccd2845eb9c4485a/aiovantage-0.9.0.tar.gz
+[2023-07-26 01:19:10] WARNING root fetch - processPackages [nsface-python]: Skipping package: exceeds size limit 45102172>=10485760
+[2023-07-26 01:19:10] INFO root fetch - main [MainThread]: End processing [nsface-python] error
+[2023-07-26 01:19:10] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-07-26 01:19:10] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230726/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:19:10] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-07-26 01:19:10] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.8.1.tar.gz tmp/aiovantage-0.9.0.tar.gz --markdown 20230726/a/aiovantage/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 01:19:10] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/21/53/fe8f170fbc1d99869752db8288819d5bd5b59aed04ca44e95e4ece21b795/radstar-0.14.5-py3-none-any.whl
+[2023-07-26 01:19:10] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/a0/a6/27141fcad615cf7a485b15b5197117077920ede06aa56471d6d29e1810e1/nsj_queue_lib-0.2.0.tar.gz
+[2023-07-26 01:19:10] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-26 01:19:10] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.1.5.tar.gz tmp/nsj_queue_lib-0.2.0.tar.gz --markdown 20230726/n/nsj-queue-lib/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 01:19:10] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-26 01:19:10] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.4-py3-none-any.whl.zip tmp/radstar-0.14.5-py3-none-any.whl.zip --markdown 20230726/r/radstar/0.14.4-0.14.5/diff.md --exclude *.pyd
+[2023-07-26 01:19:11] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-07-26 01:19:11] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.5.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.2.0.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-26 01:19:11] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.8.1.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.9.0.tar.gz]
+[2023-07-26 01:19:11] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-07-26 01:19:11] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.4-py3-none-any.whl.zip]
+[2023-07-26 01:19:11] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.5-py3-none-any.whl.zip]
+[2023-07-26 01:19:11] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-26 01:19:11] INFO root fetch - main [MainThread]: Store serial: [19035631]
