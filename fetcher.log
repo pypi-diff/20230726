@@ -520,3 +520,87 @@
 [2023-07-26 00:25:49] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.9.tar.gz]
 [2023-07-26 00:25:49] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
 [2023-07-26 00:25:49] INFO root fetch - main [MainThread]: Store serial: [19035182]
+[2023-07-26 00:30:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035182]
+[2023-07-26 00:30:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recorder-utils
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabengine
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k1mbl3
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opilot
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foambryo
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NEMO
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radstar
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openshift
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docker-bin-wrapper
+[2023-07-26 00:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rchitect
+[2023-07-26 00:30:58] INFO root fetch - processPackages [NEMO]: New version: [4.6.1] Old Version: [4.6.0]
+[2023-07-26 00:30:58] INFO root fetch - processPackages [recorder-utils]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-26 00:30:58] INFO root fetch - processPackages [foambryo]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-26 00:30:58] WARNING root fetch - processPackages [opilot]: Skipping, unable to determine old version
+[2023-07-26 00:30:58] INFO root fetch - processPackages [opilot]: Start processing: tecton-utils
+[2023-07-26 00:30:58] INFO root fetch - main [MainThread]: End processing [opilot] error
+[2023-07-26 00:30:58] INFO root fetch - processPackages [openshift]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-26 00:30:58] INFO root fetch - processPackages [metabengine]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 00:30:58] INFO root fetch - processPackages [radstar]: New version: [0.14.5] Old Version: [0.14.4]
+[2023-07-26 00:30:58] ERROR root fetch - processPackages [docker-bin-wrapper]: Unable to get metadata: No such project 'docker-bin-wrapper'
+[2023-07-26 00:30:58] INFO root fetch - main [MainThread]: End processing [docker-bin-wrapper] error
+[2023-07-26 00:30:58] INFO root fetch - processPackages [rchitect]: New version: [0.4.1] Old Version: [0.3.9]
+[2023-07-26 00:30:58] ERROR root fetch - processPackages [k1mbl3]: Unable to get metadata: No such project 'k1mbl3'
+[2023-07-26 00:30:58] INFO root fetch - main [MainThread]: End processing [k1mbl3] error
+[2023-07-26 00:30:58] INFO root fetch - processPackages [tecton-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 00:30:58] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/95/a9/900451fc9f69bbd0578104412a93be35d827689284561e1bc9aadb672aa1/metabengine-0.0.6.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/b9/fd/7893291363e4234f79f92460d8c6d9a202b88396f897554f98f9cd8ac529/foambryo-0.2.9.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [recorder-utils]: Downloading https://files.pythonhosted.org/packages/c4/41/f5486c37d0471869a88da14654c4964febdaa0a8ed4baba8cf0fd9c02d78/recorder-utils-0.1.0.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/f7/20/b54cc4f5761917ae95d61918a9c4e071173939ab82a6b326aeb7836af4cf/radstar-0.14.4-py3-none-any.whl
+[2023-07-26 00:30:58] INFO root fetch - processPackages [openshift]: Downloading https://files.pythonhosted.org/packages/a9/9f/bda22613bec8fc7d6ab21cee95e83649456866cb8c93f611f45f49dba75a/openshift-0.9.2.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [NEMO]: Downloading https://files.pythonhosted.org/packages/63/e0/bf4318221f1d497a5cb7fcfc2a61f0ae492973db1d4fa8bd268980a83109/NEMO-4.6.0.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [tecton-utils]: Downloading https://files.pythonhosted.org/packages/13/bb/3fbfaea1da209dec34f49bd75a930ab3bac3c82afbb9a4529a81e42a053d/tecton_utils-0.0.1.tar.gz
+[2023-07-26 00:30:58] INFO root fetch - processPackages [rchitect]: Downloading https://files.pythonhosted.org/packages/f5/0e/38f568d0f5921d1ce9e51bd308b1c4e3869f3fdf10b6f03a9ba5c50b815c/rchitect-0.3.9.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/78/36/14ea1993e4a3a15877d3a21381977dbacf5433b005c835af80f0a42f4dde/metabengine-0.0.7.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/ad/02/e83b146c4012ef2a61089b4b73e3d125b425faabfecc71dd8b25072233d9/foambryo-0.3.0.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [recorder-utils]: Downloading https://files.pythonhosted.org/packages/95/e0/0a781eb42ffe122f4aa09f5d93c9cb25b966d27895ff79c9d536d8ba44f0/recorder-utils-0.2.0.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [tecton-utils]: Downloading https://files.pythonhosted.org/packages/84/b7/0c0bf882d310471b07d1560591aa5d2b5352b67510c0103c3e5721ec44c0/tecton_utils-0.0.2.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [metabengine]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [metabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabengine-0.0.6.tar.gz tmp/metabengine-0.0.7.tar.gz --markdown 20230726/m/metabengine/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [openshift]: Downloading https://files.pythonhosted.org/packages/d0/cb/15775a07028de0d5266fea50da4b5d18a39aecd0f70ec621d0fc058dc2ba/openshift-0.9.3.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.9.tar.gz tmp/foambryo-0.3.0.tar.gz --markdown 20230726/f/foambryo/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [recorder-utils]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [recorder-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recorder-utils-0.1.0.tar.gz tmp/recorder-utils-0.2.0.tar.gz --markdown 20230726/r/recorder-utils/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [tecton-utils]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [tecton-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton_utils-0.0.1.tar.gz tmp/tecton_utils-0.0.2.tar.gz --markdown 20230726/t/tecton-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [NEMO]: Downloading https://files.pythonhosted.org/packages/46/e2/35a06af5ad60340302fe5307477c86c50c1833341b6559e47e3560541d80/NEMO-4.6.1.tar.gz
+[2023-07-26 00:30:59] INFO root fetch - processPackages [openshift]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [openshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-0.9.2.tar.gz tmp/openshift-0.9.3.tar.gz --markdown 20230726/o/openshift/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/21/53/fe8f170fbc1d99869752db8288819d5bd5b59aed04ca44e95e4ece21b795/radstar-0.14.5-py3-none-any.whl
+[2023-07-26 00:30:59] INFO root fetch - processPackages [NEMO]: executing diffoscope
+[2023-07-26 00:30:59] INFO root fetch - processPackages [NEMO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO-4.6.0.tar.gz tmp/NEMO-4.6.1.tar.gz --markdown 20230726/N/NEMO/4.6.0-4.6.1/diff.md --exclude *.pyd
+[2023-07-26 00:30:59] INFO root fetch - processPackages [rchitect]: Downloading https://files.pythonhosted.org/packages/d5/5a/247229fca143273687f1fafc7a8ae9172f7e12d9381edb1d46519cf5957e/rchitect-0.4.1.tar.gz
+[2023-07-26 00:31:00] INFO root fetch - processPackages [rchitect]: executing diffoscope
+[2023-07-26 00:31:00] INFO root fetch - processPackages [rchitect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rchitect-0.3.9.tar.gz tmp/rchitect-0.4.1.tar.gz --markdown 20230726/r/rchitect/0.3.9-0.4.1/diff.md --exclude *.pyd
+[2023-07-26 00:31:00] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-26 00:31:00] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.4-py3-none-any.whl.zip tmp/radstar-0.14.5-py3-none-any.whl.zip --markdown 20230726/r/radstar/0.14.4-0.14.5/diff.md --exclude *.pyd
+[2023-07-26 00:31:00] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.6.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.7.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - processPackages [recorder-utils]: Remove: archive file [/home/abi/fetcher/tmp/recorder-utils-0.1.0.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - main [MainThread]: End processing [metabengine]: success
+[2023-07-26 00:31:00] INFO root fetch - processPackages [recorder-utils]: Remove: archive file [/home/abi/fetcher/tmp/recorder-utils-0.2.0.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - main [MainThread]: End processing [recorder-utils]: success
+[2023-07-26 00:31:00] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.9.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.3.0.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-26 00:31:00] INFO root fetch - processPackages [tecton-utils]: Remove: archive file [/home/abi/fetcher/tmp/tecton_utils-0.0.1.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - processPackages [tecton-utils]: Remove: archive file [/home/abi/fetcher/tmp/tecton_utils-0.0.2.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - main [MainThread]: End processing [tecton-utils]: success
+[2023-07-26 00:31:00] INFO root fetch - processPackages [openshift]: Remove: archive file [/home/abi/fetcher/tmp/openshift-0.9.2.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - processPackages [openshift]: Remove: archive file [/home/abi/fetcher/tmp/openshift-0.9.3.tar.gz]
+[2023-07-26 00:31:00] INFO root fetch - main [MainThread]: End processing [openshift]: success
+[2023-07-26 00:31:01] INFO root fetch - processPackages [rchitect]: Remove: archive file [/home/abi/fetcher/tmp/rchitect-0.3.9.tar.gz]
+[2023-07-26 00:31:01] INFO root fetch - processPackages [rchitect]: Remove: archive file [/home/abi/fetcher/tmp/rchitect-0.4.1.tar.gz]
+[2023-07-26 00:31:01] INFO root fetch - main [MainThread]: End processing [rchitect]: success
+[2023-07-26 00:31:01] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.4-py3-none-any.whl.zip]
+[2023-07-26 00:31:01] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.5-py3-none-any.whl.zip]
+[2023-07-26 00:31:01] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-26 00:31:02] INFO root fetch - processPackages [NEMO]: Remove: archive file [/home/abi/fetcher/tmp/NEMO-4.6.0.tar.gz]
+[2023-07-26 00:31:02] INFO root fetch - processPackages [NEMO]: Remove: archive file [/home/abi/fetcher/tmp/NEMO-4.6.1.tar.gz]
+[2023-07-26 00:31:02] INFO root fetch - main [MainThread]: End processing [NEMO]: success
+[2023-07-26 00:31:02] INFO root fetch - main [MainThread]: Store serial: [19035232]
