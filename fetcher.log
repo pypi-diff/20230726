@@ -1792,3 +1792,114 @@
 [2023-07-26 01:51:12] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-3.1.0a1.tar.gz]
 [2023-07-26 01:51:12] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python]: success
 [2023-07-26 01:51:12] INFO root fetch - main [MainThread]: Store serial: [19035832]
+[2023-07-26 01:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035832]
+[2023-07-26 01:56:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superpathlib
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-server-dev-test
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-CE
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tompdf
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rl-jitai-simulation
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pxmcmc
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GPyS
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-github
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opvious
+[2023-07-26 01:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fern-merge
+[2023-07-26 01:56:21] INFO root fetch - processPackages [superpathlib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [pxmcmc]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [NEMO-CE]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-26 01:56:21] WARNING root fetch - processPackages [rl-jitai-simulation]: Skipping, unable to determine old version
+[2023-07-26 01:56:21] WARNING root fetch - processPackages [tompdf]: Skipping, unable to determine old version
+[2023-07-26 01:56:21] INFO root fetch - processPackages [rl-jitai-simulation]: Start processing: nonebot-plugin-ncm
+[2023-07-26 01:56:21] INFO root fetch - processPackages [tompdf]: Start processing: edx-enterprise
+[2023-07-26 01:56:21] INFO root fetch - main [MainThread]: End processing [rl-jitai-simulation] error
+[2023-07-26 01:56:21] INFO root fetch - main [MainThread]: End processing [tompdf] error
+[2023-07-26 01:56:21] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [fern-merge]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [GPyS]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [edx-enterprise]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [nonebot-plugin-ncm]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-26 01:56:21] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-26 01:56:21] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/2d/a2/22f1525af90e46045b4c35184f25ca0bea0f6397cd95f6b0d1e8fa60db91/superpathlib-1.0.3.tar.gz
+[2023-07-26 01:56:21] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/41/d1/542b76967752df979ab1b18a84f3a1478cb5dd447ad0d18100cfb8296175/openapi_server_dev_test-1.0.1.tar.gz
+[2023-07-26 01:56:21] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/16/0c/a29fe3ab3cff47452fb46f85fa5815c86da631df882722f1a41b7d9e5608/fern_merge-0.1.4.tar.gz
+[2023-07-26 01:56:21] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/0c/2b/c86ff494f3628f33cdb501ce8fd38b0bfcb746aecbb122649eca33c8d0fc/NEMO_CE-1.6.0-py3-none-any.whl
+[2023-07-26 01:56:21] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/df/2e/c198aa59f8b07646f84511a6d7f961e7136cc2d8b50c534653f67268427d/GPyS-0.0.31.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [nonebot-plugin-ncm]: Downloading https://files.pythonhosted.org/packages/71/b5/a0098a61d0c2f3b25361c7936309c2dc042b65fcb7b7acd03ca074fd29c4/nonebot_plugin_ncm-1.6.1.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/d1/be/b6cdb914b317e73276c0bb6286bad730a6dc03780406e385001182ad0f65/edx-enterprise-4.0.4.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [pxmcmc]: Downloading https://files.pythonhosted.org/packages/e8/95/f90260253c21de7b9ffc70e1cac8385ff5af7b212bbba94754401deebc6a/pxmcmc-0.1.5.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/30/1b/6867d8eecabbae547eea1948b85f2df05c4e3c8ca0d77a76182f0b9cc1bd/superpathlib-1.0.4.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/30/a4/4de29ec806e9dd1fd9b806bf7b8cdeb3648aef1b55c0c636bc2d8b3849fb/openapi-server-dev-test-1.0.2.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.0.3.tar.gz tmp/superpathlib-1.0.4.tar.gz --markdown 20230726/s/superpathlib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/67/77/7ae017c2951f4aefcb9c9c828344da4c8cce8320de93d23ea3a899a6cab2/GPyS-0.0.32.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/f1/69/28e61f02da821fbdb1760606e6de0956973541ebb4e27773bfc234b1d8c0/fern_merge-0.2.0.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [nonebot-plugin-ncm]: Downloading https://files.pythonhosted.org/packages/82/48/02b9f40162c49b6befe9d10a6297d562b27b235bf1d6c852778b96952235/nonebot_plugin_ncm-1.6.2.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230726/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_dev_test-1.0.1.tar.gz tmp/openapi-server-dev-test-1.0.2.tar.gz --markdown 20230726/o/openapi-server-dev-test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/41/c6/1b6ecab996324354c6395b53e359ee64a0488bad1e6c81263d7d4fd092c8/NEMO_CE-1.6.1-py3-none-any.whl
+[2023-07-26 01:56:22] INFO root fetch - processPackages [GPyS]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [GPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPyS-0.0.31.tar.gz tmp/GPyS-0.0.32.tar.gz --markdown 20230726/G/GPyS/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [nonebot-plugin-ncm]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [nonebot-plugin-ncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ncm-1.6.1.tar.gz tmp/nonebot_plugin_ncm-1.6.2.tar.gz --markdown 20230726/n/nonebot-plugin-ncm/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230726/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/45/e5/3e1f1016730e28c645652088795148de40384d9db24e738599909595e719/edx-enterprise-4.0.5.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.1.4.tar.gz tmp/fern_merge-0.2.0.tar.gz --markdown 20230726/f/fern-merge/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 01:56:22] INFO root fetch - processPackages [pxmcmc]: Downloading https://files.pythonhosted.org/packages/2f/33/4b371e1df47ea65465bb3b0338cccd303adb006d376aac526f5b8128fcc7/pxmcmc-1.0.0.tar.gz
+[2023-07-26 01:56:22] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-07-26 01:56:22] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.6.0-py3-none-any.whl.zip tmp/NEMO_CE-1.6.1-py3-none-any.whl.zip --markdown 20230726/N/NEMO-CE/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-26 01:56:23] INFO root fetch - processPackages [pxmcmc]: executing diffoscope
+[2023-07-26 01:56:23] INFO root fetch - processPackages [pxmcmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxmcmc-0.1.5.tar.gz tmp/pxmcmc-1.0.0.tar.gz --markdown 20230726/p/pxmcmc/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 01:56:23] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-07-26 01:56:23] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.0.4.tar.gz tmp/edx-enterprise-4.0.5.tar.gz --markdown 20230726/e/edx-enterprise/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-26 01:56:23] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.3.tar.gz]
+[2023-07-26 01:56:23] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.4.tar.gz]
+[2023-07-26 01:56:23] INFO root fetch - processPackages [superpathlib]: Start processing: problem-bank-scripts
+[2023-07-26 01:56:23] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-07-26 01:56:23] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/a1/f2/1a5ee051a734100247afdfda572ec5e3abf66d6ee6d6e6cd7c66631eb0ce/problem_bank_scripts-0.9.0.tar.gz
+[2023-07-26 01:56:24] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: PySide6-Material-Widgets
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-26 01:56:24] INFO root fetch - processPackages [nonebot-plugin-ncm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ncm-1.6.1.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [nonebot-plugin-ncm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ncm-1.6.2.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ncm]: success
+[2023-07-26 01:56:24] WARNING root fetch - processPackages [PySide6-Material-Widgets]: Skipping, unable to determine old version
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [PySide6-Material-Widgets] error
+[2023-07-26 01:56:24] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.0.31.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.0.32.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [GPyS]: success
+[2023-07-26 01:56:24] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-26 01:56:24] INFO root fetch - processPackages [pxmcmc]: Remove: archive file [/home/abi/fetcher/tmp/pxmcmc-0.1.5.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [pxmcmc]: Remove: archive file [/home/abi/fetcher/tmp/pxmcmc-1.0.0.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [pxmcmc]: success
+[2023-07-26 01:56:24] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/fd/51/99019265f822ba4981c5f95326844b394ccbaf783ba0011451e7b98ec851/problem_bank_scripts-0.9.1.tar.gz
+[2023-07-26 01:56:24] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-26 01:56:24] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.9.0.tar.gz tmp/problem_bank_scripts-0.9.1.tar.gz --markdown 20230726/p/problem-bank-scripts/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 01:56:24] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_dev_test-1.0.1.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.2.tar.gz]
+[2023-07-26 01:56:24] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-26 01:56:25] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.9.0.tar.gz]
+[2023-07-26 01:56:25] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.9.1.tar.gz]
+[2023-07-26 01:56:25] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-26 01:56:26] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.6.0-py3-none-any.whl.zip]
+[2023-07-26 01:56:26] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.6.1-py3-none-any.whl.zip]
+[2023-07-26 01:56:26] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-07-26 01:56:27] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.4.tar.gz]
+[2023-07-26 01:56:27] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.5.tar.gz]
+[2023-07-26 01:56:27] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-07-26 01:56:29] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.1.4.tar.gz]
+[2023-07-26 01:56:29] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.0.tar.gz]
+[2023-07-26 01:56:29] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-07-26 01:56:29] INFO root fetch - main [MainThread]: Store serial: [19035878]
