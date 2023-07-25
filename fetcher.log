@@ -1373,3 +1373,72 @@
 [2023-07-26 01:19:11] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.5-py3-none-any.whl.zip]
 [2023-07-26 01:19:11] INFO root fetch - main [MainThread]: End processing [radstar]: success
 [2023-07-26 01:19:11] INFO root fetch - main [MainThread]: Store serial: [19035631]
+[2023-07-26 01:24:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035631]
+[2023-07-26 01:24:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dicomset
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Deformation3D
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws-native
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnhub_rest
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a99
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imp-toolkit-logs
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mdk
+[2023-07-26 01:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foundation-model-package
+[2023-07-26 01:24:20] INFO root fetch - processPackages [foundation-model-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [a99]: New version: [23.7.25.0] Old Version: [23.7.21.0]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [Deformation3D]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [mdk]: New version: [5.7.3] Old Version: [5.7.2]
+[2023-07-26 01:24:20] INFO root fetch - processPackages [lnhub_rest]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 01:24:20] WARNING root fetch - processPackages [imp-toolkit-logs]: Skipping, unable to determine old version
+[2023-07-26 01:24:20] INFO root fetch - main [MainThread]: End processing [imp-toolkit-logs] error
+[2023-07-26 01:24:20] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/a9/2b/a8e53b3e563512fced41a167536ae8b348342a823f44a3794e0f7c4b2dd8/foundation-model-package-0.0.8.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/00/6b/59c14ef136a1476dd69d94bff533e4444bcae6ce0029573cd88b85e1a831/Deformation3D-1.0.0-py3-none-any.whl
+[2023-07-26 01:24:20] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [a99]: Downloading https://files.pythonhosted.org/packages/58/6e/21a314b038b189924eca1888799d9a7b4cd8e40bcda698f47397364ea121/a99-23.7.21.0.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/4c/8e/2fa0890c643c113c73b26276c3da888f81884dab829e10abe5bb99575975/lnhub_rest-0.9.8.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [mdk]: Downloading https://files.pythonhosted.org/packages/03/32/cd966207c714a8351682cd42bd25f4694d68442e4110ca960cd20f5c14f8/mdk-5.7.2.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/97/b5/3c267275b40b3c72a69e4aa2485c07f3323af642950421f965828254fdef/foundation-model-package-0.0.9.tar.gz
+[2023-07-26 01:24:20] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-26 01:24:21] INFO root fetch - processPackages [foundation-model-package]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [foundation-model-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation-model-package-0.0.8.tar.gz tmp/foundation-model-package-0.0.9.tar.gz --markdown 20230726/f/foundation-model-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/f4/24/10692f420d4f512d0ae3e96ab59da9d4707db1d9babf097585252c990023/Deformation3D-1.0.1-py3-none-any.whl
+[2023-07-26 01:24:21] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-26 01:24:21] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230726/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/d0/81/edf84cb33f6dcc1e74168ee60abe6c0bdd29be53c2858fb959faa449140b/lnhub_rest-0.9.9.tar.gz
+[2023-07-26 01:24:21] INFO root fetch - processPackages [a99]: Downloading https://files.pythonhosted.org/packages/48/af/e94595c4209ce33a43db9575347f2c986bf6a365c691b42c497ae46d1b67/a99-23.7.25.0.tar.gz
+[2023-07-26 01:24:21] INFO root fetch - processPackages [mdk]: Downloading https://files.pythonhosted.org/packages/f7/d1/6ae28539262a1804c218a0b5cf65ea4ef989a5246c604bbea7e6d940befc/mdk-5.7.3.tar.gz
+[2023-07-26 01:24:21] INFO root fetch - processPackages [Deformation3D]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [Deformation3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deformation3D-1.0.0-py3-none-any.whl.zip tmp/Deformation3D-1.0.1-py3-none-any.whl.zip --markdown 20230726/D/Deformation3D/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [a99]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [a99]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a99-23.7.21.0.tar.gz tmp/a99-23.7.25.0.tar.gz --markdown 20230726/a/a99/23.7.21.0-23.7.25.0/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [lnhub_rest]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [lnhub_rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnhub_rest-0.9.8.tar.gz tmp/lnhub_rest-0.9.9.tar.gz --markdown 20230726/l/lnhub_rest/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [mdk]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [mdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdk-5.7.2.tar.gz tmp/mdk-5.7.3.tar.gz --markdown 20230726/m/mdk/5.7.2-5.7.3/diff.md --exclude *.pyd
+[2023-07-26 01:24:21] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-26 01:24:21] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230726/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-26 01:24:22] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.8.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.9.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [foundation-model-package]: success
+[2023-07-26 01:24:22] INFO root fetch - processPackages [mdk]: Remove: archive file [/home/abi/fetcher/tmp/mdk-5.7.2.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [mdk]: Remove: archive file [/home/abi/fetcher/tmp/mdk-5.7.3.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [mdk]: success
+[2023-07-26 01:24:22] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-26 01:24:22] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.0-py3-none-any.whl.zip]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.1-py3-none-any.whl.zip]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
+[2023-07-26 01:24:22] INFO root fetch - processPackages [lnhub_rest]: Remove: archive file [/home/abi/fetcher/tmp/lnhub_rest-0.9.8.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [lnhub_rest]: Remove: archive file [/home/abi/fetcher/tmp/lnhub_rest-0.9.9.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
+[2023-07-26 01:24:22] INFO root fetch - processPackages [a99]: Remove: archive file [/home/abi/fetcher/tmp/a99-23.7.21.0.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - processPackages [a99]: Remove: archive file [/home/abi/fetcher/tmp/a99-23.7.25.0.tar.gz]
+[2023-07-26 01:24:22] INFO root fetch - main [MainThread]: End processing [a99]: success
+[2023-07-26 01:24:32] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-26 01:24:32] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-26 01:24:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-26 01:24:32] INFO root fetch - main [MainThread]: Store serial: [19035662]
