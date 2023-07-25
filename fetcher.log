@@ -1,0 +1,128 @@
+[2023-07-26 00:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19034979]
+[2023-07-26 00:01:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydelorean
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabengine
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gscrew
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stactools-geoparquet-items
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veetility
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydelorean
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: addition-maz
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trycortex
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipfskvs
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsakit
+[2023-07-26 00:01:55] INFO root fetch - processPackages [metabengine]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [pydelorean]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [stactools-geoparquet-items]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [gscrew]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [pydelorean]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [trycortex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 00:01:55] WARNING root fetch - processPackages [dsakit]: Skipping, unable to determine old version
+[2023-07-26 00:01:55] INFO root fetch - processPackages [dsakit]: Start processing: sprit
+[2023-07-26 00:01:55] INFO root fetch - main [MainThread]: End processing [dsakit] error
+[2023-07-26 00:01:55] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [addition-maz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [sprit]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-26 00:01:55] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-26 00:01:55] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/55/8f/5a62c2c22428770f814fbecce93f4ee6545c35f7c266f2724f845bc4e7e5/gscrew-1.0.2.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/b9/1e/abeaf73a139fb46ce3121d0cfa51a8bbe04a90cdf87bfed98aaa80183a54/trycortex-1.0.8.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/ad/08/4f6fdb83fd34aecdf4ad8c9d61eb719fe19b974f35539de3c4963f3d4ecb/pydelorean-1.5.2.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/ad/08/4f6fdb83fd34aecdf4ad8c9d61eb719fe19b974f35539de3c4963f3d4ecb/pydelorean-1.5.2.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/16/92/890a156e2dfd4916a5e5ca06b0973518dd88d74636ce2a8b3cb6c79531ce/metabengine-0.0.4.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [stactools-geoparquet-items]: Downloading https://files.pythonhosted.org/packages/99/f1/7131c47e92374ebcc1345e62ba44ea6b0a101d1a0d7ebc4f148e4367ebce/stactools-geoparquet-items-0.3.1.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/ab/3e/69a1fd7992f3a90b4f2d82af5dbfbb1590d53d8f8b7651df56e5829a1f12/ipfskvs-0.1.8.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [addition-maz]: Downloading https://files.pythonhosted.org/packages/50/43/72c82688e5f68411afc1cdf90becc17dafcc4ce34aca6ae87565cdb8cf02/addition_maz-0.0.1-py3-none-any.whl
+[2023-07-26 00:01:56] INFO root fetch - processPackages [sprit]: Downloading https://files.pythonhosted.org/packages/9e/a4/2befecbca56e15513e5f82d1e0986b50cb278bd297a3240adb5585860013/sprit-0.0.9.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/63/8f/b109654725198f55aedea61175748721c427c69efb6403331a3ab2e53ac7/trycortex-1.0.9.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/04/ff/aea365ff8579c63984fb8ada19f7db6ef9953dbf031fff5c8b9a1f34cb4e/gscrew-1.0.3.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/05/84/24a858fc6386b58767d6027a07e4b6afc392d307540c95830da215954cdd/pydelorean-1.5.3.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/05/84/24a858fc6386b58767d6027a07e4b6afc392d307540c95830da215954cdd/pydelorean-1.5.3.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/8d/76/75bea523f2d4367412cc013a3cc613669918be2e739db2977e0c62c05ef3/metabengine-0.0.5.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [stactools-geoparquet-items]: Downloading https://files.pythonhosted.org/packages/b6/a8/ee321f0f2ec6eba13af3c099a82cfde2bf5319d62dac18372de55f9f1958/stactools-geoparquet-items-0.4.0.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230726/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.8.tar.gz tmp/trycortex-1.0.9.tar.gz --markdown 20230726/t/trycortex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [addition-maz]: Downloading https://files.pythonhosted.org/packages/5f/21/74e5bdf94aa06e481131a917a29c55444e0b9ce0240ccc70c23be5bb1e88/addition_maz-0.0.2-py3-none-any.whl
+[2023-07-26 00:01:56] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.8.tar.gz tmp/ipfskvs-0.1.9.tar.gz --markdown 20230726/i/ipfskvs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [gscrew]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [gscrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gscrew-1.0.2.tar.gz tmp/gscrew-1.0.3.tar.gz --markdown 20230726/g/gscrew/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [stactools-geoparquet-items]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [stactools-geoparquet-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stactools-geoparquet-items-0.3.1.tar.gz tmp/stactools-geoparquet-items-0.4.0.tar.gz --markdown 20230726/s/stactools-geoparquet-items/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [metabengine]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [metabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabengine-0.0.4.tar.gz tmp/metabengine-0.0.5.tar.gz --markdown 20230726/m/metabengine/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.5.2.tar.gz tmp/pydelorean-1.5.3.tar.gz --markdown 20230726/p/pydelorean/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [addition-maz]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [sprit]: Downloading https://files.pythonhosted.org/packages/f1/38/54b218907fb581d129bf7852016aa20fb7212dd391d77ed06d04dd5a591c/sprit-0.1.0.tar.gz
+[2023-07-26 00:01:56] INFO root fetch - processPackages [addition-maz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addition_maz-0.0.1-py3-none-any.whl.zip tmp/addition_maz-0.0.2-py3-none-any.whl.zip --markdown 20230726/a/addition-maz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-26 00:01:56] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.5.2.tar.gz tmp/pydelorean-1.5.3.tar.gz --markdown 20230726/p/pydelorean/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-26 00:01:57] INFO root fetch - processPackages [sprit]: executing diffoscope
+[2023-07-26 00:01:57] INFO root fetch - processPackages [sprit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprit-0.0.9.tar.gz tmp/sprit-0.1.0.tar.gz --markdown 20230726/s/sprit/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 00:01:58] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.8.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.9.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [ipfskvs]: Start processing: verta
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [verta]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.4.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.5.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [metabengine]: Start processing: beam-sdk
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [metabengine]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [veetility]: Start processing: antsibull-changelog
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [addition-maz]: Remove: archive file [/home/abi/fetcher/tmp/addition_maz-0.0.1-py3-none-any.whl.zip]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [addition-maz]: Remove: archive file [/home/abi/fetcher/tmp/addition_maz-0.0.2-py3-none-any.whl.zip]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [addition-maz]: Start processing: watch-xfce-xfconf
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [addition-maz]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [verta]: Downloading https://files.pythonhosted.org/packages/3f/21/477ffbe5c8fec4e05d9ee44ab123493fafabc2184937e02731613ee2bf39/verta-0.9.2.tar.gz
+[2023-07-26 00:01:58] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.2.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.3.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [stactools-geoparquet-items]: Remove: archive file [/home/abi/fetcher/tmp/stactools-geoparquet-items-0.3.1.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.2.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [stactools-geoparquet-items]: Remove: archive file [/home/abi/fetcher/tmp/stactools-geoparquet-items-0.4.0.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.3.tar.gz]
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [stactools-geoparquet-items]: success
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [gscrew]: success
+[2023-07-26 00:01:58] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 00:01:58] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-26 00:01:59] INFO root fetch - processPackages [antsibull-changelog]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-26 00:01:59] INFO root fetch - processPackages [watch-xfce-xfconf]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 00:01:59] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.8.tar.gz]
+[2023-07-26 00:01:59] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.9.tar.gz]
+[2023-07-26 00:01:59] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-07-26 00:01:59] INFO root fetch - processPackages [verta]: Downloading https://files.pythonhosted.org/packages/03/85/8af80d81ac40c53a38e55f8ae1d71f1f3c52fd2d1b0ebd23ccd4c5e2ad84/verta-0.9.3.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [antsibull-changelog]: Downloading https://files.pythonhosted.org/packages/14/fe/950a5650dd6b3bf2b791ebb7b2c96d5c227149d65910436c7cf0b1bc5a5d/antsibull-changelog-0.8.1.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [watch-xfce-xfconf]: Downloading https://files.pythonhosted.org/packages/76/9c/e212e333212204739dd2930fc9ce6ddd64f5374b8eeec1814c1b41ef186c/watch-xfce-xfconf-1.0.3.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [verta]: executing diffoscope
+[2023-07-26 00:01:59] INFO root fetch - processPackages [verta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verta-0.9.2.tar.gz tmp/verta-0.9.3.tar.gz --markdown 20230726/v/verta/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-26 00:01:59] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [watch-xfce-xfconf]: Downloading https://files.pythonhosted.org/packages/24/23/2af3768a6aa043d6c52f5d052eb6047b735164b1a94509ac72e1fff6f596/watch-xfce-xfconf-1.0.4.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [antsibull-changelog]: Downloading https://files.pythonhosted.org/packages/1e/8d/da15c46573d12fe5e38a28c3a435c3e91ea977745013b67e6b6c7943c897/antsibull-changelog-0.9.0.tar.gz
+[2023-07-26 00:01:59] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-26 00:01:59] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230726/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 00:01:59] INFO root fetch - processPackages [antsibull-changelog]: executing diffoscope
+[2023-07-26 00:01:59] INFO root fetch - processPackages [antsibull-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-changelog-0.8.1.tar.gz tmp/antsibull-changelog-0.9.0.tar.gz --markdown 20230726/a/antsibull-changelog/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 00:01:59] INFO root fetch - processPackages [watch-xfce-xfconf]: executing diffoscope
+[2023-07-26 00:01:59] INFO root fetch - processPackages [watch-xfce-xfconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-xfce-xfconf-1.0.3.tar.gz tmp/watch-xfce-xfconf-1.0.4.tar.gz --markdown 20230726/w/watch-xfce-xfconf/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 00:02:00] INFO root fetch - processPackages [verta]: Remove: archive file [/home/abi/fetcher/tmp/verta-0.9.2.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - processPackages [verta]: Remove: archive file [/home/abi/fetcher/tmp/verta-0.9.3.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - main [MainThread]: End processing [verta]: success
+[2023-07-26 00:02:00] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-26 00:02:00] INFO root fetch - processPackages [watch-xfce-xfconf]: Remove: archive file [/home/abi/fetcher/tmp/watch-xfce-xfconf-1.0.3.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - processPackages [watch-xfce-xfconf]: Remove: archive file [/home/abi/fetcher/tmp/watch-xfce-xfconf-1.0.4.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - main [MainThread]: End processing [watch-xfce-xfconf]: success
+[2023-07-26 00:02:00] INFO root fetch - processPackages [antsibull-changelog]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-changelog-0.8.1.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - processPackages [antsibull-changelog]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-changelog-0.9.0.tar.gz]
+[2023-07-26 00:02:00] INFO root fetch - main [MainThread]: End processing [antsibull-changelog]: success
+[2023-07-26 00:04:57] ERROR root fetch - processPackages [sprit]: Timeout during execution of pkgdiff
+[2023-07-26 00:04:57] INFO root fetch - main [MainThread]: End processing [sprit] error
+[2023-07-26 00:04:57] INFO root fetch - main [MainThread]: Store serial: [19035035]
