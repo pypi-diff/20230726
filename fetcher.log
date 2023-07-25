@@ -672,3 +672,92 @@
 [2023-07-26 00:36:13] INFO root fetch - processPackages [pypeims]: Remove: archive file [/home/abi/fetcher/tmp/pypeims-0.0.31.tar.gz]
 [2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [pypeims]: success
 [2023-07-26 00:36:13] INFO root fetch - main [MainThread]: Store serial: [19035315]
+[2023-07-26 00:41:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035315]
+[2023-07-26 00:41:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtmetabolabpy
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-cosmos
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foambryo
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metabolabpytools
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shell-whiz
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Signal8
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iotbr
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: beam-sdk
+[2023-07-26 00:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opinionated
+[2023-07-26 00:41:22] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [foambryo]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [azure-cosmos]: New version: [4.4.1b1] Old Version: [4.4.0b2]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [opinionated]: New version: [0.0.2.6] Old Version: [0.0.2.5]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [metabolabpytools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [shell-whiz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [Signal8]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/45/cc/437e5d820fd7f5274b99f547608cc964aa8cf768dad996bcb388d0922fe0/shell_whiz-0.1.8.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [iotbr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-26 00:41:22] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/ad/02/e83b146c4012ef2a61089b4b73e3d125b425faabfecc71dd8b25072233d9/foambryo-0.3.0.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [iotbr]: Downloading https://files.pythonhosted.org/packages/57/50/327ed9be7b2e5c0e3c5d608223a84d87943dc449216470792d93dfcb4836/iotbr-0.0.8.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [opinionated]: Downloading https://files.pythonhosted.org/packages/ad/26/b368e0e8aa02e1eda38359ab293edfd1760bf416a06344d35c7a56b337e4/opinionated-0.0.2.5.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/6e/fd/0d89fe047d94ed567c7c3032fce55b3ac070fd4ef21ff61a587463fc887e/Signal8-5.0.4.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/46/1f/3eef44e14dab70f46974713e963ee61c363fdc3e6d674d0028fac5cdffe0/qtmetabolabpy-0.9.5.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/ec/00/3a4f1bbdfab38d1c367244bc69141d19558424e11084a2371f81b14a39ad/metabolabpytools-0.9.5.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-26 00:41:22] WARNING root fetch - processPackages [opinionated]: Skipping package: exceeds size limit 20962269>=10485760
+[2023-07-26 00:41:22] INFO root fetch - main [MainThread]: End processing [opinionated] error
+[2023-07-26 00:41:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-26 00:41:22] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/8b/6e/0dce1c56f0a57ee03e4e919c3b2198063ba32789cf3b3ffe2962156bbc01/azure-cosmos-4.4.0b2.zip
+[2023-07-26 00:41:22] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/65/78/de76ad07158678f82acb571c9ac683b2fd6e7529c66be245b54a6bc055b3/shell_whiz-0.1.9.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/9c/d4/e43522dbe3566a8def6fd5877ce4bb4ab7f52721d2f697ed84aa0ee6bb8d/Signal8-5.0.5.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/36/ea/a653d47dee0ccd576851be0a0dd60862aeb0fbc92940e7815f98ad4d08c1/metabolabpytools-0.9.6.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/e9/c1/caedd0a5eefd72422b367ac944405379ffa71eeedf7cc137ac5c0c0a4fba/qtmetabolabpy-0.9.6.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/7f/f3/effec00df51ded76c82a846e6d0a5e7d9fe157dde9cc61094d3ef4143164/foambryo-0.3.1.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.1.8.tar.gz tmp/shell_whiz-0.1.9.tar.gz --markdown 20230726/s/shell-whiz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230726/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/63/fc/cd577bfce9e507158cbc40448fc6cc59249f6d7e1591e9fffdbe335bd9d4/azure-cosmos-4.4.1b1.zip
+[2023-07-26 00:41:23] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-5.0.4.tar.gz tmp/Signal8-5.0.5.tar.gz --markdown 20230726/S/Signal8/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230726/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [metabolabpytools]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [metabolabpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolabpytools-0.9.5.tar.gz tmp/metabolabpytools-0.9.6.tar.gz --markdown 20230726/m/metabolabpytools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.3.0.tar.gz tmp/foambryo-0.3.1.tar.gz --markdown 20230726/f/foambryo/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [iotbr]: Downloading https://files.pythonhosted.org/packages/da/4b/c33995914f628bb8ccc8f541aa73db7610c6d07ced43688241b594d3ed38/iotbr-0.0.9.tar.gz
+[2023-07-26 00:41:23] INFO root fetch - processPackages [qtmetabolabpy]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [qtmetabolabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmetabolabpy-0.9.5.tar.gz tmp/qtmetabolabpy-0.9.6.tar.gz --markdown 20230726/q/qtmetabolabpy/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [azure-cosmos]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [azure-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cosmos-4.4.0b2.zip tmp/azure-cosmos-4.4.1b1.zip --markdown 20230726/a/azure-cosmos/4.4.0b2-4.4.1b1/diff.md --exclude *.pyd
+[2023-07-26 00:41:23] INFO root fetch - processPackages [iotbr]: executing diffoscope
+[2023-07-26 00:41:23] INFO root fetch - processPackages [iotbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotbr-0.0.8.tar.gz tmp/iotbr-0.0.9.tar.gz --markdown 20230726/i/iotbr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:41:24] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.8.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.9.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-07-26 00:41:24] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.4.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.5.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-26 00:41:24] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-26 00:41:24] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.5.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.6.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - main [MainThread]: End processing [metabolabpytools]: success
+[2023-07-26 00:41:24] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.3.0.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.3.1.tar.gz]
+[2023-07-26 00:41:24] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-26 00:41:25] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.9.5.tar.gz]
+[2023-07-26 00:41:25] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.9.6.tar.gz]
+[2023-07-26 00:41:25] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
+[2023-07-26 00:41:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-26 00:41:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-26 00:41:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-26 00:41:25] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.4.0b2.zip]
+[2023-07-26 00:41:25] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.4.1b1.zip]
+[2023-07-26 00:41:25] INFO root fetch - main [MainThread]: End processing [azure-cosmos]: success
+[2023-07-26 00:41:27] INFO root fetch - processPackages [iotbr]: Remove: archive file [/home/abi/fetcher/tmp/iotbr-0.0.8.tar.gz]
+[2023-07-26 00:41:27] INFO root fetch - processPackages [iotbr]: Remove: archive file [/home/abi/fetcher/tmp/iotbr-0.0.9.tar.gz]
+[2023-07-26 00:41:27] INFO root fetch - main [MainThread]: End processing [iotbr]: success
+[2023-07-26 00:41:27] INFO root fetch - main [MainThread]: Store serial: [19035342]
