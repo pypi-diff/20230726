@@ -1706,3 +1706,89 @@
 [2023-07-26 01:46:00] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.1.0a2.tar.gz]
 [2023-07-26 01:46:00] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-07-26 01:46:00] INFO root fetch - main [MainThread]: Store serial: [19035778]
+[2023-07-26 01:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035778]
+[2023-07-26 01:51:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superpathlib
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-connector-python
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eeggan
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-iris
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testmhdbAPI
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicomset
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-univer
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tvolib
+[2023-07-26 01:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mcqgen
+[2023-07-26 01:51:09] INFO root fetch - processPackages [testmhdbAPI]: New version: [1.3] Old Version: [1.2]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [superpathlib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [tvolib]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-26 01:51:09] WARNING root fetch - processPackages [mcqgen]: Skipping, unable to determine old version
+[2023-07-26 01:51:09] INFO root fetch - processPackages [mcqgen]: Start processing: foundation-model-tool
+[2023-07-26 01:51:09] INFO root fetch - main [MainThread]: End processing [mcqgen] error
+[2023-07-26 01:51:09] INFO root fetch - processPackages [eeggan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [python-univer]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [neon-iris]: New version: [0.0.5a4] Old Version: [0.0.5a3]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [snowflake-connector-python]: New version: [3.1.0a1] Old Version: [3.0.4]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230725] Old Version: [0.3.2.dev20230724]
+[2023-07-26 01:51:09] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/4a/27/6ea56259508ef78f2a3638b3bc1aa6c7afb67dc5ccd7a173c0a46d118bc0/testmhdbAPI-1.2.tar.gz
+[2023-07-26 01:51:09] WARNING root fetch - processPackages [foundation-model-tool]: Skipping, unable to determine old version
+[2023-07-26 01:51:09] INFO root fetch - main [MainThread]: End processing [foundation-model-tool] error
+[2023-07-26 01:51:09] INFO root fetch - processPackages [tvolib]: Downloading https://files.pythonhosted.org/packages/31/7d/79faab205563fbf17edfa3e3f170af4e19ba93b995b42bf127edf094646f/tvolib-0.1.1.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/f9/da/338f44e03a2128901ddbc64cb54e5d5fe2fac8878b17cefaa9bc16104679/superpathlib-1.0.2.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/82/b5/f2678363b555b1ce822b892085d487d7e3cc3a82c88032e7d0f1ffe63e63/eeggan-0.1.2.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/9d/bb/a765a989eb0eb4c1828670219c1f2cbc5c57970908ff4fef23d74de37458/python-univer-1.4.6.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/7f/0c/1b7576eefa0944a00df67b8fadd19cdb3f649e5dce7cbbb397ee85c7eb63/snowflake-connector-python-3.0.4.tar.gz
+[2023-07-26 01:51:09] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/e1/24/c90caab2e3e4be1ea6e416940076c84f6f31692f83ff6f66d4db2740d90f/neon_iris-0.0.5a3-py3-none-any.whl
+[2023-07-26 01:51:09] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/2c/53/0f296eedd30c728c569d600fd3d6f0059f0838038f7ee5b3ccd57cadf636/skyplane_nightly-0.3.2.dev20230724.tar.gz
+[2023-07-26 01:51:09] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 32580259>=10485760
+[2023-07-26 01:51:09] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2023-07-26 01:51:10] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/ab/3c/37b215869ca21ec314d3c8ee6fcb537db12aae49077591cba2946e486b32/testmhdbAPI-1.3.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [testmhdbAPI]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [testmhdbAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmhdbAPI-1.2.tar.gz tmp/testmhdbAPI-1.3.tar.gz --markdown 20230726/t/testmhdbAPI/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [tvolib]: Downloading https://files.pythonhosted.org/packages/20/da/96b02ac9ea04a98cc03e87341c972a00534ca42b143140948fb4caad9509/tvolib-0.2.0.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230726/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/2d/a2/22f1525af90e46045b4c35184f25ca0bea0f6397cd95f6b0d1e8fa60db91/superpathlib-1.0.3.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/dc/5a/bc84255ae74a83a005191188bdfe6f6627fd6e2b1a33565af0acc22880b1/python-univer-1.4.7.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/27/41/4b5616bb585c30616ad2572905b320bf953f1fdfe87d8c3d42e39d6108dd/snowflake-connector-python-3.1.0a1.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [tvolib]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [tvolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvolib-0.1.1.tar.gz tmp/tvolib-0.2.0.tar.gz --markdown 20230726/t/tvolib/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/28/86/1d55c7903e506e1666ac9e633eb4b8e6804e226c929f6ffb246417cf73e3/neon-iris-0.0.5a4.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.0.2.tar.gz tmp/superpathlib-1.0.3.tar.gz --markdown 20230726/s/superpathlib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.6.tar.gz tmp/python-univer-1.4.7.tar.gz --markdown 20230726/p/python-univer/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/65/c9/c8546a3814f9ba60621638568b041de8cb1e92e74eb4e75398563e960269/skyplane_nightly-0.3.2.dev20230725.tar.gz
+[2023-07-26 01:51:10] INFO root fetch - processPackages [neon-iris]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [neon-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_iris-0.0.5a3-py3-none-any.whl.zip tmp/neon-iris-0.0.5a4.tar.gz --markdown 20230726/n/neon-iris/0.0.5a3-0.0.5a4/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [snowflake-connector-python]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [snowflake-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-3.0.4.tar.gz tmp/snowflake-connector-python-3.1.0a1.tar.gz --markdown 20230726/s/snowflake-connector-python/3.0.4-3.1.0a1/diff.md --exclude *.pyd
+[2023-07-26 01:51:10] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-26 01:51:10] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230724.tar.gz tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz --markdown 20230726/s/skyplane-nightly/0.3.2.dev20230724-0.3.2.dev20230725/diff.md --exclude *.pyd
+[2023-07-26 01:51:11] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.2.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.3.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [testmhdbAPI]: success
+[2023-07-26 01:51:11] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.2.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.3.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-07-26 01:51:11] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon_iris-0.0.5a3-py3-none-any.whl.zip]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon-iris-0.0.5a4.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [neon-iris]: success
+[2023-07-26 01:51:11] INFO root fetch - processPackages [tvolib]: Remove: archive file [/home/abi/fetcher/tmp/tvolib-0.1.1.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [tvolib]: Remove: archive file [/home/abi/fetcher/tmp/tvolib-0.2.0.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [tvolib]: success
+[2023-07-26 01:51:11] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-26 01:51:11] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.6.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.7.tar.gz]
+[2023-07-26 01:51:11] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-26 01:51:12] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230724.tar.gz]
+[2023-07-26 01:51:12] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz]
+[2023-07-26 01:51:12] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-26 01:51:12] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-3.0.4.tar.gz]
+[2023-07-26 01:51:12] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-3.1.0a1.tar.gz]
+[2023-07-26 01:51:12] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python]: success
+[2023-07-26 01:51:12] INFO root fetch - main [MainThread]: Store serial: [19035832]
