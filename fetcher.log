@@ -604,3 +604,71 @@
 [2023-07-26 00:31:02] INFO root fetch - processPackages [NEMO]: Remove: archive file [/home/abi/fetcher/tmp/NEMO-4.6.1.tar.gz]
 [2023-07-26 00:31:02] INFO root fetch - main [MainThread]: End processing [NEMO]: success
 [2023-07-26 00:31:02] INFO root fetch - main [MainThread]: Store serial: [19035232]
+[2023-07-26 00:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035232]
+[2023-07-26 00:36:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypeims
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: react-flask
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file-qt
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firestoned
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xmltread
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatlab
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shell-whiz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metabolabpy
+[2023-07-26 00:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: printipy
+[2023-07-26 00:36:11] INFO root fetch - processPackages [shell-whiz]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [metabolabpy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [pypeims]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [firestoned]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 00:36:11] WARNING root fetch - processPackages [react-flask]: Skipping, unable to determine old version
+[2023-07-26 00:36:11] INFO root fetch - main [MainThread]: End processing [react-flask] error
+[2023-07-26 00:36:11] WARNING root fetch - processPackages [xmltread]: Skipping, unable to determine old version
+[2023-07-26 00:36:11] INFO root fetch - main [MainThread]: End processing [xmltread] error
+[2023-07-26 00:36:11] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a9] Old Version: [1.0.0a7]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [faker-file-qt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [printipy]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-07-26 00:36:11] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/d0/7e/f44cdd3afa13dddfda8025fb19661985b182af0001302649b23b70fde246/metabolabpy-0.9.4.tar.gz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/5e/61/012c2d30d13034f16acd33830ddf4b944d6225dd98a0b806c6cb6676b289/firestoned-0.2.8.tar.gz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/2c/76242c5ad0339db6943f4b5d88de7420393a617d4d3b3464b3fdb4a8937c/chatlab-1.0.0a7.tar.gz
+[2023-07-26 00:36:11] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 54163378>=10485760
+[2023-07-26 00:36:11] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2023-07-26 00:36:11] INFO root fetch - processPackages [pypeims]: Downloading https://files.pythonhosted.org/packages/73/6f/1bba01b1e830fa121eecdf4138af739fd524f94c5d5288fedf2dcee86199/pypeims-0.0.3.tar.gz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/f0/2d/2d8372769393162335f788296e04b4bf747481c0326f056cd24d036cccb0/shell_whiz-0.1.7.tar.gz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/fc/40/d7fc540d2f7254ce6380322ce73c993753db8eec6c93de7d60c385e824b9/faker-file-qt-0.1.1.tar.gz
+[2023-07-26 00:36:11] INFO root fetch - processPackages [printipy]: Downloading https://files.pythonhosted.org/packages/6d/f7/a2ce98a2a7e5a2736446d64bcc0a168ee5b39ee04b727927dff2d7d7ccee/printipy-0.0.3.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9e/64/cd7bef9a71080dc8f8efafff7e54fa539fd6f57f71e98d32eb464fca020d/chatlab-1.0.0a9.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/a8/92/48881cac99d0a278eed7cc6c1d2ae70ce1ecada6cca5a187d9d2f5d5f048/firestoned-0.2.9.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a7.tar.gz tmp/chatlab-1.0.0a9.tar.gz --markdown 20230726/c/chatlab/1.0.0a7-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-26 00:36:12] INFO root fetch - processPackages [pypeims]: Downloading https://files.pythonhosted.org/packages/7c/f8/6b3a5693b9ff6af94a7353c5f6e143989ac219d8d109283b933f5c59b1dc/pypeims-0.0.31.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [printipy]: Downloading https://files.pythonhosted.org/packages/36/a2/a63d64a9d59fbfe8d19619329e2d5812ab12e282936f80d41c265cca5114/printipy-1.0.0.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/6b/af/6659516909712f5c753a22ea2a458542fb99c067ace556f602892b196f70/faker-file-qt-0.1.2.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/45/cc/437e5d820fd7f5274b99f547608cc964aa8cf768dad996bcb388d0922fe0/shell_whiz-0.1.8.tar.gz
+[2023-07-26 00:36:12] INFO root fetch - processPackages [firestoned]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [firestoned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestoned-0.2.8.tar.gz tmp/firestoned-0.2.9.tar.gz --markdown 20230726/f/firestoned/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 00:36:12] INFO root fetch - processPackages [pypeims]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [pypeims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypeims-0.0.3.tar.gz tmp/pypeims-0.0.31.tar.gz --markdown 20230726/p/pypeims/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-07-26 00:36:12] INFO root fetch - processPackages [printipy]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [printipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printipy-0.0.3.tar.gz tmp/printipy-1.0.0.tar.gz --markdown 20230726/p/printipy/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 00:36:12] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.1.7.tar.gz tmp/shell_whiz-0.1.8.tar.gz --markdown 20230726/s/shell-whiz/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-26 00:36:12] INFO root fetch - processPackages [faker-file-qt]: executing diffoscope
+[2023-07-26 00:36:12] INFO root fetch - processPackages [faker-file-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-qt-0.1.1.tar.gz tmp/faker-file-qt-0.1.2.tar.gz --markdown 20230726/f/faker-file-qt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 00:36:13] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a7.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a9.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-07-26 00:36:13] INFO root fetch - processPackages [printipy]: Remove: archive file [/home/abi/fetcher/tmp/printipy-0.0.3.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [printipy]: Remove: archive file [/home/abi/fetcher/tmp/printipy-1.0.0.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [printipy]: success
+[2023-07-26 00:36:13] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.2.8.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.2.9.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [firestoned]: success
+[2023-07-26 00:36:13] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.7.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.8.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-07-26 00:36:13] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.1.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.2.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [faker-file-qt]: success
+[2023-07-26 00:36:13] INFO root fetch - processPackages [pypeims]: Remove: archive file [/home/abi/fetcher/tmp/pypeims-0.0.3.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - processPackages [pypeims]: Remove: archive file [/home/abi/fetcher/tmp/pypeims-0.0.31.tar.gz]
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: End processing [pypeims]: success
+[2023-07-26 00:36:13] INFO root fetch - main [MainThread]: Store serial: [19035315]
