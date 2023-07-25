@@ -1493,3 +1493,87 @@
 [2023-07-26 01:29:44] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-26 01:29:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-26 01:29:44] INFO root fetch - main [MainThread]: Store serial: [19035681]
+[2023-07-26 01:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035681]
+[2023-07-26 01:34:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airtouch5py
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoray
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jblibaws
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfant
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-messagebus
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmxpy
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ggml-python
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoray
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: archivy
+[2023-07-26 01:34:53] INFO root fetch - processPackages [jblibaws]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [tmxpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [autoray]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [autoray]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [archivy]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [neon-messagebus]: New version: [1.1.1a2] Old Version: [1.1.1a1]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ggml-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [pyfant]: New version: [23.7.25.5] Old Version: [23.7.25.4]
+[2023-07-26 01:34:53] WARNING root fetch - processPackages [airtouch5py]: Skipping, unable to determine old version
+[2023-07-26 01:34:53] INFO root fetch - processPackages [airtouch5py]: Start processing: rl-jitai-simulation
+[2023-07-26 01:34:53] INFO root fetch - main [MainThread]: End processing [airtouch5py] error
+[2023-07-26 01:34:53] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230725.9.0.504044] Old Version: [20230725.6.4.807789]
+[2023-07-26 01:34:53] INFO root fetch - processPackages [jblibaws]: Downloading https://files.pythonhosted.org/packages/c5/82/c636d89bd75af35b04dd05d1761a4e44c48bf5e62663654b1992c969de7e/jblibaws-1.0.8.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/0e/36/14c2ea2fc1a8d71ed7793d2cf887a465d0021a17d63c4ebf62114fbc468d/neon_messagebus-1.1.1a1.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [archivy]: Downloading https://files.pythonhosted.org/packages/be/10/2819639d25200364138f1e8899b97126e12116d502aa5779a1b4c6818c02/archivy-1.7.5.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/60/0e/1fd51c3f532699aad6450e116100487e1e54f6093bd12209dda843bdfaf1/certora-cli-alpha-master-20230725.6.4.807789.tar.gz
+[2023-07-26 01:34:53] WARNING root fetch - processPackages [rl-jitai-simulation]: Skipping, unable to determine old version
+[2023-07-26 01:34:53] INFO root fetch - main [MainThread]: End processing [rl-jitai-simulation] error
+[2023-07-26 01:34:53] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/1d/16/90558af6bea65d33666c1c0d630eda012731ebfb3c024edc829bb322b797/autoray-0.6.4.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/1d/16/90558af6bea65d33666c1c0d630eda012731ebfb3c024edc829bb322b797/autoray-0.6.4.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [tmxpy]: Downloading https://files.pythonhosted.org/packages/f6/31/7187a942db38d69654f9da9f126ef60a92cbcf95af19931c1e1d3eeaab8e/tmxpy-0.1.3.tar.gz
+[2023-07-26 01:34:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37542354>=10485760
+[2023-07-26 01:34:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-26 01:34:53] INFO root fetch - processPackages [pyfant]: Downloading https://files.pythonhosted.org/packages/8a/5c/5cbf6399d2591695a9117875b57eb6220b79b49d3948afc4d06d3b83e5a7/pyfant-23.7.25.4.tar.gz
+[2023-07-26 01:34:53] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [jblibaws]: Downloading https://files.pythonhosted.org/packages/07/6d/de62cb96e20c5ad0851774d548cf56e82221db69cdc95ef7617563d74481/jblibaws-1.0.9.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [archivy]: Downloading https://files.pythonhosted.org/packages/c0/f1/3cd6ac46110dff4704f93a13714b3f442b00993c679de9fa09637b8ca5c5/archivy-1.7.6.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/64/62/9d6be555a4c54cbc11fd8000d30391954a14798f1b053b68ae3b5440628d/neon_messagebus-1.1.1a2.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [tmxpy]: Downloading https://files.pythonhosted.org/packages/ed/8e/a60e1b71a15125005c07352f9f4d6638f9e94d2c3de5938b7fc74af95eb2/tmxpy-0.1.4.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [jblibaws]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [jblibaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jblibaws-1.0.8.tar.gz tmp/jblibaws-1.0.9.tar.gz --markdown 20230726/j/jblibaws/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:34:54] INFO root fetch - processPackages [archivy]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [archivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archivy-1.7.5.tar.gz tmp/archivy-1.7.6.tar.gz --markdown 20230726/a/archivy/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-07-26 01:34:54] INFO root fetch - processPackages [neon-messagebus]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [neon-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_messagebus-1.1.1a1.tar.gz tmp/neon_messagebus-1.1.1a2.tar.gz --markdown 20230726/n/neon-messagebus/1.1.1a1-1.1.1a2/diff.md --exclude *.pyd
+[2023-07-26 01:34:54] INFO root fetch - processPackages [pyfant]: Downloading https://files.pythonhosted.org/packages/3e/58/378f7a1b0e66d15852d09424c78ba38402f3aba23bd9dc4f15b86b2535f7/pyfant-23.7.25.5.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/bc/b3/d4bb9cfa95e800186213c0e260d43731e294011fc4b8fab9effd368b4510/autoray-0.6.5.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/bc/b3/d4bb9cfa95e800186213c0e260d43731e294011fc4b8fab9effd368b4510/autoray-0.6.5.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [tmxpy]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [tmxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmxpy-0.1.3.tar.gz tmp/tmxpy-0.1.4.tar.gz --markdown 20230726/t/tmxpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-26 01:34:54] INFO root fetch - processPackages [pyfant]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [pyfant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfant-23.7.25.4.tar.gz tmp/pyfant-23.7.25.5.tar.gz --markdown 20230726/p/pyfant/23.7.25.4-23.7.25.5/diff.md --exclude *.pyd
+[2023-07-26 01:34:54] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a0/03/ddddac6caff850b83571ae83647e2da367b79168d84b90d423f01d4e12bc/ggml-python-0.0.9.tar.gz
+[2023-07-26 01:34:54] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-07-26 01:34:54] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.8.tar.gz tmp/ggml-python-0.0.9.tar.gz --markdown 20230726/g/ggml-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:34:55] INFO root fetch - processPackages [autoray]: executing diffoscope
+[2023-07-26 01:34:55] INFO root fetch - processPackages [autoray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoray-0.6.4.tar.gz tmp/autoray-0.6.5.tar.gz --markdown 20230726/a/autoray/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-26 01:34:55] INFO root fetch - processPackages [autoray]: executing diffoscope
+[2023-07-26 01:34:55] INFO root fetch - processPackages [autoray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoray-0.6.4.tar.gz tmp/autoray-0.6.5.tar.gz --markdown 20230726/a/autoray/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-26 01:34:55] INFO root fetch - processPackages [jblibaws]: Remove: archive file [/home/abi/fetcher/tmp/jblibaws-1.0.8.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - processPackages [jblibaws]: Remove: archive file [/home/abi/fetcher/tmp/jblibaws-1.0.9.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - main [MainThread]: End processing [jblibaws]: success
+[2023-07-26 01:34:55] INFO root fetch - processPackages [tmxpy]: Remove: archive file [/home/abi/fetcher/tmp/tmxpy-0.1.3.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - processPackages [tmxpy]: Remove: archive file [/home/abi/fetcher/tmp/tmxpy-0.1.4.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - main [MainThread]: End processing [tmxpy]: success
+[2023-07-26 01:34:55] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.1.1a1.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.1.1a2.tar.gz]
+[2023-07-26 01:34:55] INFO root fetch - main [MainThread]: End processing [neon-messagebus]: success
+[2023-07-26 01:34:56] INFO root fetch - processPackages [archivy]: Remove: archive file [/home/abi/fetcher/tmp/archivy-1.7.5.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - processPackages [archivy]: Remove: archive file [/home/abi/fetcher/tmp/archivy-1.7.6.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - main [MainThread]: End processing [archivy]: success
+[2023-07-26 01:34:56] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.4.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.5.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - main [MainThread]: End processing [autoray]: success
+[2023-07-26 01:34:56] INFO root fetch - main [MainThread]: End processing [autoray]: success
+[2023-07-26 01:34:56] INFO root fetch - processPackages [pyfant]: Remove: archive file [/home/abi/fetcher/tmp/pyfant-23.7.25.4.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - processPackages [pyfant]: Remove: archive file [/home/abi/fetcher/tmp/pyfant-23.7.25.5.tar.gz]
+[2023-07-26 01:34:56] INFO root fetch - main [MainThread]: End processing [pyfant]: success
+[2023-07-26 01:34:57] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2023-07-26 01:34:57] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
+[2023-07-26 01:34:57] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-07-26 01:34:57] INFO root fetch - main [MainThread]: Store serial: [19035717]
