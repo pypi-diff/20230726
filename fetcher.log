@@ -126,3 +126,144 @@
 [2023-07-26 00:04:57] ERROR root fetch - processPackages [sprit]: Timeout during execution of pkgdiff
 [2023-07-26 00:04:57] INFO root fetch - main [MainThread]: End processing [sprit] error
 [2023-07-26 00:04:57] INFO root fetch - main [MainThread]: Store serial: [19035035]
+[2023-07-26 00:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035035]
+[2023-07-26 00:10:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watch-xfce-xfconf
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfskvs
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mine
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyDecision
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wipac-keycloak-rest-services
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsedt
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-datadog
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: actipy
+[2023-07-26 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bizlogic
+[2023-07-26 00:10:06] INFO root fetch - processPackages [wipac-keycloak-rest-services]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [watch-xfce-xfconf]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [pyDecision]: New version: [4.0.8] Old Version: [3.0.3]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [nsedt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [actipy]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [mine]: New version: [4.2.1] Old Version: [4.2]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-07-26 00:10:06] INFO root fetch - processPackages [watch-xfce-xfconf]: Downloading https://files.pythonhosted.org/packages/76/9c/e212e333212204739dd2930fc9ce6ddd64f5374b8eeec1814c1b41ef186c/watch-xfce-xfconf-1.0.3.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/fb/de/6beda03fe14061e87002f6324dfc863382a935032e83614bbf0d831cb0d8/pyDecision-3.0.3.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/22/85/fc995b014d0d5c0defed9adf90b80ff22e9374849a59becfa2707b580e8c/wipac-keycloak-rest-services-1.4.8.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/ab/3e/69a1fd7992f3a90b4f2d82af5dbfbb1590d53d8f8b7651df56e5829a1f12/ipfskvs-0.1.8.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/40/01/628efe1c7ed38467566c17c88cd5dfde44703dea82f276e28ae1da3be7c6/actipy-2.1.0.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/ef/79/fe0e6105c309f15f97cee7e8afff948f8d8579ca1e254a09bec0259c43e9/mine-4.2.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/3e/69/fddf0a93a103ba379defd46eaf4840ab31aa30a57d441502e7a46f9e2e0c/nsedt-0.0.6.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [watch-xfce-xfconf]: Downloading https://files.pythonhosted.org/packages/24/23/2af3768a6aa043d6c52f5d052eb6047b735164b1a94509ac72e1fff6f596/watch-xfce-xfconf-1.0.4.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/62/66/e4afa4e9aaada6a8388f9228ed962cdccfb6b9e694a1806b481a8501875f/pyDecision-4.0.8.tar.gz
+[2023-07-26 00:10:06] INFO root fetch - processPackages [watch-xfce-xfconf]: executing diffoscope
+[2023-07-26 00:10:06] INFO root fetch - processPackages [watch-xfce-xfconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-xfce-xfconf-1.0.3.tar.gz tmp/watch-xfce-xfconf-1.0.4.tar.gz --markdown 20230726/w/watch-xfce-xfconf/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/9e/e7/0838151110668383451ef0f17b701dd859914bd1ac0a02f0c73dfee7b06d/wipac-keycloak-rest-services-1.4.9.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/14/89/8d4acc5dd9880ac59fbdc4cc6df22034f9350e43d312efe1f7167d22e99b/actipy-2.1.1.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230726/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/75/1e/8878ee77d3f97faa4c2c064b344dab04619bb17b4764cc2ab610610ae9c9/mine-4.2.1.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-3.0.3.tar.gz tmp/pyDecision-4.0.8.tar.gz --markdown 20230726/p/pyDecision/3.0.3-4.0.8/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/d6/10/74ad43441f726254f23e6c236b4e853d52ab682399f18c4525e31985032b/ipfskvs-0.1.9.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [wipac-keycloak-rest-services]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [wipac-keycloak-rest-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-keycloak-rest-services-1.4.8.tar.gz tmp/wipac-keycloak-rest-services-1.4.9.tar.gz --markdown 20230726/w/wipac-keycloak-rest-services/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230726/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/eb/28/0c321d47dc9b092053c68bc72e4b20f2277820642fe49cf953a3d7aa06cb/nsedt-0.0.7.tar.gz
+[2023-07-26 00:10:07] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.2.tar.gz tmp/mine-4.2.1.tar.gz --markdown 20230726/m/mine/4.2-4.2.1/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.8.tar.gz tmp/ipfskvs-0.1.9.tar.gz --markdown 20230726/i/ipfskvs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230726/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [actipy]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [actipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actipy-2.1.0.tar.gz tmp/actipy-2.1.1.tar.gz --markdown 20230726/a/actipy/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-26 00:10:07] INFO root fetch - processPackages [nsedt]: executing diffoscope
+[2023-07-26 00:10:07] INFO root fetch - processPackages [nsedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsedt-0.0.6.tar.gz tmp/nsedt-0.0.7.tar.gz --markdown 20230726/n/nsedt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 00:10:08] INFO root fetch - processPackages [watch-xfce-xfconf]: Remove: archive file [/home/abi/fetcher/tmp/watch-xfce-xfconf-1.0.3.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [watch-xfce-xfconf]: Remove: archive file [/home/abi/fetcher/tmp/watch-xfce-xfconf-1.0.4.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [watch-xfce-xfconf]: Start processing: stix2-validator
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [watch-xfce-xfconf]: success
+[2023-07-26 00:10:08] INFO root fetch - processPackages [stix2-validator]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [bizlogic]: Start processing: neutrino-api-client-requests
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-26 00:10:08] WARNING root fetch - processPackages [neutrino-api-client-requests]: Skipping, unable to determine old version
+[2023-07-26 00:10:08] INFO root fetch - processPackages [neutrino-api-client-requests]: Start processing: cfr-graphem
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [neutrino-api-client-requests] error
+[2023-07-26 00:10:08] INFO root fetch - processPackages [cfr-graphem]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [stix2-validator]: Downloading https://files.pythonhosted.org/packages/8f/1f/b9afc354a99460f6c66742ee5eb97dd93643cc8be65b855f8d9bc27fdb4f/stix2-validator-3.1.3.tar.gz
+[2023-07-26 00:10:08] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.8.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.9.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Start processing: metabengine
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [wipac-keycloak-rest-services]: success
+[2023-07-26 00:10:08] INFO root fetch - processPackages [metabengine]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/b3/18/2632b0eda282c7940cc67a5f60e4cbc4ef104813e69290d3e7a6a393e253/cfr-graphem-0.3.0.tar.gz
+[2023-07-26 00:10:08] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.8.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.9.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [ipfskvs]: Start processing: kinbot
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-07-26 00:10:08] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.2.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.2.1.tar.gz]
+[2023-07-26 00:10:08] INFO root fetch - processPackages [mine]: Start processing: ipfskvs
+[2023-07-26 00:10:08] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-26 00:10:08] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/8d/76/75bea523f2d4367412cc013a3cc613669918be2e739db2977e0c62c05ef3/metabengine-0.0.5.tar.gz
+[2023-07-26 00:10:08] INFO root fetch - processPackages [kinbot]: New version: [2.2.1] Old Version: [2.1.post0]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-26 00:10:09] INFO root fetch - processPackages [stix2-validator]: Downloading https://files.pythonhosted.org/packages/37/df/c601368f033773a35d692d3299019818d95e501bd605974310bd5424ebdc/stix2-validator-3.1.4.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.6.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.7.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - main [MainThread]: End processing [nsedt]: success
+[2023-07-26 00:10:09] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/ab/3e/69a1fd7992f3a90b4f2d82af5dbfbb1590d53d8f8b7651df56e5829a1f12/ipfskvs-0.1.8.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [actipy]: Remove: archive file [/home/abi/fetcher/tmp/actipy-2.1.0.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [actipy]: Remove: archive file [/home/abi/fetcher/tmp/actipy-2.1.1.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - main [MainThread]: End processing [actipy]: success
+[2023-07-26 00:10:09] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/97/2d/ab026e9fdc8337d995cc5a836aba2c928237959100bb33c3509966eb9340/cfr-graphem-0.3.1.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [kinbot]: Downloading https://files.pythonhosted.org/packages/5b/8a/5f54bae38a472d4e605360dfba7de6f7075da0b27f4d8d70f490613bde55/kinbot-2.1.post0.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [stix2-validator]: executing diffoscope
+[2023-07-26 00:10:09] INFO root fetch - processPackages [stix2-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix2-validator-3.1.3.tar.gz tmp/stix2-validator-3.1.4.tar.gz --markdown 20230726/s/stix2-validator/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-07-26 00:10:09] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/95/a9/900451fc9f69bbd0578104412a93be35d827689284561e1bc9aadb672aa1/metabengine-0.0.6.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-3.0.3.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.0.8.tar.gz]
+[2023-07-26 00:10:09] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-26 00:10:09] INFO root fetch - processPackages [cfr-graphem]: executing diffoscope
+[2023-07-26 00:10:09] INFO root fetch - processPackages [cfr-graphem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-graphem-0.3.0.tar.gz tmp/cfr-graphem-0.3.1.tar.gz --markdown 20230726/c/cfr-graphem/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 00:10:09] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/d6/10/74ad43441f726254f23e6c236b4e853d52ab682399f18c4525e31985032b/ipfskvs-0.1.9.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [metabengine]: executing diffoscope
+[2023-07-26 00:10:09] INFO root fetch - processPackages [metabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabengine-0.0.5.tar.gz tmp/metabengine-0.0.6.tar.gz --markdown 20230726/m/metabengine/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 00:10:09] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-07-26 00:10:09] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.8.tar.gz tmp/ipfskvs-0.1.9.tar.gz --markdown 20230726/i/ipfskvs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 00:10:09] INFO root fetch - processPackages [kinbot]: Downloading https://files.pythonhosted.org/packages/86/75/297469a5868612bb57b0b15f126d660b90415faa4a41f384736983ff7a2e/kinbot-2.2.1.tar.gz
+[2023-07-26 00:10:09] INFO root fetch - processPackages [kinbot]: executing diffoscope
+[2023-07-26 00:10:09] INFO root fetch - processPackages [kinbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinbot-2.1.post0.tar.gz tmp/kinbot-2.2.1.tar.gz --markdown 20230726/k/kinbot/2.1.post0-2.2.1/diff.md --exclude *.pyd
+[2023-07-26 00:10:10] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.5.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.6.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - main [MainThread]: End processing [metabengine]: success
+[2023-07-26 00:10:10] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.8.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - processPackages [ipfskvs]: Remove: archive file [/home/abi/fetcher/tmp/ipfskvs-0.1.9.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-07-26 00:10:10] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.3.0.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.3.1.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - main [MainThread]: End processing [cfr-graphem]: success
+[2023-07-26 00:10:10] INFO root fetch - processPackages [stix2-validator]: Remove: archive file [/home/abi/fetcher/tmp/stix2-validator-3.1.3.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - processPackages [stix2-validator]: Remove: archive file [/home/abi/fetcher/tmp/stix2-validator-3.1.4.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - main [MainThread]: End processing [stix2-validator]: success
+[2023-07-26 00:10:10] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-07-26 00:10:10] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-07-26 00:10:11] INFO root fetch - processPackages [kinbot]: Remove: archive file [/home/abi/fetcher/tmp/kinbot-2.1.post0.tar.gz]
+[2023-07-26 00:10:11] INFO root fetch - processPackages [kinbot]: Remove: archive file [/home/abi/fetcher/tmp/kinbot-2.2.1.tar.gz]
+[2023-07-26 00:10:11] INFO root fetch - main [MainThread]: End processing [kinbot]: success
+[2023-07-26 00:10:11] INFO root fetch - main [MainThread]: Store serial: [19035088]
