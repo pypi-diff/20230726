@@ -1442,3 +1442,54 @@
 [2023-07-26 01:24:32] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-26 01:24:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-26 01:24:32] INFO root fetch - main [MainThread]: Store serial: [19035662]
+[2023-07-26 01:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035662]
+[2023-07-26 01:29:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-messagebus-mq-connector
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-fancy-formset
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dicomset
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opower
+[2023-07-26 01:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi-server-dev-test
+[2023-07-26 01:29:40] WARNING root fetch - processPackages [django-fancy-formset]: Skipping, unable to determine old version
+[2023-07-26 01:29:40] INFO root fetch - main [MainThread]: End processing [django-fancy-formset] error
+[2023-07-26 01:29:40] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 01:29:40] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:29:40] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 01:29:40] INFO root fetch - processPackages [neon-messagebus-mq-connector]: New version: [0.3.5a1] Old Version: [0.3.4a6]
+[2023-07-26 01:29:40] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-26 01:29:40] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-26 01:29:40] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/bb/63/57cc16cf7fb42c1a99c42d98c7eed803d5530c7d858c6e58a3c2ee717d53/openapi_server_dev_test-1.0.0.tar.gz
+[2023-07-26 01:29:40] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Downloading https://files.pythonhosted.org/packages/57/cd/146ca59639daca23e3d30cbfa5fc9c97eb1a2890239234cf269f48a3827e/neon-messagebus-mq-connector-0.3.4a6.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-26 01:29:41] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230726/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:29:41] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Downloading https://files.pythonhosted.org/packages/de/d1/ca25a1302cfab42936fc387384eaa7016d8922149b7d6d286afa1f701f53/neon-messagebus-mq-connector-0.3.5a1.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/41/d1/542b76967752df979ab1b18a84f3a1478cb5dd447ad0d18100cfb8296175/openapi_server_dev_test-1.0.1.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [neon-messagebus-mq-connector]: executing diffoscope
+[2023-07-26 01:29:41] INFO root fetch - processPackages [neon-messagebus-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-messagebus-mq-connector-0.3.4a6.tar.gz tmp/neon-messagebus-mq-connector-0.3.5a1.tar.gz --markdown 20230726/n/neon-messagebus-mq-connector/0.3.4a6-0.3.5a1/diff.md --exclude *.pyd
+[2023-07-26 01:29:41] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-26 01:29:41] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_dev_test-1.0.0.tar.gz tmp/openapi_server_dev_test-1.0.1.tar.gz --markdown 20230726/o/openapi-server-dev-test/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 01:29:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-07-26 01:29:41] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-26 01:29:41] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230726/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-26 01:29:41] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-07-26 01:29:41] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230726/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 01:29:42] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon-messagebus-mq-connector-0.3.4a6.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon-messagebus-mq-connector-0.3.5a1.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - main [MainThread]: End processing [neon-messagebus-mq-connector]: success
+[2023-07-26 01:29:42] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-26 01:29:42] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-07-26 01:29:42] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_dev_test-1.0.0.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_dev_test-1.0.1.tar.gz]
+[2023-07-26 01:29:42] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-26 01:29:44] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-26 01:29:44] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-26 01:29:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-26 01:29:44] INFO root fetch - main [MainThread]: Store serial: [19035681]
