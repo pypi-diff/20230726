@@ -267,3 +267,91 @@
 [2023-07-26 00:10:11] INFO root fetch - processPackages [kinbot]: Remove: archive file [/home/abi/fetcher/tmp/kinbot-2.2.1.tar.gz]
 [2023-07-26 00:10:11] INFO root fetch - main [MainThread]: End processing [kinbot]: success
 [2023-07-26 00:10:11] INFO root fetch - main [MainThread]: Store serial: [19035088]
+[2023-07-26 00:15:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035088]
+[2023-07-26 00:15:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphreduce
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setuptools-github
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esteem
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bizlogic
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rover
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydelorean
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: setuptools-github
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dominodatalab-data
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bizlogic
+[2023-07-26 00:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edgeimpulse-api
+[2023-07-26 00:15:20] INFO root fetch - processPackages [rover]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [pydelorean]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [esteem]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [graphreduce]: New version: [1.5] Old Version: [1.4]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.26.1] Old Version: [1.26.0]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.0b63] Old Version: [0.3.0b62]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.0b63] Old Version: [0.3.0b62]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [dominodatalab-data]: New version: [5.7.1] Old Version: [5.7.0]
+[2023-07-26 00:15:20] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/66/67/be2d029fe6f28edd320a68c66827e82112ada33db15925c1adfb415a448c/edgeimpulse_api-1.26.0.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/05/84/24a858fc6386b58767d6027a07e4b6afc392d307540c95830da215954cdd/pydelorean-1.5.3.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [esteem]: Downloading https://files.pythonhosted.org/packages/64/5e/7128a5373da57e16afbd0bb3d8ab9a007d3dbffa5345a6b9f70e3ab486b1/esteem-1.0.0.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/7a/21/f40ffa1ef09fc46cf5723ed4d24a96a5cd2af3bcbe178a816858eca7e58a/graphreduce-1.4.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [rover]: Downloading https://files.pythonhosted.org/packages/52/df/934d2011d01489cadb68798f53e9f04eff14779c9c588d5745a69db5f1f6/rover-1.0.5.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/0f/5c/e6795d8cdba8734c81df978bedd20e25f122e98babb642e4c610fae70717/setuptools-github-0.3.0b62.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/0f/5c/e6795d8cdba8734c81df978bedd20e25f122e98babb642e4c610fae70717/setuptools-github-0.3.0b62.tar.gz
+[2023-07-26 00:15:20] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/bb/0f/c6b154b20f39f22ca39e6366e86cdb8c8c31d3d9ca86f1f35b448c43a2ef/dominodatalab_data-5.7.0.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/bf/09/efa691c3585d06f8627687ab8c9197e08133c4eefb92d038b1fba1bce177/edgeimpulse_api-1.26.1.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/66/c9/2a1d8cdcad6ad57ce25ea2f32dea52d8fe9f169d971fd85f1db2dd8ec9b2/graphreduce-1.5.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/04/86/4a1d0c876183f7631778060d1d24cddb0c6f6cdc01ea9fe3117b92ecf1c2/pydelorean-1.5.4.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [rover]: Downloading https://files.pythonhosted.org/packages/98/71/07bc7597e8db893c06ff23d8051cb4c8afe0201b7f13bd8d1de1716d870e/rover-1.0.6.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230726/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [esteem]: Downloading https://files.pythonhosted.org/packages/df/b5/5ec8d7194ecad1987d5f451389f23b68d1cd7a08bbb9d74702976e8b91d4/esteem-1.0.1.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230726/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/78/6c/1449373be915b126641edc5de45d892b6bf9dd1a38d57ce9d8b3f9e4b4f3/dominodatalab_data-5.7.1.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/5f/7d/f07ddf79e45969de540ef7c5175e7ad0a0a42a49e0a9cb9c93421c405346/setuptools-github-0.3.0b63.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/5f/7d/f07ddf79e45969de540ef7c5175e7ad0a0a42a49e0a9cb9c93421c405346/setuptools-github-0.3.0b63.tar.gz
+[2023-07-26 00:15:21] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.5.3.tar.gz tmp/pydelorean-1.5.4.tar.gz --markdown 20230726/p/pydelorean/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [rover]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [rover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover-1.0.5.tar.gz tmp/rover-1.0.6.tar.gz --markdown 20230726/r/rover/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.4.tar.gz tmp/graphreduce-1.5.tar.gz --markdown 20230726/g/graphreduce/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.26.0.tar.gz tmp/edgeimpulse_api-1.26.1.tar.gz --markdown 20230726/e/edgeimpulse-api/1.26.0-1.26.1/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [esteem]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [esteem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esteem-1.0.0.tar.gz tmp/esteem-1.0.1.tar.gz --markdown 20230726/e/esteem/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [dominodatalab-data]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [dominodatalab-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dominodatalab_data-5.7.0.tar.gz tmp/dominodatalab_data-5.7.1.tar.gz --markdown 20230726/d/dominodatalab-data/5.7.0-5.7.1/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.0b62.tar.gz tmp/setuptools-github-0.3.0b63.tar.gz --markdown 20230726/s/setuptools-github/0.3.0b62-0.3.0b63/diff.md --exclude *.pyd
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-07-26 00:15:21] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.0b62.tar.gz tmp/setuptools-github-0.3.0b63.tar.gz --markdown 20230726/s/setuptools-github/0.3.0b62-0.3.0b63/diff.md --exclude *.pyd
+[2023-07-26 00:15:22] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-07-26 00:15:22] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-07-26 00:15:22] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-26 00:15:22] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.3.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.4.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.4.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.0b62.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.0b63.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [esteem]: Remove: archive file [/home/abi/fetcher/tmp/esteem-1.0.0.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [esteem]: Remove: archive file [/home/abi/fetcher/tmp/esteem-1.0.1.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [esteem]: success
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [rover]: Remove: archive file [/home/abi/fetcher/tmp/rover-1.0.5.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [rover]: Remove: archive file [/home/abi/fetcher/tmp/rover-1.0.6.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [rover]: success
+[2023-07-26 00:15:23] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.7.0.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.7.1.tar.gz]
+[2023-07-26 00:15:23] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
+[2023-07-26 00:15:27] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.26.0.tar.gz]
+[2023-07-26 00:15:27] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.26.1.tar.gz]
+[2023-07-26 00:15:27] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-26 00:15:27] INFO root fetch - main [MainThread]: Store serial: [19035119]
