@@ -761,3 +761,84 @@
 [2023-07-26 00:41:27] INFO root fetch - processPackages [iotbr]: Remove: archive file [/home/abi/fetcher/tmp/iotbr-0.0.9.tar.gz]
 [2023-07-26 00:41:27] INFO root fetch - main [MainThread]: End processing [iotbr]: success
 [2023-07-26 00:41:27] INFO root fetch - main [MainThread]: Store serial: [19035342]
+[2023-07-26 00:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035342]
+[2023-07-26 00:46:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foambryo
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scale-llm-engine
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubi
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aglio
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyDecision
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecoengine
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsakit
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shell-whiz
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qctrl-commons
+[2023-07-26 00:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: teneva-bm
+[2023-07-26 00:46:35] INFO root fetch - processPackages [teneva-bm]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-26 00:46:35] WARNING root fetch - processPackages [aglio]: Skipping, unable to determine old version
+[2023-07-26 00:46:35] INFO root fetch - main [MainThread]: End processing [aglio] error
+[2023-07-26 00:46:36] WARNING root fetch - processPackages [dsakit]: Skipping, unable to determine old version
+[2023-07-26 00:46:36] INFO root fetch - main [MainThread]: End processing [dsakit] error
+[2023-07-26 00:46:36] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b6] Old Version: [0.0.0b5]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [shell-whiz]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [foambryo]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [pyDecision]: New version: [4.0.9] Old Version: [3.0.3]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [rubi]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-07-26 00:46:36] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/c6/96/3e89f9ec33db679bb86ddde79d162c834bbd364d86e8cc87e474d04ac839/rubi-2.2.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/fb/de/6beda03fe14061e87002f6324dfc863382a935032e83614bbf0d831cb0d8/pyDecision-3.0.3.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/65/78/de76ad07158678f82acb571c9ac683b2fd6e7529c66be245b54a6bc055b3/shell_whiz-0.1.9.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/1e/c1/bd921df8ce05b184a4c28ae7d8fdac88136ee12e9cb547894e94d67194fe/scale_llm_engine-0.0.0b5.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/80/7f/4e19d1845f274f954fa52e1186e940d92dfd39cb6a0d13377f0fddd56082/teneva_bm-0.3.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/7f/f3/effec00df51ded76c82a846e6d0a5e7d9fe157dde9cc61094d3ef4143164/foambryo-0.3.1.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/a7/c2/a6349bd7d33e9b50f371aa2ad56c9ec96aaacee3b3cb6075b9d5cd332c93/pyDecision-4.0.9.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/a5/1d/df7575332a219a182f874b6c5291c48bb21108ea1c54c746df8207c39feb/rubi-2.2.1.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/52/d3/8fa4b93781cae8b54afc5633ead99d46d4384103f06b5cdd1a8c58e21db5/shell_whiz-0.2.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/85/b6/937e3cbc2359dd0f03c61c2ac72104adae8e557133a16778158c4f24eb59/scale_llm_engine-0.0.0b6.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/46/78/a957c8484ba9c23117fe1f9b8bff3178407a9bceeda82cdcf659e727256e/teneva_bm-0.4.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/6e/3c/55fee07d376dbd2d6b8334ad6492a4c4b26724ac856290f680f15eadbd4a/foambryo-0.3.2.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230726/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-3.0.3.tar.gz tmp/pyDecision-4.0.9.tar.gz --markdown 20230726/p/pyDecision/3.0.3-4.0.9/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2023-07-26 00:46:36] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b5.tar.gz tmp/scale_llm_engine-0.0.0b6.tar.gz --markdown 20230726/s/scale-llm-engine/0.0.0b5-0.0.0b6/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.1.9.tar.gz tmp/shell_whiz-0.2.0.tar.gz --markdown 20230726/s/shell-whiz/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.3.0.tar.gz tmp/teneva_bm-0.4.0.tar.gz --markdown 20230726/t/teneva-bm/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.2.0.tar.gz tmp/rubi-2.2.1.tar.gz --markdown 20230726/r/rubi/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-26 00:46:36] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-07-26 00:46:36] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.3.1.tar.gz tmp/foambryo-0.3.2.tar.gz --markdown 20230726/f/foambryo/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-26 00:46:37] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2023-07-26 00:46:37] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20230726/q/qctrl-commons/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-26 00:46:38] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b5.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b6.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.3.1.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.3.2.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.9.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.2.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.2.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.2.1.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.3.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.4.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2023-07-26 00:46:38] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-3.0.3.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.0.9.tar.gz]
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-26 00:46:38] INFO root fetch - main [MainThread]: Store serial: [19035377]
