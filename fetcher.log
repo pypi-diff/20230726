@@ -21566,3 +21566,101 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:13:32] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-26 14:13:32] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-26 14:13:32] INFO root fetch - main [MainThread]: Store serial: [19043325]
+[2023-07-26 14:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043325]
+[2023-07-26 14:18:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiftly-windows
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiotorclient
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otgCrypto
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyFlyt
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pympc
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coplot
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AshCrypt
+[2023-07-26 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pig-sdk
+[2023-07-26 14:18:40] INFO root fetch - processPackages [swiftly-windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 14:18:40] WARNING root fetch - processPackages [otgCrypto]: Skipping, unable to determine old version
+[2023-07-26 14:18:40] INFO root fetch - processPackages [otgCrypto]: Start processing: emzed-gui
+[2023-07-26 14:18:40] INFO root fetch - main [MainThread]: End processing [otgCrypto] error
+[2023-07-26 14:18:40] INFO root fetch - processPackages [coplot]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 14:18:40] WARNING root fetch - processPackages [pig-sdk]: Skipping, unable to determine old version
+[2023-07-26 14:18:40] INFO root fetch - processPackages [pig-sdk]: Start processing: sberpm
+[2023-07-26 14:18:40] INFO root fetch - main [MainThread]: End processing [pig-sdk] error
+[2023-07-26 14:18:40] INFO root fetch - processPackages [pympc]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-26 14:18:40] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-26 14:18:40] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-26 14:18:40] INFO root fetch - processPackages [AshCrypt]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-26 14:18:40] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230725] Old Version: [2.14.0.dev20230724]
+[2023-07-26 14:18:41] INFO root fetch - processPackages [emzed-gui]: New version: [3.0.0a4] Old Version: [3.0.0a2]
+[2023-07-26 14:18:41] INFO root fetch - processPackages [coplot]: Downloading https://files.pythonhosted.org/packages/93/d1/5e350181380e70053309b37ed9a78385b9bb543e9719462cb8ef5eeaa9e0/coplot-0.1.6-py3-none-any.whl
+[2023-07-26 14:18:41] ERROR root fetch - processPackages [aiotorclient]: Unable to get metadata: No such project 'aiotorclient'
+[2023-07-26 14:18:41] INFO root fetch - processPackages [aiotorclient]: Start processing: pulumi-opnsense
+[2023-07-26 14:18:41] INFO root fetch - main [MainThread]: End processing [aiotorclient] error
+[2023-07-26 14:18:41] INFO root fetch - processPackages [sberpm]: New version: [2.5.1rc0] Old Version: [2.5.1]
+[2023-07-26 14:18:41] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/01/b6/d1787cf91babf57fbc330b363edb69365d24e8505f9c5d012afb6abecf62/PyFlyt-0.9.0.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pympc]: Downloading https://files.pythonhosted.org/packages/84/a8/5a95e25c7b5486fded44977da536851901cc5f82682deeb3f04fdeb2ee86/pympc-1.1.0.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/3c/76/0e32afa5916f47dd99509566836673d9087e2f5672efe382d289448eac62/swiftly-windows-0.0.8.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/65/4b/88a4ac67dad0d18f9f46ffa55d36816d65a61dd55f7f41330ecc1c325268/AshCrypt-3.0.2.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/13/7c/23ad3b0442091f8a40d2e83254272ef28534e50332e5e608e44e3f1881a8/tf_nightly_intel-2.14.0.dev20230724-cp39-cp39-win_amd64.whl
+[2023-07-26 14:18:41] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/e8/aa/bc2edb48314777a7cfbd8e3ab0fbbc00b7b5c06b61a2719cbf581c92604c/sberpm-2.5.1.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [emzed-gui]: Downloading https://files.pythonhosted.org/packages/39/11/b64fd613c61614210b7cebae46ad02d632b60fa1b77e9574b0b249974c3b/emzed_gui-3.0.0a2.tar.gz
+[2023-07-26 14:18:41] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182702678>=10485760
+[2023-07-26 14:18:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-26 14:18:41] INFO root fetch - processPackages [coplot]: Downloading https://files.pythonhosted.org/packages/0f/da/02cc1088383ad0a42449e5da8ac03ada7d0b59d208c8a3b71cd7bc180241/coplot-0.1.7-py3-none-any.whl
+[2023-07-26 14:18:41] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/c0/00/6683824dd0af152968adfcde403f16a04202b0cb3e737de7df23832a6478/PyFlyt-0.9.2.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pympc]: Downloading https://files.pythonhosted.org/packages/70/3b/dbd1a004ac1b86cd37211f7bb4d14c9c2093b6382c23fb1c5c0c8848be33/pympc-1.1.1.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/ee/6b/5fd746f5105c7c483522512c84d45ede0fca3870e0759248a20d89b4bbe1/AshCrypt-3.0.3.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/9b/27/a1cc64bc554f73c065719b011101ed5b604c821e9d802e867a71cfcec97c/swiftly-windows-0.0.9.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [coplot]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [coplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coplot-0.1.6-py3-none-any.whl.zip tmp/coplot-0.1.7-py3-none-any.whl.zip --markdown 20230726/c/coplot/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [emzed-gui]: Downloading https://files.pythonhosted.org/packages/39/d4/55d08af3f51651646a671ab1f7f31b8f35f88e3a822298ce5987c458844f/emzed_gui-3.0.0a4.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/ba/07/51e0174b0825c5bb3b2027aed067e6f8942798800020a33fad8762256e1a/sberpm-2.5.1rc0.tar.gz
+[2023-07-26 14:18:41] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230726/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.9.0.tar.gz tmp/PyFlyt-0.9.2.tar.gz --markdown 20230726/P/PyFlyt/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-3.0.2.tar.gz tmp/AshCrypt-3.0.3.tar.gz --markdown 20230726/A/AshCrypt/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [swiftly-windows]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [swiftly-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-windows-0.0.8.tar.gz tmp/swiftly-windows-0.0.9.tar.gz --markdown 20230726/s/swiftly-windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pympc]: executing diffoscope
+[2023-07-26 14:18:41] INFO root fetch - processPackages [pympc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympc-1.1.0.tar.gz tmp/pympc-1.1.1.tar.gz --markdown 20230726/p/pympc/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-26 14:18:42] INFO root fetch - processPackages [emzed-gui]: executing diffoscope
+[2023-07-26 14:18:42] INFO root fetch - processPackages [emzed-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emzed_gui-3.0.0a2.tar.gz tmp/emzed_gui-3.0.0a4.tar.gz --markdown 20230726/e/emzed-gui/3.0.0a2-3.0.0a4/diff.md --exclude *.pyd
+[2023-07-26 14:18:42] INFO root fetch - processPackages [sberpm]: executing diffoscope
+[2023-07-26 14:18:42] INFO root fetch - processPackages [sberpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sberpm-2.5.1.tar.gz tmp/sberpm-2.5.1rc0.tar.gz --markdown 20230726/s/sberpm/2.5.1-2.5.1rc0/diff.md --exclude *.pyd
+[2023-07-26 14:18:43] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.8.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.9.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [swiftly-windows]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [coplot]: Remove: archive file [/home/abi/fetcher/tmp/coplot-0.1.6-py3-none-any.whl.zip]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [coplot]: Remove: archive file [/home/abi/fetcher/tmp/coplot-0.1.7-py3-none-any.whl.zip]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [coplot]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [pympc]: Remove: archive file [/home/abi/fetcher/tmp/pympc-1.1.0.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [pympc]: Remove: archive file [/home/abi/fetcher/tmp/pympc-1.1.1.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [pympc]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.2.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.3.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.0.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.2.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.5.1.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.5.1rc0.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [sberpm]: success
+[2023-07-26 14:18:43] INFO root fetch - processPackages [emzed-gui]: Remove: archive file [/home/abi/fetcher/tmp/emzed_gui-3.0.0a2.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - processPackages [emzed-gui]: Remove: archive file [/home/abi/fetcher/tmp/emzed_gui-3.0.0a4.tar.gz]
+[2023-07-26 14:18:43] INFO root fetch - main [MainThread]: End processing [emzed-gui]: success
+[2023-07-26 14:18:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-26 14:18:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-26 14:18:44] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-26 14:18:44] INFO root fetch - main [MainThread]: Store serial: [19043368]
