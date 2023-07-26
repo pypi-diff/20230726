@@ -19298,3 +19298,161 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:31:03] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
 [2023-07-26 12:31:03] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
 [2023-07-26 12:31:03] INFO root fetch - main [MainThread]: Store serial: [19042433]
+[2023-07-26 12:36:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042433]
+[2023-07-26 12:36:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiledb-jupyter-bioimg
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kw-dea-message-bus
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-order-revision
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recognite
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splicekit
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudnetpy
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotemanager
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: code-loader
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lnschema_core
+[2023-07-26 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-service-catalog-puppet
+[2023-07-26 12:36:12] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-26 12:36:12] WARNING root fetch - processPackages [kw-dea-message-bus]: Skipping, unable to determine old version
+[2023-07-26 12:36:12] INFO root fetch - processPackages [kw-dea-message-bus]: Start processing: qwak-core
+[2023-07-26 12:36:12] INFO root fetch - main [MainThread]: End processing [kw-dea-message-bus] error
+[2023-07-26 12:36:12] WARNING root fetch - processPackages [recognite]: Skipping, unable to determine old version
+[2023-07-26 12:36:12] INFO root fetch - processPackages [splicekit]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [recognite]: Start processing: htscf
+[2023-07-26 12:36:12] INFO root fetch - main [MainThread]: End processing [recognite] error
+[2023-07-26 12:36:12] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.4a0] Old Version: [0.1.3a4]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [remotemanager]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-26 12:36:12] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-07-26 12:36:13] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 12:36:13] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/13/79/82d845ada987f08dc124a90d7d788d1916da00b9e4cd5e4d796df18c3c6c/remotemanager-0.9.4.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/2e/ca/711d908e2a1161857fcc2560afcc3ee603338cf541db7a3f6ced58ae212b/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-26 12:36:13] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/9d/d6/b2606e5c840c6e339b3093ee33889d3f868e1ce5ada13df019b5fa9833c7/tiledb_jupyter_bioimg-0.1.3a4.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/2d/8a/19b1c388c45615d3066f43035e3d7cfbca4ec2b78a57b65c239be6737af1/splicekit-0.4.6.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/2b/b7/82b85946b536be858568c254b64b13743cd57dca262c166ae60634db6b1d/remotemanager-0.9.5.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230726/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 12:36:13] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230726/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:36:13] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/91/f9/cac9e28408c12a5843c8814259047506ed2e36fe81666601e43e0d3f8216/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl
+[2023-07-26 12:36:13] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/12/94/cccd14d628c2a3f75dbdd64004e428bb24bd32c6506ab91571df3c9c6e50/tiledb_jupyter_bioimg-0.1.4a0.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230726/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 12:36:13] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/44/5d/5dfe3a3e01f47eb226a4e3f7af316bc7950ea2c8f1aee12ae880c4a03a71/splicekit-0.4.7.tar.gz
+[2023-07-26 12:36:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230726/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-07-26 12:36:13] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.4.tar.gz tmp/remotemanager-0.9.5.tar.gz --markdown 20230726/r/remotemanager/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-26 12:36:13] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-26 12:36:13] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230726/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 12:36:14] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: executing diffoscope
+[2023-07-26 12:36:14] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-sale-order-revision/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-26 12:36:14] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-07-26 12:36:14] INFO root fetch - processPackages [cloudnetpy]: Start processing: authomize-rest-api-client
+[2023-07-26 12:36:14] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-07-26 12:36:14] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-07-26 12:36:14] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.3a4.tar.gz tmp/tiledb_jupyter_bioimg-0.1.4a0.tar.gz --markdown 20230726/t/tiledb-jupyter-bioimg/0.1.3a4-0.1.4a0/diff.md --exclude *.pyd
+[2023-07-26 12:36:14] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2023-07-26 12:36:14] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.4.6.tar.gz tmp/splicekit-0.4.7.tar.gz --markdown 20230726/s/splicekit/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-26 12:36:14] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.5] Old Version: [4.3.4]
+[2023-07-26 12:36:14] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/a9/1d/485121360c0040e8267aff4238cbc4495233fc5421bf41bdfbc413ba7396/authomize-rest-api-client-4.3.4.tar.gz
+[2023-07-26 12:36:14] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/7f/ae/5fb0d3ab574d30efdc81534e5dd3f8ba34b91a8987ebdb5df3b639e75540/authomize-rest-api-client-4.3.5.tar.gz
+[2023-07-26 12:36:14] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-07-26 12:36:14] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.3.4.tar.gz tmp/authomize-rest-api-client-4.3.5.tar.gz --markdown 20230726/a/authomize-rest-api-client/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2023-07-26 12:36:15] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [code-loader]: Start processing: easybill-rest
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [easybill-rest]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [htscf]: Start processing: dimcli
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [dimcli]: New version: [1.1] Old Version: [1.0.3]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [easybill-rest]: Downloading https://files.pythonhosted.org/packages/1e/44/c6ad71c7f11f737f76ff1fa9c7a23afd7968da1c5bc1be727858d51fc37b/easybill_rest-0.3.2.tar.gz
+[2023-07-26 12:36:15] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Start processing: fastapi_amis_admin
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-revision]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.6.2a1] Old Version: [0.6.1]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [dimcli]: Downloading https://files.pythonhosted.org/packages/7d/4b/f8f40fe7bd8497d1502e5a7f6f67a23e7e5b11b0e7228dd478be406dacb3/dimcli-1.0.3.tar.gz
+[2023-07-26 12:36:15] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [lnschema_core]: Start processing: qwak-inference
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.4.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.5.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [remotemanager]: Start processing: tedeous
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.6.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.7.tar.gz]
+[2023-07-26 12:36:15] INFO root fetch - processPackages [splicekit]: Start processing: datamarket
+[2023-07-26 12:36:15] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2023-07-26 12:36:15] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/27/03/fe58508bb9b9ce46edc89df87e8e23edb5610a48cf0ead3eb7fc3490938e/fastapi_amis_admin-0.6.1.tar.gz
+[2023-07-26 12:36:15] INFO root fetch - processPackages [easybill-rest]: Downloading https://files.pythonhosted.org/packages/99/21/1ed97d8ed7f397ba802674ae465f6d34da896d9f85ec2f1fb403bd790f32/easybill_rest-0.4.0.tar.gz
+[2023-07-26 12:36:15] INFO root fetch - processPackages [tedeous]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-26 12:36:16] INFO root fetch - processPackages [datamarket]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-26 12:36:16] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/8d/ec/743dbccd89d3f52f03130424d18db6b0e9fc76b32abf48f3b0d9195e02e2/qwak_inference-0.1.6.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [dimcli]: Downloading https://files.pythonhosted.org/packages/9b/71/1ec338e1dc31c2767cf4eb7a90483a3730c0e198a9027c78bc303456ec98/dimcli-1.1.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [easybill-rest]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [easybill-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybill_rest-0.3.2.tar.gz tmp/easybill_rest-0.4.0.tar.gz --markdown 20230726/e/easybill-rest/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-26 12:36:16] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/2a/91/8f5c76bab5bb2fd617fb3c4c56818cab0b755d87843539ecc89fe256ea10/datamarket-0.3.7.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.1.tar.gz]
+[2023-07-26 12:36:16] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.2.tar.gz]
+[2023-07-26 12:36:16] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-07-26 12:36:16] INFO root fetch - processPackages [tedeous]: Downloading https://files.pythonhosted.org/packages/0d/9b/2ca6dd5e328cbdbf937915e6132696efd77e34afd1ddac4a6f819b953140/tedeous-0.2.1.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.4.tar.gz]
+[2023-07-26 12:36:16] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.5.tar.gz]
+[2023-07-26 12:36:16] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-07-26 12:36:16] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/2a/de/ffd8328015a4309b81fdfd2f19f06aafdb43b2ebecae528e99ec35ae611f/fastapi_amis_admin-0.6.2a1.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [dimcli]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [dimcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimcli-1.0.3.tar.gz tmp/dimcli-1.1.tar.gz --markdown 20230726/d/dimcli/1.0.3-1.1/diff.md --exclude *.pyd
+[2023-07-26 12:36:16] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/7a/e2/297779f66ca4bdc709c202db9f742f912b30a3bd02d8f8bb2a600c3fcd66/qwak_inference-0.1.7.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/8e/49/00e9435cdc508ab9a4a02362dd6ab8b3e8ff0829a692a853570981985e95/datamarket-0.3.8.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.6.1.tar.gz tmp/fastapi_amis_admin-0.6.2a1.tar.gz --markdown 20230726/f/fastapi_amis_admin/0.6.1-0.6.2a1/diff.md --exclude *.pyd
+[2023-07-26 12:36:16] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.1.6.tar.gz tmp/qwak_inference-0.1.7.tar.gz --markdown 20230726/q/qwak-inference/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 12:36:16] INFO root fetch - processPackages [tedeous]: Downloading https://files.pythonhosted.org/packages/8b/3c/04b934c8e6ebdbd352c0c6190aa2d43387f7e619b640bbcb103292f90d64/tedeous-0.3.0.tar.gz
+[2023-07-26 12:36:16] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.7.tar.gz tmp/datamarket-0.3.8.tar.gz --markdown 20230726/d/datamarket/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-26 12:36:16] INFO root fetch - processPackages [tedeous]: executing diffoscope
+[2023-07-26 12:36:16] INFO root fetch - processPackages [tedeous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tedeous-0.2.1.tar.gz tmp/tedeous-0.3.0.tar.gz --markdown 20230726/t/tedeous/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 12:36:17] INFO root fetch - processPackages [easybill-rest]: Remove: archive file [/home/abi/fetcher/tmp/easybill_rest-0.3.2.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - processPackages [easybill-rest]: Remove: archive file [/home/abi/fetcher/tmp/easybill_rest-0.4.0.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - main [MainThread]: End processing [easybill-rest]: success
+[2023-07-26 12:36:17] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.6.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.7.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-07-26 12:36:17] INFO root fetch - processPackages [dimcli]: Remove: archive file [/home/abi/fetcher/tmp/dimcli-1.0.3.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - processPackages [dimcli]: Remove: archive file [/home/abi/fetcher/tmp/dimcli-1.1.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - main [MainThread]: End processing [dimcli]: success
+[2023-07-26 12:36:17] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.7.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.8.tar.gz]
+[2023-07-26 12:36:17] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-07-26 12:36:18] INFO root fetch - processPackages [tedeous]: Remove: archive file [/home/abi/fetcher/tmp/tedeous-0.2.1.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - processPackages [tedeous]: Remove: archive file [/home/abi/fetcher/tmp/tedeous-0.3.0.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - main [MainThread]: End processing [tedeous]: success
+[2023-07-26 12:36:18] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.1.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.2a1.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-07-26 12:36:18] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-26 12:36:18] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-26 12:36:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.3a4.tar.gz]
+[2023-07-26 12:36:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a0.tar.gz]
+[2023-07-26 12:36:26] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-07-26 12:36:26] INFO root fetch - main [MainThread]: Store serial: [19042489]
