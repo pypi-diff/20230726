@@ -13740,3 +13740,160 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:36:09] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.89.tar.gz]
 [2023-07-26 08:36:09] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
 [2023-07-26 08:36:09] INFO root fetch - main [MainThread]: Store serial: [19040130]
+[2023-07-26 08:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040130]
+[2023-07-26 08:41:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PureCloudPlatformClientV2
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: THzTools
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qt-json-setting
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: froog
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: halmos
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hivecode
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mutual
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-opnsense
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unit-syntax
+[2023-07-26 08:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyDolarVenezuela
+[2023-07-26 08:41:18] INFO root fetch - processPackages [froog]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [qt-json-setting]: New version: [0.7] Old Version: [0.6]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [THzTools]: New version: [0.0.5] Old Version: [0.0.2.post0]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [unit-syntax]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.90] Old Version: [0.0.89]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [mutual]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [halmos]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [hivecode]: New version: [0.0.0.8.21] Old Version: [0.0.0.8.20]
+[2023-07-26 08:41:18] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/a7/67/3aa3aa7e20e69abc10cdf21b6d6d13a19e5d7af4d31943502e4ebf35e733/qt-json-setting-0.6.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/3e/bd/4cb019a311a4eabe5cc88ab957103eb3406a4815a2ab342de241213e6c35/pulumi_opnsense-0.0.89.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/9a/d1/06ddadc70ba5ceee2d4884b1bfe3186577de309bd726b63ae8cdf7b51493/froog-0.1.6.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/fd/ea/78b31e2d0614a41760934c8ca217d2abe0580c3a5869acf87cf754c8a666/unit_syntax-0.2.1.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/e1/3e/9721f083f306cf377352a834c26ca93c5e045b58bdb0a640d076aa02ceb1/pyDolarVenezuela-1.0.7-py3-none-any.whl
+[2023-07-26 08:41:18] INFO root fetch - processPackages [hivecode]: Downloading https://files.pythonhosted.org/packages/70/d8/a883cf6f273e36815c3dd9fa0857aeeece04efd6f6b74a072983a3276163/hivecode-0.0.0.8.20.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [THzTools]: Downloading https://files.pythonhosted.org/packages/c9/36/3a9dc5d0a43764f8d118f59cb05f1684d1d93a73aafd63599b43c6e89a07/thztools-0.0.2.post0.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/83/18/545798d6b5089780df89e18fdb3171e2eef24526d843dbd74cd35036d85b/mutual-0.2.1.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/a2/cf/e0240d4baec0e10a51d0fc50641dc90e05d2a3ab97ee601e3eff3e65fcfa/halmos-0.1.0.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/3d/44/48c367e1ca719efaa1fc81d7945cd9cef3e8cef7d9e526d515987f79344f/qt-json-setting-0.7.tar.gz
+[2023-07-26 08:41:18] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/0e/92/181d4c4d28fdf8dfbb4f45223bb09a430c8b6849420b0c20648587520ada/froog-0.1.7.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/4c/0a/041400d931b3a6ff1723310e39d8efacd2177be5bde08d73b35d4774fe42/unit_syntax-0.2.2.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/72/8a/639cd25041d0f5dd679d23823c1083b8a3eaa89c52f340bc141ad5adab2e/pyDolarVenezuela-1.0.8-py3-none-any.whl
+[2023-07-26 08:41:19] INFO root fetch - processPackages [hivecode]: Downloading https://files.pythonhosted.org/packages/e6/a2/cefbc4bda627d90c183a6a495f7be52406e6e3b5d8e5f1c138f4c8cdfef3/hivecode-0.0.0.8.21.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/7b/7e1f125c2920370b495dc05d6b4c38922585170f4196504babc127ad8615/pulumi_opnsense-0.0.90.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [THzTools]: Downloading https://files.pythonhosted.org/packages/74/b5/689364cf2bc70e7ec8038627cf8e009bebbd03250635cf4d4b864a8e0ada/thztools-0.0.5.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [qt-json-setting]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [qt-json-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-json-setting-0.6.tar.gz tmp/qt-json-setting-0.7.tar.gz --markdown 20230726/q/qt-json-setting/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/8d/99/d8683ec432642aefda3f04a360ad803492b2698fa5cdfc97abf31e721583/mutual-0.3.0.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.1.6.tar.gz tmp/froog-0.1.7.tar.gz --markdown 20230726/f/froog/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/e8/16/f43b9f8299ffa645391a4e1706ad166fa654bbd5c39ca8a5386df1b04c07/halmos-0.1.1.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [unit-syntax]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [unit-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_syntax-0.2.1.tar.gz tmp/unit_syntax-0.2.2.tar.gz --markdown 20230726/u/unit-syntax/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.0.7-py3-none-any.whl.zip tmp/pyDolarVenezuela-1.0.8-py3-none-any.whl.zip --markdown 20230726/p/pyDolarVenezuela/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [hivecode]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [hivecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivecode-0.0.0.8.20.tar.gz tmp/hivecode-0.0.0.8.21.tar.gz --markdown 20230726/h/hivecode/0.0.0.8.20-0.0.0.8.21/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [THzTools]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [THzTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thztools-0.0.2.post0.tar.gz tmp/thztools-0.0.5.tar.gz --markdown 20230726/T/THzTools/0.0.2.post0-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.2.1.tar.gz tmp/mutual-0.3.0.tar.gz --markdown 20230726/m/mutual/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.89.tar.gz tmp/pulumi_opnsense-0.0.90.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [halmos]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [halmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halmos-0.1.0.tar.gz tmp/halmos-0.1.1.tar.gz --markdown 20230726/h/halmos/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 08:41:19] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-26 08:41:19] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230726/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-26 08:41:21] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.6.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.7.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [qt-json-setting]: Start processing: lark-oapi
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [qt-json-setting]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.6.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.7.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [froog]: Start processing: duet
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.7-py3-none-any.whl.zip]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.8-py3-none-any.whl.zip]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pyDolarVenezuela]: Start processing: actnova-yolo
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [duet]: New version: [0.2.9.dev20230712233414] Old Version: [0.2.9.dev20230622135328]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.1.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.2.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [unit-syntax]: Start processing: DIRAC
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [unit-syntax]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/4b/67/8299c7e3af6c3503c343c095dab53f63a638a768d212ba68a56c46ca1653/lark-oapi-1.0.3.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [hivecode]: Remove: archive file [/home/abi/fetcher/tmp/hivecode-0.0.0.8.20.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [hivecode]: Remove: archive file [/home/abi/fetcher/tmp/hivecode-0.0.0.8.21.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [hivecode]: Start processing: zlgsendcan
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [hivecode]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.2.1.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.0.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [mutual]: Start processing: adafri
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.89.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.90.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: ta-bitwarden-cli
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [duet]: Downloading https://files.pythonhosted.org/packages/e2/ce/5fa368367e489056641a9c056cd84709b07d61dfe311ef2329a21d88840f/duet-0.2.9.dev20230622135328.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [adafri]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [ta-bitwarden-cli]: New version: [0.9.3] Old Version: [0.8.2]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/0c/ac/3d112b8e38fbaf7676203d1051562ce7f50a3fcd31bf84a7172cab09cdce/zlgsendcan-1.0.2.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [THzTools]: Remove: archive file [/home/abi/fetcher/tmp/thztools-0.0.2.post0.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [THzTools]: Remove: archive file [/home/abi/fetcher/tmp/thztools-0.0.5.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [THzTools]: Start processing: KorDigits
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [THzTools]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.1.0.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.1.1.tar.gz]
+[2023-07-26 08:41:21] INFO root fetch - main [MainThread]: End processing [halmos]: success
+[2023-07-26 08:41:21] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/67/34/76ec89a1d4ba07c9fabc14f4994d5ad19590fdd0196af22f8925d9bbfc48/adafri-0.0.61.tar.gz
+[2023-07-26 08:41:21] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/0a/59/9d0ca695df4552663a3d6a97d4dd7be49cb4908d506b3c895469da827596/lark-oapi-1.0.4.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [KorDigits]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-26 08:41:22] INFO root fetch - processPackages [ta-bitwarden-cli]: Downloading https://files.pythonhosted.org/packages/05/1f/4b145794b5fb3da2e7f1936794c72511cd9a7a51e0bc32fc7e2ae766eeb2/ta_bitwarden_cli-0.8.2.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/4d/17/904ebc5089c1799a68da6c5f965f64c65707fecb277fcfe4b88169e9f8ad/KorDigits-1.1.3-py3-none-any.whl
+[2023-07-26 08:41:22] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/30/53/5796fb0a2bafd4e9b983f7bcefc89535086f6f9f453f7a4ad72a945b8096/zlgsendcan-1.0.3.tar.gz
+[2023-07-26 08:41:22] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61312128>=10485760
+[2023-07-26 08:41:22] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-26 08:41:22] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:41:22] INFO root fetch - processPackages [duet]: Downloading https://files.pythonhosted.org/packages/00/2a/a08f7a63c2645bb90e69f5feb6a38418384536e6aa0e58f331d6046f00bb/duet-0.2.9.dev20230712233414.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.3.tar.gz tmp/lark-oapi-1.0.4.tar.gz --markdown 20230726/l/lark-oapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 08:41:22] WARNING root fetch - processPackages [ta-bitwarden-cli]: Skipping package: exceeds size limit 74392492>=10485760
+[2023-07-26 08:41:22] INFO root fetch - main [MainThread]: End processing [ta-bitwarden-cli] error
+[2023-07-26 08:41:22] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.2.tar.gz tmp/zlgsendcan-1.0.3.tar.gz --markdown 20230726/z/zlgsendcan/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 08:41:22] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a2/64/7aeff2afbe7bfef0b5793a0ff265855e40c9d72cf59357e86f08c51ad73d/adafri-0.0.62.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [duet]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - processPackages [duet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duet-0.2.9.dev20230622135328.tar.gz tmp/duet-0.2.9.dev20230712233414.tar.gz --markdown 20230726/d/duet/0.2.9.dev20230622135328-0.2.9.dev20230712233414/diff.md --exclude *.pyd
+[2023-07-26 08:41:22] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.61.tar.gz tmp/adafri-0.0.62.tar.gz --markdown 20230726/a/adafri/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-07-26 08:41:22] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-07-26 08:41:22] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-07-26 08:41:22] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230726/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-07-26 08:41:23] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.2.tar.gz]
+[2023-07-26 08:41:23] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.3.tar.gz]
+[2023-07-26 08:41:23] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 08:41:23] INFO root fetch - processPackages [duet]: Remove: archive file [/home/abi/fetcher/tmp/duet-0.2.9.dev20230622135328.tar.gz]
+[2023-07-26 08:41:23] INFO root fetch - processPackages [duet]: Remove: archive file [/home/abi/fetcher/tmp/duet-0.2.9.dev20230712233414.tar.gz]
+[2023-07-26 08:41:23] INFO root fetch - main [MainThread]: End processing [duet]: success
+[2023-07-26 08:41:24] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.61.tar.gz]
+[2023-07-26 08:41:24] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.62.tar.gz]
+[2023-07-26 08:41:24] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-26 08:41:24] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 08:41:24] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 08:41:24] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 08:41:33] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a8.tar.gz]
+[2023-07-26 08:41:33] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
+[2023-07-26 08:41:33] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-07-26 08:41:44] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-26 08:41:44] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-26 08:41:44] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-26 08:42:16] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.3.tar.gz]
+[2023-07-26 08:42:16] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.4.tar.gz]
+[2023-07-26 08:42:16] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-26 08:42:16] INFO root fetch - main [MainThread]: Store serial: [19040176]
