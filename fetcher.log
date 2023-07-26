@@ -10987,3 +10987,157 @@
 [2023-07-26 06:04:12] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230724.tar.gz]
 [2023-07-26 06:04:12] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-26 06:04:12] INFO root fetch - main [MainThread]: Store serial: [19039166]
+[2023-07-26 06:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039166]
+[2023-07-26 06:09:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hspf-reader
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyinit
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazydl
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mettoolbox
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tappy
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsblender
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsgettoolbox
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zdatabase
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparglim
+[2023-07-26 06:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ivy-robot
+[2023-07-26 06:09:21] INFO root fetch - processPackages [hspf-reader]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-26 06:09:21] WARNING root fetch - processPackages [lazydl]: Skipping, unable to determine old version
+[2023-07-26 06:09:21] INFO root fetch - processPackages [lazydl]: Start processing: cudagrad
+[2023-07-26 06:09:21] INFO root fetch - main [MainThread]: End processing [lazydl] error
+[2023-07-26 06:09:21] INFO root fetch - processPackages [ivy-robot]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tappy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tsblender]: New version: [103.0.1] Old Version: [103.0.0]
+[2023-07-26 06:09:21] WARNING root fetch - processPackages [lazyinit]: Skipping, unable to determine old version
+[2023-07-26 06:09:21] INFO root fetch - processPackages [lazyinit]: Start processing: odoo-addon-l10n-es-aeat
+[2023-07-26 06:09:21] INFO root fetch - main [MainThread]: End processing [lazyinit] error
+[2023-07-26 06:09:21] INFO root fetch - processPackages [mettoolbox]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tsgettoolbox]: New version: [9.14.5.8] Old Version: [9.13.5.8]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [zdatabase]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [cudagrad]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/c2/c8/a767f5ee550bae019c08a1322f9bbee10affd87090d8d6c39cb40784c7cf/sparglim-0.1.0rc4.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tsblender]: Downloading https://files.pythonhosted.org/packages/e2/e5/005b84b96578b8a2d46ac4dbcd07cef24600669330ba50c42033c5c9552b/tsblender-103.0.0.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.1.1] Old Version: [16.0.2.1.0.1]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/fc/dd/bda5da91cda89fa91dc5b7a7fd21d076cab7b03b7f254bde7fc31549e3cf/tsgettoolbox-9.13.5.8.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [hspf-reader]: Downloading https://files.pythonhosted.org/packages/35/9f/3e50aaa931d3028b7f3babc51c673c74001704c005239f30b795b24a80cf/hspf_reader-1.0.4.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/cb/ce/ade80400cf2bd8027c80b2cce4b2daabf78f1d5b2bb73af3031edb8f92e7/zdatabase-0.5.8.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tappy]: Downloading https://files.pythonhosted.org/packages/f4/e5/07319d9e88c09665fcd27ba291c869cec3c9cbadeaab93a28e731536ee19/tappy-1.0.0.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [ivy-robot]: Downloading https://files.pythonhosted.org/packages/1b/67/04cb2147fe31c3ee279957fe49c0abc95167265c113a32f27eb63c12abbc/ivy-robot-1.1.8.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [mettoolbox]: Downloading https://files.pythonhosted.org/packages/a6/08/b8a5607304f1c5c922d3710cfe929db7e09535512c1c4cb163538162a186/mettoolbox-5.0.1.tar.gz
+[2023-07-26 06:09:21] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/a0/12/b017777c0c6a2d72e85e1f8dbec964e03fa443dc95829fecac92a24384de/cudagrad-0.0.23.tar.gz
+[2023-07-26 06:09:21] WARNING root fetch - processPackages [tsblender]: Skipping package: exceeds size limit 77253317>=10485760
+[2023-07-26 06:09:21] INFO root fetch - processPackages [tsblender]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-26 06:09:21] INFO root fetch - main [MainThread]: End processing [tsblender] error
+[2023-07-26 06:09:21] WARNING root fetch - processPackages [mettoolbox]: Skipping package: exceeds size limit 24255996>=10485760
+[2023-07-26 06:09:21] INFO root fetch - processPackages [mettoolbox]: Start processing: odoo-addon-payment-redsys
+[2023-07-26 06:09:21] INFO root fetch - main [MainThread]: End processing [mettoolbox] error
+[2023-07-26 06:09:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1.2] Old Version: [16.0.1.3.1]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [odoo-addon-payment-redsys]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-26 06:09:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/5f/65/f4dcdd01959291b3cc2c892a44de56bb9ff3381868d6237a4600a61be442/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-payment-redsys]: Downloading https://files.pythonhosted.org/packages/08/61/129b40e2f3013817f0fac62cb0fcdfb1e91da3d68fe6beeb2a906c993fff/odoo_addon_payment_redsys-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/91/d2/b5de8435b00c395aff861f943ee8d8f546a455f970df300b81c8fb70408f/sparglim-0.1.0rc5.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/05/65/0ad9c155463cd41287a14a1951663311eb952ea26e16ea043b872c1661f1/zdatabase-0.5.9.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/b3/61/2607fa5cb5d3f064bec955455c53563a12a0d78eb62aee6a4b6fefc1c11d/cudagrad-0.0.24.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.8.tar.gz tmp/zdatabase-0.5.9.tar.gz --markdown 20230726/z/zdatabase/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tappy]: Downloading https://files.pythonhosted.org/packages/b6/d4/3e9146e5df5f32a44ce38c5f6dbb8e955a4040f18621e53e39e48b2cc3f7/tappy-1.0.1.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/74/fa/372cffb2c2b7ef8edf6ffb440c7e8c42f5cd5d7c129e12b6b3c8a803eaa5/tsgettoolbox-9.14.5.8.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [hspf-reader]: Downloading https://files.pythonhosted.org/packages/34/79/de58c1863983fc7535f2fcb533fce9bca5955f02fbded0b485bd94f87c69/hspf_reader-1.0.5.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc4.tar.gz tmp/sparglim-0.1.0rc5.tar.gz --markdown 20230726/s/sparglim/0.1.0rc4-0.1.0rc5/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.23.tar.gz tmp/cudagrad-0.0.24.tar.gz --markdown 20230726/c/cudagrad/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/8c/d9/c7494baa71f6537cb5b21da912e13412929123ede52cd485a901317d84eb/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-payment-redsys]: Downloading https://files.pythonhosted.org/packages/e2/32/944a55b627b2958c420ba2439b13be346247307328baa776c051914098b3/odoo_addon_payment_redsys-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tappy]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tappy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tappy-1.0.0.tar.gz tmp/tappy-1.0.1.tar.gz --markdown 20230726/t/tappy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tsgettoolbox]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [tsgettoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsgettoolbox-9.13.5.8.tar.gz tmp/tsgettoolbox-9.14.5.8.tar.gz --markdown 20230726/t/tsgettoolbox/9.13.5.8-9.14.5.8/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [hspf-reader]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [hspf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspf_reader-1.0.4.tar.gz tmp/hspf_reader-1.0.5.tar.gz --markdown 20230726/h/hspf-reader/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-l10n-es-aeat/16.0.2.1.0.1-16.0.2.1.1/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/e2/35/cd1eb97c543b5daac714eceb1101a8ec01cb96bf0a188fef1493f8a9eb83/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1.2-py3-none-any.whl
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-payment-redsys]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-payment-redsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payment_redsys-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_payment_redsys-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-payment-redsys/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [ivy-robot]: Downloading https://files.pythonhosted.org/packages/55/1c/1a4d3c7d77003106fc2b1411bf5adf602f3502a04707487333b8c6c5fa7c/ivy-robot-1.1.9.tar.gz
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.1-16.0.1.3.1.2/diff.md --exclude *.pyd
+[2023-07-26 06:09:22] INFO root fetch - processPackages [ivy-robot]: executing diffoscope
+[2023-07-26 06:09:22] INFO root fetch - processPackages [ivy-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-robot-1.1.8.tar.gz tmp/ivy-robot-1.1.9.tar.gz --markdown 20230726/i/ivy-robot/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-26 06:09:23] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.8.tar.gz]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.9.tar.gz]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [zdatabase]: Start processing: odoo-addon-l10n-es-aeat
+[2023-07-26 06:09:23] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-26 06:09:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.1.2.2] Old Version: [16.0.2.1.1]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.23.tar.gz]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.24.tar.gz]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [cudagrad]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-26 06:09:23] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-26 06:09:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.2] Old Version: [16.0.1.3.1.2]
+[2023-07-26 06:09:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/cd/fc/8e1bae8dce05164aca64ea2c3589ba81b67cfcac9d27c9a5856d2ae5d362/odoo_addon_l10n_es_aeat-16.0.2.1.2.2-py3-none-any.whl
+[2023-07-26 06:09:24] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc4.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc5.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [sparglim]: Start processing: inventree
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.1.2.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-l10n-es-aeat/16.0.2.1.1-16.0.2.1.2.2/diff.md --exclude *.pyd
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/35/43/5492b18417ef9fe357a4dba4497d18e153f6d0ff32c047037fd663373816/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.2-py3-none-any.whl
+[2023-07-26 06:09:24] INFO root fetch - processPackages [inventree]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.13.5.8.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.14.5.8.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [tsgettoolbox]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-payment-redsys]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payment_redsys-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-payment-redsys]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payment_redsys-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-payment-redsys]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.1.2-16.0.1.3.2/diff.md --exclude *.pyd
+[2023-07-26 06:09:24] INFO root fetch - processPackages [inventree]: Downloading https://files.pythonhosted.org/packages/03/5a/3f9f139724c09a4e3d4eaf1ef35b6e7e54b4e76a144a7fbbfcde6cc9848a/inventree-0.9.1.tar.gz
+[2023-07-26 06:09:24] INFO root fetch - processPackages [ivy-robot]: Remove: archive file [/home/abi/fetcher/tmp/ivy-robot-1.1.8.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [ivy-robot]: Remove: archive file [/home/abi/fetcher/tmp/ivy-robot-1.1.9.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [ivy-robot]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [hspf-reader]: Remove: archive file [/home/abi/fetcher/tmp/hspf_reader-1.0.4.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [hspf-reader]: Remove: archive file [/home/abi/fetcher/tmp/hspf_reader-1.0.5.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [hspf-reader]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1.2-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-07-26 06:09:24] INFO root fetch - processPackages [tappy]: Remove: archive file [/home/abi/fetcher/tmp/tappy-1.0.0.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - processPackages [tappy]: Remove: archive file [/home/abi/fetcher/tmp/tappy-1.0.1.tar.gz]
+[2023-07-26 06:09:24] INFO root fetch - main [MainThread]: End processing [tappy]: success
+[2023-07-26 06:09:25] INFO root fetch - processPackages [inventree]: Downloading https://files.pythonhosted.org/packages/ee/f1/c0e92d22715e18422a2ba4b75ff5cd664811669c2e26fc59dfabe9292c9c/inventree-0.9.2.tar.gz
+[2023-07-26 06:09:25] ERROR root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Diffoscope failed: time="2023-07-26T06:09:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1.2-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-26 06:09:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca] error
+[2023-07-26 06:09:25] ERROR root fetch - processPackages [odoo-addon-l10n-es-aeat]: Diffoscope failed: time="2023-07-26T06:09:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does not exist
+
+[2023-07-26 06:09:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat] error
+[2023-07-26 06:09:25] INFO root fetch - processPackages [inventree]: executing diffoscope
+[2023-07-26 06:09:25] INFO root fetch - processPackages [inventree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-0.9.1.tar.gz tmp/inventree-0.9.2.tar.gz --markdown 20230726/i/inventree/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-26 06:09:26] INFO root fetch - processPackages [inventree]: Remove: archive file [/home/abi/fetcher/tmp/inventree-0.9.1.tar.gz]
+[2023-07-26 06:09:26] INFO root fetch - processPackages [inventree]: Remove: archive file [/home/abi/fetcher/tmp/inventree-0.9.2.tar.gz]
+[2023-07-26 06:09:26] INFO root fetch - main [MainThread]: End processing [inventree]: success
+[2023-07-26 06:09:26] INFO root fetch - main [MainThread]: Store serial: [19039209]
