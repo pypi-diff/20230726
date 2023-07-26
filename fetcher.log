@@ -15183,3 +15183,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:35:44] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.1.tar.gz]
 [2023-07-26 09:35:44] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-07-26 09:35:44] INFO root fetch - main [MainThread]: Store serial: [19040719]
+[2023-07-26 09:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040719]
+[2023-07-26 09:40:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vinhvh-package
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quao
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-enos-theme
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-theme
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mattress
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rgmining-fraudar
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rec-pangu
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-07-26 09:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-opnsense
+[2023-07-26 09:40:53] INFO root fetch - processPackages [rec-pangu]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [mattress]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [rgmining-fraudar]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [invenio-theme]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 09:40:53] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-26 09:40:53] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/9f/ff/cae6def8d0cec97cda07103dd5c367416d3d5be7e34377f4988b6cd6e073/pulumi_opnsense-0.0.94.tar.gz
+[2023-07-26 09:40:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rec-pangu]: Downloading https://files.pythonhosted.org/packages/54/34/91db69bb13d3a50e2744931b3799c9d51f8588c41f4a16e214aee666ceaf/rec_pangu-0.4.0-py3-none-any.whl
+[2023-07-26 09:40:54] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/e2/4c/b01bcb16459b094efe8458c6265430cc81477c047e76210f06b62cc8367a/vinhvh_package-0.0.8.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rgmining-fraudar]: Downloading https://files.pythonhosted.org/packages/f3/c0/8b9df2bbb8e4e3bbb3c4d424d215c986e5fe2f57f9b26c977d13c963e632/rgmining_fraudar-0.7.1.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [mattress]: Downloading https://files.pythonhosted.org/packages/76/7e/2f6c20ae03176e8d55d943dd9c33b372dc5ad88cfb211099ae315b850313/mattress-0.0.1.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/0e/38/69d3afe2360f423b4425bb78fb9f9a15b4f55fe0cd0278dba7122648f7f4/invenio-theme-2.1.3.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/cf/32/d209b7c3455c5377deb7a6887586247bccdc3515764d01dccdb804fe1102/pulumi_opnsense-0.0.95.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230726/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.94.tar.gz tmp/pulumi_opnsense-0.0.95.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230726/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/74/3e/eae34f9dd6d258f192a8a087329c017d224699b3f6d4ae86a624c7e8cd98/vinhvh_package-0.0.9.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rec-pangu]: Downloading https://files.pythonhosted.org/packages/cd/78/bfcf6b378d48ac2dea5a6b2e0ea8b7b3c3de9505ac365d93eddf8e9ca12e/rec_pangu-0.4.1-py3-none-any.whl
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rgmining-fraudar]: Downloading https://files.pythonhosted.org/packages/04/79/896dac960ce2d251c824c37e6a4148a735661701731fd8b15947ba5d6354/rgmining_fraudar-0.7.2.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [mattress]: Downloading https://files.pythonhosted.org/packages/c9/1a/b006996ddee7a44d4cd476e8f9266f58972aa6c2fde94bbc15e5a483bf57/mattress-0.0.2.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-26 09:40:54] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.8.tar.gz tmp/vinhvh_package-0.0.9.tar.gz --markdown 20230726/v/vinhvh-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rec-pangu]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rec-pangu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_pangu-0.4.0-py3-none-any.whl.zip tmp/rec_pangu-0.4.1-py3-none-any.whl.zip --markdown 20230726/r/rec-pangu/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rgmining-fraudar]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [rgmining-fraudar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgmining_fraudar-0.7.1.tar.gz tmp/rgmining_fraudar-0.7.2.tar.gz --markdown 20230726/r/rgmining-fraudar/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-26 09:40:54] INFO root fetch - processPackages [mattress]: executing diffoscope
+[2023-07-26 09:40:54] INFO root fetch - processPackages [mattress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattress-0.0.1.tar.gz tmp/mattress-0.0.2.tar.gz --markdown 20230726/m/mattress/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 09:40:55] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-26 09:40:55] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230726/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 09:40:55] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 09:40:55] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 09:40:55] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/95/38/8fca5df202c36f8b158b30a9619afe721928d02a783c9fad645baa3c0f63/invenio-theme-2.2.0.tar.gz
+[2023-07-26 09:40:55] INFO root fetch - processPackages [invenio-theme]: executing diffoscope
+[2023-07-26 09:40:55] INFO root fetch - processPackages [invenio-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-theme-2.1.3.tar.gz tmp/invenio-theme-2.2.0.tar.gz --markdown 20230726/i/invenio-theme/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-07-26 09:40:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.94.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.95.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: nikl-corpus-io
+[2023-07-26 09:40:56] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 09:40:56] WARNING root fetch - processPackages [nikl-corpus-io]: Skipping, unable to determine old version
+[2023-07-26 09:40:56] INFO root fetch - processPackages [nikl-corpus-io]: Start processing: lesscode-utils
+[2023-07-26 09:40:56] INFO root fetch - main [MainThread]: End processing [nikl-corpus-io] error
+[2023-07-26 09:40:56] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/dc/4f/e2f9b1b246094b6656c0d97ec082dd974eae4ced82ddf7545187cdd24db0/lesscode_utils-0.0.5.tar.gz
+[2023-07-26 09:40:56] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [quao]: Start processing: robotframework-imagedetection
+[2023-07-26 09:40:56] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-26 09:40:56] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.8.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.9.tar.gz]
+[2023-07-26 09:40:56] INFO root fetch - processPackages [vinhvh-package]: Start processing: agh-vqis
+[2023-07-26 09:40:56] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-26 09:40:57] INFO root fetch - processPackages [robotframework-imagedetection]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [agh-vqis]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [rgmining-fraudar]: Remove: archive file [/home/abi/fetcher/tmp/rgmining_fraudar-0.7.1.tar.gz]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [rgmining-fraudar]: Remove: archive file [/home/abi/fetcher/tmp/rgmining_fraudar-0.7.2.tar.gz]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [rgmining-fraudar]: Start processing: dx-profiler
+[2023-07-26 09:40:57] INFO root fetch - main [MainThread]: End processing [rgmining-fraudar]: success
+[2023-07-26 09:40:57] WARNING root fetch - processPackages [dx-profiler]: Skipping, unable to determine old version
+[2023-07-26 09:40:57] INFO root fetch - processPackages [dx-profiler]: Start processing: port-ocean
+[2023-07-26 09:40:57] INFO root fetch - main [MainThread]: End processing [dx-profiler] error
+[2023-07-26 09:40:57] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f7/8a/f15dd652e0539738dc19c24dfcc4cd613ab084cdd9bcf8fdee5ee649f28f/lesscode_utils-0.0.6.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/dd/c5/de516758ca8e086867aa024f9bc239e49b7c717f55bfdccafe98b5194cb1/robotframework-imagedetection-0.0.1.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [port-ocean]: New version: [0.1.1] Old Version: [0.1.0rc5]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/28/1a/1d24b4037236c5d39be7f686f0fa47adc898fa595bf4810ead0b20e64250/agh_vqis-3.2.0.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-26 09:40:57] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.5.tar.gz tmp/lesscode_utils-0.0.6.tar.gz --markdown 20230726/l/lesscode-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 09:40:57] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/59/8c/6136251eeea251356b72a9668766c8c91380dfcabd27a3949e4b14762f4c/port_ocean-0.1.0rc5.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [sphinx-enos-theme]: Start processing: invenio-communities
+[2023-07-26 09:40:57] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-26 09:40:57] INFO root fetch - processPackages [rec-pangu]: Remove: archive file [/home/abi/fetcher/tmp/rec_pangu-0.4.0-py3-none-any.whl.zip]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [rec-pangu]: Remove: archive file [/home/abi/fetcher/tmp/rec_pangu-0.4.1-py3-none-any.whl.zip]
+[2023-07-26 09:40:57] INFO root fetch - main [MainThread]: End processing [rec-pangu]: success
+[2023-07-26 09:40:57] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/e5/82/4e4701c5e28b886ad9d867854538b49a320654f8b65ef2ae59ad090cf502/robotframework-imagedetection-0.0.2.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [invenio-communities]: New version: [7.2.3] Old Version: [7.2.2]
+[2023-07-26 09:40:57] INFO root fetch - processPackages [robotframework-imagedetection]: executing diffoscope
+[2023-07-26 09:40:57] INFO root fetch - processPackages [robotframework-imagedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-imagedetection-0.0.1.tar.gz tmp/robotframework-imagedetection-0.0.2.tar.gz --markdown 20230726/r/robotframework-imagedetection/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 09:40:57] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/94/20/c310cd82f7dd4c74c692ffa51681c39839bd7a48c1fe442ef0d21bd44b31/agh_vqis-3.2.1.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/81/96/9c93962e42b8b9e81926f6222e2f3398d4e90281921136ac0f7e09d3891e/invenio-communities-7.2.2.tar.gz
+[2023-07-26 09:40:57] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/d9/a6/5fa8ff599679f9b5245622a07df1d6d0053d5c7fc512c53a9490e25ab4de/port_ocean-0.1.1.tar.gz
+[2023-07-26 09:40:58] INFO root fetch - processPackages [agh-vqis]: executing diffoscope
+[2023-07-26 09:40:58] INFO root fetch - processPackages [agh-vqis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agh_vqis-3.2.0.tar.gz tmp/agh_vqis-3.2.1.tar.gz --markdown 20230726/a/agh-vqis/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-26 09:40:58] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-26 09:40:58] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0rc5.tar.gz tmp/port_ocean-0.1.1.tar.gz --markdown 20230726/p/port-ocean/0.1.0rc5-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 09:40:58] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/7d/af/6943b89342500396961bf5904ce4891958041b486958be6b4eb165fcf0df/invenio-communities-7.2.3.tar.gz
+[2023-07-26 09:40:58] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-07-26 09:40:58] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-7.2.2.tar.gz tmp/invenio-communities-7.2.3.tar.gz --markdown 20230726/i/invenio-communities/7.2.2-7.2.3/diff.md --exclude *.pyd
+[2023-07-26 09:40:58] INFO root fetch - processPackages [mattress]: Remove: archive file [/home/abi/fetcher/tmp/mattress-0.0.1.tar.gz]
+[2023-07-26 09:40:58] INFO root fetch - processPackages [mattress]: Remove: archive file [/home/abi/fetcher/tmp/mattress-0.0.2.tar.gz]
+[2023-07-26 09:40:58] INFO root fetch - main [MainThread]: End processing [mattress]: success
+[2023-07-26 09:40:58] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.5.tar.gz]
+[2023-07-26 09:40:58] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.6.tar.gz]
+[2023-07-26 09:40:58] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-26 09:40:59] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.1.tar.gz]
+[2023-07-26 09:40:59] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.2.tar.gz]
+[2023-07-26 09:40:59] INFO root fetch - main [MainThread]: End processing [robotframework-imagedetection]: success
+[2023-07-26 09:40:59] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.1.3.tar.gz]
+[2023-07-26 09:40:59] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.2.0.tar.gz]
+[2023-07-26 09:40:59] INFO root fetch - main [MainThread]: End processing [invenio-theme]: success
+[2023-07-26 09:41:00] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc5.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.1.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-26 09:41:00] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.2.0.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.2.1.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - main [MainThread]: End processing [agh-vqis]: success
+[2023-07-26 09:41:00] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-26 09:41:00] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-26 09:41:01] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 09:41:01] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 09:41:01] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 09:41:01] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.2.tar.gz]
+[2023-07-26 09:41:01] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.3.tar.gz]
+[2023-07-26 09:41:01] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-07-26 09:41:01] INFO root fetch - main [MainThread]: Store serial: [19040817]
