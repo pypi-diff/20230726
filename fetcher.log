@@ -11179,3 +11179,83 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:14:36] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
 [2023-07-26 06:14:36] INFO root fetch - main [MainThread]: End processing [garak]: success
 [2023-07-26 06:14:36] INFO root fetch - main [MainThread]: Store serial: [19039232]
+[2023-07-26 06:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039232]
+[2023-07-26 06:19:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shootpandora-ChatGPT
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ert
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shootpandora-Cloud
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-equipment-image
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-main
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazyinit
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-py
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyinit
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazyinit
+[2023-07-26 06:19:45] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [shootpandora-ChatGPT]: New version: [20230725.1.2] Old Version: [20230725.1.1]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [django-ipghrms-main]: New version: [1.5] Old Version: [1.4]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [shootpandora-Cloud]: New version: [20230725.1.2] Old Version: [20230725.1.1]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ert]: New version: [5.1.0b4] Old Version: [5.1.0b3]
+[2023-07-26 06:19:45] INFO root fetch - processPackages [shootpandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/c7/82/b1b350dd40520b4188f1c161947d30cf76992275f2c5d724072b696d9a67/shootpandora-ChatGPT-20230725.1.1.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/33/c7/e40aeeafbc81ec7bfaf7598bab8e6b1b52918a4c449f8564addb672e8560/shootpandora-Cloud-20230725.1.1.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/4d/91/19ff4b8297207175dbd4ab8c5a2e249150e01527ae6a7b3158d9bb3e8baf/lazyinit-0.0.21.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Downloading https://files.pythonhosted.org/packages/a8/00/1ee91251010e6b276678d179df6f006e61de899518e7946db94ab3934e55/odoo_addon_maintenance_equipment_image-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/4d/91/19ff4b8297207175dbd4ab8c5a2e249150e01527ae6a7b3158d9bb3e8baf/lazyinit-0.0.21.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/4d/91/19ff4b8297207175dbd4ab8c5a2e249150e01527ae6a7b3158d9bb3e8baf/lazyinit-0.0.21.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/0b/32/9d11f45eef07db716046e9fe035f0fa9d76fdb7b4c442c647eccaf4aec0f/django-ipghrms-main-1.4.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/ce/d4/65d5abc2e7010477d6ba80ef0f47380093c6e2369eb9f3ac2abfd057835b/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ee/9b/9b7ea1e7edd5c06df0e9096543c8e1caaefc671fe3736e5dbe3e818d90ef/lazyinit-0.0.22.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ee/9b/9b7ea1e7edd5c06df0e9096543c8e1caaefc671fe3736e5dbe3e818d90ef/lazyinit-0.0.22.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ee/9b/9b7ea1e7edd5c06df0e9096543c8e1caaefc671fe3736e5dbe3e818d90ef/lazyinit-0.0.22.tar.gz
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-26 06:19:45] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230726/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 06:19:45] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Downloading https://files.pythonhosted.org/packages/08/87/5d82c4454d15a25a58076ed4b2a0b8bc25b72a5fa43f5cee425a6a93a4af/odoo_addon_maintenance_equipment_image-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-26 06:19:45] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/5f/82/f323cb36a474499bb9efe288fffa30ece2330407b724d7c44bedc356965b/shootpandora-Cloud-20230725.1.2.tar.gz
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.21.tar.gz tmp/lazyinit-0.0.22.tar.gz --markdown 20230726/l/lazyinit/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.21.tar.gz tmp/lazyinit-0.0.22.tar.gz --markdown 20230726/l/lazyinit/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.21.tar.gz tmp/lazyinit-0.0.22.tar.gz --markdown 20230726/l/lazyinit/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-maintenance-equipment-image/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [shootpandora-Cloud]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [shootpandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shootpandora-Cloud-20230725.1.1.tar.gz tmp/shootpandora-Cloud-20230725.1.2.tar.gz --markdown 20230726/s/shootpandora-Cloud/20230725.1.1-20230725.1.2/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [shootpandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/82/34/acb0849a9a27906766796f84fc537ff5094dec9b88d19c3e378ca51b776f/shootpandora-ChatGPT-20230725.1.2.tar.gz
+[2023-07-26 06:19:46] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/00/d1/04afe613b116413b173ea4801a0c8c1fa9e8a356969edd1f51e0acb053b8/ert-5.1.0b4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 06:19:46] INFO root fetch - processPackages [shootpandora-ChatGPT]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [shootpandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shootpandora-ChatGPT-20230725.1.1.tar.gz tmp/shootpandora-ChatGPT-20230725.1.2.tar.gz --markdown 20230726/s/shootpandora-ChatGPT/20230725.1.1-20230725.1.2/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-26 06:19:46] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230726/e/ert/5.1.0b3-5.1.0b4/diff.md --exclude *.pyd
+[2023-07-26 06:19:46] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/6d/22/bee9b296de409451084ed05ddd99441fad3f19966e066e093822023e0d59/django-ipghrms-main-1.5.tar.gz
+[2023-07-26 06:19:47] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.21.tar.gz]
+[2023-07-26 06:19:47] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.22.tar.gz]
+[2023-07-26 06:19:47] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:19:47] INFO root fetch - processPackages [django-ipghrms-main]: executing diffoscope
+[2023-07-26 06:19:47] INFO root fetch - processPackages [django-ipghrms-main]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-main-1.4.tar.gz tmp/django-ipghrms-main-1.5.tar.gz --markdown 20230726/d/django-ipghrms-main/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-26 06:19:47] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:19:47] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-26 06:19:47] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-26 06:19:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-image]: success
+[2023-07-26 06:19:47] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:19:47] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-26 06:19:47] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-26 06:19:47] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-26 06:19:48] INFO root fetch - processPackages [shootpandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-ChatGPT-20230725.1.1.tar.gz]
+[2023-07-26 06:19:48] INFO root fetch - processPackages [shootpandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-ChatGPT-20230725.1.2.tar.gz]
+[2023-07-26 06:19:48] INFO root fetch - main [MainThread]: End processing [shootpandora-ChatGPT]: success
+[2023-07-26 06:19:48] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-20230725.1.1.tar.gz]
+[2023-07-26 06:19:48] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-20230725.1.2.tar.gz]
+[2023-07-26 06:19:48] INFO root fetch - main [MainThread]: End processing [shootpandora-Cloud]: success
+[2023-07-26 06:19:51] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-main-1.4.tar.gz]
+[2023-07-26 06:19:51] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-main-1.5.tar.gz]
+[2023-07-26 06:19:51] INFO root fetch - main [MainThread]: End processing [django-ipghrms-main]: success
+[2023-07-26 06:19:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 06:19:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 06:19:52] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-26 06:19:52] INFO root fetch - main [MainThread]: Store serial: [19039260]
