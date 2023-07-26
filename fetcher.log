@@ -12824,3 +12824,138 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:54:09] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2754-py3-none-any.whl.zip]
 [2023-07-26 07:54:09] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-07-26 07:54:09] INFO root fetch - main [MainThread]: Store serial: [19039769]
+[2023-07-26 07:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039769]
+[2023-07-26 07:59:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zlgsendcan
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aify
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmbox
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cartup-dag
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-widget-open-tab
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-endpoint-route-handler
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-endpoint
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-webservice
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-web-api
+[2023-07-26 07:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-web
+[2023-07-26 07:59:17] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-webservice]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-07-26 07:59:18] WARNING root fetch - processPackages [cartup-dag]: Skipping, unable to determine old version
+[2023-07-26 07:59:18] INFO root fetch - processPackages [cartup-dag]: Start processing: qontract-reconcile
+[2023-07-26 07:59:18] INFO root fetch - main [MainThread]: End processing [cartup-dag] error
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web-api]: New version: [16.0.20230725.1] Old Version: [16.0.20230606.0]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230725.0] Old Version: [16.0.20230721.0]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.3]
+[2023-07-26 07:59:18] WARNING root fetch - processPackages [llmbox]: Skipping, unable to determine old version
+[2023-07-26 07:59:18] INFO root fetch - processPackages [llmbox]: Start processing: pulumi-opnsense
+[2023-07-26 07:59:18] INFO root fetch - main [MainThread]: End processing [llmbox] error
+[2023-07-26 07:59:18] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/02/ba/210046b70699c540593b82ac38661c4d394ce049a3dadb56c0504c1ca133/odoo_addon_webservice-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Downloading https://files.pythonhosted.org/packages/59/42/d75412f3746fcb20971e37d1489d7b7fd9ae3ffea6e0ad8a718fa8cce9f7/odoo_addon_web_widget_open_tab-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/8c/70/c10d9edeb7bb64b1304b850e618d8f04c14939fea4f28d4ece088a6bd696/zlgsendcan-1.0.0.tar.gz
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Downloading https://files.pythonhosted.org/packages/88/b2/0161fb68f1a00a38808552d1d99c6d7637639664be424a6dd238705f4309/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/00/e6/0578955d4ccb5dc085ad27af03b50032824a17d79a9374b2e901c928ff31/pulumi_opnsense-0.0.84.tar.gz
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Downloading https://files.pythonhosted.org/packages/eb/33/dce44b3e240cc1c620e5aa948965a84c7a3bf1c686acb49e5be8ec09b40f/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint]: Downloading https://files.pythonhosted.org/packages/2f/b1/d29de79336ead65e6e4a4bd55ab09e7a6f25f119b3e87449d84fd400b4b3/odoo_addon_endpoint-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/94/53/ee82a1929e67a0ad9b5e6cfc2eda88a29824347354237e3d6449b85b0514/odoo_addons_oca_web-16.0.20230721.0-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/39/42/abd2e8d2f73bb3dfc8810d43fd44434baa4a379a9244f5d60533bff1d737/odoo_addon_webservice-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Downloading https://files.pythonhosted.org/packages/b6/96/e9f77d26372adec1ae80f46e1cec041d789551ce42323567fb405c2ed5b4/odoo_addon_web_widget_open_tab-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Downloading https://files.pythonhosted.org/packages/87/5c/f402d469067111a188e00f9ca2ee2037d58ab3da46ba166e5418618b5622/odoo_addons_oca_web_api-16.0.20230725.1-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ea/61/210ff5382f781f942c28aa537e654862c8cbcf66dc65cfd6a098774d0aba/pulumi_opnsense-0.0.85.tar.gz
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-webservice]: executing diffoscope
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_webservice-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_webservice-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-webservice/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-26 07:59:18] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/68/e4/b8bd04d2138ec3707d67223274bf737ac4bf5c5d6d30eab9fb16140f59e2/zlgsendcan-1.0.1.tar.gz
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: executing diffoscope
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_widget_open_tab-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_web_widget_open_tab-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-web-widget-open-tab/16.0.1.0.0.3-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/ae/c6/b4b027f2956becea2002f82316ac47d021ef066ba01fe7114e0b24d24bea/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint]: Downloading https://files.pythonhosted.org/packages/fa/49/a8335dd4861ad6dcbd885ba97a9af22d4ddc13a72436d35e70da81122402/odoo_addon_endpoint-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web-api]: executing diffoscope
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addons-oca-web-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web_api-16.0.20230725.1-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-web-api/16.0.20230606.0-16.0.20230725.1/diff.md --exclude *.pyd
+[2023-07-26 07:59:18] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Downloading https://files.pythonhosted.org/packages/b6/e1/fa1c0a9563da6fac3cc2060548c863563fdd640c96682a52922dbd9b92dc/odoo_addon_endpoint_route_handler-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-26 07:59:18] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 07:59:18] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.84.tar.gz tmp/pulumi_opnsense-0.0.85.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-07-26 07:59:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-26 07:59:19] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 07:59:19] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.0.tar.gz tmp/zlgsendcan-1.0.1.tar.gz --markdown 20230726/z/zlgsendcan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230721.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-web/16.0.20230721.0-16.0.20230725.0/diff.md --exclude *.pyd
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addon-endpoint]: executing diffoscope
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addon-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_endpoint-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_endpoint-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-endpoint/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: executing diffoscope
+[2023-07-26 07:59:19] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-endpoint-route-handler/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:59:19] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-26 07:59:19] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230726/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-26 07:59:19] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web_api-16.0.20230725.1-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Start processing: django-arcgis-address
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web-api]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-26 07:59:20] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230726/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 07:59:20] INFO root fetch - processPackages [django-arcgis-address]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [django-arcgis-address]: Downloading https://files.pythonhosted.org/packages/6e/a2/e7df4e30056e68a281480e981bef232580c20f52c3ced3bc8be0a4e56404/django-arcgis-address-1.2.0.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_open_tab-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_open_tab-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Start processing: multisig-ci
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-open-tab]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-webservice]: Start processing: zlgsendcan
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-webservice]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.84.tar.gz]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.85.tar.gz]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: actnova-yolo
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [multisig-ci]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230721.0-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.0.tar.gz]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.1.tar.gz]
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/8c/70/c10d9edeb7bb64b1304b850e618d8f04c14939fea4f28d4ece088a6bd696/zlgsendcan-1.0.0.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [django-arcgis-address]: Downloading https://files.pythonhosted.org/packages/b2/87/915a418cd6da91869844257f52a32d81f9c58d61e61d95f3f12f05ba26a5/django-arcgis-address-1.2.1.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-endpoint-route-handler]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - processPackages [odoo-addon-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-26 07:59:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-endpoint]: success
+[2023-07-26 07:59:20] INFO root fetch - processPackages [django-arcgis-address]: executing diffoscope
+[2023-07-26 07:59:20] INFO root fetch - processPackages [django-arcgis-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-arcgis-address-1.2.0.tar.gz tmp/django-arcgis-address-1.2.1.tar.gz --markdown 20230726/d/django-arcgis-address/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-26 07:59:20] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/c2/7d/f00ebfb5466f1d1d1d70050c140adddcd260aa971d0e744553b8b4b0be68/multisig_ci-0.4.9.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/68/e4/b8bd04d2138ec3707d67223274bf737ac4bf5c5d6d30eab9fb16140f59e2/zlgsendcan-1.0.1.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 07:59:20] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.0.tar.gz tmp/zlgsendcan-1.0.1.tar.gz --markdown 20230726/z/zlgsendcan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:59:21] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/c1/30/739660281e30e8077621799c46eea67404eb7aa940ce5a2837ea4a8d12fe/multisig_ci-0.5.0.tar.gz
+[2023-07-26 07:59:21] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 07:59:21] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 07:59:21] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-26 07:59:21] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.4.9.tar.gz tmp/multisig_ci-0.5.0.tar.gz --markdown 20230726/m/multisig-ci/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-26 07:59:21] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-26 07:59:21] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-26 07:59:21] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-26 07:59:21] INFO root fetch - processPackages [django-arcgis-address]: Remove: archive file [/home/abi/fetcher/tmp/django-arcgis-address-1.2.0.tar.gz]
+[2023-07-26 07:59:21] INFO root fetch - processPackages [django-arcgis-address]: Remove: archive file [/home/abi/fetcher/tmp/django-arcgis-address-1.2.1.tar.gz]
+[2023-07-26 07:59:21] INFO root fetch - main [MainThread]: End processing [django-arcgis-address]: success
+[2023-07-26 07:59:21] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.0.tar.gz]
+[2023-07-26 07:59:21] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.1.tar.gz]
+[2023-07-26 07:59:21] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 07:59:22] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.4.9.tar.gz]
+[2023-07-26 07:59:22] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.5.0.tar.gz]
+[2023-07-26 07:59:22] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-26 07:59:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-26 07:59:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-26 07:59:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-26 07:59:22] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 07:59:22] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 07:59:22] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 07:59:22] INFO root fetch - main [MainThread]: Store serial: [19039812]
