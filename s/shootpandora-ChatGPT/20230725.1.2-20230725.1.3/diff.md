@@ -1,0 +1,596 @@
+# Comparing `tmp/shootpandora-ChatGPT-20230725.1.2.tar.gz` & `tmp/shootpandora-ChatGPT-20230725.1.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "shootpandora-ChatGPT-20230725.1.2.tar", last modified: Wed Jul 26 04:14:37 2023, max compression
++gzip compressed data, was "shootpandora-ChatGPT-20230725.1.3.tar", last modified: Wed Jul 26 09:45:53 2023, max compression
+```
+
+## Comparing `shootpandora-ChatGPT-20230725.1.2.tar` & `shootpandora-ChatGPT-20230725.1.3.tar`
+
+### file list
+
+```diff
+@@ -1,115 +1,115 @@
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.401171 shootpandora-ChatGPT-20230725.1.2/
+--rw-rw-rw-   0        0        0    18431 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/LICENSE
+--rw-rw-rw-   0        0        0      192 2023-07-24 09:18:37.000000 shootpandora-ChatGPT-20230725.1.2/MANIFEST.in
+--rw-rw-rw-   0        0        0     7062 2023-07-26 04:14:37.399168 shootpandora-ChatGPT-20230725.1.2/PKG-INFO
+--rw-rw-rw-   0        0        0     5472 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.2/README.md
+--rw-rw-rw-   0        0        0      288 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/requirements.txt
+--rw-rw-rw-   0        0        0       77 2023-07-26 04:04:39.000000 shootpandora-ChatGPT-20230725.1.2/requirements_api.txt
+--rw-rw-rw-   0        0        0       42 2023-07-26 04:14:37.401171 shootpandora-ChatGPT-20230725.1.2/setup.cfg
+--rw-rw-rw-   0        0        0     2547 2023-07-26 04:04:39.000000 shootpandora-ChatGPT-20230725.1.2/setup.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.039169 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/
+--rw-rw-rw-   0        0        0     7062 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0     4634 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0      112 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/entry_points.txt
+--rw-rw-rw-   0        0        0      400 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/requires.txt
+--rw-rw-rw-   0        0        0       13 2023-07-26 04:14:36.000000 shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/top_level.txt
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.943168 shootpandora-ChatGPT-20230725.1.2/src/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.061167 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/
+--rw-rw-rw-   0        0        0       57 2023-07-26 04:04:39.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/__init__.py
+--rw-rw-rw-   0        0        0      112 2023-07-24 09:18:37.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/__main__.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.071169 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/
+--rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/__init__.py
+--rw-rw-rw-   0        0        0    17946 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/legacy.py
+--rw-rw-rw-   0        0        0    10683 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/server.py
+--rw-rw-rw-   0        0        0     2232 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/cloud_launcher.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.093165 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/
+--rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/__init__.py
+--rw-rw-rw-   0        0        0      540 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/config.py
+--rw-rw-rw-   0        0        0      968 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/hooks.py
+--rw-rw-rw-   0        0        0      502 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/sentry.py
+--rw-rw-rw-   0        0        0     1841 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/token.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.976166 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.107170 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.960168 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.970168 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.178172 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/
+--rw-rw-rw-   0        0        0   905465 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/113-23682f80a24dd00d.js
+--rw-rw-rw-   0        0        0    14115 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/14-0cb0d20affbd720d.js
+--rw-rw-rw-   0        0        0     9531 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/174-bd28069f281ef76f.js
+--rw-rw-rw-   0        0        0   264961 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/1f110208-44a6f43ddc5e9011.js
+--rw-rw-rw-   0        0        0    13157 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/264-13e92c51b0315184.js
+--rw-rw-rw-   0        0        0    24146 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/360-442b869f1ba4bb1b.js
+--rw-rw-rw-   0        0        0    20480 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/424-d1d3bfe6a3ca6c4a.js
+--rw-rw-rw-   0        0        0     3232 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/554.9b8bfd0762461d74.js
+--rw-rw-rw-   0        0        0      389 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/68a27ff6-1185184b61bc22d0.js
+--rw-rw-rw-   0        0        0    11682 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/762-222df1028c0c1555.js
+--rw-rw-rw-   0        0        0     2433 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/949.1a6eb804b5e91f61.js
+--rw-rw-rw-   0        0        0      462 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/bd26816a-981e1ddc27b37cc6.js
+--rw-rw-rw-   0        0        0   141402 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/framework-7a789ee31d2a7534.js
+--rw-rw-rw-   0        0        0   105264 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/main-149b337e061b4d04.js
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.187169 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/
+--rw-rw-rw-   0        0        0   305775 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/_app-aaa11de1926dcafe.js
+--rw-rw-rw-   0        0        0      250 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/_error-786d27d84962122a.js
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.191172 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/chat/
+--rw-rw-rw-   0        0        0   149542 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/chat/[[...chatId]]-76751174916fa3f7.js
+--rw-rw-rw-   0        0        0    91461 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+--rw-rw-rw-   0        0        0     3926 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/webpack-c9a868e8e0796ec6.js
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.196171 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/css/
+--rw-rw-rw-   0        0        0   108647 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/css/ac221fb2caad35a6.css
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.207169 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/
+--rw-rw-rw-   0        0        0     2308 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_buildManifest.js
+--rw-rw-rw-   0        0        0       77 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_ssgManifest.js
+--rw-rw-rw-   0        0        0     4159 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/apple-touch-icon.png
+--rw-rw-rw-   0        0        0      730 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/favicon-16x16.png
+--rw-rw-rw-   0        0        0     1292 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/favicon-32x32.png
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.311173 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/
+--rw-rw-rw-   0        0        0     7716 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Bold.woff
+--rw-rw-rw-   0        0        0     7656 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Regular.woff
+--rw-rw-rw-   0        0        0    13296 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Bold.woff
+--rw-rw-rw-   0        0        0    13208 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Regular.woff
+--rw-rw-rw-   0        0        0    29912 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Bold.woff
+--rw-rw-rw-   0        0        0    19412 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-BoldItalic.woff
+--rw-rw-rw-   0        0        0    19676 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Italic.woff
+--rw-rw-rw-   0        0        0    30772 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Regular.woff
+--rw-rw-rw-   0        0        0    18668 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Math-BoldItalic.woff
+--rw-rw-rw-   0        0        0    18748 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Math-Italic.woff
+--rw-rw-rw-   0        0        0    14408 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Bold.woff
+--rw-rw-rw-   0        0        0    14112 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Italic.woff
+--rw-rw-rw-   0        0        0    12316 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Regular.woff
+--rw-rw-rw-   0        0        0    10588 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Script-Regular.woff
+--rw-rw-rw-   0        0        0     6496 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size1-Regular.woff
+--rw-rw-rw-   0        0        0     6188 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size2-Regular.woff
+--rw-rw-rw-   0        0        0     4420 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size3-Regular.woff
+--rw-rw-rw-   0        0        0     5980 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size4-Regular.woff
+--rw-rw-rw-   0        0        0    16028 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Typewriter-Regular.woff
+--rw-rw-rw-   0        0        0   324208 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Signifier-Regular.otf
+--rw-rw-rw-   0        0        0   210840 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Sohne-Buch.otf
+--rw-rw-rw-   0        0        0   230012 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Sohne-Halbfett.otf
+--rw-rw-rw-   0        0        0    30824 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/SohneMono-Buch.otf
+--rw-rw-rw-   0        0        0    31116 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/SohneMono-Halbfett.otf
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.974165 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/images/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:36.974165 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/images/2022/
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.314165 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/images/2022/11/
+--rw-rw-rw-   0        0        0     1714 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/images/2022/11/ChatGPT.jpg
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.320171 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/templates/
+--rw-rw-rw-   0        0        0     8752 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/templates/chat.html
+--rw-rw-rw-   0        0        0     7540 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/launcher.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.338175 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/
+--rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/__init__.py
+--rw-rw-rw-   0        0        0      262 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/database.py
+--rw-rw-rw-   0        0        0      640 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/migrate.py
+--rw-rw-rw-   0        0        0     4293 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/models.py
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.343172 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/scripts/
+--rw-rw-rw-   0        0        0      904 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/scripts/20230308_01_7ctOr.sql
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.380169 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/
+--rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/__init__.py
+--rw-rw-rw-   0        0        0    12076 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/api.py
+--rw-rw-rw-   0        0        0     9090 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/auth.py
+--rw-rw-rw-   0        0        0      439 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/token.py
+--rw-rw-rw-   0        0        0     3532 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/utils.py
+--rw-rw-rw-   0        0        0        0 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/py.typed
+-drwxrwxrwx   0        0        0        0 2023-07-26 04:14:37.395166 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/
+--rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/__init__.py
+--rw-rw-rw-   0        0        0     6494 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/base.py
+--rw-rw-rw-   0        0        0    12819 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/chat.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.865728 shootpandora-ChatGPT-20230725.1.3/
++-rw-rw-rw-   0        0        0    18431 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/LICENSE
++-rw-rw-rw-   0        0        0      192 2023-07-24 09:18:37.000000 shootpandora-ChatGPT-20230725.1.3/MANIFEST.in
++-rw-rw-rw-   0        0        0     7062 2023-07-26 09:45:53.863729 shootpandora-ChatGPT-20230725.1.3/PKG-INFO
++-rw-rw-rw-   0        0        0     5472 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.3/README.md
++-rw-rw-rw-   0        0        0      288 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/requirements.txt
++-rw-rw-rw-   0        0        0       77 2023-07-26 09:40:20.000000 shootpandora-ChatGPT-20230725.1.3/requirements_api.txt
++-rw-rw-rw-   0        0        0       42 2023-07-26 09:45:53.865728 shootpandora-ChatGPT-20230725.1.3/setup.cfg
++-rw-rw-rw-   0        0        0     2547 2023-07-26 09:40:20.000000 shootpandora-ChatGPT-20230725.1.3/setup.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.379728 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/
++-rw-rw-rw-   0        0        0     7062 2023-07-26 09:45:52.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0     4634 2023-07-26 09:45:53.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-07-26 09:45:52.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0      112 2023-07-26 09:45:52.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/entry_points.txt
++-rw-rw-rw-   0        0        0      400 2023-07-26 09:45:52.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       13 2023-07-26 09:45:52.000000 shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.267732 shootpandora-ChatGPT-20230725.1.3/src/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.402727 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/
++-rw-rw-rw-   0        0        0       57 2023-07-26 09:40:20.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/__init__.py
++-rw-rw-rw-   0        0        0      112 2023-07-24 09:18:37.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/__main__.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.418728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/
++-rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/__init__.py
++-rw-rw-rw-   0        0        0    17946 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/legacy.py
++-rw-rw-rw-   0        0        0    10683 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/server.py
++-rw-rw-rw-   0        0        0     2232 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/cloud_launcher.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.449727 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/
++-rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/__init__.py
++-rw-rw-rw-   0        0        0      540 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/config.py
++-rw-rw-rw-   0        0        0      968 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/hooks.py
++-rw-rw-rw-   0        0        0      502 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/sentry.py
++-rw-rw-rw-   0        0        0     1841 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/token.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.311731 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.467729 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.277727 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.298735 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.574728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/
++-rw-rw-rw-   0        0        0   905465 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/113-23682f80a24dd00d.js
++-rw-rw-rw-   0        0        0    14115 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/14-0cb0d20affbd720d.js
++-rw-rw-rw-   0        0        0     9531 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/174-bd28069f281ef76f.js
++-rw-rw-rw-   0        0        0   264961 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/1f110208-44a6f43ddc5e9011.js
++-rw-rw-rw-   0        0        0    13157 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/264-13e92c51b0315184.js
++-rw-rw-rw-   0        0        0    24146 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/360-442b869f1ba4bb1b.js
++-rw-rw-rw-   0        0        0    20480 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/424-d1d3bfe6a3ca6c4a.js
++-rw-rw-rw-   0        0        0     3232 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/554.9b8bfd0762461d74.js
++-rw-rw-rw-   0        0        0      389 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/68a27ff6-1185184b61bc22d0.js
++-rw-rw-rw-   0        0        0    11682 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/762-222df1028c0c1555.js
++-rw-rw-rw-   0        0        0     2433 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/949.1a6eb804b5e91f61.js
++-rw-rw-rw-   0        0        0      462 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/bd26816a-981e1ddc27b37cc6.js
++-rw-rw-rw-   0        0        0   141402 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/framework-7a789ee31d2a7534.js
++-rw-rw-rw-   0        0        0   105264 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/main-149b337e061b4d04.js
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.585729 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/
++-rw-rw-rw-   0        0        0   305775 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/_app-aaa11de1926dcafe.js
++-rw-rw-rw-   0        0        0      250 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/_error-786d27d84962122a.js
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.590728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/chat/
++-rw-rw-rw-   0        0        0   149542 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/chat/[[...chatId]]-76751174916fa3f7.js
++-rw-rw-rw-   0        0        0    91461 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
++-rw-rw-rw-   0        0        0     3926 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/webpack-c9a868e8e0796ec6.js
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.596728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/css/
++-rw-rw-rw-   0        0        0   108647 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/css/ac221fb2caad35a6.css
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.612741 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/
++-rw-rw-rw-   0        0        0     2308 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_buildManifest.js
++-rw-rw-rw-   0        0        0       77 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_ssgManifest.js
++-rw-rw-rw-   0        0        0     4159 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/apple-touch-icon.png
++-rw-rw-rw-   0        0        0      730 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/favicon-16x16.png
++-rw-rw-rw-   0        0        0     1292 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/favicon-32x32.png
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.755731 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/
++-rw-rw-rw-   0        0        0     7716 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Bold.woff
++-rw-rw-rw-   0        0        0     7656 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Regular.woff
++-rw-rw-rw-   0        0        0    13296 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Bold.woff
++-rw-rw-rw-   0        0        0    13208 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Regular.woff
++-rw-rw-rw-   0        0        0    29912 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Bold.woff
++-rw-rw-rw-   0        0        0    19412 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-BoldItalic.woff
++-rw-rw-rw-   0        0        0    19676 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Italic.woff
++-rw-rw-rw-   0        0        0    30772 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Regular.woff
++-rw-rw-rw-   0        0        0    18668 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Math-BoldItalic.woff
++-rw-rw-rw-   0        0        0    18748 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Math-Italic.woff
++-rw-rw-rw-   0        0        0    14408 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Bold.woff
++-rw-rw-rw-   0        0        0    14112 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Italic.woff
++-rw-rw-rw-   0        0        0    12316 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Regular.woff
++-rw-rw-rw-   0        0        0    10588 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Script-Regular.woff
++-rw-rw-rw-   0        0        0     6496 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size1-Regular.woff
++-rw-rw-rw-   0        0        0     6188 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size2-Regular.woff
++-rw-rw-rw-   0        0        0     4420 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size3-Regular.woff
++-rw-rw-rw-   0        0        0     5980 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size4-Regular.woff
++-rw-rw-rw-   0        0        0    16028 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Typewriter-Regular.woff
++-rw-rw-rw-   0        0        0   324208 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Signifier-Regular.otf
++-rw-rw-rw-   0        0        0   210840 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Sohne-Buch.otf
++-rw-rw-rw-   0        0        0   230012 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Sohne-Halbfett.otf
++-rw-rw-rw-   0        0        0    30824 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/SohneMono-Buch.otf
++-rw-rw-rw-   0        0        0    31116 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/SohneMono-Halbfett.otf
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.307727 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/images/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.308726 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/images/2022/
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.761728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/images/2022/11/
++-rw-rw-rw-   0        0        0     1714 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/images/2022/11/ChatGPT.jpg
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.767730 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/templates/
++-rw-rw-rw-   0        0        0    10835 2023-07-26 09:42:42.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/templates/chat.html
++-rw-rw-rw-   0        0        0     7540 2023-07-24 09:19:09.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/launcher.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.795728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/
++-rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/__init__.py
++-rw-rw-rw-   0        0        0      262 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/database.py
++-rw-rw-rw-   0        0        0      640 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/migrate.py
++-rw-rw-rw-   0        0        0     4293 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/models.py
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.807728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/scripts/
++-rw-rw-rw-   0        0        0      904 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/scripts/20230308_01_7ctOr.sql
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.840728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/
++-rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/__init__.py
++-rw-rw-rw-   0        0        0    12076 2023-07-24 09:18:38.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/api.py
++-rw-rw-rw-   0        0        0     9090 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/auth.py
++-rw-rw-rw-   0        0        0      439 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/token.py
++-rw-rw-rw-   0        0        0     3532 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/utils.py
++-rw-rw-rw-   0        0        0        0 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/py.typed
++drwxrwxrwx   0        0        0        0 2023-07-26 09:45:53.857728 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/
++-rw-rw-rw-   0        0        0       25 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/__init__.py
++-rw-rw-rw-   0        0        0     6494 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/base.py
++-rw-rw-rw-   0        0        0    12819 2023-07-17 02:18:51.000000 shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/chat.py
+```
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/LICENSE` & `shootpandora-ChatGPT-20230725.1.3/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/PKG-INFO` & `shootpandora-ChatGPT-20230725.1.3/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: shootpandora-ChatGPT
+-Version: 20230725.1.2
++Version: 20230725.1.3
+ Summary: A command-line interface to ChatGPT
+ Home-page: https://github.com/shoot82003/shootpandora
+ Author: XiaoZhou Huang
+ Author-email: shoot82003@qq.com
+ Project-URL: Source, https://github.com/shoot82003/shootpandora
+ Project-URL: Tracker, https://github.com/shoot82003/shootpandora/issues
+ Keywords: OpenAI ChatGPT ChatGPT-Plus gpt-3.5-turbo gpt-3.5-turbo-0301
+```
+
+#### html2text {}
+
+```diff
+@@ -1,8 +1,8 @@
+-Metadata-Version: 2.1 Name: shootpandora-ChatGPT Version: 20230725.1.2 Summary:
++Metadata-Version: 2.1 Name: shootpandora-ChatGPT Version: 20230725.1.3 Summary:
+ A command-line interface to ChatGPT Home-page: https://github.com/shoot82003/
+ shootpandora Author: XiaoZhou Huang Author-email: shoot82003@qq.com Project-
+ URL: Source, https://github.com/shoot82003/shootpandora Project-URL: Tracker,
+ https://github.com/shoot82003/shootpandora/issues Keywords: OpenAI ChatGPT
+ ChatGPT-Plus gpt-3.5-turbo gpt-3.5-turbo-0301 Classifier: Development Status ::
+ 5 - Production/Stable Classifier: Environment :: Console Classifier:
+ Environment :: Web Environment Classifier: Framework :: Flask Classifier:
+```
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/README.md` & `shootpandora-ChatGPT-20230725.1.3/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/setup.py` & `shootpandora-ChatGPT-20230725.1.3/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -26,15 +26,15 @@
+     url='https://github.com/shoot82003/shootpandora',
+     packages=find_packages('src'),
+     package_dir={'shootpandora': 'src/shootpandora'},
+     include_package_data=True,
+     install_requires=requirements,
+     extras_require={
+         'api': requirements_api,
+-        'cloud': ['shootpandora-cloud~=20230725.1.2'],
++        'cloud': ['shootpandora-cloud~=20230725.1.3'],
+     },
+     entry_points={
+         'console_scripts': [
+             'shootpandora = shootpandora.launcher:run',
+             'shootpandora-cloud = shootpandora.cloud_launcher:run',
+         ]
+     },
+```
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/PKG-INFO` & `shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: shootpandora-ChatGPT
+-Version: 20230725.1.2
++Version: 20230725.1.3
+ Summary: A command-line interface to ChatGPT
+ Home-page: https://github.com/shoot82003/shootpandora
+ Author: XiaoZhou Huang
+ Author-email: shoot82003@qq.com
+ Project-URL: Source, https://github.com/shoot82003/shootpandora
+ Project-URL: Tracker, https://github.com/shoot82003/shootpandora/issues
+ Keywords: OpenAI ChatGPT ChatGPT-Plus gpt-3.5-turbo gpt-3.5-turbo-0301
+```
+
+#### html2text {}
+
+```diff
+@@ -1,8 +1,8 @@
+-Metadata-Version: 2.1 Name: shootpandora-ChatGPT Version: 20230725.1.2 Summary:
++Metadata-Version: 2.1 Name: shootpandora-ChatGPT Version: 20230725.1.3 Summary:
+ A command-line interface to ChatGPT Home-page: https://github.com/shoot82003/
+ shootpandora Author: XiaoZhou Huang Author-email: shoot82003@qq.com Project-
+ URL: Source, https://github.com/shoot82003/shootpandora Project-URL: Tracker,
+ https://github.com/shoot82003/shootpandora/issues Keywords: OpenAI ChatGPT
+ ChatGPT-Plus gpt-3.5-turbo gpt-3.5-turbo-0301 Classifier: Development Status ::
+ 5 - Production/Stable Classifier: Environment :: Console Classifier:
+ Environment :: Web Environment Classifier: Framework :: Flask Classifier:
+```
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/shootpandora_ChatGPT.egg-info/SOURCES.txt` & `shootpandora-ChatGPT-20230725.1.3/shootpandora_ChatGPT.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/legacy.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/legacy.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/bots/server.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/bots/server.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/cloud_launcher.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/cloud_launcher.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/config.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/config.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/hooks.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/hooks.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/exts/token.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/exts/token.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/113-23682f80a24dd00d.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/113-23682f80a24dd00d.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/14-0cb0d20affbd720d.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/14-0cb0d20affbd720d.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/174-bd28069f281ef76f.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/174-bd28069f281ef76f.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/1f110208-44a6f43ddc5e9011.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/1f110208-44a6f43ddc5e9011.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/264-13e92c51b0315184.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/264-13e92c51b0315184.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/360-442b869f1ba4bb1b.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/360-442b869f1ba4bb1b.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/424-d1d3bfe6a3ca6c4a.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/424-d1d3bfe6a3ca6c4a.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/554.9b8bfd0762461d74.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/554.9b8bfd0762461d74.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/762-222df1028c0c1555.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/762-222df1028c0c1555.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/949.1a6eb804b5e91f61.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/949.1a6eb804b5e91f61.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/framework-7a789ee31d2a7534.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/framework-7a789ee31d2a7534.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/main-149b337e061b4d04.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/main-149b337e061b4d04.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/_app-aaa11de1926dcafe.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/_app-aaa11de1926dcafe.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/pages/chat/[[...chatId]]-76751174916fa3f7.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/pages/chat/[[...chatId]]-76751174916fa3f7.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/chunks/webpack-c9a868e8e0796ec6.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/chunks/webpack-c9a868e8e0796ec6.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/css/ac221fb2caad35a6.css` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/css/ac221fb2caad35a6.css`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_buildManifest.js` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/_next/static/olf4sv64FWIcQ_zCGl90t/_buildManifest.js`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/apple-touch-icon.png` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/apple-touch-icon.png`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/favicon-16x16.png` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/favicon-16x16.png`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/favicon-32x32.png` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/favicon-32x32.png`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Bold.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Bold.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Caligraphic-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Bold.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Bold.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Fraktur-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Bold.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Bold.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-BoldItalic.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-BoldItalic.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Italic.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Italic.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Main-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Main-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Math-BoldItalic.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Math-BoldItalic.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Math-Italic.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Math-Italic.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Bold.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Bold.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Italic.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Italic.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_SansSerif-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Script-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Script-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size1-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size1-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size2-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size2-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size3-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size3-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Size4-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Size4-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/KaTeX_Typewriter-Regular.woff` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/KaTeX_Typewriter-Regular.woff`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Signifier-Regular.otf` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Signifier-Regular.otf`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Sohne-Buch.otf` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Sohne-Buch.otf`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/Sohne-Halbfett.otf` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/Sohne-Halbfett.otf`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/SohneMono-Buch.otf` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/SohneMono-Buch.otf`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/fonts/SohneMono-Halbfett.otf` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/fonts/SohneMono-Halbfett.otf`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/flask/static/images/2022/11/ChatGPT.jpg` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/flask/static/images/2022/11/ChatGPT.jpg`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/launcher.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/launcher.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/migrate.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/migrate.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/models.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/migrations/scripts/20230308_01_7ctOr.sql` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/migrations/scripts/20230308_01_7ctOr.sql`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/api.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/auth.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/auth.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/openai/utils.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/openai/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/base.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `shootpandora-ChatGPT-20230725.1.2/src/shootpandora/turbo/chat.py` & `shootpandora-ChatGPT-20230725.1.3/src/shootpandora/turbo/chat.py`
+
+ * *Files identical despite different names*
+
