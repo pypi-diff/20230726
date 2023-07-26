@@ -12676,3 +12676,47 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:43:43] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.3.tar.gz]
 [2023-07-26 07:43:43] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2023-07-26 07:43:43] INFO root fetch - main [MainThread]: Store serial: [19039714]
+[2023-07-26 07:48:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039714]
+[2023-07-26 07:48:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-26 07:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyreason
+[2023-07-26 07:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: check-changelog
+[2023-07-26 07:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hotel
+[2023-07-26 07:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-arcgis-address
+[2023-07-26 07:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-tvm
+[2023-07-26 07:48:53] INFO root fetch - processPackages [django-arcgis-address]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-26 07:48:53] INFO root fetch - processPackages [check-changelog]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-26 07:48:53] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-26 07:48:53] INFO root fetch - processPackages [pyreason]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-07-26 07:48:53] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/d1/0c/2ba932a3e7b6d1a61272966e8810b7027d41439aa9105acaf867dd5134f1/pyreason-1.8.5.tar.gz
+[2023-07-26 07:48:53] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev9]
+[2023-07-26 07:48:53] INFO root fetch - processPackages [check-changelog]: Downloading https://files.pythonhosted.org/packages/7a/62/42cb7872c0ce6c08aaa79a8b54e0610fb394a43720b576bd49ec68a6696e/check_changelog-0.4.0-py3-none-any.whl
+[2023-07-26 07:48:53] INFO root fetch - processPackages [django-arcgis-address]: Downloading https://files.pythonhosted.org/packages/ce/29/b7769fef4211dad8cf0d96d8b5d1a52597e647dacbedfb9c8ec8f77cefea/django-arcgis-address-1.1.0.tar.gz
+[2023-07-26 07:48:53] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-26 07:48:53] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/97/25/3524632ea469082fdcd74f8989d5b4ac507351cb9f2ed216b86976d1dbaf/apache_tvm-0.14.dev9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 07:48:53] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 82327624>=10485760
+[2023-07-26 07:48:53] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-07-26 07:48:53] INFO root fetch - processPackages [check-changelog]: Downloading https://files.pythonhosted.org/packages/df/e2/97d7c28e76e37b97a1d5daee4c6f1c67c96c14626b79792f7d35de96be99/check_changelog-0.4.1-py3-none-any.whl
+[2023-07-26 07:48:53] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/b5/7d/8a352c292a015df4f8c68db0b8a64b20a2bee7b39555d857c712b650b52e/pyreason-1.8.6.tar.gz
+[2023-07-26 07:48:53] INFO root fetch - processPackages [django-arcgis-address]: Downloading https://files.pythonhosted.org/packages/6e/a2/e7df4e30056e68a281480e981bef232580c20f52c3ced3bc8be0a4e56404/django-arcgis-address-1.2.0.tar.gz
+[2023-07-26 07:48:53] INFO root fetch - processPackages [check-changelog]: executing diffoscope
+[2023-07-26 07:48:53] INFO root fetch - processPackages [check-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_changelog-0.4.0-py3-none-any.whl.zip tmp/check_changelog-0.4.1-py3-none-any.whl.zip --markdown 20230726/c/check-changelog/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-26 07:48:54] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-26 07:48:54] INFO root fetch - processPackages [check-changelog]: Remove: archive file [/home/abi/fetcher/tmp/check_changelog-0.4.0-py3-none-any.whl.zip]
+[2023-07-26 07:48:54] INFO root fetch - processPackages [check-changelog]: Remove: archive file [/home/abi/fetcher/tmp/check_changelog-0.4.1-py3-none-any.whl.zip]
+[2023-07-26 07:48:54] INFO root fetch - main [MainThread]: End processing [check-changelog]: success
+[2023-07-26 07:48:54] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-07-26 07:48:54] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.8.5.tar.gz tmp/pyreason-1.8.6.tar.gz --markdown 20230726/p/pyreason/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-07-26 07:48:54] INFO root fetch - processPackages [django-arcgis-address]: executing diffoscope
+[2023-07-26 07:48:54] INFO root fetch - processPackages [django-arcgis-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-arcgis-address-1.1.0.tar.gz tmp/django-arcgis-address-1.2.0.tar.gz --markdown 20230726/d/django-arcgis-address/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-26 07:48:55] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-07-26 07:48:55] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-26 07:48:55] INFO root fetch - processPackages [django-arcgis-address]: Remove: archive file [/home/abi/fetcher/tmp/django-arcgis-address-1.1.0.tar.gz]
+[2023-07-26 07:48:55] INFO root fetch - processPackages [django-arcgis-address]: Remove: archive file [/home/abi/fetcher/tmp/django-arcgis-address-1.2.0.tar.gz]
+[2023-07-26 07:48:55] INFO root fetch - main [MainThread]: End processing [django-arcgis-address]: success
+[2023-07-26 07:48:55] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.5.tar.gz]
+[2023-07-26 07:48:55] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.6.tar.gz]
+[2023-07-26 07:48:55] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-07-26 07:48:56] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-26 07:48:56] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-26 07:48:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-07-26 07:48:56] INFO root fetch - main [MainThread]: Store serial: [19039728]
