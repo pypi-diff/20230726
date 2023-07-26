@@ -15413,3 +15413,136 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:46:13] INFO root fetch - processPackages [rgmining-fraud-eagle]: Remove: archive file [/home/abi/fetcher/tmp/rgmining-fraud-eagle-0.9.7.tar.gz]
 [2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [rgmining-fraud-eagle]: success
 [2023-07-26 09:46:13] INFO root fetch - main [MainThread]: Store serial: [19040852]
+[2023-07-26 09:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040852]
+[2023-07-26 09:51:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SC-Track
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-polardb
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmd
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dx-profiler
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redsession
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiderx
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: illumigator
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tomni
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-07-26 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fugue-ml
+[2023-07-26 09:51:22] INFO root fetch - processPackages [SC-Track]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [redsession]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [fugue-ml]: New version: [0.0.3.dev2] Old Version: [0.0.3.dev1]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [illumigator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [dx-profiler]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [tomni]: New version: [2.0.0b1] Old Version: [1.9.2]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-26 09:51:22] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/52/35/f43a0abafbc8049b67321a0bd70928c26a08ebaad8a0d3a065fcf9cfe5fc/redsession-1.1.0.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/ee/e2/5abe02914bd2c0aaca3c1ba7600181214c864e3ad93c4e6411421c3fe349/illumigator-0.0.8.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-26 09:51:22] INFO root fetch - processPackages [dx-profiler]: Downloading https://files.pythonhosted.org/packages/91/57/619fc0c859aa0a2e6ccdd22d59195bf2dc368b232b0c78228944fc6db4d1/dx_profiler-0.0.1.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [SC-Track]: Downloading https://files.pythonhosted.org/packages/b2/62/04ad608a1cf2ac48992cbe883b85f945f42ee3112f168003846c2f0038d9/SC-Track-0.0.4.tar.gz
+[2023-07-26 09:51:22] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 62524130>=10485760
+[2023-07-26 09:51:22] INFO root fetch - processPackages [illumigator]: Start processing: keyvalues3
+[2023-07-26 09:51:22] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-07-26 09:51:22] INFO root fetch - processPackages [fugue-ml]: Downloading https://files.pythonhosted.org/packages/28/03/1fd3c64ecf211cce2593d15e053b7e069dbf58037f2a789d65342cc86735/fugue-ml-0.0.3.dev1.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [tomni]: Downloading https://files.pythonhosted.org/packages/d5/9a/896e8c47073505e0fa333d3230a5c494550b07d5c5fb49da4ad796c271b5/tomni-1.9.2.tar.gz
+[2023-07-26 09:51:22] INFO root fetch - processPackages [keyvalues3]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-07-26 09:51:23] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/0c/a0/b27ad13afa5da66417de02caebff0a2408608cbf0d7e58b074bc78d87756/redsession-1.1.1.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [keyvalues3]: Downloading https://files.pythonhosted.org/packages/f4/40/a437d05cf77fc7e8db26f24340e9b1f0d742d1eacc83b4590ceb9cb8b30c/keyvalues3-0.1a1.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230726/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [dx-profiler]: Downloading https://files.pythonhosted.org/packages/12/26/0ad7f27ffed2806f748d9dcc4a2d165794187ebccaeb058bb31d023f170d/dx_profiler-0.1.0.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [redsession]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [redsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redsession-1.1.0.tar.gz tmp/redsession-1.1.1.tar.gz --markdown 20230726/r/redsession/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230726/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [SC-Track]: Downloading https://files.pythonhosted.org/packages/94/2c/c42646da1e8cbd741037fc242362974d32cd59b32329725b1d54d17a5ce5/SC-Track-0.0.5.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [fugue-ml]: Downloading https://files.pythonhosted.org/packages/e7/0e/797abbf7d05cedfc9aef76db0ec66c82ee21dd0da80383e6a7996fb91578/fugue-ml-0.0.3.dev2.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [tomni]: Downloading https://files.pythonhosted.org/packages/92/59/96ebb7c50cbc29b44baca0d5a57c069ea93a7a9bf4b95222a232ee268041/tomni-2.0.0b1.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-26 09:51:23] INFO root fetch - processPackages [SC-Track]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [SC-Track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC-Track-0.0.4.tar.gz tmp/SC-Track-0.0.5.tar.gz --markdown 20230726/S/SC-Track/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [fugue-ml]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [fugue-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-ml-0.0.3.dev1.tar.gz tmp/fugue-ml-0.0.3.dev2.tar.gz --markdown 20230726/f/fugue-ml/0.0.3.dev1-0.0.3.dev2/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [dx-profiler]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [dx-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dx_profiler-0.0.1.tar.gz tmp/dx_profiler-0.1.0.tar.gz --markdown 20230726/d/dx-profiler/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [tomni]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [tomni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomni-1.9.2.tar.gz tmp/tomni-2.0.0b1.tar.gz --markdown 20230726/t/tomni/1.9.2-2.0.0b1/diff.md --exclude *.pyd
+[2023-07-26 09:51:23] INFO root fetch - processPackages [keyvalues3]: Downloading https://files.pythonhosted.org/packages/c8/40/6aba825e645328b6b59ab9374b007939261008fabfebd223f45758d66be8/keyvalues3-0.1a2.tar.gz
+[2023-07-26 09:51:23] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-26 09:51:23] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230726/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-26 09:51:24] INFO root fetch - processPackages [keyvalues3]: executing diffoscope
+[2023-07-26 09:51:24] INFO root fetch - processPackages [keyvalues3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyvalues3-0.1a1.tar.gz tmp/keyvalues3-0.1a2.tar.gz --markdown 20230726/k/keyvalues3/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-07-26 09:51:25] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.1.0.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.1.1.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [redsession]: Start processing: Products.urban
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [redsession]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [Products.urban]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [bcmd]: Start processing: connectome
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [spiderx]: Start processing: navalmartin-mir-aws-utils
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [SC-Track]: Remove: archive file [/home/abi/fetcher/tmp/SC-Track-0.0.4.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [SC-Track]: Remove: archive file [/home/abi/fetcher/tmp/SC-Track-0.0.5.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [SC-Track]: Start processing: tf-nightly-cpu
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [SC-Track]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [connectome]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.30]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [dx-profiler]: Remove: archive file [/home/abi/fetcher/tmp/dx_profiler-0.0.1.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [dx-profiler]: Remove: archive file [/home/abi/fetcher/tmp/dx_profiler-0.1.0.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [dx-profiler]: Start processing: ailess
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [dx-profiler]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/70/3e/caae007c5dbb7339aa758f55c856477244aa743c19e23abc15485bb27b20/Products.urban-2.6.3.tar.gz
+[2023-07-26 09:51:25] INFO root fetch - processPackages [fugue-ml]: Remove: archive file [/home/abi/fetcher/tmp/fugue-ml-0.0.3.dev1.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [fugue-ml]: Remove: archive file [/home/abi/fetcher/tmp/fugue-ml-0.0.3.dev2.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [fugue-ml]: success
+[2023-07-26 09:51:25] WARNING root fetch - processPackages [ailess]: Skipping, unable to determine old version
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [ailess] error
+[2023-07-26 09:51:25] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22166506>=10485760
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-26 09:51:25] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230726] Old Version: [2.14.0.dev20230725]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [keyvalues3]: Remove: archive file [/home/abi/fetcher/tmp/keyvalues3-0.1a1.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [keyvalues3]: Remove: archive file [/home/abi/fetcher/tmp/keyvalues3-0.1a2.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [keyvalues3]: success
+[2023-07-26 09:51:25] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/7c/e1/5a1fa1aa2770d269cf8cb979be5d46386e507ea86d15feeb3502f8a1f160/navalmartin_mir_aws_utils-0.0.30.tar.gz
+[2023-07-26 09:51:25] INFO root fetch - processPackages [connectome]: Downloading https://files.pythonhosted.org/packages/c3/18/928d412fc7202aa9e1e0a39e86713ffd27d634d4d849f5a9e48697a8b1fe/connectome-0.7.1.tar.gz
+[2023-07-26 09:51:25] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-07-26 09:51:25] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b7/03/0e1dca5469c8e994f179909afb43a1b21e8ae7dad5f86095d105280e110f/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tomni]: Remove: archive file [/home/abi/fetcher/tmp/tomni-1.9.2.tar.gz]
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tomni]: Remove: archive file [/home/abi/fetcher/tmp/tomni-2.0.0b1.tar.gz]
+[2023-07-26 09:51:26] INFO root fetch - main [MainThread]: End processing [tomni]: success
+[2023-07-26 09:51:26] INFO root fetch - processPackages [connectome]: Downloading https://files.pythonhosted.org/packages/29/44/d404fdf37027804a3b6ec4e524a8bcb7772356a1280f824beacb62857e58/connectome-0.8.0.tar.gz
+[2023-07-26 09:51:26] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e2/57/e1aab93c6659f7e3affe0f1caebebbebb1841b06986e65cc8b67388b690c/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl
+[2023-07-26 09:51:26] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-07-26 09:51:26] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.30.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230726/n/navalmartin-mir-aws-utils/0.0.30-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:51:26] INFO root fetch - processPackages [connectome]: executing diffoscope
+[2023-07-26 09:51:26] INFO root fetch - processPackages [connectome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectome-0.7.1.tar.gz tmp/connectome-0.8.0.tar.gz --markdown 20230726/c/connectome/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-26 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl.zip --markdown 20230726/t/tf-nightly-cpu/2.14.0.dev20230725-2.14.0.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 09:51:27] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.30.tar.gz]
+[2023-07-26 09:51:27] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz]
+[2023-07-26 09:51:27] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-07-26 09:51:27] INFO root fetch - processPackages [connectome]: Remove: archive file [/home/abi/fetcher/tmp/connectome-0.7.1.tar.gz]
+[2023-07-26 09:51:27] INFO root fetch - processPackages [connectome]: Remove: archive file [/home/abi/fetcher/tmp/connectome-0.8.0.tar.gz]
+[2023-07-26 09:51:27] INFO root fetch - main [MainThread]: End processing [connectome]: success
+[2023-07-26 09:51:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 09:51:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 09:51:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-26 09:51:28] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-26 09:51:28] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-26 09:51:28] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-26 09:51:28] INFO root fetch - main [MainThread]: Store serial: [19040900]
