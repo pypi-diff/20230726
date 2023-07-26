@@ -15651,3 +15651,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:56:41] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
 [2023-07-26 09:56:41] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
 [2023-07-26 09:56:41] INFO root fetch - main [MainThread]: Store serial: [19040933]
+[2023-07-26 10:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040933]
+[2023-07-26 10:01:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDCRPy
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LiteClashProMan
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webgeodyn
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysqream-blue-sqlalchemy
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zlgsendcan
+[2023-07-26 10:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-opnsense
+[2023-07-26 10:01:50] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [LiteClashProMan]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: New version: [0.6] Old Version: [0.5]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [webgeodyn]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 10:01:50] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/c7/dc/c34061b6ab576bb185795379e5e45e8132c79ca42f449f7065568d2d5d85/pulumi_opnsense-0.0.96.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/a2/7e/fa716ccbb1e995ce4804f1705431388fbab6d3ecaf09be1856a1438a1ba3/zlgsendcan-1.0.5.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [LiteClashProMan]: Downloading https://files.pythonhosted.org/packages/bc/fc/14299c380fbd4b54c9551265d0a14709cd6844999d56eef299534da6ba14/liteclashproman-0.4.1.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/f7/8d/9dd08d2629e68c69466e598b7374ca8138ca2d588829187b1051dadcdf73/pysqream_blue_sqlalchemy-0.5.tar.gz
+[2023-07-26 10:01:50] INFO root fetch - processPackages [webgeodyn]: Downloading https://files.pythonhosted.org/packages/a2/98/9fc309752cba1205023f86e13cce6157b485c66fa73fdda3a48fe1f17e76/webgeodyn-0.9.1.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/f7/b2/4354edc7070764da02788a7557722a859bcdbbfe790e944aa5f6990ebcf2/pulumi_opnsense-0.0.97.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [LiteClashProMan]: Downloading https://files.pythonhosted.org/packages/1b/82/5190983b80bca4ced855b7c69e7eb3a1828fe6b7efed1dc37f3bb0b58f64/liteclashproman-0.5.0.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/5f/08/e80682fc6a92369ec641707f93da9373a7c422704d2fede814961710bafb/pysqream_blue_sqlalchemy-0.6.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/f6/96/d23e1b60b21aa4afcd1f5006af31043dd20118c0ffcb61f43f6ada4a1c4e/zlgsendcan-1.0.6.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230726/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.96.tar.gz tmp/pulumi_opnsense-0.0.97.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-26 10:01:51] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream_blue_sqlalchemy-0.5.tar.gz tmp/pysqream_blue_sqlalchemy-0.6.tar.gz --markdown 20230726/p/pysqream-blue-sqlalchemy/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-26 10:01:51] INFO root fetch - processPackages [LiteClashProMan]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [LiteClashProMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteclashproman-0.4.1.tar.gz tmp/liteclashproman-0.5.0.tar.gz --markdown 20230726/L/LiteClashProMan/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-26 10:01:51] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.5.tar.gz tmp/zlgsendcan-1.0.6.tar.gz --markdown 20230726/z/zlgsendcan/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-26 10:01:51] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 10:01:51] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 10:01:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.96.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.97.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 10:01:52] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/pysqream_blue_sqlalchemy-0.5.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/pysqream_blue_sqlalchemy-0.6.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - main [MainThread]: End processing [pysqream-blue-sqlalchemy]: success
+[2023-07-26 10:01:52] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-26 10:01:52] INFO root fetch - processPackages [LiteClashProMan]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.4.1.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - processPackages [LiteClashProMan]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.5.0.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - main [MainThread]: End processing [LiteClashProMan]: success
+[2023-07-26 10:01:52] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.5.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.6.tar.gz]
+[2023-07-26 10:01:52] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 10:01:54] INFO root fetch - processPackages [webgeodyn]: Downloading https://files.pythonhosted.org/packages/54/19/c2b1ab3442a61e0f15d63b03e5724ac35de2adb0dae05748787d5a25f0bb/webgeodyn-0.9.2.tar.gz
+[2023-07-26 10:01:55] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 10:01:55] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 10:01:55] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 10:01:57] INFO root fetch - processPackages [webgeodyn]: executing diffoscope
+[2023-07-26 10:01:57] INFO root fetch - processPackages [webgeodyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgeodyn-0.9.1.tar.gz tmp/webgeodyn-0.9.2.tar.gz --markdown 20230726/w/webgeodyn/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-26 10:02:01] INFO root fetch - processPackages [webgeodyn]: Remove: archive file [/home/abi/fetcher/tmp/webgeodyn-0.9.1.tar.gz]
+[2023-07-26 10:02:01] INFO root fetch - processPackages [webgeodyn]: Remove: archive file [/home/abi/fetcher/tmp/webgeodyn-0.9.2.tar.gz]
+[2023-07-26 10:02:01] INFO root fetch - main [MainThread]: End processing [webgeodyn]: success
+[2023-07-26 10:02:01] INFO root fetch - main [MainThread]: Store serial: [19040953]
