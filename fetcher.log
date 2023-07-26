@@ -11739,3 +11739,38 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:56:20] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.0.11.tar.gz]
 [2023-07-26 06:56:20] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets]: success
 [2023-07-26 06:56:20] INFO root fetch - main [MainThread]: Store serial: [19039425]
+[2023-07-26 07:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039425]
+[2023-07-26 07:01:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 07:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illumigator
+[2023-07-26 07:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-harpoon
+[2023-07-26 07:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-waffle
+[2023-07-26 07:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-rest-framework
+[2023-07-26 07:01:29] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: New version: [16.0.20230725.0] Old Version: [16.0.20230626.0]
+[2023-07-26 07:01:29] INFO root fetch - processPackages [illumigator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 07:01:29] INFO root fetch - processPackages [django-waffle]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-07-26 07:01:29] INFO root fetch - processPackages [docker-harpoon]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-26 07:01:29] INFO root fetch - processPackages [django-waffle]: Downloading https://files.pythonhosted.org/packages/61/6e/e1c87c9c35c890383ecfc672e156fa130d3574f1220dd6af328904b471f7/django-waffle-3.0.0.tar.gz
+[2023-07-26 07:01:29] INFO root fetch - processPackages [docker-harpoon]: Downloading https://files.pythonhosted.org/packages/b8/c0/13d34843519f214466cf28be0fa59ab9eb909b6ee1e8395c544c9927fe79/docker-harpoon-0.9.6.tar.gz
+[2023-07-26 07:01:29] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/ee/e2/5abe02914bd2c0aaca3c1ba7600181214c864e3ad93c4e6411421c3fe349/illumigator-0.0.8.tar.gz
+[2023-07-26 07:01:29] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/d9/0f/54388b23534abc4203f1bcd28d0ed0f0734ec2fed82baf9a7ae828b15229/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl
+[2023-07-26 07:01:29] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 62524130>=10485760
+[2023-07-26 07:01:29] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-07-26 07:01:29] INFO root fetch - processPackages [django-waffle]: Downloading https://files.pythonhosted.org/packages/76/f4/8b2a33e234cb91b57091e87d144317bb14cfb4050b4749eb1b6c7e86f0f0/django-waffle-4.0.0.tar.gz
+[2023-07-26 07:01:29] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/8c/4f/c7345be64394ff20497dfc9b642b6ab7ed38839ca83de977e2fc21f21e74/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl
+[2023-07-26 07:01:30] INFO root fetch - processPackages [django-waffle]: executing diffoscope
+[2023-07-26 07:01:30] INFO root fetch - processPackages [django-waffle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-waffle-3.0.0.tar.gz tmp/django-waffle-4.0.0.tar.gz --markdown 20230726/d/django-waffle/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-26 07:01:30] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: executing diffoscope
+[2023-07-26 07:01:30] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl.zip tmp/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-rest-framework/16.0.20230626.0-16.0.20230725.0/diff.md --exclude *.pyd
+[2023-07-26 07:01:30] INFO root fetch - processPackages [docker-harpoon]: Downloading https://files.pythonhosted.org/packages/0c/54/806cd2bb1686751e004bd2ad144434006cd1e2c7f2d3d09bdbb1cf99df00/docker-harpoon-0.9.7.tar.gz
+[2023-07-26 07:01:30] INFO root fetch - processPackages [docker-harpoon]: executing diffoscope
+[2023-07-26 07:01:30] INFO root fetch - processPackages [docker-harpoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-harpoon-0.9.6.tar.gz tmp/docker-harpoon-0.9.7.tar.gz --markdown 20230726/d/docker-harpoon/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-26 07:01:30] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-07-26 07:01:30] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-07-26 07:01:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-rest-framework]: success
+[2023-07-26 07:01:30] INFO root fetch - processPackages [django-waffle]: Remove: archive file [/home/abi/fetcher/tmp/django-waffle-3.0.0.tar.gz]
+[2023-07-26 07:01:30] INFO root fetch - processPackages [django-waffle]: Remove: archive file [/home/abi/fetcher/tmp/django-waffle-4.0.0.tar.gz]
+[2023-07-26 07:01:30] INFO root fetch - main [MainThread]: End processing [django-waffle]: success
+[2023-07-26 07:01:31] INFO root fetch - processPackages [docker-harpoon]: Remove: archive file [/home/abi/fetcher/tmp/docker-harpoon-0.9.6.tar.gz]
+[2023-07-26 07:01:31] INFO root fetch - processPackages [docker-harpoon]: Remove: archive file [/home/abi/fetcher/tmp/docker-harpoon-0.9.7.tar.gz]
+[2023-07-26 07:01:31] INFO root fetch - main [MainThread]: End processing [docker-harpoon]: success
+[2023-07-26 07:01:31] INFO root fetch - main [MainThread]: Store serial: [19039435]
