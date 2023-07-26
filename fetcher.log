@@ -10418,3 +10418,36 @@
 [2023-07-26 05:12:21] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
 [2023-07-26 05:12:21] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
 [2023-07-26 05:12:21] INFO root fetch - main [MainThread]: Store serial: [19038896]
+[2023-07-26 05:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038896]
+[2023-07-26 05:17:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 05:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-07-26 05:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GANDLF
+[2023-07-26 05:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frics
+[2023-07-26 05:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsface-match-cpu-python
+[2023-07-26 05:17:29] WARNING root fetch - processPackages [frics]: Skipping, unable to determine old version
+[2023-07-26 05:17:29] INFO root fetch - main [MainThread]: End processing [frics] error
+[2023-07-26 05:17:29] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230726] Old Version: [0.0.17.dev20230725]
+[2023-07-26 05:17:29] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-26 05:17:29] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/df/94/fd9bad20a7c27c48453a127e2c0c49cde2f34aac5e679bbdef1f01ecef9f/GANDLF-0.0.17.dev20230725.tar.gz
+[2023-07-26 05:17:29] INFO root fetch - processPackages [nsface-match-cpu-python]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-26 05:17:30] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-26 05:17:30] INFO root fetch - processPackages [nsface-match-cpu-python]: Downloading https://files.pythonhosted.org/packages/89/b0/eb22dad4ab16e1308319e49d9fb5deef9f8db02efd686b2b6bf3cc69f798/nsface_match_cpu_python-0.0.13-py3-none-any.whl
+[2023-07-26 05:17:30] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-26 05:17:30] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/c4/b9/694f51c90bc69c5e171713e22d52799ea5a023728e9467360fd549ac5c4b/GANDLF-0.0.17.dev20230726.tar.gz
+[2023-07-26 05:17:30] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-26 05:17:30] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230726/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-26 05:17:30] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-26 05:17:30] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230725.tar.gz tmp/GANDLF-0.0.17.dev20230726.tar.gz --markdown 20230726/G/GANDLF/0.0.17.dev20230725-0.0.17.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 05:17:30] INFO root fetch - processPackages [nsface-match-cpu-python]: Downloading https://files.pythonhosted.org/packages/80/2d/08161381ff62cc115a0a8eeb4335658f9e287bff2a2c215665dac46796cf/nsface_match_cpu_python-0.0.14-py3-none-any.whl
+[2023-07-26 05:17:30] INFO root fetch - processPackages [nsface-match-cpu-python]: executing diffoscope
+[2023-07-26 05:17:30] INFO root fetch - processPackages [nsface-match-cpu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_match_cpu_python-0.0.13-py3-none-any.whl.zip tmp/nsface_match_cpu_python-0.0.14-py3-none-any.whl.zip --markdown 20230726/n/nsface-match-cpu-python/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-26 05:17:31] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-26 05:17:31] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-26 05:17:31] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-26 05:17:31] INFO root fetch - processPackages [nsface-match-cpu-python]: Remove: archive file [/home/abi/fetcher/tmp/nsface_match_cpu_python-0.0.13-py3-none-any.whl.zip]
+[2023-07-26 05:17:31] INFO root fetch - processPackages [nsface-match-cpu-python]: Remove: archive file [/home/abi/fetcher/tmp/nsface_match_cpu_python-0.0.14-py3-none-any.whl.zip]
+[2023-07-26 05:17:31] INFO root fetch - main [MainThread]: End processing [nsface-match-cpu-python]: success
+[2023-07-26 05:17:31] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230725.tar.gz]
+[2023-07-26 05:17:31] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230726.tar.gz]
+[2023-07-26 05:17:31] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-26 05:17:31] INFO root fetch - main [MainThread]: Store serial: [19038912]
