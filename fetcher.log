@@ -22023,3 +22023,147 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:34:40] INFO root fetch - processPackages [sparkx]: Remove: archive file [/home/abi/fetcher/tmp/sparkx-1.0.2.tar.gz]
 [2023-07-26 14:34:40] INFO root fetch - main [MainThread]: End processing [sparkx]: success
 [2023-07-26 14:34:40] INFO root fetch - main [MainThread]: Store serial: [19043539]
+[2023-07-26 14:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043539]
+[2023-07-26 14:39:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymolviz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiledb-jupyter-bioimg
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-ravworks-exporter
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-opnsense
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otgCrypto
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atbu-pkg
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-07-26 14:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keyof
+[2023-07-26 14:39:53] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [spotPython]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [pymolviz]: New version: [1.1.1.1] Old Version: [1.1.1]
+[2023-07-26 14:39:53] WARNING root fetch - processPackages [keyof]: Skipping, unable to determine old version
+[2023-07-26 14:39:53] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [keyof]: Start processing: OpenLIBS
+[2023-07-26 14:39:53] INFO root fetch - main [MainThread]: End processing [keyof] error
+[2023-07-26 14:39:53] INFO root fetch - processPackages [aa-ravworks-exporter]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.4a1] Old Version: [0.1.4a0]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 14:39:53] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/f3/c7/13fd11833e31ca7e0c2442dbfe99027d033a5e653861d6376799709c5fc9/pymolviz-1.1.1.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/39/0a/926e39ce8ad2ce09c7fbb2203730fc1430777b4b144a50fc60c3d3255d0c/spotPython-0.6.8.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/21/b4/962b9438a30dcbce85f4f4c451be1b3e9d29ed2abb03d29af5e2b62e99fa/otgCrypto-0.0.2.tar.gz
+[2023-07-26 14:39:53] WARNING root fetch - processPackages [OpenLIBS]: Skipping, unable to determine old version
+[2023-07-26 14:39:53] INFO root fetch - processPackages [OpenLIBS]: Start processing: selenium-profiles
+[2023-07-26 14:39:53] INFO root fetch - main [MainThread]: End processing [OpenLIBS] error
+[2023-07-26 14:39:53] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/12/94/cccd14d628c2a3f75dbdd64004e428bb24bd32c6506ab91571df3c9c6e50/tiledb_jupyter_bioimg-0.1.4a0.tar.gz
+[2023-07-26 14:39:53] INFO root fetch - processPackages [aa-ravworks-exporter]: Downloading https://files.pythonhosted.org/packages/80/ff/ec16b842b60d605b2e8ef0d10fd952e884bfd97e65891abeac163dc3a7bf/aa-ravworks-exporter-0.1.1.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [selenium-profiles]: New version: [2.2.8] Old Version: [2.2.7.4]
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/34/d7/9eb3b18ef7fd077aefcccecc4dc2bb7da8dd6e363e711bf6e12fd886eb6d/otgCrypto-0.0.3.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/54/24/54b3dfd5a610d5457dd3b421faa393529ad969bffa97b8c7cfa479e04b4a/pymolviz-1.1.1.1.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/d4/e9/900d6c0f4c0ddd3d7d7861d743e55a1b9d418278e873f8334d1d43baa25f/selenium_profiles-2.2.7.4.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.2.tar.gz tmp/otgCrypto-0.0.3.tar.gz --markdown 20230726/o/otgCrypto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [aa-ravworks-exporter]: Downloading https://files.pythonhosted.org/packages/0b/2f/58ef8dfae76784c21f62de70dcab753dff735e70ddc05e0576621f9f4d8d/aa-ravworks-exporter-0.2.0.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230726/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pymolviz]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [pymolviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymolviz-1.1.1.tar.gz tmp/pymolviz-1.1.1.1.tar.gz --markdown 20230726/p/pymolviz/1.1.1-1.1.1.1/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/e2/a8/4ce2cb816d4c6119b02cffc541248b0b8ceeb5a44c55da5c2ac992a8725d/tiledb_jupyter_bioimg-0.1.4a1.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [aa-ravworks-exporter]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [aa-ravworks-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-ravworks-exporter-0.1.1.tar.gz tmp/aa-ravworks-exporter-0.2.0.tar.gz --markdown 20230726/a/aa-ravworks-exporter/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230726/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/6a/0d/dc91bc61ac4c02c19930d105568cbb361039277f0d6cf9450a14cb34f05a/selenium_profiles-2.2.8.tar.gz
+[2023-07-26 14:39:54] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.4a0.tar.gz tmp/tiledb_jupyter_bioimg-0.1.4a1.tar.gz --markdown 20230726/t/tiledb-jupyter-bioimg/0.1.4a0-0.1.4a1/diff.md --exclude *.pyd
+[2023-07-26 14:39:54] INFO root fetch - processPackages [selenium-profiles]: executing diffoscope
+[2023-07-26 14:39:54] INFO root fetch - processPackages [selenium-profiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_profiles-2.2.7.4.tar.gz tmp/selenium_profiles-2.2.8.tar.gz --markdown 20230726/s/selenium-profiles/2.2.7.4-2.2.8/diff.md --exclude *.pyd
+[2023-07-26 14:39:55] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-26 14:39:55] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/38/50/bc4a52db6ffa1eda190981c2a731082452d4cd6567dc3be662b1b457e8f8/spotPython-0.6.9.tar.gz
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: queryandprocessdatautility
+[2023-07-26 14:39:55] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 14:39:55] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.2.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.3.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [otgCrypto]: Start processing: localstack-core
+[2023-07-26 14:39:55] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-26 14:39:55] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [bridgecrew]: Start processing: hgcal-swamp
+[2023-07-26 14:39:55] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-26 14:39:55] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230726122123] Old Version: [2.2.1.dev20230726085137]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.1.1.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.1.1.1.tar.gz]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [pymolviz]: Start processing: systemdumpy
+[2023-07-26 14:39:55] INFO root fetch - main [MainThread]: End processing [pymolviz]: success
+[2023-07-26 14:39:55] INFO root fetch - processPackages [hgcal-swamp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-26 14:39:55] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-07-26 14:39:55] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-26 14:39:55] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230726/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-26 14:39:55] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/2d/2f/b11fd2514d40db01eee0d99d5add81953076a3a91daac14df48ee40e2fab/hgcal_swamp-0.2.0.tar.gz
+[2023-07-26 14:39:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/06/02/2488a931765bd6f9154a8b41daf86ee91c35012170fc951a020778e35bd9/localstack-core-2.2.1.dev20230726085137.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [aa-ravworks-exporter]: Remove: archive file [/home/abi/fetcher/tmp/aa-ravworks-exporter-0.1.1.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [aa-ravworks-exporter]: Remove: archive file [/home/abi/fetcher/tmp/aa-ravworks-exporter-0.2.0.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [aa-ravworks-exporter]: Start processing: code-loader
+[2023-07-26 14:39:56] INFO root fetch - main [MainThread]: End processing [aa-ravworks-exporter]: success
+[2023-07-26 14:39:56] INFO root fetch - processPackages [systemdumpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-07-26 14:39:56] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-07-26 14:39:56] INFO root fetch - processPackages [systemdumpy]: Downloading https://files.pythonhosted.org/packages/77/c3/e19c41d650e4c30d16b7c067df20bb711ad5d5d43afb6559d76e33274b07/systemdumpy-1.0.2.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b1/e9/ba0f971c34c7bddbe8216fc823890e9fad367d4fae15daa11bdf4caff067/localstack-core-2.2.1.dev20230726122123.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.7.4.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.8.tar.gz]
+[2023-07-26 14:39:56] INFO root fetch - main [MainThread]: End processing [selenium-profiles]: success
+[2023-07-26 14:39:56] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230726/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:39:56] INFO root fetch - processPackages [hgcal-swamp]: Downloading https://files.pythonhosted.org/packages/3e/dc/6a0aaba3665fc720cccb685fd4ddd1da57a95f3b5e44393e58036c84b3c1/hgcal_swamp-0.3.0.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.8.tar.gz tmp/spotPython-0.6.9.tar.gz --markdown 20230726/s/spotPython/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-26 14:39:56] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230726085137.tar.gz tmp/localstack-core-2.2.1.dev20230726122123.tar.gz --markdown 20230726/l/localstack-core/2.2.1.dev20230726085137-2.2.1.dev20230726122123/diff.md --exclude *.pyd
+[2023-07-26 14:39:56] INFO root fetch - processPackages [hgcal-swamp]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [hgcal-swamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_swamp-0.2.0.tar.gz tmp/hgcal_swamp-0.3.0.tar.gz --markdown 20230726/h/hgcal-swamp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 14:39:56] INFO root fetch - processPackages [systemdumpy]: Downloading https://files.pythonhosted.org/packages/90/a6/ea73abb5c3e1d23c825eb5f6e68dda892ca86e3903539171941c74a4f8da/systemdumpy-1.0.3.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-26 14:39:56] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230726/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 14:39:56] INFO root fetch - processPackages [systemdumpy]: executing diffoscope
+[2023-07-26 14:39:56] INFO root fetch - processPackages [systemdumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemdumpy-1.0.2.tar.gz tmp/systemdumpy-1.0.3.tar.gz --markdown 20230726/s/systemdumpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 14:39:57] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 14:39:57] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 14:39:57] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-07-26 14:39:57] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-0.2.0.tar.gz]
+[2023-07-26 14:39:57] INFO root fetch - processPackages [hgcal-swamp]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_swamp-0.3.0.tar.gz]
+[2023-07-26 14:39:57] INFO root fetch - main [MainThread]: End processing [hgcal-swamp]: success
+[2023-07-26 14:39:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-26 14:39:58] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-26 14:39:58] INFO root fetch - processPackages [systemdumpy]: Remove: archive file [/home/abi/fetcher/tmp/systemdumpy-1.0.2.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - processPackages [systemdumpy]: Remove: archive file [/home/abi/fetcher/tmp/systemdumpy-1.0.3.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - main [MainThread]: End processing [systemdumpy]: success
+[2023-07-26 14:39:58] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.8.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.9.tar.gz]
+[2023-07-26 14:39:58] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-26 14:40:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726085137.tar.gz]
+[2023-07-26 14:40:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726122123.tar.gz]
+[2023-07-26 14:40:00] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-26 14:40:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a0.tar.gz]
+[2023-07-26 14:40:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a1.tar.gz]
+[2023-07-26 14:40:03] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-07-26 14:40:03] INFO root fetch - main [MainThread]: Store serial: [19043599]
