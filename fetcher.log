@@ -15864,3 +15864,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:07:39] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.9.tar.gz]
 [2023-07-26 10:07:39] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
 [2023-07-26 10:07:39] INFO root fetch - main [MainThread]: Store serial: [19041009]
+[2023-07-26 10:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041009]
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radioSphere
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radioSphere
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radioSphere
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radioSphere
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fugue
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-opnsense
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazysdk
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxcubeweb
+[2023-07-26 10:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: michael-pan-first-lib
+[2023-07-26 10:12:48] INFO root fetch - processPackages [mxcubeweb]: New version: [1.61.0] Old Version: [1.60.0]
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [radioSphere]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radioSphere]: Start processing: radstar
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [radioSphere] error
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [radioSphere]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radioSphere]: Start processing: dataheroes
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [radioSphere] error
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [radioSphere]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radioSphere]: Start processing: zlgsendcan
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [radioSphere] error
+[2023-07-26 10:12:48] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [michael-pan-first-lib]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [michael-pan-first-lib]: Start processing: mylove
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [michael-pan-first-lib] error
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [radioSphere]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radioSphere]: Start processing: awadb
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [radioSphere] error
+[2023-07-26 10:12:48] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [fugue]: New version: [0.8.6.dev3] Old Version: [0.8.6.dev2]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230726] Old Version: [0.4.1.dev20230725]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radstar]: New version: [0.15.0] Old Version: [0.14.7]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [dataheroes]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-26 10:12:48] WARNING root fetch - processPackages [mylove]: Skipping, unable to determine old version
+[2023-07-26 10:12:48] INFO root fetch - processPackages [mylove]: Start processing: searchads-api
+[2023-07-26 10:12:48] INFO root fetch - main [MainThread]: End processing [mylove] error
+[2023-07-26 10:12:48] INFO root fetch - processPackages [awadb]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/08/75/e10f7fed1fd995b010c658a366959cd1876e65fe31e3da2f01f7278c55a0/radstar-0.14.7-py3-none-any.whl
+[2023-07-26 10:12:48] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/48/0f/0435c827b9a99841d3cadc0d073ef6cf5b489a5fffeecd1cfe682f860463/pyglove-0.4.1.dev20230725.tar.gz
+[2023-07-26 10:12:48] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/69/4f/204c72a1d53fef68d413c7863d98aa339dca3c5c10a5f571ebe9a59446c2/zlgsendcan-1.0.7.tar.gz
+[2023-07-26 10:12:48] INFO root fetch - processPackages [searchads-api]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-07-26 10:12:48] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/a8/0d/f923443616b436026972f2d998752411e48f979afc3e88fb401df048ed57/awadb-0.3.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-26 10:12:48] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/ed/29/bd3c9ad8b85a489ccbc02b71a315623905891af515699b7ecc04baa045a4/mxcubeweb-1.60.0.tar.gz
+[2023-07-26 10:12:48] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/f7/b2/4354edc7070764da02788a7557722a859bcdbbfe790e944aa5f6990ebcf2/pulumi_opnsense-0.0.97.tar.gz
+[2023-07-26 10:12:48] INFO root fetch - processPackages [dataheroes]: Downloading https://files.pythonhosted.org/packages/a1/20/a74e7b86742ff9706b8043834047c0372d446a13e990910bcd1cfc7abfef/dataheroes-0.5.0-cp39-cp39-win_amd64.whl
+[2023-07-26 10:12:48] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/41/8e/a44a77eefebb2825294c128f5fc1c94eec66432551f0f0f0058712a302dc/fugue-0.8.6.dev2.tar.gz
+[2023-07-26 10:12:48] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [searchads-api]: Downloading https://files.pythonhosted.org/packages/a0/bf/e028841ef23e3cd8504a66a737b785a1da8fa473e939ded6de278a56d4a8/searchads_api-1.7.7.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5c/1a/98731d15ed4b3bcb0449fc9112c326d79bf352b93da1a2d8f636088cc82c/pyglove-0.4.1.dev20230726.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/8d/17/c7076436a96452c1f8fa9c8077a1690bab5e7f3d60b1b063a740d8b1c3c8/mxcubeweb-1.61.0.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/70/24/8e400b5bca10475a3c991ee3bba3a8dbb0765f106cf993113f280ac1b8ee/zlgsendcan-1.0.8.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/9f/60/5a8226a6219d0aaa0c201c329c2b832c6c1afb43f0e46b8c267efac64078/fugue-0.8.6.dev3.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.60.0.tar.gz tmp/mxcubeweb-1.61.0.tar.gz --markdown 20230726/m/mxcubeweb/1.60.0-1.61.0/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [searchads-api]: Downloading https://files.pythonhosted.org/packages/a4/53/233c1420f5459ac92a73e423e57ac68df70c69f94dc74b2be1853e0937b4/searchads_api-1.7.8.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-26 10:12:49] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/3b/76/503d6c167b114598a883a555fa39bc36e2b99ec3ae326f491ac6c0637f60/radstar-0.15.0-py3-none-any.whl
+[2023-07-26 10:12:49] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/97/a6/266bc61f7907fe601d91fa807e20d3312068f23cfcc7f505ca7d907f1189/awadb-0.3.9-cp39-cp39-macosx_10_13_x86_64.whl
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.97.tar.gz tmp/pulumi_opnsense-0.0.98.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.6.dev2.tar.gz tmp/fugue-0.8.6.dev3.tar.gz --markdown 20230726/f/fugue/0.8.6.dev2-0.8.6.dev3/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.7.tar.gz tmp/zlgsendcan-1.0.8.tar.gz --markdown 20230726/z/zlgsendcan/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230726/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230725.tar.gz tmp/pyglove-0.4.1.dev20230726.tar.gz --markdown 20230726/p/pyglove/0.4.1.dev20230725-0.4.1.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 10:12:49] INFO root fetch - processPackages [dataheroes]: Downloading https://files.pythonhosted.org/packages/c6/89/5982c3dab6b554ab760b0abb9188dce798d21448e2611ca1f5326e6cdabf/dataheroes-0.6.0-cp39-cp39-win_amd64.whl
+[2023-07-26 10:12:49] INFO root fetch - processPackages [searchads-api]: executing diffoscope
+[2023-07-26 10:12:49] INFO root fetch - processPackages [searchads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchads_api-1.7.7.tar.gz tmp/searchads_api-1.7.8.tar.gz --markdown 20230726/s/searchads-api/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-07-26 10:12:50] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-07-26 10:12:50] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.9-cp39-cp39-macosx_10_13_x86_64.whl.zip --markdown 20230726/a/awadb/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 10:12:50] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-26 10:12:50] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.7-py3-none-any.whl.zip tmp/radstar-0.15.0-py3-none-any.whl.zip --markdown 20230726/r/radstar/0.14.7-0.15.0/diff.md --exclude *.pyd
+[2023-07-26 10:12:50] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.97.tar.gz]
+[2023-07-26 10:12:50] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 10:12:50] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: wattro-sync
+[2023-07-26 10:12:50] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 10:12:50] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.7.tar.gz]
+[2023-07-26 10:12:50] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.8.tar.gz]
+[2023-07-26 10:12:50] INFO root fetch - processPackages [zlgsendcan]: Start processing: cubicweb-squareui
+[2023-07-26 10:12:50] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [wattro-sync]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [cubicweb-squareui]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [searchads-api]: Remove: archive file [/home/abi/fetcher/tmp/searchads_api-1.7.7.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [searchads-api]: Remove: archive file [/home/abi/fetcher/tmp/searchads_api-1.7.8.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [searchads-api]: Start processing: rethinkdb-mock
+[2023-07-26 10:12:51] INFO root fetch - main [MainThread]: End processing [searchads-api]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [dataheroes]: executing diffoscope
+[2023-07-26 10:12:51] INFO root fetch - processPackages [dataheroes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataheroes-0.5.0-cp39-cp39-win_amd64.whl.zip tmp/dataheroes-0.6.0-cp39-cp39-win_amd64.whl.zip --markdown 20230726/d/dataheroes/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-26 10:12:51] INFO root fetch - processPackages [wattro-sync]: Downloading https://files.pythonhosted.org/packages/65/87/a9cf4361b457932fa3e1fb9c89793465ff7c413b982c021d9bfab73fc5d3/wattro_sync-0.3.0.tar.gz
+[2023-07-26 10:12:51] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.60.0.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.61.0.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [rethinkdb-mock]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [cubicweb-squareui]: Downloading https://files.pythonhosted.org/packages/d2/64/f96257149c73f6479d926ec35fa2ee0191251f825bc0a8f35ca89a5f5de2/cubicweb-squareui-1.6.0.tar.gz
+[2023-07-26 10:12:51] INFO root fetch - processPackages [rethinkdb-mock]: Downloading https://files.pythonhosted.org/packages/2c/53/ce083e8ec031f4bced59799ba456b1a0308441f5521078f3ce67c68095aa/rethinkdb_mock-0.9.8.tar.gz
+[2023-07-26 10:12:51] INFO root fetch - processPackages [wattro-sync]: Downloading https://files.pythonhosted.org/packages/62/e0/6b1a0a2144dae64757f5d0da62260c690af22dc33b6858f678d963219e99/wattro_sync-0.3.1.tar.gz
+[2023-07-26 10:12:51] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev2.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev3.tar.gz]
+[2023-07-26 10:12:51] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [cubicweb-squareui]: Downloading https://files.pythonhosted.org/packages/01/26/0869b675a7195e825e357d5f9ba4203c65c7d510122ce4eb250591b466c1/cubicweb-squareui-2.0.0.tar.gz
+[2023-07-26 10:12:51] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.8-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-26 10:12:51] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.9-cp39-cp39-macosx_10_13_x86_64.whl.zip]
+[2023-07-26 10:12:51] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-07-26 10:12:51] INFO root fetch - processPackages [cubicweb-squareui]: executing diffoscope
+[2023-07-26 10:12:51] INFO root fetch - processPackages [cubicweb-squareui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-squareui-1.6.0.tar.gz tmp/cubicweb-squareui-2.0.0.tar.gz --markdown 20230726/c/cubicweb-squareui/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-26 10:12:51] INFO root fetch - processPackages [wattro-sync]: executing diffoscope
+[2023-07-26 10:12:51] INFO root fetch - processPackages [wattro-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wattro_sync-0.3.0.tar.gz tmp/wattro_sync-0.3.1.tar.gz --markdown 20230726/w/wattro-sync/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 10:12:52] INFO root fetch - processPackages [dataheroes]: Remove: archive file [/home/abi/fetcher/tmp/dataheroes-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 10:12:52] INFO root fetch - processPackages [dataheroes]: Remove: archive file [/home/abi/fetcher/tmp/dataheroes-0.6.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 10:12:52] INFO root fetch - main [MainThread]: End processing [dataheroes]: success
+[2023-07-26 10:12:52] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.7-py3-none-any.whl.zip]
+[2023-07-26 10:12:52] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.15.0-py3-none-any.whl.zip]
+[2023-07-26 10:12:52] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-26 10:12:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230725.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230726.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-26 10:12:52] INFO root fetch - processPackages [rethinkdb-mock]: Downloading https://files.pythonhosted.org/packages/9f/a3/c436189d66d67b90cd3e8846bec273b7cd239f5ce02fa4f6d89203daaae7/rethinkdb_mock-0.9.9.tar.gz
+[2023-07-26 10:12:52] INFO root fetch - processPackages [rethinkdb-mock]: executing diffoscope
+[2023-07-26 10:12:52] INFO root fetch - processPackages [rethinkdb-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rethinkdb_mock-0.9.8.tar.gz tmp/rethinkdb_mock-0.9.9.tar.gz --markdown 20230726/r/rethinkdb-mock/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 10:12:52] INFO root fetch - processPackages [wattro-sync]: Remove: archive file [/home/abi/fetcher/tmp/wattro_sync-0.3.0.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - processPackages [wattro-sync]: Remove: archive file [/home/abi/fetcher/tmp/wattro_sync-0.3.1.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - main [MainThread]: End processing [wattro-sync]: success
+[2023-07-26 10:12:52] INFO root fetch - processPackages [cubicweb-squareui]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-squareui-1.6.0.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - processPackages [cubicweb-squareui]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-squareui-2.0.0.tar.gz]
+[2023-07-26 10:12:52] INFO root fetch - main [MainThread]: End processing [cubicweb-squareui]: success
+[2023-07-26 10:12:53] INFO root fetch - processPackages [rethinkdb-mock]: Remove: archive file [/home/abi/fetcher/tmp/rethinkdb_mock-0.9.8.tar.gz]
+[2023-07-26 10:12:53] INFO root fetch - processPackages [rethinkdb-mock]: Remove: archive file [/home/abi/fetcher/tmp/rethinkdb_mock-0.9.9.tar.gz]
+[2023-07-26 10:12:53] INFO root fetch - main [MainThread]: End processing [rethinkdb-mock]: success
+[2023-07-26 10:12:53] INFO root fetch - main [MainThread]: Store serial: [19041092]
