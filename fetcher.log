@@ -19690,3 +19690,88 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:46:54] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b5.tar.gz]
 [2023-07-26 12:46:54] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
 [2023-07-26 12:46:54] INFO root fetch - main [MainThread]: Store serial: [19042584]
+[2023-07-26 12:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042584]
+[2023-07-26 12:52:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaboost
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fajrGPT
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conan
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enebootools
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-sso
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prancer-basic
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ffmpeg-py
+[2023-07-26 12:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: percy-appium-app
+[2023-07-26 12:52:03] WARNING root fetch - processPackages [ffmpeg-py]: Skipping, unable to determine old version
+[2023-07-26 12:52:03] INFO root fetch - main [MainThread]: End processing [ffmpeg-py] error
+[2023-07-26 12:52:03] INFO root fetch - processPackages [eodc]: New version: [2023.7.0] Old Version: [2023.6.9]
+[2023-07-26 12:52:03] INFO root fetch - processPackages [enebootools]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-26 12:52:03] INFO root fetch - processPackages [fajrGPT]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fastapi-sso]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [gaboost]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [conan]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/ac/38/28a4a8d478d2338b56e421b63cdd1d511e8652f75b21be9fcf9ca00a5293/enebootools-2.1.0.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [percy-appium-app]: New version: [2.0.0b1] Old Version: [2.0.0b0]
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/31/da/960a72f2e009873f0cfa4d22a965f5fe4c1ea95a913b9aa9242fd8f2ad6f/fastapi_sso-0.7.0.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/42/4d/e8af75c7d5d3b680c988a7768f330f5d7d99f1da258ffbf2fc8c1fb2768c/fajrGPT-1.4.5.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/6b/10/4186308b382fa1132abac0577f71c1caa03daa2946b55d64a29eb21ee9e5/gaboost-1.7.4.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/c5/83/63873bbcccf7bb07f0a25f386840631889a5c10e88af7af1eb0baeb16508/eodc-2023.6.9.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/aa/84/af1ed8d4187effa46448e60b5065a2834fb3ee3b62dfba8b6f591cde32c4/prancer-basic-3.0.8.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [percy-appium-app]: Downloading https://files.pythonhosted.org/packages/38/43/cc1bde16d654cc47f2e3f9dad41f37b234b95305161062e7c758a36042ba/percy-appium-app-2.0.0b0.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/3a/75/e6b808168cf0bb8f676a01d010a49116a23360b40333ba35459147004f03/enebootools-2.1.1.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/96/f2/6948b91471c83ecfbda22828d2b95e1a79113ce1b2a54865bf1a350d6dea/fastapi_sso-0.7.1.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/62/fd/e7d568839f47f8487510eb29698a9a1fde8f6cc5a0593ac475dde8f596e2/fajrGPT-1.4.6.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [conan]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.0.8.tar.gz tmp/conan-2.0.9.tar.gz --markdown 20230726/c/conan/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:52:04] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/8f/28/39ea9e15a4796a296e29c30bdaae30b8f9251161e5e36288b43d56720a4c/eodc-2023.7.0.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/37/7e/91da537681457f0ccec0bd5a92d3e1111efa6183cf69c4df80522ec64100/gaboost-1.7.5.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fastapi-sso]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fastapi-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sso-0.7.0.tar.gz tmp/fastapi_sso-0.7.1.tar.gz --markdown 20230726/f/fastapi-sso/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-26 12:52:04] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.1.0.tar.gz tmp/enebootools-2.1.1.tar.gz --markdown 20230726/e/enebootools/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.4.5.tar.gz tmp/fajrGPT-1.4.6.tar.gz --markdown 20230726/f/fajrGPT/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-26 12:52:04] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/1a/53/0b31884948dd5646a62eca133c035534fdab1adf7e4f48f95a30f17f39ae/prancer-basic-3.0.9.tar.gz
+[2023-07-26 12:52:04] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.9.tar.gz tmp/eodc-2023.7.0.tar.gz --markdown 20230726/e/eodc/2023.6.9-2023.7.0/diff.md --exclude *.pyd
+[2023-07-26 12:52:04] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-26 12:52:04] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230726/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-26 12:52:05] INFO root fetch - processPackages [gaboost]: executing diffoscope
+[2023-07-26 12:52:05] INFO root fetch - processPackages [gaboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaboost-1.7.4.tar.gz tmp/gaboost-1.7.5.tar.gz --markdown 20230726/g/gaboost/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-07-26 12:52:05] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2023-07-26 12:52:05] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.8.tar.gz tmp/prancer-basic-3.0.9.tar.gz --markdown 20230726/p/prancer-basic/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:52:05] INFO root fetch - processPackages [percy-appium-app]: Downloading https://files.pythonhosted.org/packages/5d/d6/125ec35c09125aa6dbb08db150c1f30b90c6f1f827e75331b4372ed88606/percy-appium-app-2.0.0b1.tar.gz
+[2023-07-26 12:52:05] INFO root fetch - processPackages [percy-appium-app]: executing diffoscope
+[2023-07-26 12:52:05] INFO root fetch - processPackages [percy-appium-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/percy-appium-app-2.0.0b0.tar.gz tmp/percy-appium-app-2.0.0b1.tar.gz --markdown 20230726/p/percy-appium-app/2.0.0b0-2.0.0b1/diff.md --exclude *.pyd
+[2023-07-26 12:52:05] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.0.8.tar.gz]
+[2023-07-26 12:52:05] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.0.9.tar.gz]
+[2023-07-26 12:52:05] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2023-07-26 12:52:06] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.7.0.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.7.1.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - main [MainThread]: End processing [fastapi-sso]: success
+[2023-07-26 12:52:06] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.5.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.6.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-26 12:52:06] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.9.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.7.0.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-07-26 12:52:06] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.1.0.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.1.1.tar.gz]
+[2023-07-26 12:52:06] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-26 12:52:07] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.8.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2023-07-26 12:52:07] INFO root fetch - processPackages [percy-appium-app]: Remove: archive file [/home/abi/fetcher/tmp/percy-appium-app-2.0.0b0.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - processPackages [percy-appium-app]: Remove: archive file [/home/abi/fetcher/tmp/percy-appium-app-2.0.0b1.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - main [MainThread]: End processing [percy-appium-app]: success
+[2023-07-26 12:52:07] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.4.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.5.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - main [MainThread]: End processing [gaboost]: success
+[2023-07-26 12:52:07] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-26 12:52:07] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-26 12:52:07] INFO root fetch - main [MainThread]: Store serial: [19042617]
