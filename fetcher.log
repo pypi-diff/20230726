@@ -10339,3 +10339,82 @@
 [2023-07-26 05:07:10] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-07-26 05:07:10] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-07-26 05:07:10] INFO root fetch - main [MainThread]: Store serial: [19038870]
+[2023-07-26 05:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038870]
+[2023-07-26 05:12:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-uwg
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-cooperator
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperopt-prophet
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-ndev-blizzardapi
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arthub-api
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lexikanon
+[2023-07-26 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cog-airflow-notify-sns
+[2023-07-26 05:12:18] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.3.0.1.dev1] Old Version: [14.0.3.0.0]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [python-ndev-blizzardapi]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lexikanon]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [arthub-api]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [cog-airflow-notify-sns]: New version: [2.0.0] Old Version: [1.0.5]
+[2023-07-26 05:12:18] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/71/a0/fd01714c7e55e983525bdc94480ea398699925e610a7bfd713024ca88e6b/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl
+[2023-07-26 05:12:18] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/7d/6b/0a7bde3e6a1b5ba2a1effacfd71c7cf2e2bef8dacee364811e79071ad49a/hyperopt_prophet-0.1.1.tar.gz
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/59/ab/98f47664fb1de90f3b5a0c56fb0aaf216194386465793024d33d9d8d7864/lexikanon-0.2.3.tar.gz
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-26 05:12:18] ERROR root fetch - processPackages [python-ndev-blizzardapi]: Unable to fetch info: No such project/version 'python-ndev-blizzardapi' 0.1.0.2
+[2023-07-26 05:12:18] INFO root fetch - main [MainThread]: End processing [python-ndev-blizzardapi] error
+[2023-07-26 05:12:18] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/fd/cd/8ea3f8bc48a1af43cde5c7a013cdd71235780727a0ddf2c74448ec44c24e/arthub_api-1.8.1.tar.gz
+[2023-07-26 05:12:18] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-26 05:12:18] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-26 05:12:18] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/58/38/0967aa1b7b4ae19457c3a010441f4cc64199ef9b466f809b1b5806d7d6bf/cog-airflow-notify-sns-1.0.5.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/b9/4e/a9ac633f10dc06f321090be192fc721fd58b7a1a6e60a814e62073676ad4/hyperopt_prophet-0.1.2.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230726/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/70/a6/ad4a96c32b3c426dcd932129114c4c1be075ddf8a1db2b20c9fb444ac05d/lexikanon-0.2.4.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/92/fb/ec2f6456fc955dd7eecd9afb554944c8a17bdf509e177a99655d7053a2f1/odoo14_addon_cooperator-14.0.3.0.1.dev1-py3-none-any.whl
+[2023-07-26 05:12:19] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/00/3b/8cf90ccad6f6b3234c5bc5ecc4f46ae4da3ad746e4abe8e6bdb2966fbc45/arthub_api-1.8.2.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/91/57/c37ca00fb7e23fac435f5aef948b2a33f6f670e594436d9df67b55bc7589/cog-airflow-notify-sns-2.0.0.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.1.tar.gz tmp/hyperopt_prophet-0.1.2.tar.gz --markdown 20230726/h/hyperopt-prophet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.8.1.tar.gz tmp/arthub_api-1.8.2.tar.gz --markdown 20230726/a/arthub-api/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230726/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-26 05:12:19] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.3.0.1.dev1-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-cooperator/14.0.3.0.0-14.0.3.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.2.3.tar.gz tmp/lexikanon-0.2.4.tar.gz --markdown 20230726/l/lexikanon/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [cog-airflow-notify-sns]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [cog-airflow-notify-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-airflow-notify-sns-1.0.5.tar.gz tmp/cog-airflow-notify-sns-2.0.0.tar.gz --markdown 20230726/c/cog-airflow-notify-sns/1.0.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-26 05:12:19] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-26 05:12:19] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230726/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-26 05:12:20] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.1.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.2.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-26 05:12:20] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-1.0.5.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-2.0.0.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [cog-airflow-notify-sns]: success
+[2023-07-26 05:12:20] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.1.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.2.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.2.3.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.2.4.tar.gz]
+[2023-07-26 05:12:20] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-26 05:12:21] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl.zip]
+[2023-07-26 05:12:21] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-26 05:12:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2023-07-26 05:12:21] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-26 05:12:21] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-26 05:12:21] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-26 05:12:21] INFO root fetch - main [MainThread]: Store serial: [19038896]
