@@ -17243,3 +17243,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:55:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-26 10:55:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-26 10:55:46] INFO root fetch - main [MainThread]: Store serial: [19041607]
+[2023-07-26 11:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041607]
+[2023-07-26 11:00:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aloso
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-payment
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ztool2
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-connector-importer
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autotrain-advanced
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: confutilPPP
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: external-user-local
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: craft-ai-sdk
+[2023-07-26 11:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prettynumbers
+[2023-07-26 11:00:56] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [confutilPPP]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 11:00:56] WARNING root fetch - processPackages [ztool2]: Skipping, unable to determine old version
+[2023-07-26 11:00:56] INFO root fetch - processPackages [ztool2]: Start processing: mysqlx-generator
+[2023-07-26 11:00:56] INFO root fetch - main [MainThread]: End processing [ztool2] error
+[2023-07-26 11:00:56] INFO root fetch - processPackages [prettynumbers]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [odoo14-addon-connector-importer]: New version: [14.0.2.6.0] Old Version: [14.0.2.5.0]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [kcli]: New version: [99.0.202307260857] Old Version: [99.0.202307260846]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-26 11:00:56] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/99/86/5411496497038ead0c5e2df7cd0466f3b3ac2e71777b19cc51c74abab58f/autotrain-advanced-0.6.3.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/46/37/6a6659b4b8abb7777455cc809c25d019b221602d0abf933573b358836963/confutilPPP-1.0.3.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/19/39/dff3a4e36ed8cddf568cf81a186c76f34272cf1862774881663bd594154e/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl
+[2023-07-26 11:00:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/f2/8c23c6f799f33cfe9041b4a3baaaf0c07f309ca608bddca4b699e388c79d/kcli-99.0.202307260846-py3-none-any.whl
+[2023-07-26 11:00:56] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/2a/d0/96d8174e8a5511ee89d0116263a0b56fca640d7696febca585934f49b924/mysqlx-generator-1.6.5.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/c8/86/b6513ec484bdc048de2a61687e0fafb255faaf25d870a541c20301d0f665/xj_payment-1.0.8.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-26 11:00:56] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/83/34/2cabe85d552241243b91f117d43f0520be8a81252d805299d5619d749d46/prettynumbers-0.3.4.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/a0/4f/80bc6a2f0956592d5b50d186820651dc2e0451b90f562b01edfdf88c7bc0/confutilPPP-1.0.4.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d5/27/2546146674cebdbc971e2f976cbf43a3b268daf7948f7a62dfff94fc6bad/autotrain-advanced-0.6.4.tar.gz
+[2023-07-26 11:00:56] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/a5/21/329b92fd8301e0130433df14c883e86e04244b74e182dfeb9c7bd5aa928e/odoo14_addon_connector_importer-14.0.2.6.0-py3-none-any.whl
+[2023-07-26 11:00:56] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/d9/99/99aadfd84334f5600363d42ac87e9154a60109c95524ccbb92e9aa6332f4/mysqlx-generator-1.6.6.tar.gz
+[2023-07-26 11:00:57] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3c/a7/92481ecaa784255e72b76d6824b392377f129bd09dd4035350a638ddbf10/kcli-99.0.202307260857-py3-none-any.whl
+[2023-07-26 11:00:57] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/a4/a8/95a48bdf94f5895bb9cb99b19a233c73d76ad9ccc16a61e2296586222e51/prettynumbers-0.3.5.tar.gz
+[2023-07-26 11:00:57] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-07-26 11:00:57] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-07-26 11:00:57] INFO root fetch - processPackages [confutilPPP]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [confutilPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confutilPPP-1.0.3.tar.gz tmp/confutilPPP-1.0.4.tar.gz --markdown 20230726/c/confutilPPP/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.6.5.tar.gz tmp/mysqlx-generator-1.6.6.tar.gz --markdown 20230726/m/mysqlx-generator/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/d7/56/18cf5dbfcf96a8d2dd714a47e8ce30642dea3c0825b0f79fd94491be1a01/xj_payment-1.0.9.tar.gz
+[2023-07-26 11:00:57] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-26 11:00:57] INFO root fetch - processPackages [odoo14-addon-connector-importer]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [odoo14-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer-14.0.2.6.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-connector-importer/14.0.2.5.0-14.0.2.6.0/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.3.tar.gz tmp/autotrain-advanced-0.6.4.tar.gz --markdown 20230726/a/autotrain-advanced/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.3.4.tar.gz tmp/prettynumbers-0.3.5.tar.gz --markdown 20230726/p/prettynumbers/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230726/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230726/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230726/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307260846-py3-none-any.whl.zip tmp/kcli-99.0.202307260857-py3-none-any.whl.zip --markdown 20230726/k/kcli/99.0.202307260846-99.0.202307260857/diff.md --exclude *.pyd
+[2023-07-26 11:00:57] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-07-26 11:00:57] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230726/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 11:00:58] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.0.3.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.0.4.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [confutilPPP]: Start processing: qoqo-strawberry-fields
+[2023-07-26 11:00:58] INFO root fetch - main [MainThread]: End processing [confutilPPP]: success
+[2023-07-26 11:00:58] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.5.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.6.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [mysqlx-generator]: Start processing: swh.scrubber
+[2023-07-26 11:00:58] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-26 11:00:58] ERROR root fetch - processPackages [qoqo-strawberry-fields]: Unable to get metadata: No such project 'qoqo-strawberry-fields'
+[2023-07-26 11:00:58] INFO root fetch - processPackages [qoqo-strawberry-fields]: Start processing: kfish
+[2023-07-26 11:00:58] INFO root fetch - main [MainThread]: End processing [qoqo-strawberry-fields] error
+[2023-07-26 11:00:58] INFO root fetch - processPackages [swh.scrubber]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-07-26 11:00:58] INFO root fetch - processPackages [kfish]: New version: [99.0.202307260849] Old Version: [99.0.202307252252]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [prettynumbers]: Remove: archive file [/home/abi/fetcher/tmp/prettynumbers-0.3.4.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - processPackages [prettynumbers]: Remove: archive file [/home/abi/fetcher/tmp/prettynumbers-0.3.5.tar.gz]
+[2023-07-26 11:00:58] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-07-26 11:00:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/91/66/601e09b55806f0f8bdf5345840df67498a4c628e84f87f7651bf4dd634c7/kfish-99.0.202307252252-py3-none-any.whl
+[2023-07-26 11:00:59] INFO root fetch - processPackages [swh.scrubber]: Downloading https://files.pythonhosted.org/packages/64/5f/fb222ec2f5fe319d24d2894e7c6444c852289b7da484e4d8b5d7fd5dd7eb/swh.scrubber-2.0.0.tar.gz
+[2023-07-26 11:00:59] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 11:00:59] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 11:00:59] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-26 11:00:59] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-07-26 11:00:59] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl.zip]
+[2023-07-26 11:00:59] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.6.0-py3-none-any.whl.zip]
+[2023-07-26 11:00:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer]: success
+[2023-07-26 11:00:59] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.3.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.4.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-26 11:00:59] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.8.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.9.tar.gz]
+[2023-07-26 11:00:59] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-07-26 11:00:59] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a4/8a/20981adf358718052909dc1d51a64f3af8a34d4ffafa012bafb136954bd3/kfish-99.0.202307260849-py3-none-any.whl
+[2023-07-26 11:00:59] INFO root fetch - processPackages [swh.scrubber]: Downloading https://files.pythonhosted.org/packages/65/e2/4cc3786e379ec6362bb37b9ece6500b54491242eb2f3abe10463c8598f67/swh.scrubber-2.0.1.tar.gz
+[2023-07-26 11:00:59] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-26 11:00:59] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307252252-py3-none-any.whl.zip tmp/kfish-99.0.202307260849-py3-none-any.whl.zip --markdown 20230726/k/kfish/99.0.202307252252-99.0.202307260849/diff.md --exclude *.pyd
+[2023-07-26 11:00:59] INFO root fetch - processPackages [swh.scrubber]: executing diffoscope
+[2023-07-26 11:00:59] INFO root fetch - processPackages [swh.scrubber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.scrubber-2.0.0.tar.gz tmp/swh.scrubber-2.0.1.tar.gz --markdown 20230726/s/swh.scrubber/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 11:01:00] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307252252-py3-none-any.whl.zip]
+[2023-07-26 11:01:00] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307260849-py3-none-any.whl.zip]
+[2023-07-26 11:01:00] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-26 11:01:00] INFO root fetch - processPackages [swh.scrubber]: Remove: archive file [/home/abi/fetcher/tmp/swh.scrubber-2.0.0.tar.gz]
+[2023-07-26 11:01:00] INFO root fetch - processPackages [swh.scrubber]: Remove: archive file [/home/abi/fetcher/tmp/swh.scrubber-2.0.1.tar.gz]
+[2023-07-26 11:01:00] INFO root fetch - main [MainThread]: End processing [swh.scrubber]: success
+[2023-07-26 11:01:01] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307260846-py3-none-any.whl.zip]
+[2023-07-26 11:01:01] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307260857-py3-none-any.whl.zip]
+[2023-07-26 11:01:01] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-26 11:01:01] INFO root fetch - main [MainThread]: Store serial: [19041647]
