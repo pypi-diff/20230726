@@ -21301,3 +21301,72 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:57:24] INFO root fetch - processPackages [emzed]: Remove: archive file [/home/abi/fetcher/tmp/emzed-3.0.0a9.tar.gz]
 [2023-07-26 13:57:24] INFO root fetch - main [MainThread]: End processing [emzed]: success
 [2023-07-26 13:57:24] INFO root fetch - main [MainThread]: Store serial: [19043222]
+[2023-07-26 14:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043222]
+[2023-07-26 14:02:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyalltools
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guichet
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readme-metrics
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reg-tables
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qalita
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devchat-ask
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapy-puppeteer-client
+[2023-07-26 14:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agixt
+[2023-07-26 14:02:33] INFO root fetch - processPackages [devchat-ask]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [scrapy-puppeteer-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 14:02:33] WARNING root fetch - processPackages [guichet]: Skipping, unable to determine old version
+[2023-07-26 14:02:33] INFO root fetch - main [MainThread]: End processing [guichet] error
+[2023-07-26 14:02:33] INFO root fetch - processPackages [qalita]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [pyalltools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [readme-metrics]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-26 14:02:33] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/ac/1e/85bd90f0ad7cda95e1af0236d66b85e9ab9cd9c15a49d367c2b62c6e20bc/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl
+[2023-07-26 14:02:33] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [scrapy-puppeteer-client]: Downloading https://files.pythonhosted.org/packages/8e/b9/4c09a21a0a0bcaf3ddea9823c2410c76ad3078771a51de3d6eb80d7030b9/scrapy-puppeteer-client-0.1.0.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/5e/3e/1bcca86cf464f162fbae421249e39a9ed3807c6a47dd929cdbb88d3ba4e1/pyalltools-1.1.0.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/44/70/8f7408a84e22c14b5106c760c49de206293dd740246f0917417b443513f5/qalita-1.0.8.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [readme-metrics]: Downloading https://files.pythonhosted.org/packages/fa/13/ede20cadcd9341a582563271506f0fde88b93bf7c1f5aff5a6a93e2b9a93/readme-metrics-3.0.2.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-07-26 14:02:33] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-26 14:02:34] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/cf/9b/aa85ada508699403fd8d38e8051220e2034aa03bea9a5373581fe9caecaf/devchat_ask-0.0.6-cp311-cp311-macosx_12_0_x86_64.whl
+[2023-07-26 14:02:34] INFO root fetch - processPackages [scrapy-puppeteer-client]: Downloading https://files.pythonhosted.org/packages/43/cf/c99a64f9764e386b10cebf268f2c31945f583e34355e4a3122aa127a07dc/scrapy-puppeteer-client-0.1.1.tar.gz
+[2023-07-26 14:02:34] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/a0/8b/751d9f34a41d4ed7a41254abdec0e88c317175ab1c34fc037bd4c8d55fcd/pyalltools-1.1.1.tar.gz
+[2023-07-26 14:02:34] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230726/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [readme-metrics]: Downloading https://files.pythonhosted.org/packages/2d/64/363be91b2bad2f1f903b91fe34cf395c5ed7fdd50be8b5479ceedb4f2ce6/readme-metrics-3.0.3.tar.gz
+[2023-07-26 14:02:34] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230726/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [scrapy-puppeteer-client]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [scrapy-puppeteer-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-puppeteer-client-0.1.0.tar.gz tmp/scrapy-puppeteer-client-0.1.1.tar.gz --markdown 20230726/s/scrapy-puppeteer-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [pyalltools]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [pyalltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalltools-1.1.0.tar.gz tmp/pyalltools-1.1.1.tar.gz --markdown 20230726/p/pyalltools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/da/48/73734853dacf5e8303d3249b3e98ecdd87870c5cb76d43ea71f2b2b86024/qalita-1.0.9.tar.gz
+[2023-07-26 14:02:34] INFO root fetch - processPackages [devchat-ask]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [devchat-ask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl.zip tmp/devchat_ask-0.0.6-cp311-cp311-macosx_12_0_x86_64.whl.zip --markdown 20230726/d/devchat-ask/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [readme-metrics]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [readme-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme-metrics-3.0.2.tar.gz tmp/readme-metrics-3.0.3.tar.gz --markdown 20230726/r/readme-metrics/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-26 14:02:34] INFO root fetch - processPackages [qalita]: executing diffoscope
+[2023-07-26 14:02:34] INFO root fetch - processPackages [qalita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalita-1.0.8.tar.gz tmp/qalita-1.0.9.tar.gz --markdown 20230726/q/qalita/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:02:35] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.8.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.9.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-07-26 14:02:35] INFO root fetch - processPackages [scrapy-puppeteer-client]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-puppeteer-client-0.1.0.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [scrapy-puppeteer-client]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-puppeteer-client-0.1.1.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [scrapy-puppeteer-client]: success
+[2023-07-26 14:02:35] INFO root fetch - processPackages [readme-metrics]: Remove: archive file [/home/abi/fetcher/tmp/readme-metrics-3.0.2.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [readme-metrics]: Remove: archive file [/home/abi/fetcher/tmp/readme-metrics-3.0.3.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [readme-metrics]: success
+[2023-07-26 14:02:35] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.8.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.9.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [qalita]: success
+[2023-07-26 14:02:35] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-1.1.0.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-1.1.1.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [pyalltools]: success
+[2023-07-26 14:02:35] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-26 14:02:35] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-26 14:03:03] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl.zip]
+[2023-07-26 14:03:03] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.6-cp311-cp311-macosx_12_0_x86_64.whl.zip]
+[2023-07-26 14:03:03] INFO root fetch - main [MainThread]: End processing [devchat-ask]: success
+[2023-07-26 14:03:03] INFO root fetch - main [MainThread]: Store serial: [19043247]
