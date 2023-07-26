@@ -20971,3 +20971,163 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:41:20] INFO root fetch - processPackages [aqt]: Remove: archive file [/home/abi/fetcher/tmp/aqt-2.1.66b1-py3-none-any.whl.zip]
 [2023-07-26 13:41:20] INFO root fetch - main [MainThread]: End processing [aqt]: success
 [2023-07-26 13:41:20] INFO root fetch - main [MainThread]: Store serial: [19043075]
+[2023-07-26 13:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043075]
+[2023-07-26 13:46:32] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etsy-apiv3
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locuaz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaldi-native-io
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-pydash
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-datasets-nightly
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EstymaApiWrapper
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ghastoolkit
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-file-lock
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotPython
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: guidata
+[2023-07-26 13:46:32] INFO root fetch - processPackages [EstymaApiWrapper]: New version: [0.0.55] Old Version: [0.0.53]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [locuaz]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [guidata]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [kaldi-native-io]: New version: [1.9] Old Version: [1.8]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [etsy-apiv3]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-26 13:46:32] WARNING root fetch - processPackages [simple-file-lock]: Skipping, unable to determine old version
+[2023-07-26 13:46:32] INFO root fetch - processPackages [simple-file-lock]: Start processing: satosa-oidcop
+[2023-07-26 13:46:32] INFO root fetch - main [MainThread]: End processing [simple-file-lock] error
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ghastoolkit]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [satosa-oidcop]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [simple-pydash]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [spotPython]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-07-26 13:46:32] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/21/3a/e9b03685159bd24a2d703448592dd728db1ca9c05a64f77a2968ff70f754/locuaz-0.5.2.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [kaldi-native-io]: Downloading https://files.pythonhosted.org/packages/50/71/cad17f618b35a0d90d3f6e714a0ef46d6f9ecd5ddc9e8661e91b8870839b/kaldi_native_io-1.8.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [EstymaApiWrapper]: Downloading https://files.pythonhosted.org/packages/21/1c/a326133276062c0cabde069d52ce804a8f668f1abed0f8e1ecc7cd6f7721/EstymaApiWrapper-0.0.53.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/e8/e0/d7d91bddec7c6d223ef68bd3c7bc36a1e3590da18982abe3452cc91d76b0/simple_pydash-0.3.4.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [guidata]: Downloading https://files.pythonhosted.org/packages/db/ef/d593ef688376b4abc548e61a2dcf1d8ad34fc2571bc09a500d3b288ae57b/guidata-3.0.1.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/98/13/9eccb45a758de7770fbd0d1cad3230c84fe680ff4e5c53ae2088f5ecef73/satosa_oidcop-3.0.0.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-07-26 13:46:32] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 70236644>=10485760
+[2023-07-26 13:46:32] INFO root fetch - processPackages [locuaz]: Start processing: simple-pydash
+[2023-07-26 13:46:32] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-07-26 13:46:32] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/0f/91/694104a5928a478f27547c314f943b20ed0f8c95a996b6579de644c93ddb/ghastoolkit-0.6.0.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/39/0a/926e39ce8ad2ce09c7fbb2203730fc1430777b4b144a50fc60c3d3255d0c/spotPython-0.6.8.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/9a/b5/93318573a37c12eab99c6a519415956ab52eb35033d84b530f5137084f3f/etsy-apiv3-2.0.0.tar.gz
+[2023-07-26 13:46:32] INFO root fetch - processPackages [simple-pydash]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-26 13:46:33] INFO root fetch - processPackages [EstymaApiWrapper]: Downloading https://files.pythonhosted.org/packages/1a/b9/735846cf1d837b57ddce915be7d0caa530da267676cec8b24f30cdc15988/EstymaApiWrapper-0.0.55.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/50/72/ab5fdbe153112fa8c73cc5b07670e1c963ffaa6caa895e8b559d9908612f/satosa_oidcop-3.0.1.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [guidata]: Downloading https://files.pythonhosted.org/packages/70/07/1f2ebddc66c661f2d93de4eac1bdd71a1e3a9daf76c751aed5727ad45fac/guidata-3.0.2.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/ba/7f/2876fab39f5a7d4e7ea0a63974de6a9b9871a3c2b11c533e05c14ebdd045/simple_pydash-0.3.5.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/ba/7f/2876fab39f5a7d4e7ea0a63974de6a9b9871a3c2b11c533e05c14ebdd045/simple_pydash-0.3.5.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/2f/20/242061a758641be2665e3f6b26bad11e709fc410a0eca86124ec979b98f4/ghastoolkit-0.6.1.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [EstymaApiWrapper]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [EstymaApiWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EstymaApiWrapper-0.0.53.tar.gz tmp/EstymaApiWrapper-0.0.55.tar.gz --markdown 20230726/E/EstymaApiWrapper/0.0.53-0.0.55/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/65/13/9ed3376c5a3fdf26e612328034042d2efbde44609a6ca5b115c4c88045ce/etsy-apiv3-2.1.0.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [satosa-oidcop]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [satosa-oidcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosa_oidcop-3.0.0.tar.gz tmp/satosa_oidcop-3.0.1.tar.gz --markdown 20230726/s/satosa-oidcop/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.3.4.tar.gz tmp/simple_pydash-0.3.5.tar.gz --markdown 20230726/s/simple-pydash/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.6.0.tar.gz tmp/ghastoolkit-0.6.1.tar.gz --markdown 20230726/g/ghastoolkit/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.3.4.tar.gz tmp/simple_pydash-0.3.5.tar.gz --markdown 20230726/s/simple-pydash/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [kaldi-native-io]: Downloading https://files.pythonhosted.org/packages/20/27/40c4d14faffdb7a2da395828b2f994ad1270959a9e4abfc32ed43626dfc3/kaldi_native_io-1.9.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-2.0.0.tar.gz tmp/etsy-apiv3-2.1.0.tar.gz --markdown 20230726/e/etsy-apiv3/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [guidata]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [guidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidata-3.0.1.tar.gz tmp/guidata-3.0.2.tar.gz --markdown 20230726/g/guidata/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-26 13:46:33] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/38/50/bc4a52db6ffa1eda190981c2a731082452d4cd6567dc3be662b1b457e8f8/spotPython-0.6.9.tar.gz
+[2023-07-26 13:46:33] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-07-26 13:46:33] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230726/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-07-26 13:46:34] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-26 13:46:34] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.8.tar.gz tmp/spotPython-0.6.9.tar.gz --markdown 20230726/s/spotPython/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-26 13:46:34] INFO root fetch - processPackages [kaldi-native-io]: executing diffoscope
+[2023-07-26 13:46:34] INFO root fetch - processPackages [kaldi-native-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldi_native_io-1.8.tar.gz tmp/kaldi_native_io-1.9.tar.gz --markdown 20230726/k/kaldi-native-io/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-26 13:46:34] INFO root fetch - processPackages [EstymaApiWrapper]: Remove: archive file [/home/abi/fetcher/tmp/EstymaApiWrapper-0.0.53.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [EstymaApiWrapper]: Remove: archive file [/home/abi/fetcher/tmp/EstymaApiWrapper-0.0.55.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [EstymaApiWrapper]: Start processing: spotPython
+[2023-07-26 13:46:34] INFO root fetch - main [MainThread]: End processing [EstymaApiWrapper]: success
+[2023-07-26 13:46:34] INFO root fetch - processPackages [spotPython]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-3.0.0.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-3.0.1.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [satosa-oidcop]: Start processing: tree-sitter-requirements
+[2023-07-26 13:46:34] INFO root fetch - main [MainThread]: End processing [satosa-oidcop]: success
+[2023-07-26 13:46:34] INFO root fetch - processPackages [tree-sitter-requirements]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.4.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.5.tar.gz]
+[2023-07-26 13:46:34] INFO root fetch - processPackages [simple-pydash]: Start processing: fastlabel
+[2023-07-26 13:46:34] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:46:34] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-26 13:46:34] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.8.tar.gz tmp/spotPython-0.6.9.tar.gz --markdown 20230726/s/spotPython/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-26 13:46:35] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [simple-pydash]: Start processing: agixt
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:46:35] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/18/9e/dca5318f562a1de0cd9d3dbba9e068c3c9e94c72271e7501aa49a20ac812/tree_sitter_requirements-0.1.0-cp38-abi3-macosx_10_9_universal2.whl
+[2023-07-26 13:46:35] INFO root fetch - processPackages [etsy-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/etsy-apiv3-2.0.0.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [etsy-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/etsy-apiv3-2.1.0.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [etsy-apiv3]: Start processing: gauth-python
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-07-26 13:46:35] INFO root fetch - processPackages [gauth-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.6.0.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.6.1.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [ghastoolkit]: Start processing: x13
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-07-26 13:46:35] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-07-26 13:46:35] WARNING root fetch - processPackages [x13]: Skipping, unable to determine old version
+[2023-07-26 13:46:35] INFO root fetch - processPackages [x13]: Start processing: cfdtools
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [x13] error
+[2023-07-26 13:46:35] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/24/17/69502b700e0f33d91e4270fe0d2a4f5bc3f90037b8eedda4784a65d3f26e/gauth_python-0.1.6.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [hcai-datasets-nightly]: Start processing: lusid-sdk
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-07-26 13:46:35] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/5c/b5/854685a59975f2d1a6baaff8e2440e3adc34209b44f2c3ca4f47b6c2b575/tree_sitter_requirements-0.1.1-cp38-abi3-macosx_10_9_universal2.whl
+[2023-07-26 13:46:35] INFO root fetch - processPackages [cfdtools]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/98/96/d36b2cab28cf7d964d88f68b523537034b0c089c32a90c1cf75ef5e67ff2/gauth_python-0.1.7.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [tree-sitter-requirements]: executing diffoscope
+[2023-07-26 13:46:35] INFO root fetch - processPackages [tree-sitter-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_requirements-0.1.0-cp38-abi3-macosx_10_9_universal2.whl.zip tmp/tree_sitter_requirements-0.1.1-cp38-abi3-macosx_10_9_universal2.whl.zip --markdown 20230726/t/tree-sitter-requirements/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:46:35] INFO root fetch - processPackages [cfdtools]: Downloading https://files.pythonhosted.org/packages/9f/11/2b78ecdb868c22c6d19682f6a18b840f04fc6b18fcb9eb0ad1e35a8c9afb/cfdtools-0.4.2.tar.gz
+[2023-07-26 13:46:35] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-07-26 13:46:35] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230726/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 13:46:35] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 13:46:35] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.6.tar.gz tmp/gauth_python-0.1.7.tar.gz --markdown 20230726/g/gauth-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 13:46:35] INFO root fetch - processPackages [kaldi-native-io]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_io-1.8.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - processPackages [kaldi-native-io]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_io-1.9.tar.gz]
+[2023-07-26 13:46:35] INFO root fetch - main [MainThread]: End processing [kaldi-native-io]: success
+[2023-07-26 13:46:36] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-26 13:46:36] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-26 13:46:36] INFO root fetch - processPackages [guidata]: Remove: archive file [/home/abi/fetcher/tmp/guidata-3.0.1.tar.gz]
+[2023-07-26 13:46:36] INFO root fetch - processPackages [guidata]: Remove: archive file [/home/abi/fetcher/tmp/guidata-3.0.2.tar.gz]
+[2023-07-26 13:46:36] INFO root fetch - main [MainThread]: End processing [guidata]: success
+[2023-07-26 13:46:36] INFO root fetch - processPackages [cfdtools]: Downloading https://files.pythonhosted.org/packages/82/4e/70d72dd336d3b046c62afad1b14d63add7bbfa62c90a3f0c22c3524bf26a/cfdtools-0.5.0.tar.gz
+[2023-07-26 13:46:36] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-26 13:46:36] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230726/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-26 13:46:36] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-26 13:46:36] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230726/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-26 13:46:36] INFO root fetch - processPackages [cfdtools]: executing diffoscope
+[2023-07-26 13:46:36] INFO root fetch - processPackages [cfdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfdtools-0.4.2.tar.gz tmp/cfdtools-0.5.0.tar.gz --markdown 20230726/c/cfdtools/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-26 13:46:37] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.8.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.9.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-26 13:46:37] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.6.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.7.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 13:46:37] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-26 13:46:37] INFO root fetch - processPackages [cfdtools]: Remove: archive file [/home/abi/fetcher/tmp/cfdtools-0.4.2.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [cfdtools]: Remove: archive file [/home/abi/fetcher/tmp/cfdtools-0.5.0.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [cfdtools]: success
+[2023-07-26 13:46:37] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_requirements-0.1.0-cp38-abi3-macosx_10_9_universal2.whl.zip]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_requirements-0.1.1-cp38-abi3-macosx_10_9_universal2.whl.zip]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [tree-sitter-requirements]: success
+[2023-07-26 13:46:37] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-26 13:46:37] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-26 13:46:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-26 13:46:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-26 13:46:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-26 13:46:45] INFO root fetch - main [MainThread]: Store serial: [19043147]
