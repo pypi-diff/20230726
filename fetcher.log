@@ -10567,3 +10567,51 @@
 [2023-07-26 05:33:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
 [2023-07-26 05:33:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
 [2023-07-26 05:33:02] INFO root fetch - main [MainThread]: Store serial: [19038962]
+[2023-07-26 05:38:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038962]
+[2023-07-26 05:38:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-interop
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: texbuild
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-dns-tencentcloud
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ayugespidertools
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kriegspiel
+[2023-07-26 05:38:11] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:38:11] INFO root fetch - processPackages [texbuild]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ayugespidertools]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-07-26 05:38:11] INFO root fetch - processPackages [certbot-dns-tencentcloud]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 05:38:11] INFO root fetch - processPackages [kriegspiel]: New version: [1.1.0] Old Version: [1.0.0rc2]
+[2023-07-26 05:38:11] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-07-26 05:38:11] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/81/0b/72bafd9b3a6a3f28ee5f4d5809c093bf4fc2ad5fcf952c7c8865a4702d8c/texbuild-0.2.1.tar.gz
+[2023-07-26 05:38:11] INFO root fetch - processPackages [certbot-dns-tencentcloud]: Downloading https://files.pythonhosted.org/packages/26/5d/219d086551e66902d2e0c355e94361532b22668678299a2bcfe6d134c819/certbot-dns-tencentcloud-2.0.0.tar.gz
+[2023-07-26 05:38:11] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/73/4f/ae763cff5e3b12f65dfe178ae3b5cdcb584a5fbfd4d4b5aa79b29098cf00/ayugespidertools-3.3.1.tar.gz
+[2023-07-26 05:38:11] INFO root fetch - processPackages [kriegspiel]: Downloading https://files.pythonhosted.org/packages/8a/9b/a4b453773d57f54f3c8a7f8f9246977a3c70a5816756f426d9dd8d8ad90e/kriegspiel-1.0.0rc2.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/af/29/6eba6defbf2b6c3d08b4506b88d3767e3096fc689f46346214b05383f13c/texbuild-0.2.2.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [certbot-dns-tencentcloud]: Downloading https://files.pythonhosted.org/packages/3c/67/a63f18307d81be9a84009325e6a8b4fbc27a09030cc08cb9ed33314cc194/certbot-dns-tencentcloud-2.0.1.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/e7/61/b2f34d9f408f9f1caa50f5d00f8f3263ccb5fe65538d30fe9b8dd268ff91/ayugespidertools-3.3.2.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [texbuild]: executing diffoscope
+[2023-07-26 05:38:12] INFO root fetch - processPackages [texbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texbuild-0.2.1.tar.gz tmp/texbuild-0.2.2.tar.gz --markdown 20230726/t/texbuild/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 05:38:12] INFO root fetch - processPackages [kriegspiel]: Downloading https://files.pythonhosted.org/packages/7a/4d/bb4bb97842f139f9a77b9eb9dc22bd353d9f5c19aaf1277873f38e6b7d67/kriegspiel-1.1.0.tar.gz
+[2023-07-26 05:38:12] INFO root fetch - processPackages [certbot-dns-tencentcloud]: executing diffoscope
+[2023-07-26 05:38:12] INFO root fetch - processPackages [certbot-dns-tencentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-tencentcloud-2.0.0.tar.gz tmp/certbot-dns-tencentcloud-2.0.1.tar.gz --markdown 20230726/c/certbot-dns-tencentcloud/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 05:38:12] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-07-26 05:38:12] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-3.3.1.tar.gz tmp/ayugespidertools-3.3.2.tar.gz --markdown 20230726/a/ayugespidertools/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-07-26 05:38:12] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-07-26 05:38:12] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230726/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:38:12] INFO root fetch - processPackages [kriegspiel]: executing diffoscope
+[2023-07-26 05:38:12] INFO root fetch - processPackages [kriegspiel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kriegspiel-1.0.0rc2.tar.gz tmp/kriegspiel-1.1.0.tar.gz --markdown 20230726/k/kriegspiel/1.0.0rc2-1.1.0/diff.md --exclude *.pyd
+[2023-07-26 05:38:13] INFO root fetch - processPackages [texbuild]: Remove: archive file [/home/abi/fetcher/tmp/texbuild-0.2.1.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - processPackages [texbuild]: Remove: archive file [/home/abi/fetcher/tmp/texbuild-0.2.2.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - main [MainThread]: End processing [texbuild]: success
+[2023-07-26 05:38:13] INFO root fetch - processPackages [certbot-dns-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-tencentcloud-2.0.0.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - processPackages [certbot-dns-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-tencentcloud-2.0.1.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - main [MainThread]: End processing [certbot-dns-tencentcloud]: success
+[2023-07-26 05:38:13] INFO root fetch - processPackages [kriegspiel]: Remove: archive file [/home/abi/fetcher/tmp/kriegspiel-1.0.0rc2.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - processPackages [kriegspiel]: Remove: archive file [/home/abi/fetcher/tmp/kriegspiel-1.1.0.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - main [MainThread]: End processing [kriegspiel]: success
+[2023-07-26 05:38:13] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.3.1.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.3.2.tar.gz]
+[2023-07-26 05:38:13] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-07-26 05:38:14] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-07-26 05:38:14] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-07-26 05:38:14] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-07-26 05:38:14] INFO root fetch - main [MainThread]: Store serial: [19038985]
