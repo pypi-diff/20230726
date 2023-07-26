@@ -17667,3 +17667,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 11:11:33] INFO root fetch - processPackages [django-sortedm2m-filter-horizontal-widget]: Remove: archive file [/home/abi/fetcher/tmp/django_sortedm2m_filter_horizontal_widget-2.0.0.tar.gz]
 [2023-07-26 11:11:33] INFO root fetch - main [MainThread]: End processing [django-sortedm2m-filter-horizontal-widget]: success
 [2023-07-26 11:11:33] INFO root fetch - main [MainThread]: Store serial: [19041765]
+[2023-07-26 11:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041765]
+[2023-07-26 11:16:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqlx-generator
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apify-shared
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docdeid
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v7e-utils
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ignition-framework
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydactim
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybotx
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-github
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slippers
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argparse-pydantic
+[2023-07-26 11:16:42] INFO root fetch - processPackages [ignition-framework]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [apify-shared]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.8] Old Version: [1.6.6]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [slippers]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [invenio-github]: New version: [1.0.1] Old Version: [1.0.0b7]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [v7e-utils]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-26 11:16:42] WARNING root fetch - processPackages [pydactim]: Skipping, unable to determine old version
+[2023-07-26 11:16:42] INFO root fetch - main [MainThread]: End processing [pydactim] error
+[2023-07-26 11:16:42] INFO root fetch - processPackages [pybotx]: New version: [0.56.0] Old Version: [0.55.8]
+[2023-07-26 11:16:42] INFO root fetch - processPackages [docdeid]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 11:16:43] INFO root fetch - processPackages [argparse-pydantic]: New version: [0.1] Old Version: [0.0.1]
+[2023-07-26 11:16:43] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/3d/8e/95fb3ebd84b9b789f01028b2a2ba579e7863ee74715b901535646df8d027/invenio-github-1.0.0b7.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/d9/99/99aadfd84334f5600363d42ac87e9154a60109c95524ccbb92e9aa6332f4/mysqlx-generator-1.6.6.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/51/e6/a1ac63d1c0a4f23272672faab71769722e89beefb9db2e33685bd7f6abdd/apify_shared-1.0.0b2.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/fa/ea/f713a9f425f2070599d0e019dde4a1883e662fdaba167f8f93d7d245d81c/pybotx-0.55.8.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [ignition-framework]: Downloading https://files.pythonhosted.org/packages/0c/e3/554db423b9ae71ed64362abdcf4ca7d2bc8c45e92ecfa072f1de066e57b6/ignition_framework-3.5.1-py3-none-any.whl
+[2023-07-26 11:16:43] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/3a/ea/4c13c656101a7db1c9b21853a7185dea6e16e7ecdce08811d5ce86e54f43/v7e_utils-0.8.1.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [docdeid]: Downloading https://files.pythonhosted.org/packages/a0/66/6b26ff43d06b4b884917f3db78e130e7f22a5a5ddca4372ac39c715c9302/docdeid-0.1.6.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [slippers]: Downloading https://files.pythonhosted.org/packages/88/e7/c205f1cf2e7b6e52a4f80ddda2dddf4134a2af35ccb09ed381b4616a5502/slippers-0.5.0a0.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/76/12/3f492665c7ca226bc890a4e5cf854eb13e6fe0f266448534dd04618a22ed/argparse_pydantic-0.0.1.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/51/37/34f2912a0546fbced0caaaa4d6f37700ac992e6e03131c5d9cc56f871c26/invenio-github-1.0.1.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/ca/01/c0611c9bad037ef43c387fa0868d888894412050485e3b751b8fe50d3722/apify_shared-1.0.0b3.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/1e/17/9cc3bbc5d15ac0ddeb52010cb191382fc120801f92fddd0509d41070cfde/mysqlx-generator-1.6.8.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [invenio-github]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [invenio-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-github-1.0.0b7.tar.gz tmp/invenio-github-1.0.1.tar.gz --markdown 20230726/i/invenio-github/1.0.0b7-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [ignition-framework]: Downloading https://files.pythonhosted.org/packages/fc/e9/5428394010e5e1b217484b7c49e2c6b7edf692c403ba0f86097fe49ddfa7/ignition_framework-3.5.2-py3-none-any.whl
+[2023-07-26 11:16:43] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/42/01/defc4e9e70c543ec67acab5d7285c60143b447158486fa3b3190d4ec1e75/v7e_utils-0.9.0.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.6.6.tar.gz tmp/mysqlx-generator-1.6.8.tar.gz --markdown 20230726/m/mysqlx-generator/1.6.6-1.6.8/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [docdeid]: Downloading https://files.pythonhosted.org/packages/22/66/6ce989ecb85e1cce06d02954e6863fbc6cc2f1ad94f19565a6768519bc81/docdeid-0.1.7.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/25/d3/160685f796d0d6b825b3e9c394c5042965e9939d688f6181157c44dfc438/pybotx-0.56.0.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [ignition-framework]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [ignition-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_framework-3.5.1-py3-none-any.whl.zip tmp/ignition_framework-3.5.2-py3-none-any.whl.zip --markdown 20230726/i/ignition-framework/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [apify-shared]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [apify-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_shared-1.0.0b2.tar.gz tmp/apify_shared-1.0.0b3.tar.gz --markdown 20230726/a/apify-shared/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [slippers]: Downloading https://files.pythonhosted.org/packages/0d/ba/3974df526135d36ed85b9855e23d306e3ced914528ef8296fe5d7f58eefd/slippers-0.6.0a0.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/eb/fa/ebd0de3994a5816090b8dea1003af62f64f7324f84ca5518211986225cd9/argparse_pydantic-0.1.tar.gz
+[2023-07-26 11:16:43] INFO root fetch - processPackages [v7e-utils]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [v7e-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v7e_utils-0.8.1.tar.gz tmp/v7e_utils-0.9.0.tar.gz --markdown 20230726/v/v7e-utils/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [docdeid]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [docdeid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docdeid-0.1.6.tar.gz tmp/docdeid-0.1.7.tar.gz --markdown 20230726/d/docdeid/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 11:16:43] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2023-07-26 11:16:43] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.55.8.tar.gz tmp/pybotx-0.56.0.tar.gz --markdown 20230726/p/pybotx/0.55.8-0.56.0/diff.md --exclude *.pyd
+[2023-07-26 11:16:44] INFO root fetch - processPackages [slippers]: executing diffoscope
+[2023-07-26 11:16:44] INFO root fetch - processPackages [slippers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slippers-0.5.0a0.tar.gz tmp/slippers-0.6.0a0.tar.gz --markdown 20230726/s/slippers/0.5.0a0-0.6.0a0/diff.md --exclude *.pyd
+[2023-07-26 11:16:44] INFO root fetch - processPackages [argparse-pydantic]: executing diffoscope
+[2023-07-26 11:16:44] INFO root fetch - processPackages [argparse-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse_pydantic-0.0.1.tar.gz tmp/argparse_pydantic-0.1.tar.gz --markdown 20230726/a/argparse-pydantic/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-07-26 11:16:45] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.6.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.8.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.0b2.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.0b3.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [apify-shared]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [v7e-utils]: Remove: archive file [/home/abi/fetcher/tmp/v7e_utils-0.8.1.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [v7e-utils]: Remove: archive file [/home/abi/fetcher/tmp/v7e_utils-0.9.0.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [v7e-utils]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [docdeid]: Remove: archive file [/home/abi/fetcher/tmp/docdeid-0.1.6.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [docdeid]: Remove: archive file [/home/abi/fetcher/tmp/docdeid-0.1.7.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [docdeid]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b7.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.1.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [invenio-github]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [slippers]: Remove: archive file [/home/abi/fetcher/tmp/slippers-0.5.0a0.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [slippers]: Remove: archive file [/home/abi/fetcher/tmp/slippers-0.6.0a0.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [slippers]: success
+[2023-07-26 11:16:45] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.0.1.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.1.tar.gz]
+[2023-07-26 11:16:45] INFO root fetch - main [MainThread]: End processing [argparse-pydantic]: success
+[2023-07-26 11:16:46] INFO root fetch - processPackages [ignition-framework]: Remove: archive file [/home/abi/fetcher/tmp/ignition_framework-3.5.1-py3-none-any.whl.zip]
+[2023-07-26 11:16:46] INFO root fetch - processPackages [ignition-framework]: Remove: archive file [/home/abi/fetcher/tmp/ignition_framework-3.5.2-py3-none-any.whl.zip]
+[2023-07-26 11:16:46] INFO root fetch - main [MainThread]: End processing [ignition-framework]: success
+[2023-07-26 11:16:46] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.8.tar.gz]
+[2023-07-26 11:16:46] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.56.0.tar.gz]
+[2023-07-26 11:16:46] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2023-07-26 11:16:46] INFO root fetch - main [MainThread]: Store serial: [19041808]
