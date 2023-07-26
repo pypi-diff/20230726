@@ -13704,3 +13704,39 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:30:58] INFO root fetch - processPackages [damona]: Remove: archive file [/home/abi/fetcher/tmp/damona-0.9.0.tar.gz]
 [2023-07-26 08:30:58] INFO root fetch - main [MainThread]: End processing [damona]: success
 [2023-07-26 08:30:58] INFO root fetch - main [MainThread]: Store serial: [19040098]
+[2023-07-26 08:36:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040098]
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qt-json-setting
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: realtouch
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realtouch
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: common-bidso
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opnsense
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CheeseType
+[2023-07-26 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Autotest-api
+[2023-07-26 08:36:08] WARNING root fetch - processPackages [realtouch]: Skipping, unable to determine old version
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: End processing [realtouch] error
+[2023-07-26 08:36:08] WARNING root fetch - processPackages [common-bidso]: Skipping, unable to determine old version
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: End processing [common-bidso] error
+[2023-07-26 08:36:08] INFO root fetch - processPackages [qt-json-setting]: New version: [0.6] Old Version: [0.4]
+[2023-07-26 08:36:08] WARNING root fetch - processPackages [realtouch]: Skipping, unable to determine old version
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: End processing [realtouch] error
+[2023-07-26 08:36:08] WARNING root fetch - processPackages [CheeseType]: Skipping, unable to determine old version
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: End processing [CheeseType] error
+[2023-07-26 08:36:08] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.89] Old Version: [0.0.88]
+[2023-07-26 08:36:08] WARNING root fetch - processPackages [Autotest-api]: Skipping, unable to determine old version
+[2023-07-26 08:36:08] INFO root fetch - main [MainThread]: End processing [Autotest-api] error
+[2023-07-26 08:36:08] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/25/be/8c2464a066ca1913a526e126b00c82ad0477c34375a2c807ff9fe960e9e1/pulumi_opnsense-0.0.88.tar.gz
+[2023-07-26 08:36:08] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/09/09/5a9eb5287076fa3b0506413e220907da3fa69c9260abea846d5615eb9cb4/qt-json-setting-0.4.tar.gz
+[2023-07-26 08:36:08] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/3e/bd/4cb019a311a4eabe5cc88ab957103eb3406a4815a2ab342de241213e6c35/pulumi_opnsense-0.0.89.tar.gz
+[2023-07-26 08:36:08] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:36:08] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.88.tar.gz tmp/pulumi_opnsense-0.0.89.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.88-0.0.89/diff.md --exclude *.pyd
+[2023-07-26 08:36:08] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/a7/67/3aa3aa7e20e69abc10cdf21b6d6d13a19e5d7af4d31943502e4ebf35e733/qt-json-setting-0.6.tar.gz
+[2023-07-26 08:36:08] INFO root fetch - processPackages [qt-json-setting]: executing diffoscope
+[2023-07-26 08:36:08] INFO root fetch - processPackages [qt-json-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-json-setting-0.4.tar.gz tmp/qt-json-setting-0.6.tar.gz --markdown 20230726/q/qt-json-setting/0.4-0.6/diff.md --exclude *.pyd
+[2023-07-26 08:36:09] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.4.tar.gz]
+[2023-07-26 08:36:09] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.6.tar.gz]
+[2023-07-26 08:36:09] INFO root fetch - main [MainThread]: End processing [qt-json-setting]: success
+[2023-07-26 08:36:09] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.88.tar.gz]
+[2023-07-26 08:36:09] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.89.tar.gz]
+[2023-07-26 08:36:09] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:36:09] INFO root fetch - main [MainThread]: Store serial: [19040130]
