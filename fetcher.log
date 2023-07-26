@@ -9543,3 +9543,18 @@
 [2023-07-26 04:07:50] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc4.tar.gz]
 [2023-07-26 04:07:50] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-07-26 04:07:50] INFO root fetch - main [MainThread]: Store serial: [19038539]
+[2023-07-26 04:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038539]
+[2023-07-26 04:12:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-26 04:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-provider-servicenow
+[2023-07-26 04:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readDataFile
+[2023-07-26 04:12:58] INFO root fetch - processPackages [readDataFile]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 04:12:58] WARNING root fetch - processPackages [airflow-provider-servicenow]: Skipping, unable to determine old version
+[2023-07-26 04:12:58] INFO root fetch - main [MainThread]: End processing [airflow-provider-servicenow] error
+[2023-07-26 04:12:59] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/2d/45/fad016f6bc8ed487dbf07e9f8902dab8a39949d397f2a8fa32afcc9b333d/readDataFile-0.0.7.tar.gz
+[2023-07-26 04:12:59] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/44/41/d82c0ba16dd715f564150dff902cc84888f6dfbcaa280d6144aeed10ca02/readDataFile-0.0.8.tar.gz
+[2023-07-26 04:12:59] INFO root fetch - processPackages [readDataFile]: executing diffoscope
+[2023-07-26 04:12:59] INFO root fetch - processPackages [readDataFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readDataFile-0.0.7.tar.gz tmp/readDataFile-0.0.8.tar.gz --markdown 20230726/r/readDataFile/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 04:13:00] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.7.tar.gz]
+[2023-07-26 04:13:00] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.8.tar.gz]
+[2023-07-26 04:13:00] INFO root fetch - main [MainThread]: End processing [readDataFile]: success
+[2023-07-26 04:13:00] INFO root fetch - main [MainThread]: Store serial: [19038549]
