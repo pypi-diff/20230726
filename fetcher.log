@@ -16653,3 +16653,230 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:39:53] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-26 10:39:53] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-26 10:39:53] INFO root fetch - main [MainThread]: Store serial: [19041357]
+[2023-07-26 10:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041357]
+[2023-07-26 10:45:02] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opnsense
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ohdsi-circe
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cohort-generator
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ohdsi-database-connector
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohdsi-sqlrender
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ohdsi-feature-extraction
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hapne
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corpus-io
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgsqlx
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pgsqlx-generator
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.5] Old Version: [1.6.3]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-database-connector]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [cohort-generator]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pgsqlx-generator]: New version: [1.6.5] Old Version: [1.6.0]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-circe]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 10:45:02] WARNING root fetch - processPackages [corpus-io]: Skipping, unable to determine old version
+[2023-07-26 10:45:02] INFO root fetch - processPackages [corpus-io]: Start processing: investor8-sdk
+[2023-07-26 10:45:02] INFO root fetch - main [MainThread]: End processing [corpus-io] error
+[2023-07-26 10:45:02] INFO root fetch - processPackages [hapne]: New version: [1.20230726] Old Version: [1.20230724]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-feature-extraction]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-sqlrender]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/bb/b9/018cb43502e65c6560d91e78d22666d5e46c6fb04a0ac53893a47005b999/pgsqlx-1.6.3.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [cohort-generator]: Downloading https://files.pythonhosted.org/packages/fc/14/ca4cdbc3cc2b3f846d1ec3cb9a417daa9910e4c34ef57d5f47f71aec1ec7/cohort-generator-0.2.2.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/11/1d/9c498becb9e3a584558ca255e6a2a9c77b3f90884fa1905ab55f7cf2d07f/pgsqlx-generator-1.6.0.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-database-connector]: Downloading https://files.pythonhosted.org/packages/7b/cf/9e5d70f6b40978dcdbc85f848ff4a7ee8b8eed6605d89e33d75dba19874a/ohdsi-database-connector-0.2.2.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-circe]: Downloading https://files.pythonhosted.org/packages/d8/cd/e8ee86f94267f5818367035899f8d98116d4b71081088a57d4ee32664bb6/ohdsi-circe-0.2.2.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-sqlrender]: Downloading https://files.pythonhosted.org/packages/09/44/1baed66054d040524953c538454ba41f0da8dc0b5da6374993cfe744b9f2/ohdsi-sqlrender-0.2.2.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [hapne]: Downloading https://files.pythonhosted.org/packages/58/5b/14c550f92c8d3b2f7c75952aaff49ed6d7313ef3bbb35d3fa02ece54f965/hapne-1.20230724.tar.gz
+[2023-07-26 10:45:02] INFO root fetch - processPackages [ohdsi-feature-extraction]: Downloading https://files.pythonhosted.org/packages/a2/5d/884a5d674e6fb6b26176e99b45ec3f61746e3e6cfbc4fe83ca900b46cf7c/ohdsi-feature-extraction-0.2.2.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4f/93/4f42e795761f44181b9a34e8c48115e09ffff0e01e7cf36f9f87b23e3794/investor8-sdk-1.1.98.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [cohort-generator]: Downloading https://files.pythonhosted.org/packages/59/f6/d38a5b3ea8ebc4faa9d89932cd7a7702bf570f4f91408546460639d7c4c7/cohort-generator-0.2.3.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/ed/a9/3f98288c4e9c5aa8a8152b6e6527259205855bead9aac2e0eba651763816/pgsqlx-1.6.5.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/30/aa/e1074d3537f10b47cb207348b606c1ac3765c62f9c5c1d480bc27958f9fd/pgsqlx-generator-1.6.5.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-circe]: Downloading https://files.pythonhosted.org/packages/66/4a/028a8faec94e1fd4825f6a86948b20f3b5498c1ea2c353fe70157b10bf35/ohdsi-circe-0.2.3.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [hapne]: Downloading https://files.pythonhosted.org/packages/8b/7b/0072a2a7dd8d88e5e2f4b5965da9943800a8fc9197f5dcb8a99a2e14663e/hapne-1.20230726.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-feature-extraction]: Downloading https://files.pythonhosted.org/packages/1f/d5/8172b3a2f783ea08ef4383bbbb407a252776712f31019a17c3a893adadb6/ohdsi-feature-extraction-0.2.3.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-database-connector]: Downloading https://files.pythonhosted.org/packages/87/c0/1ad769b3d99a0af62191c02637c2a94eaac7f6da256e50613176a7deff37/ohdsi-database-connector-0.2.3.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-sqlrender]: Downloading https://files.pythonhosted.org/packages/42/88/d8514ebe8a0e6f5cac1044025ecd3d36290f1945b97f96c6f93a01184957/ohdsi-sqlrender-0.2.3.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [cohort-generator]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [cohort-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohort-generator-0.2.2.tar.gz tmp/cohort-generator-0.2.3.tar.gz --markdown 20230726/c/cohort-generator/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4b/48/32c4091653e24da2784aed9598743cf6cb3ede09684ee47fa8586b0873df/investor8-sdk-1.1.99.tar.gz
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx-generator]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-generator-1.6.0.tar.gz tmp/pgsqlx-generator-1.6.5.tar.gz --markdown 20230726/p/pgsqlx-generator/1.6.0-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-circe]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-circe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-circe-0.2.2.tar.gz tmp/ohdsi-circe-0.2.3.tar.gz --markdown 20230726/o/ohdsi-circe/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.3.tar.gz tmp/pgsqlx-1.6.5.tar.gz --markdown 20230726/p/pgsqlx/1.6.3-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-feature-extraction]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-feature-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-feature-extraction-0.2.2.tar.gz tmp/ohdsi-feature-extraction-0.2.3.tar.gz --markdown 20230726/o/ohdsi-feature-extraction/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [hapne]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [hapne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapne-1.20230724.tar.gz tmp/hapne-1.20230726.tar.gz --markdown 20230726/h/hapne/1.20230724-1.20230726/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-sqlrender]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-sqlrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-sqlrender-0.2.2.tar.gz tmp/ohdsi-sqlrender-0.2.3.tar.gz --markdown 20230726/o/ohdsi-sqlrender/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.98.tar.gz tmp/investor8-sdk-1.1.99.tar.gz --markdown 20230726/i/investor8-sdk/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-database-connector]: executing diffoscope
+[2023-07-26 10:45:03] INFO root fetch - processPackages [ohdsi-database-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-database-connector-0.2.2.tar.gz tmp/ohdsi-database-connector-0.2.3.tar.gz --markdown 20230726/o/ohdsi-database-connector/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.5.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx]: Start processing: tff-nightly
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230725] Old Version: [0.0.1.dev20230724]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [cohort-generator]: Remove: archive file [/home/abi/fetcher/tmp/cohort-generator-0.2.2.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [cohort-generator]: Remove: archive file [/home/abi/fetcher/tmp/cohort-generator-0.2.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [cohort-generator]: Start processing: botiverse
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [cohort-generator]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-feature-extraction]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-feature-extraction-0.2.2.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-feature-extraction]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-feature-extraction-0.2.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-feature-extraction]: Start processing: pheno-utils
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [ohdsi-feature-extraction]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/99/96/54057476b38a9075cf2c56fa421fb43cd54726af884d0747b52e2e79086d/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-circe]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-circe-0.2.2.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [botiverse]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-circe]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-circe-0.2.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-circe]: Start processing: mysqlx
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [ohdsi-circe]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.0.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.5.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pgsqlx-generator]: Start processing: zlgsendcan
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: ShanHeuniversity
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.7.6] Old Version: [0.3.7.5]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-sqlrender]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-sqlrender-0.2.2.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-sqlrender]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-sqlrender-0.2.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-sqlrender]: Start processing: mysqlx-generator
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [ohdsi-sqlrender]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [zlgsendcan]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [mysqlx]: New version: [1.6.5] Old Version: [1.6.2]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [hapne]: Remove: archive file [/home/abi/fetcher/tmp/hapne-1.20230724.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [hapne]: Remove: archive file [/home/abi/fetcher/tmp/hapne-1.20230726.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [hapne]: Start processing: pythonbmp
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [hapne]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ShanHeuniversity]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/36/5d/8a276a8eb268e00f7ab24de93e36c1536893c1e32f8e67a8056d12efc9e7/botiverse-0.4.8-py3-none-any.whl
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-database-connector]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-database-connector-0.2.2.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-database-connector]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-database-connector-0.2.3.tar.gz]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ohdsi-database-connector]: Start processing: daisyfl
+[2023-07-26 10:45:05] INFO root fetch - main [MainThread]: End processing [ohdsi-database-connector]: success
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/ea/6a/0552c377479d6f070ada2239aa4cae0d1d13b8f04f48a5f2ec4f1881527d/pheno-utils-0.3.7.5.tar.gz
+[2023-07-26 10:45:05] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.5] Old Version: [1.6.2]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/1d/ac/069ff2cd0f296907d6e21665e3d05c7c2864b152665b76cc6e7f9151bca8/zlgsendcan-1.0.9.tar.gz
+[2023-07-26 10:45:05] INFO root fetch - processPackages [pythonbmp]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/b0/dc/69cac447ccd8ba4483a28ec9087a8e129911639ce2fd98b1529053edd5a4/mysqlx-1.6.2.tar.gz
+[2023-07-26 10:45:05] INFO root fetch - processPackages [daisyfl]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-26 10:45:05] INFO root fetch - processPackages [ShanHeuniversity]: Downloading https://files.pythonhosted.org/packages/de/03/b52314df49925f3d2ef5aab4aaf571abe1c2d288095e6402132003034c67/ShanHeuniversity-0.1.0.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/0a/c5/2b9d40ab33fadce3b507672e568d9f3dba045a9204786df33e2371954064/mysqlx-generator-1.6.2.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/1b/54/68fcbf3268d95f4c5b4fc8c856a2dc7cacd3f0a7cbc450b4b628fd699180/botiverse-0.4.9-py3-none-any.whl
+[2023-07-26 10:45:06] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/ee/69/f2857e8c9874f7521acea933e26e66b23f3b077c3abd5a2bf53cdc9cbe55/daisyfl-0.4.8.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/40/96/7a6742e75966f1760f4fd0e091851c79a1c37dd40f0ba305797de4e4b040/pythonbmp-1.0.4.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/fa/28/095b1b8de278097c26a4ace8eed3bc6a52014a88c74e39901cd6388cbf9f/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/3c/3b/21121bd91613cb7f4f5da1abca459c1fb202d07573ef546ef2fd53f857a4/mysqlx-1.6.5.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/a4/c3/30aa44c3b285abda5955df2c6571eb7812f90810fda8076f657b3fd36490/zlgsendcan-1.1.0.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/fb/85/cfe5cfc47c23b53c357d493c3596e3ee129d0cd45e8a4a4afb3f46f98aba/pheno-utils-0.3.7.6.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [ShanHeuniversity]: Downloading https://files.pythonhosted.org/packages/22/09/7e5a57a1a55beadbbd3bc51f9b7bcb1a1052748ef91f6558780a85af2f0c/ShanHeuniversity-0.1.1.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.6.2.tar.gz tmp/mysqlx-1.6.5.tar.gz --markdown 20230726/m/mysqlx/1.6.2-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/2a/d0/96d8174e8a5511ee89d0116263a0b56fca640d7696febca585934f49b924/mysqlx-generator-1.6.5.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [botiverse]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [botiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botiverse-0.4.8-py3-none-any.whl.zip tmp/botiverse-0.4.9-py3-none-any.whl.zip --markdown 20230726/b/botiverse/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.9.tar.gz tmp/zlgsendcan-1.1.0.tar.gz --markdown 20230726/z/zlgsendcan/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.7.5.tar.gz tmp/pheno-utils-0.3.7.6.tar.gz --markdown 20230726/p/pheno-utils/0.3.7.5-0.3.7.6/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl.zip --markdown 20230726/t/tff-nightly/0.0.1.dev20230724-0.0.1.dev20230725/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.6.2.tar.gz tmp/mysqlx-generator-1.6.5.tar.gz --markdown 20230726/m/mysqlx-generator/1.6.2-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [ShanHeuniversity]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [ShanHeuniversity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShanHeuniversity-0.1.0.tar.gz tmp/ShanHeuniversity-0.1.1.tar.gz --markdown 20230726/S/ShanHeuniversity/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 10:45:06] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/e9/eb/64b2a5b763325932b41d596eae078a290eaada0f5c6d1e86c1e0060173b3/daisyfl-0.4.9.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.98.tar.gz]
+[2023-07-26 10:45:06] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.99.tar.gz]
+[2023-07-26 10:45:06] INFO root fetch - processPackages [investor8-sdk]: Start processing: pulumi-command
+[2023-07-26 10:45:06] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/d3/a8/8b2d50022a5e0fef676c31c98da5b8c70c7125870ad3ef37c4120aab050d/pythonbmp-1.0.5.tar.gz
+[2023-07-26 10:45:06] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2023-07-26 10:45:06] INFO root fetch - processPackages [daisyfl]: executing diffoscope
+[2023-07-26 10:45:06] INFO root fetch - processPackages [daisyfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisyfl-0.4.8.tar.gz tmp/daisyfl-0.4.9.tar.gz --markdown 20230726/d/daisyfl/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pythonbmp]: executing diffoscope
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pythonbmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonbmp-1.0.4.tar.gz tmp/pythonbmp-1.0.5.tar.gz --markdown 20230726/p/pythonbmp/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20230726/p/pulumi-command/4.5.0-4.6.0a1662390243/diff.md --exclude *.pyd
+[2023-07-26 10:45:07] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.2.tar.gz]
+[2023-07-26 10:45:07] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.5.tar.gz]
+[2023-07-26 10:45:07] INFO root fetch - processPackages [mysqlx]: Start processing: pyhrms
+[2023-07-26 10:45:07] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-26 10:45:07] INFO root fetch - processPackages [pyhrms]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.9.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.0.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [zlgsendcan]: Start processing: huhk
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [huhk]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/b9/44/62cc5608aec8582eb14ae26940c52019bb9aa4865b9ef2b2075f1206625f/pyhrms-0.6.2.zip
+[2023-07-26 10:45:08] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/c8/5e/3cd09b3f49f53bb3fd1121783f6f9c9fca5472c54e6455a8f435529cf800/huhk-1.8.6.tar.gz
+[2023-07-26 10:45:08] INFO root fetch - processPackages [ShanHeuniversity]: Remove: archive file [/home/abi/fetcher/tmp/ShanHeuniversity-0.1.0.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [ShanHeuniversity]: Remove: archive file [/home/abi/fetcher/tmp/ShanHeuniversity-0.1.1.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [ShanHeuniversity]: Start processing: otree-vcee-payment
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [ShanHeuniversity]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.5.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.6.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pheno-utils]: Start processing: slack-react
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.2.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.5.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [mysqlx-generator]: Start processing: rpa-pdf
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [otree-vcee-payment]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [slack-react]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [rpa-pdf]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [otree-vcee-payment]: Downloading https://files.pythonhosted.org/packages/95/a9/dc68c83a5d217e8bc975befc4569ab066de6f48076f00270a645a4b8f6a8/otree_vcee_payment-0.9.0.tar.gz
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/2a/53/4709f2ade166f764a7c32bb88fe3e3c8be0de0e43b636d6a286642376c15/pyhrms-0.6.3.zip
+[2023-07-26 10:45:08] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.4.8-py3-none-any.whl.zip]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.4.9-py3-none-any.whl.zip]
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [botiverse]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/6c/13/01cd39532312b76ec789167e370a3a59bb82be45322f79e05b9336a5592c/huhk-1.8.7.tar.gz
+[2023-07-26 10:45:08] INFO root fetch - processPackages [rpa-pdf]: Downloading https://files.pythonhosted.org/packages/bc/5d/76c7ddd75909f7a1e52fb20be0464dff99274e6989707d4e1b8960e81fca/rpa-pdf-1.1.6.tar.gz
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-26 10:45:08] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.6.2.zip tmp/pyhrms-0.6.3.zip --markdown 20230726/p/pyhrms/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-26 10:45:08] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.8.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.9.tar.gz]
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
+[2023-07-26 10:45:08] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:45:08] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.6.tar.gz tmp/huhk-1.8.7.tar.gz --markdown 20230726/h/huhk/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-07-26 10:45:08] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/5f/b3/e3428f2d12e37fa816b36dc2a980def1f3f946eda23d2f0f4821c8c45978/slack-react-0.1.0.tar.gz
+[2023-07-26 10:45:08] WARNING root fetch - processPackages [rpa-pdf]: Skipping package: exceeds size limit 76182378>=10485760
+[2023-07-26 10:45:08] INFO root fetch - main [MainThread]: End processing [rpa-pdf] error
+[2023-07-26 10:45:08] INFO root fetch - processPackages [otree-vcee-payment]: Downloading https://files.pythonhosted.org/packages/65/4d/342a9232fda19328414529b929f8a426ca7d675a37251b770702c8a81cfe/otree-vcee-payment-0.9.1.tar.gz
+[2023-07-26 10:45:09] INFO root fetch - processPackages [otree-vcee-payment]: executing diffoscope
+[2023-07-26 10:45:09] INFO root fetch - processPackages [otree-vcee-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otree_vcee_payment-0.9.0.tar.gz tmp/otree-vcee-payment-0.9.1.tar.gz --markdown 20230726/o/otree-vcee-payment/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2023-07-26 10:45:09] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.2.zip]
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.3.zip]
+[2023-07-26 10:45:09] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-26 10:45:09] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/33/5e/5b1bcb0d7521e45a06bb370b6967ac898faa8af7a92f4c64134a93533672/slack-react-0.2.0.tar.gz
+[2023-07-26 10:45:09] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip]
+[2023-07-26 10:45:09] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl.zip]
+[2023-07-26 10:45:09] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.4.tar.gz]
+[2023-07-26 10:45:09] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.5.tar.gz]
+[2023-07-26 10:45:09] INFO root fetch - main [MainThread]: End processing [pythonbmp]: success
+[2023-07-26 10:45:10] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.6.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.7.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-26 10:45:10] INFO root fetch - processPackages [slack-react]: executing diffoscope
+[2023-07-26 10:45:10] INFO root fetch - processPackages [slack-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-react-0.1.0.tar.gz tmp/slack-react-0.2.0.tar.gz --markdown 20230726/s/slack-react/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 10:45:10] INFO root fetch - processPackages [otree-vcee-payment]: Remove: archive file [/home/abi/fetcher/tmp/otree_vcee_payment-0.9.0.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - processPackages [otree-vcee-payment]: Remove: archive file [/home/abi/fetcher/tmp/otree-vcee-payment-0.9.1.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - main [MainThread]: End processing [otree-vcee-payment]: success
+[2023-07-26 10:45:10] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.1.0.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.0.tar.gz]
+[2023-07-26 10:45:10] INFO root fetch - main [MainThread]: End processing [slack-react]: success
+[2023-07-26 10:45:10] INFO root fetch - main [MainThread]: Store serial: [19041437]
