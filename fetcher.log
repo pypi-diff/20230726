@@ -17134,3 +17134,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:50:29] INFO root fetch - processPackages [gdal-sid]: Remove: archive file [/home/abi/fetcher/tmp/gdal_sid-3.6.4-py3-none-win_amd64.whl.zip]
 [2023-07-26 10:50:29] INFO root fetch - main [MainThread]: End processing [gdal-sid]: success
 [2023-07-26 10:50:29] INFO root fetch - main [MainThread]: Store serial: [19041545]
+[2023-07-26 10:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041545]
+[2023-07-26 10:55:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robot-rumble
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-connector-importer
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kelvin-sdk
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m3-spyne-smev
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libTSCANAPI
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logPPP
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dactim-mri
+[2023-07-26 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: c2cciutils
+[2023-07-26 10:55:39] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [odoo14-addon-connector-importer]: New version: [14.0.2.5.0] Old Version: [14.0.2.4.0]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [kelvin-sdk]: New version: [7.9.0] Old Version: [7.8.1]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [logPPP]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [m3-spyne-smev]: New version: [1.0.0] Old Version: [0.4.4]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230726085137] Old Version: [2.2.1.dev20230726070746]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/da/30/a474255cd4911303cce957b73fc30976bf69a479b16607a9ac34707e78ba/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl
+[2023-07-26 10:55:39] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/9d/69/a72f7151df54a46f71b0910856fa04086a5f26a86985f151a4a962e9db22/robot_rumble-0.1.4.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/08/d1/7fd7d46a8dfe673a4aaa0fbf78712d6fb576cfd5cde2c6a10f66f6b0dd3e/localstack-core-2.2.1.dev20230726070746.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/cc/c2/37f395ed99841b462e0c5e51b7e1055a85909d5288ee36df2e37a030d12d/libTSCANAPI-1.1.9.tar.gz
+[2023-07-26 10:55:39] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 13081685>=10485760
+[2023-07-26 10:55:39] INFO root fetch - processPackages [robot-rumble]: Start processing: gauth-python-package
+[2023-07-26 10:55:39] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-07-26 10:55:39] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-07-26 10:55:39] INFO root fetch - processPackages [dactim-mri]: Start processing: rec-spotify
+[2023-07-26 10:55:39] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-07-26 10:55:39] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/ba/ba/92d51efdd5a51f22d252405dc765ea8c8412638b8ba852389043f60e69ea/logPPP-1.0.3.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [m3-spyne-smev]: Downloading https://files.pythonhosted.org/packages/3d/79/3dc1d0a4a327077b3c9cbe5ceab400ddcb974d9c74fad858553eb6a80b3b/m3-spyne-smev-0.4.4.tar.gz
+[2023-07-26 10:55:39] INFO root fetch - processPackages [rec-spotify]: New version: [1.5] Old Version: [1.4]
+[2023-07-26 10:55:39] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16392465>=10485760
+[2023-07-26 10:55:39] INFO root fetch - processPackages [libTSCANAPI]: Start processing: pulumi-opnsense
+[2023-07-26 10:55:39] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-26 10:55:39] WARNING root fetch - processPackages [gauth-python-package]: Skipping, unable to determine old version
+[2023-07-26 10:55:39] INFO root fetch - processPackages [gauth-python-package]: Start processing: pytensor
+[2023-07-26 10:55:39] INFO root fetch - main [MainThread]: End processing [gauth-python-package] error
+[2023-07-26 10:55:39] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-26 10:55:39] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-07-26 10:55:39] INFO root fetch - processPackages [kelvin-sdk]: executing diffoscope
+[2023-07-26 10:55:39] INFO root fetch - processPackages [kelvin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk-7.8.1-py3-none-any.whl.zip tmp/kelvin_sdk-7.9.0-py3-none-any.whl.zip --markdown 20230726/k/kelvin-sdk/7.8.1-7.9.0/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/19/39/dff3a4e36ed8cddf568cf81a186c76f34272cf1862774881663bd594154e/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl
+[2023-07-26 10:55:40] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/76/da/a1e948f748d6ae9bc0e40312b673e755c1a58982cf9012326008f46ae2ca/rec_spotify-1.4.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/db/0f/e1e91a98186ff4e44f539f82933a6239c82898af2a2ddd8c94ff1bb08441/logPPP-1.0.4.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/06/02/2488a931765bd6f9154a8b41daf86ee91c35012170fc951a020778e35bd9/localstack-core-2.2.1.dev20230726085137.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [m3-spyne-smev]: Downloading https://files.pythonhosted.org/packages/68/55/d3a40b1951d6a814daff6c1afe5dbc81c6832e392393d7a9792ba5b1a484/m3-spyne-smev-1.0.0.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [logPPP]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [logPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logPPP-1.0.3.tar.gz tmp/logPPP-1.0.4.tar.gz --markdown 20230726/l/logPPP/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [odoo14-addon-connector-importer]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [odoo14-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-connector-importer/14.0.2.4.0-14.0.2.5.0/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [m3-spyne-smev]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [m3-spyne-smev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-spyne-smev-0.4.4.tar.gz tmp/m3-spyne-smev-1.0.0.tar.gz --markdown 20230726/m/m3-spyne-smev/0.4.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-26 10:55:40] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/00/d2/2c0e7207265ccbd54e6c007423b0068bea2417538cebef44c7dc4229d3e8/rec_spotify-1.5.tar.gz
+[2023-07-26 10:55:40] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [rec-spotify]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [rec-spotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_spotify-1.4.tar.gz tmp/rec_spotify-1.5.tar.gz --markdown 20230726/r/rec-spotify/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230726070746.tar.gz tmp/localstack-core-2.2.1.dev20230726085137.tar.gz --markdown 20230726/l/localstack-core/2.2.1.dev20230726070746-2.2.1.dev20230726085137/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-26 10:55:40] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230726/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-26 10:55:40] INFO root fetch - processPackages [kelvin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin_sdk-7.8.1-py3-none-any.whl.zip]
+[2023-07-26 10:55:40] INFO root fetch - processPackages [kelvin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin_sdk-7.9.0-py3-none-any.whl.zip]
+[2023-07-26 10:55:40] INFO root fetch - main [MainThread]: End processing [kelvin-sdk]: success
+[2023-07-26 10:55:41] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-07-26 10:55:41] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.3.tar.gz]
+[2023-07-26 10:55:41] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.4.tar.gz]
+[2023-07-26 10:55:41] INFO root fetch - main [MainThread]: End processing [logPPP]: success
+[2023-07-26 10:55:42] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-07-26 10:55:42] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230726/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-07-26 10:55:42] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 10:55:42] INFO root fetch - processPackages [m3-spyne-smev]: Remove: archive file [/home/abi/fetcher/tmp/m3-spyne-smev-0.4.4.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - processPackages [m3-spyne-smev]: Remove: archive file [/home/abi/fetcher/tmp/m3-spyne-smev-1.0.0.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - main [MainThread]: End processing [m3-spyne-smev]: success
+[2023-07-26 10:55:42] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl.zip]
+[2023-07-26 10:55:42] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.5.0-py3-none-any.whl.zip]
+[2023-07-26 10:55:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer]: success
+[2023-07-26 10:55:42] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.4.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.5.tar.gz]
+[2023-07-26 10:55:42] INFO root fetch - main [MainThread]: End processing [rec-spotify]: success
+[2023-07-26 10:55:45] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 10:55:45] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 10:55:45] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 10:55:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726070746.tar.gz]
+[2023-07-26 10:55:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726085137.tar.gz]
+[2023-07-26 10:55:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-26 10:55:46] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.8.11.tar.gz]
+[2023-07-26 10:55:46] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
+[2023-07-26 10:55:46] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-07-26 10:55:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-26 10:55:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-26 10:55:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-26 10:55:46] INFO root fetch - main [MainThread]: Store serial: [19041607]
