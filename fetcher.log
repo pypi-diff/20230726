@@ -9391,3 +9391,50 @@
 [2023-07-26 03:51:59] INFO root fetch - processPackages [terminut]: Remove: archive file [/home/abi/fetcher/tmp/terminut-0.0.0.918.tar.gz]
 [2023-07-26 03:51:59] INFO root fetch - main [MainThread]: End processing [terminut]: success
 [2023-07-26 03:51:59] INFO root fetch - main [MainThread]: Store serial: [19038469]
+[2023-07-26 03:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038469]
+[2023-07-26 03:57:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kocoafab
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcptbr
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantfactortest
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPyS
+[2023-07-26 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stdflow
+[2023-07-26 03:57:08] INFO root fetch - processPackages [GPyS]: New version: [0.1.0] Old Version: [0.0.32]
+[2023-07-26 03:57:08] WARNING root fetch - processPackages [quantfactortest]: Skipping, unable to determine old version
+[2023-07-26 03:57:08] INFO root fetch - main [MainThread]: End processing [quantfactortest] error
+[2023-07-26 03:57:08] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 03:57:08] INFO root fetch - processPackages [mcptbr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 03:57:08] INFO root fetch - processPackages [stdflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 03:57:08] INFO root fetch - processPackages [kocoafab]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 03:57:08] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/1d/de/5116c1aba36ba3015e08054c02825a8fd5a9823a8816aa45e3caca73df4e/mcptbr-0.1.2.tar.gz
+[2023-07-26 03:57:08] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/6a/f5/7c13fc5305beee64f5c2fd21710d859237026e97c138943bee459e7c8379/stdflow-0.0.2.tar.gz
+[2023-07-26 03:57:08] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/67/77/7ae017c2951f4aefcb9c9c828344da4c8cce8320de93d23ea3a899a6cab2/GPyS-0.0.32.tar.gz
+[2023-07-26 03:57:08] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/11/a1/80e7d3c616501e7b67eaeb5f32c03014e8ef01bd54ca5be4c3cb2bdc9a3c/robot_rumble-0.1.1.tar.gz
+[2023-07-26 03:57:09] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/cf/3d/6f526811ee8b534a046b489ed3d1a7f913c8dba52c78b92b99fc20f6bc03/kocoafab-0.0.1.tar.gz
+[2023-07-26 03:57:09] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 13056267>=10485760
+[2023-07-26 03:57:09] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-07-26 03:57:09] INFO root fetch - processPackages [mcptbr]: Downloading https://files.pythonhosted.org/packages/d0/9e/f52b719af00ec9e0b1f4bbd75ff3c22b11ae6bae0b14fad4ed0bbbdcbf31/mcptbr-0.1.3.tar.gz
+[2023-07-26 03:57:09] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/cc/73/83133ece54af6d78f1759002f30ebec1de61b75c536e320c9a5907ccc835/stdflow-0.0.3.tar.gz
+[2023-07-26 03:57:09] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/2e/7c/16eb12affce426302729fd0c3ecc77c959c3d82692a833410418f69517ea/GPyS-0.1.0.tar.gz
+[2023-07-26 03:57:09] INFO root fetch - processPackages [mcptbr]: executing diffoscope
+[2023-07-26 03:57:09] INFO root fetch - processPackages [mcptbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcptbr-0.1.2.tar.gz tmp/mcptbr-0.1.3.tar.gz --markdown 20230726/m/mcptbr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 03:57:09] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-26 03:57:09] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.2.tar.gz tmp/stdflow-0.0.3.tar.gz --markdown 20230726/s/stdflow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 03:57:09] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/e3/a0/97c16cf2d21196a06aa75fbacaa62618cecf85c48fcf2cf2b92bb7bcc642/kocoafab-0.0.2-py3-none-any.whl
+[2023-07-26 03:57:09] INFO root fetch - processPackages [GPyS]: executing diffoscope
+[2023-07-26 03:57:09] INFO root fetch - processPackages [GPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPyS-0.0.32.tar.gz tmp/GPyS-0.1.0.tar.gz --markdown 20230726/G/GPyS/0.0.32-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 03:57:09] INFO root fetch - processPackages [kocoafab]: executing diffoscope
+[2023-07-26 03:57:09] INFO root fetch - processPackages [kocoafab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kocoafab-0.0.1.tar.gz tmp/kocoafab-0.0.2-py3-none-any.whl.zip --markdown 20230726/k/kocoafab/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 03:57:10] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.1.2.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - processPackages [mcptbr]: Remove: archive file [/home/abi/fetcher/tmp/mcptbr-0.1.3.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - main [MainThread]: End processing [mcptbr]: success
+[2023-07-26 03:57:10] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.0.32.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.1.0.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - main [MainThread]: End processing [GPyS]: success
+[2023-07-26 03:57:10] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-0.0.1.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-0.0.2-py3-none-any.whl.zip]
+[2023-07-26 03:57:10] INFO root fetch - main [MainThread]: End processing [kocoafab]: success
+[2023-07-26 03:57:10] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.2.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.3.tar.gz]
+[2023-07-26 03:57:10] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-26 03:57:10] INFO root fetch - main [MainThread]: Store serial: [19038489]
