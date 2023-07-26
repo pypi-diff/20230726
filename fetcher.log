@@ -18134,3 +18134,142 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 11:32:33] INFO root fetch - processPackages [peakventures]: Remove: archive file [/home/abi/fetcher/tmp/peakventures-1.2.0.tar.gz]
 [2023-07-26 11:32:33] INFO root fetch - main [MainThread]: End processing [peakventures]: success
 [2023-07-26 11:32:33] INFO root fetch - main [MainThread]: Store serial: [19041949]
+[2023-07-26 11:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041949]
+[2023-07-26 11:37:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: code-loader
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-sequence
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icoco
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tritondse
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-tfe
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zrouter
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: illumigator
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: outplan
+[2023-07-26 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc-faas-force
+[2023-07-26 11:37:42] INFO root fetch - processPackages [illumigator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [zrouter]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [odoo-addon-project-sequence]: New version: [16.0.1.0.0.2] Old Version: [15.0.0.2.1.2]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [icoco]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [tritondse]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [eodc-faas-force]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [outplan]: New version: [2.1.5] Old Version: [2.1.2]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-26 11:37:42] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/ee/e2/5abe02914bd2c0aaca3c1ba7600181214c864e3ad93c4e6411421c3fe349/illumigator-0.0.8.tar.gz
+[2023-07-26 11:37:42] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/f6/5c/424ae795607fe8c8991b274f8fbeeaaae4e057ce7caeeaff260e084b0ae6/eodc_faas_force-2023.7.0.tar.gz
+[2023-07-26 11:37:43] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 62524130>=10485760
+[2023-07-26 11:37:43] INFO root fetch - processPackages [illumigator]: Start processing: libTSCANAPI
+[2023-07-26 11:37:43] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-07-26 11:37:43] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/a9/35/2a63ab18cd221af510ca94f5a99e79081f5a8bf2a502a27e23a811e2b85e/tritondse-0.1.5.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/70/b4/46447a98f3cb006818ee7f113c854a34d045c04863a8f8e930387e5fc74f/zrouter-0.3.7.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/83/b5/da9d92c60d65c442faf556229f56eadbeb017c09d82f6eb14d0f5d9a5675/odoo_addon_project_sequence-15.0.0.2.1.2-py3-none-any.whl
+[2023-07-26 11:37:43] INFO root fetch - processPackages [icoco]: Downloading https://files.pythonhosted.org/packages/66/ea/1343a90c3ed15da23f8fcb683333c528f89c14fe22f3823ac3125e7a8d50/icoco-0.0.6.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-26 11:37:43] INFO root fetch - processPackages [outplan]: Downloading https://files.pythonhosted.org/packages/4b/45/ecd5f52f921a52706b076b61bdb4cd16786690d8ffb66dbe3e4c0a6a214d/outplan-2.1.2.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/3e/48/7f0d23809a02b4c210d6109d49885165c1ffd1f9489780b2c81f890d3f86/cdktf-cdktf-provider-tfe-8.0.0.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/05/25/91775c1f8409c1b21fedcab547825b47f83c99e920f35b90d86bb894250f/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/3e/0b/89e7adc4c444c214d4375a20be2b90cb51f594ce8b3206108abebb07792e/libTSCANAPI-1.2.0.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/5e/5c/a3f33c7a317a540496e30f30e44801b9da7ee182b5a307cd664f119b5fb6/eodc_faas_force-2023.7.1.tar.gz
+[2023-07-26 11:37:43] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16298279>=10485760
+[2023-07-26 11:37:43] INFO root fetch - processPackages [libTSCANAPI]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-07-26 11:37:43] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-26 11:37:43] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/81/7c/1c2bb2eff8ed34d487f58622911fced33dba562aaf1e321464085cb3100e/tritondse-0.1.6.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-26 11:37:43] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/08/7d/560da866685ecc00d77b5137ced48e0b30138cf416311aea7141e491defe/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-26 11:37:43] INFO root fetch - processPackages [icoco]: Downloading https://files.pythonhosted.org/packages/03/59/62c64e286463c620d5f9ce45bcfe18743c13ae77bee13b2455bd689f62ba/icoco-0.0.8.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/71/fc/cba6114f18dff9831cfb82da9d0b5b5a4b9c14eee9bc1ec0f0e2c9c8383e/zrouter-0.3.9.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [eodc-faas-force]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [eodc-faas-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_force-2023.7.0.tar.gz tmp/eodc_faas_force-2023.7.1.tar.gz --markdown 20230726/e/eodc-faas-force/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [outplan]: Downloading https://files.pythonhosted.org/packages/62/6d/bf226568a51291835924ff3494707ad931b1932527fd4c2e46c52fa2d8f8/outplan-2.1.5.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/f5/4b/9302f823c6b5778401d23dd26ce5c7489c3a5e123e2216c08551b58491ed/cdktf-cdktf-provider-tfe-8.0.1.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [tritondse]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230726/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [tritondse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritondse-0.1.5.tar.gz tmp/tritondse-0.1.6.tar.gz --markdown 20230726/t/tritondse/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [icoco]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [icoco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icoco-0.0.6.tar.gz tmp/icoco-0.0.8.tar.gz --markdown 20230726/i/icoco/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [odoo-addon-project-sequence]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [odoo-addon-project-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_sequence-15.0.0.2.1.2-py3-none-any.whl.zip tmp/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-project-sequence/15.0.0.2.1.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.7.tar.gz tmp/zrouter-0.3.9.tar.gz --markdown 20230726/z/zrouter/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/4f/d2/ec6f85d80ee48ce5bae216198b94d44015b4dcd25505a48f912f0ac8cae1/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz
+[2023-07-26 11:37:43] INFO root fetch - processPackages [outplan]: executing diffoscope
+[2023-07-26 11:37:43] INFO root fetch - processPackages [outplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outplan-2.1.2.tar.gz tmp/outplan-2.1.5.tar.gz --markdown 20230726/o/outplan/2.1.2-2.1.5/diff.md --exclude *.pyd
+[2023-07-26 11:37:43] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: executing diffoscope
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tfe-8.0.0.tar.gz tmp/cdktf-cdktf-provider-tfe-8.0.1.tar.gz --markdown 20230726/c/cdktf-cdktf-provider-tfe/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz --markdown 20230726/c/cdktf-cdktf-provider-newrelic/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/57/9f/eedea0501506a65acd9949dc58f1c16b5d7dc14a1d3dcbae0c5270b3c921/cdktf-cdktf-provider-snowflake-8.0.1.tar.gz
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-07-26 11:37:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz tmp/cdktf-cdktf-provider-snowflake-8.0.1.tar.gz --markdown 20230726/c/cdktf-cdktf-provider-snowflake/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-26 11:37:45] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.7.0.tar.gz]
+[2023-07-26 11:37:45] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.7.1.tar.gz]
+[2023-07-26 11:37:45] INFO root fetch - processPackages [eodc-faas-force]: Start processing: logPPP
+[2023-07-26 11:37:45] INFO root fetch - main [MainThread]: End processing [eodc-faas-force]: success
+[2023-07-26 11:37:45] INFO root fetch - processPackages [logPPP]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/ba/ba/92d51efdd5a51f22d252405dc765ea8c8412638b8ba852389043f60e69ea/logPPP-1.0.3.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [code-loader]: Start processing: ocx-schema-parser
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [ocx-schema-parser]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [icoco]: Remove: archive file [/home/abi/fetcher/tmp/icoco-0.0.6.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [icoco]: Remove: archive file [/home/abi/fetcher/tmp/icoco-0.0.8.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [icoco]: Start processing: zlgsendcan
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [icoco]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zlgsendcan]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/32/99/5f557dace80e1a15eca9ebe3fba27913b70f8ef8bc2cd600649f4fe7ea01/logPPP-1.0.5.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.7.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.9.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zrouter]: Start processing: periflow-client
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/ce/5f/5268a1adcee32e1fc360950342c8ae0e8c5c5ffb12fab7491e751c9dc6c2/zlgsendcan-1.1.2.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-15.0.0.2.1.2-py3-none-any.whl.zip]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [ocx-schema-parser]: Downloading https://files.pythonhosted.org/packages/9d/d5/b4f5479089f50577a8b1b32b2310b24c5ad909afd5a7de52ac79a1918f88/ocx-schema-parser-0.2.0.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [logPPP]: executing diffoscope
+[2023-07-26 11:37:46] INFO root fetch - processPackages [logPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logPPP-1.0.3.tar.gz tmp/logPPP-1.0.5.tar.gz --markdown 20230726/l/logPPP/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-26 11:37:46] INFO root fetch - processPackages [periflow-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [outplan]: Remove: archive file [/home/abi/fetcher/tmp/outplan-2.1.2.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [outplan]: Remove: archive file [/home/abi/fetcher/tmp/outplan-2.1.5.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [outplan]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.5.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.6.tar.gz]
+[2023-07-26 11:37:46] INFO root fetch - main [MainThread]: End processing [tritondse]: success
+[2023-07-26 11:37:46] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/bc/32/7a22144cd2ebfed3fc521fd17d6980242aa75497578ee7859ecb2463840d/zlgsendcan-1.1.3.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/d8/8c/72a8487ef5b3b681e88489ee312b22bfcc0d1b62fbfca73f46b9fded8e17/periflow_client-0.1.1.tar.gz
+[2023-07-26 11:37:46] INFO root fetch - processPackages [ocx-schema-parser]: Downloading https://files.pythonhosted.org/packages/a5/55/a0586b15d9f0a86baf787de96d2b8d3ed7eb355947d186283b539a9fb80e/ocx_schema_parser-0.3.0.tar.gz
+[2023-07-26 11:37:47] INFO root fetch - processPackages [ocx-schema-parser]: executing diffoscope
+[2023-07-26 11:37:47] INFO root fetch - processPackages [ocx-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocx-schema-parser-0.2.0.tar.gz tmp/ocx_schema_parser-0.3.0.tar.gz --markdown 20230726/o/ocx-schema-parser/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 11:37:47] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 11:37:47] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.1.2.tar.gz tmp/zlgsendcan-1.1.3.tar.gz --markdown 20230726/z/zlgsendcan/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-26 11:37:47] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/8b/40/7b70d11e640c6ef6208ff05d1fcc1ccaf922f1fd71587d74dec9cd925d5b/periflow_client-0.1.2.tar.gz
+[2023-07-26 11:37:47] INFO root fetch - processPackages [periflow-client]: executing diffoscope
+[2023-07-26 11:37:47] INFO root fetch - processPackages [periflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow_client-0.1.1.tar.gz tmp/periflow_client-0.1.2.tar.gz --markdown 20230726/p/periflow-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 11:37:48] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.3.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.5.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - main [MainThread]: End processing [logPPP]: success
+[2023-07-26 11:37:48] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-8.0.0.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-8.0.1.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
+[2023-07-26 11:37:48] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.2.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.3.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 11:37:48] INFO root fetch - processPackages [ocx-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ocx-schema-parser-0.2.0.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - processPackages [ocx-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ocx_schema_parser-0.3.0.tar.gz]
+[2023-07-26 11:37:48] INFO root fetch - main [MainThread]: End processing [ocx-schema-parser]: success
+[2023-07-26 11:37:49] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.1.tar.gz]
+[2023-07-26 11:37:49] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.2.tar.gz]
+[2023-07-26 11:37:49] INFO root fetch - main [MainThread]: End processing [periflow-client]: success
+[2023-07-26 11:37:49] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz]
+[2023-07-26 11:37:49] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2023-07-26 11:37:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-07-26 11:37:50] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz]
+[2023-07-26 11:37:50] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-8.0.1.tar.gz]
+[2023-07-26 11:37:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-07-26 11:37:50] INFO root fetch - main [MainThread]: Store serial: [19042009]
