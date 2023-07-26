@@ -10451,3 +10451,48 @@
 [2023-07-26 05:17:31] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230726.tar.gz]
 [2023-07-26 05:17:31] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-07-26 05:17:31] INFO root fetch - main [MainThread]: Store serial: [19038912]
+[2023-07-26 05:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038912]
+[2023-07-26 05:22:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Falmark
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsrs4anki-optimizer
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cog-airflow-notify-sns
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmltread
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ploomes-api-client
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: annb
+[2023-07-26 05:22:40] INFO root fetch - processPackages [cog-airflow-notify-sns]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 05:22:40] WARNING root fetch - processPackages [annb]: Skipping, unable to determine old version
+[2023-07-26 05:22:40] INFO root fetch - main [MainThread]: End processing [annb] error
+[2023-07-26 05:22:40] WARNING root fetch - processPackages [Falmark]: Skipping, unable to determine old version
+[2023-07-26 05:22:40] INFO root fetch - main [MainThread]: End processing [Falmark] error
+[2023-07-26 05:22:40] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.4.1] Old Version: [4.3.2]
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 05:22:40] INFO root fetch - processPackages [xmltread]: New version: [0.2] Old Version: [0.1]
+[2023-07-26 05:22:40] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/91/57/c37ca00fb7e23fac435f5aef948b2a33f6f670e594436d9df67b55bc7589/cog-airflow-notify-sns-2.0.0.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/62/a8/e0ea5ef8ce0764fc5bedb94233fa72b112e5a1ee8178f6d2d3c952d2799a/ploomes-api-client-0.1.8.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/72/37/24d4284fae5e339ff63b189a3e2aaf50e791e3cf751e68a57bc2e214d37d/fsrs4anki_optimizer-4.3.2.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [xmltread]: Downloading https://files.pythonhosted.org/packages/a3/07/0f8481c1d06798e96c1b1764289a525a11761b1b19c596101992ebfdfc61/xmltread-0.1.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/d7/39/7efabf72e3c56b14fc4fcf70038c8fe61a02cb641a68807b976fa574de67/ploomes-api-client-0.1.9.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/99/38/f8639033514d023040657854f17a80ef614444860cd71f74f9312b4d5b89/cog-airflow-notify-sns-2.0.1.tar.gz
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-07-26 05:22:40] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.8.tar.gz tmp/ploomes-api-client-0.1.9.tar.gz --markdown 20230726/p/ploomes-api-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 05:22:40] INFO root fetch - processPackages [cog-airflow-notify-sns]: executing diffoscope
+[2023-07-26 05:22:40] INFO root fetch - processPackages [cog-airflow-notify-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-airflow-notify-sns-2.0.0.tar.gz tmp/cog-airflow-notify-sns-2.0.1.tar.gz --markdown 20230726/c/cog-airflow-notify-sns/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 05:22:40] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/7a/62/41afcd07e005d34d393e3e46a0a884b0403e78384f117be53ed682bceea0/fsrs4anki_optimizer-4.4.1.tar.gz
+[2023-07-26 05:22:41] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-26 05:22:41] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.3.2.tar.gz tmp/fsrs4anki_optimizer-4.4.1.tar.gz --markdown 20230726/f/fsrs4anki-optimizer/4.3.2-4.4.1/diff.md --exclude *.pyd
+[2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: Downloading https://files.pythonhosted.org/packages/5d/b3/15d12f3176a4d21f89aaf9526f909a141de6352db8f21904047850bd4720/xmltread-0.2.tar.gz
+[2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: executing diffoscope
+[2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmltread-0.1.tar.gz tmp/xmltread-0.2.tar.gz --markdown 20230726/x/xmltread/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-26 05:22:41] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-2.0.0.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-2.0.1.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - main [MainThread]: End processing [cog-airflow-notify-sns]: success
+[2023-07-26 05:22:41] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.8.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.9.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-07-26 05:22:41] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.3.2.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.4.1.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: Remove: archive file [/home/abi/fetcher/tmp/xmltread-0.1.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: Remove: archive file [/home/abi/fetcher/tmp/xmltread-0.2.tar.gz]
+[2023-07-26 05:22:41] INFO root fetch - main [MainThread]: End processing [xmltread]: success
+[2023-07-26 05:22:41] INFO root fetch - main [MainThread]: Store serial: [19038931]
