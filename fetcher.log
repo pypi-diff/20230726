@@ -21131,3 +21131,78 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:46:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
 [2023-07-26 13:46:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-07-26 13:46:45] INFO root fetch - main [MainThread]: Store serial: [19043147]
+[2023-07-26 13:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043147]
+[2023-07-26 13:51:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk-preview
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picframe
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digimat.bac0
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-pruning
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rastermap
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nuclia
+[2023-07-26 13:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oceantide
+[2023-07-26 13:51:54] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [torch-pruning]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [nuclia]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [rastermap]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [picframe]: New version: [2023.7.26.post1] Old Version: [2023.7.26]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [oceantide]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-26 13:51:54] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [picframe]: Downloading https://files.pythonhosted.org/packages/4d/8a/8b5007c382d7fe91d795636e9529cfb9bea73d1641930faf9f0af8d140c2/picframe-2023.7.26.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-26 13:51:54] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/d9/f0/dfb89d4a5a09162014bad0a886ea8538540b9ea5a8bb25d5fad0602b93ef/nuclia-1.1.4.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [rastermap]: Downloading https://files.pythonhosted.org/packages/ca/74/7701d33fabc76a81b64e256429954183dd68c0b7f246837e4ff904ceddfa/rastermap-0.9.0.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [torch-pruning]: Downloading https://files.pythonhosted.org/packages/06/07/d0a60934d8a7e71405d524d7358d6fe1bb2164e131634bc6138c788a886b/torch-pruning-1.2.0.tar.gz
+[2023-07-26 13:51:54] INFO root fetch - processPackages [oceantide]: Downloading https://files.pythonhosted.org/packages/9e/3d/ebfbe7b836e659140a4069891741b7ca7ff680d54b5d5cf8fdd1924d23cf/oceantide-0.4.1.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-26 13:51:55] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230726/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/7f/e4/37eee3540a668d3df786b17779bbc26d609e8e6e6f512a22d81a11f1770c/nuclia-1.1.5.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [rastermap]: Downloading https://files.pythonhosted.org/packages/4c/4d/de298a11b8e4eb291d23f1922864a766be7878290b2eba307b5bad2be20a/rastermap-0.9.1.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230726/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230726/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [picframe]: Downloading https://files.pythonhosted.org/packages/88/d3/0659cc486e3c423eda710c7bb2b46997a866358f6df53f596d509d7a4dca/picframe-2023.7.26.post1.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.1.4.tar.gz tmp/nuclia-1.1.5.tar.gz --markdown 20230726/n/nuclia/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [oceantide]: Downloading https://files.pythonhosted.org/packages/18/4b/35e48f5a6bc7254229d7c6d0f6253b477a32a7f729972006402055127f4a/oceantide-0.5.0.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [torch-pruning]: Downloading https://files.pythonhosted.org/packages/18/9d/52a7026fe2774180e17de95f40c714edaee46c4f1b2d1a2d76b0fba309be/torch-pruning-1.2.1.tar.gz
+[2023-07-26 13:51:55] INFO root fetch - processPackages [rastermap]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [rastermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastermap-0.9.0.tar.gz tmp/rastermap-0.9.1.tar.gz --markdown 20230726/r/rastermap/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [picframe]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [picframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picframe-2023.7.26.tar.gz tmp/picframe-2023.7.26.post1.tar.gz --markdown 20230726/p/picframe/2023.7.26-2023.7.26.post1/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [torch-pruning]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [torch-pruning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-pruning-1.2.0.tar.gz tmp/torch-pruning-1.2.1.tar.gz --markdown 20230726/t/torch-pruning/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-26 13:51:55] INFO root fetch - processPackages [oceantide]: executing diffoscope
+[2023-07-26 13:51:55] INFO root fetch - processPackages [oceantide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceantide-0.4.1.tar.gz tmp/oceantide-0.5.0.tar.gz --markdown 20230726/o/oceantide/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-26 13:51:56] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-26 13:51:56] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-26 13:51:56] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-26 13:51:56] INFO root fetch - processPackages [torch-pruning]: Remove: archive file [/home/abi/fetcher/tmp/torch-pruning-1.2.0.tar.gz]
+[2023-07-26 13:51:56] INFO root fetch - processPackages [torch-pruning]: Remove: archive file [/home/abi/fetcher/tmp/torch-pruning-1.2.1.tar.gz]
+[2023-07-26 13:51:56] INFO root fetch - main [MainThread]: End processing [torch-pruning]: success
+[2023-07-26 13:51:57] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.4.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.5.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-07-26 13:51:57] INFO root fetch - processPackages [rastermap]: Remove: archive file [/home/abi/fetcher/tmp/rastermap-0.9.0.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - processPackages [rastermap]: Remove: archive file [/home/abi/fetcher/tmp/rastermap-0.9.1.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - main [MainThread]: End processing [rastermap]: success
+[2023-07-26 13:51:57] INFO root fetch - processPackages [oceantide]: Remove: archive file [/home/abi/fetcher/tmp/oceantide-0.4.1.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - processPackages [oceantide]: Remove: archive file [/home/abi/fetcher/tmp/oceantide-0.5.0.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - main [MainThread]: End processing [oceantide]: success
+[2023-07-26 13:51:57] INFO root fetch - processPackages [picframe]: Remove: archive file [/home/abi/fetcher/tmp/picframe-2023.7.26.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - processPackages [picframe]: Remove: archive file [/home/abi/fetcher/tmp/picframe-2023.7.26.post1.tar.gz]
+[2023-07-26 13:51:57] INFO root fetch - main [MainThread]: End processing [picframe]: success
+[2023-07-26 13:51:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-26 13:51:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-26 13:51:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-26 13:52:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-26 13:52:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-26 13:52:08] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-26 13:52:08] INFO root fetch - main [MainThread]: Store serial: [19043176]
