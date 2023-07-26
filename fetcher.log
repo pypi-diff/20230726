@@ -14239,3 +14239,136 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:58:53] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-26 08:58:53] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-26 08:58:53] INFO root fetch - main [MainThread]: Store serial: [19040308]
+[2023-07-26 09:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040308]
+[2023-07-26 09:04:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qsm-forward
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echoloader
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcedit-madeby-train
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpcal
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devolo-plc-api
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unit-syntax
+[2023-07-26 09:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exto
+[2023-07-26 09:04:02] INFO root fetch - processPackages [unit-syntax]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-26 09:04:02] WARNING root fetch - processPackages [exto]: Skipping, unable to determine old version
+[2023-07-26 09:04:02] INFO root fetch - processPackages [exto]: Start processing: readyocr
+[2023-07-26 09:04:02] INFO root fetch - main [MainThread]: End processing [exto] error
+[2023-07-26 09:04:02] INFO root fetch - processPackages [gpcal]: New version: [0.9.5.0] Old Version: [0.9.4]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [devolo-plc-api]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [bcedit-madeby-train]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [echoloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230726.7.0.920346] Old Version: [20230725.9.0.504044]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-26 09:04:02] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/4c/0a/041400d931b3a6ff1723310e39d8efacd2177be5bde08d73b35d4774fe42/unit_syntax-0.2.2.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/0e/ec/329ce53e8d465bba13a1d1ac4ffc9bfe7fe993094548a32f5d636eac00f7/pulumi_opnsense-0.0.93.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/d3/42/6b4b79e104f70e035f42b4c97527a147b9cd6d3fd38287c044031613c112/bcedit_madeby_train-0.0.7.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/b6/e0/9c6ae35bbbf9c31167d379c360fa939f4c29218b058cefb93d605263538b/gpcal-0.9.4.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/39/0a/5ec445b9031e5d075a5e240c7904c7110796c0957285fa95c8023eb5db43/certora-cli-alpha-master-20230725.9.0.504044.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-26 09:04:02] INFO root fetch - processPackages [devolo-plc-api]: Downloading https://files.pythonhosted.org/packages/54/c0/9f46cee636f193e8110a1f7d5bf9ab7f5b2bf172388b8f39d58b41daf5a3/devolo_plc_api-1.3.2.tar.gz
+[2023-07-26 09:04:02] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37587095>=10485760
+[2023-07-26 09:04:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: PySide6-Addons
+[2023-07-26 09:04:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-26 09:04:03] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/0b/91/36a5d473efe57fb90f171c6f3e1d81224ea9bdc4a213c36d50a39ce3b5ff/echoloader-0.1.8.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [PySide6-Addons]: New version: [6.5.2] Old Version: [6.5.1.1]
+[2023-07-26 09:04:03] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/9f/ff/cae6def8d0cec97cda07103dd5c367416d3d5be7e34377f4988b6cd6e073/pulumi_opnsense-0.0.94.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/5d/5d/06ca8de682ca374c88f26d9d94bf4b9a98109b214621d20b02c73036fa97/gpcal-0.9.5.0.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/c9/4c/c103d245abeaac48112666ff7f226ad89c11111d196a63c1e33b2fae028b/bcedit_madeby_train-0.0.8.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230726/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/d8/6a/7fe09581102be577a992171b8e087035a53c1ca595fb263b3ea9c91332ff/unit_syntax-0.2.3.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.93.tar.gz tmp/pulumi_opnsense-0.0.94.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [gpcal]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [gpcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpcal-0.9.4.tar.gz tmp/gpcal-0.9.5.0.tar.gz --markdown 20230726/g/gpcal/0.9.4-0.9.5.0/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [unit-syntax]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [unit-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_syntax-0.2.2.tar.gz tmp/unit_syntax-0.2.3.tar.gz --markdown 20230726/u/unit-syntax/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [bcedit-madeby-train]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [bcedit-madeby-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcedit_madeby_train-0.0.7.tar.gz tmp/bcedit_madeby_train-0.0.8.tar.gz --markdown 20230726/b/bcedit-madeby-train/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [PySide6-Addons]: Downloading https://files.pythonhosted.org/packages/d7/5d/562cc06ee527e6cdd0482595b6a49722d9937a48a1e8156ee34c4c51b6c6/PySide6_Addons-6.5.1.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-26 09:04:03] INFO root fetch - processPackages [devolo-plc-api]: Downloading https://files.pythonhosted.org/packages/30/85/4384d6f5780d4d47b4ddd9d51a4e8f468c8376ffb08e2b5b2ec011ef791d/devolo_plc_api-1.4.0.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20230726/q/qsm-forward/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/b7/f3/470c40bb2ae59cc22bb0d30cdbadad02e309abc8d3fc8fa3d69cdc370fbd/echoloader-0.1.9.tar.gz
+[2023-07-26 09:04:03] INFO root fetch - processPackages [devolo-plc-api]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [devolo-plc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devolo_plc_api-1.3.2.tar.gz tmp/devolo_plc_api-1.4.0.tar.gz --markdown 20230726/d/devolo-plc-api/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] WARNING root fetch - processPackages [PySide6-Addons]: Skipping package: exceeds size limit 111770075>=10485760
+[2023-07-26 09:04:03] INFO root fetch - processPackages [PySide6-Addons]: Start processing: Peliqan
+[2023-07-26 09:04:03] INFO root fetch - main [MainThread]: End processing [PySide6-Addons] error
+[2023-07-26 09:04:03] INFO root fetch - processPackages [echoloader]: executing diffoscope
+[2023-07-26 09:04:03] INFO root fetch - processPackages [echoloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoloader-0.1.8.tar.gz tmp/echoloader-0.1.9.tar.gz --markdown 20230726/e/echoloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 09:04:03] INFO root fetch - processPackages [Peliqan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 09:04:03] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/df/5d/383bc2a97a13f06d14de888774cba8f80f6f01656d9bc92fbee7c1e8850e/Peliqan-0.1.0.tar.gz
+[2023-07-26 09:04:04] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/f6/0b/9fc1d0d4f17778660cf995a60072ec08918921b67486811dc23e51ea23dd/Peliqan-0.1.1.tar.gz
+[2023-07-26 09:04:04] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2023-07-26 09:04:04] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-0.1.0.tar.gz tmp/Peliqan-0.1.1.tar.gz --markdown 20230726/P/Peliqan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 09:04:04] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.93.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.94.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: seqio-nightly
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.4.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.0.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: Start processing: zlgsendcan
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [gpcal]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-26 09:04:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230726/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 09:04:05] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [qsm-forward]: Start processing: gpcal
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: New version: [0.9.5.1] Old Version: [0.9.5.0]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/30/53/5796fb0a2bafd4e9b983f7bcefc89535086f6f9f453f7a4ad72a945b8096/zlgsendcan-1.0.3.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.2.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.3.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [echoloader]: Remove: archive file [/home/abi/fetcher/tmp/echoloader-0.1.8.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [unit-syntax]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [echoloader]: Remove: archive file [/home/abi/fetcher/tmp/echoloader-0.1.9.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [echoloader]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/5d/5d/06ca8de682ca374c88f26d9d94bf4b9a98109b214621d20b02c73036fa97/gpcal-0.9.5.0.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-26 09:04:05] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230726/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-26 09:04:05] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-0.0.7.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-0.0.8.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [bcedit-madeby-train]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/a8/30/fcf3c53d630ad91370e6dfb11f0da5f773f777e2ab33a7ed4b85f5040d3d/zlgsendcan-1.0.4.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/a3/21/b2a52d40ac197db82485d622acf5758e027c5654f7e52377bf30fbf9c37a/gpcal-0.9.5.1.tar.gz
+[2023-07-26 09:04:05] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-0.1.0.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-0.1.1.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [devolo-plc-api]: Remove: archive file [/home/abi/fetcher/tmp/devolo_plc_api-1.3.2.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - processPackages [devolo-plc-api]: Remove: archive file [/home/abi/fetcher/tmp/devolo_plc_api-1.4.0.tar.gz]
+[2023-07-26 09:04:05] INFO root fetch - main [MainThread]: End processing [devolo-plc-api]: success
+[2023-07-26 09:04:05] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 09:04:05] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.3.tar.gz tmp/zlgsendcan-1.0.4.tar.gz --markdown 20230726/z/zlgsendcan/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 09:04:06] INFO root fetch - processPackages [gpcal]: executing diffoscope
+[2023-07-26 09:04:06] INFO root fetch - processPackages [gpcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpcal-0.9.5.0.tar.gz tmp/gpcal-0.9.5.1.tar.gz --markdown 20230726/g/gpcal/0.9.5.0-0.9.5.1/diff.md --exclude *.pyd
+[2023-07-26 09:04:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-26 09:04:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-26 09:04:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-26 09:04:06] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.3.tar.gz]
+[2023-07-26 09:04:06] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.4.tar.gz]
+[2023-07-26 09:04:06] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 09:04:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-26 09:04:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-26 09:04:07] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-26 09:04:07] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.0.tar.gz]
+[2023-07-26 09:04:07] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.1.tar.gz]
+[2023-07-26 09:04:07] INFO root fetch - main [MainThread]: End processing [gpcal]: success
+[2023-07-26 09:04:07] INFO root fetch - main [MainThread]: Store serial: [19040359]
