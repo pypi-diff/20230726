@@ -9717,3 +9717,62 @@
 [2023-07-26 04:28:35] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.27.tar.gz]
 [2023-07-26 04:28:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-07-26 04:28:35] INFO root fetch - main [MainThread]: Store serial: [19038613]
+[2023-07-26 04:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038613]
+[2023-07-26 04:33:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echoss-query
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starwhale
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RACS-tools
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IDEAfactortest
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grss
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpnp
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yyxx-game-pkg
+[2023-07-26 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-07-26 04:33:44] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-26 04:33:44] INFO root fetch - processPackages [starwhale]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-26 04:33:44] WARNING root fetch - processPackages [echoss-query]: Skipping, unable to determine old version
+[2023-07-26 04:33:44] INFO root fetch - main [MainThread]: End processing [echoss-query] error
+[2023-07-26 04:33:44] INFO root fetch - processPackages [mpnp]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 04:33:44] INFO root fetch - processPackages [RACS-tools]: New version: [2.3.0] Old Version: [2.2.6]
+[2023-07-26 04:33:44] WARNING root fetch - processPackages [IDEAfactortest]: Skipping, unable to determine old version
+[2023-07-26 04:33:44] INFO root fetch - main [MainThread]: End processing [IDEAfactortest] error
+[2023-07-26 04:33:44] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.6.2] Old Version: [2023.7.6.1]
+[2023-07-26 04:33:44] INFO root fetch - processPackages [grss]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-26 04:33:44] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [RACS-tools]: Downloading https://files.pythonhosted.org/packages/3a/53/1fd5d251d69c7e4bca1142237207261a739189863cef925f8587b912a828/RACS-tools-2.2.6.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/1b/52/a9bb812f0d168e2da0c33b0e21801f0df63fc22ff6e3f1f0b1975b63d368/starwhale-0.5.7.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [mpnp]: Downloading https://files.pythonhosted.org/packages/a9/13/fe7b597d50fd3bc40165e6e62312cb4201520773afde1416df49bea412b9/mpnp-0.1.5-py3-none-any.whl
+[2023-07-26 04:33:44] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9b/b7/cc822920f7bf0f7fafdb31e00496522c7ca28ce20584aab633789ebd0d11/yyxx_game_pkg-2023.7.6.1.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/34/7b/9a78c63c732558591def630b7527f54050974d88d1035d2fd186d3d677af/grss-0.8.3.tar.gz
+[2023-07-26 04:33:44] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 28319818>=10485760
+[2023-07-26 04:33:44] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-26 04:33:44] INFO root fetch - processPackages [RACS-tools]: Downloading https://files.pythonhosted.org/packages/8c/32/59258d2bcf7bcfba72457feaceafd09adbd94225b6cdfacf46c55444f4b9/RACS-tools-2.3.0.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-26 04:33:44] INFO root fetch - processPackages [RACS-tools]: executing diffoscope
+[2023-07-26 04:33:44] INFO root fetch - processPackages [RACS-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RACS-tools-2.2.6.tar.gz tmp/RACS-tools-2.3.0.tar.gz --markdown 20230726/R/RACS-tools/2.2.6-2.3.0/diff.md --exclude *.pyd
+[2023-07-26 04:33:44] INFO root fetch - processPackages [mpnp]: Downloading https://files.pythonhosted.org/packages/81/0c/d28a4b18e4b956d543cf3617a1d8a5393b7a5494109fca8edcbffc2f530c/mpnp-0.1.6-py3-none-any.whl
+[2023-07-26 04:33:44] INFO root fetch - processPackages [mpnp]: executing diffoscope
+[2023-07-26 04:33:44] INFO root fetch - processPackages [mpnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpnp-0.1.5-py3-none-any.whl.zip tmp/mpnp-0.1.6-py3-none-any.whl.zip --markdown 20230726/m/mpnp/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 04:33:45] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/70/7b/9bc320a7a92c7f43a9798929588dcc4362138b13edaff390d721a4377579/starwhale-0.5.8.tar.gz
+[2023-07-26 04:33:45] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-26 04:33:45] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230726/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-26 04:33:45] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/33/8e/06c4b18d6a407263a41cf7dbfca9809cb73955a9680aa4110d2f3bd5f0f6/yyxx_game_pkg-2023.7.6.2.tar.gz
+[2023-07-26 04:33:45] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-07-26 04:33:45] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.5.7.tar.gz tmp/starwhale-0.5.8.tar.gz --markdown 20230726/s/starwhale/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-26 04:33:45] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-26 04:33:45] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.6.1.tar.gz tmp/yyxx_game_pkg-2023.7.6.2.tar.gz --markdown 20230726/y/yyxx-game-pkg/2023.7.6.1-2023.7.6.2/diff.md --exclude *.pyd
+[2023-07-26 04:33:45] INFO root fetch - processPackages [mpnp]: Remove: archive file [/home/abi/fetcher/tmp/mpnp-0.1.5-py3-none-any.whl.zip]
+[2023-07-26 04:33:45] INFO root fetch - processPackages [mpnp]: Remove: archive file [/home/abi/fetcher/tmp/mpnp-0.1.6-py3-none-any.whl.zip]
+[2023-07-26 04:33:45] INFO root fetch - main [MainThread]: End processing [mpnp]: success
+[2023-07-26 04:33:45] INFO root fetch - processPackages [RACS-tools]: Remove: archive file [/home/abi/fetcher/tmp/RACS-tools-2.2.6.tar.gz]
+[2023-07-26 04:33:45] INFO root fetch - processPackages [RACS-tools]: Remove: archive file [/home/abi/fetcher/tmp/RACS-tools-2.3.0.tar.gz]
+[2023-07-26 04:33:45] INFO root fetch - main [MainThread]: End processing [RACS-tools]: success
+[2023-07-26 04:33:47] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.1.tar.gz]
+[2023-07-26 04:33:47] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.2.tar.gz]
+[2023-07-26 04:33:47] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-26 04:33:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-26 04:33:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-26 04:33:47] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-26 04:35:30] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.7.tar.gz]
+[2023-07-26 04:35:30] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.8.tar.gz]
+[2023-07-26 04:35:30] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-07-26 04:35:30] INFO root fetch - main [MainThread]: Store serial: [19038665]
