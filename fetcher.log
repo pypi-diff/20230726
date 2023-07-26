@@ -9494,3 +9494,52 @@
 [2023-07-26 04:02:21] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
 [2023-07-26 04:02:21] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
 [2023-07-26 04:02:21] INFO root fetch - main [MainThread]: Store serial: [19038519]
+[2023-07-26 04:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038519]
+[2023-07-26 04:07:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stdflow
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: austrakka
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otx
+[2023-07-26 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstra
+[2023-07-26 04:07:30] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [austrakka]: New version: [0.32.4] Old Version: [0.32.3]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [stdflow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [otx]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [abstra]: New version: [1.7.0] Old Version: [1.6.5]
+[2023-07-26 04:07:30] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-26 04:07:30] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/2e/42/090b6fbf0403eab4e05e1bade7e8cef30b3042feb6d5188a4db0936a2d87/stdflow-0.0.4.tar.gz
+[2023-07-26 04:07:30] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/15/c4/5a3f8e9517f4ab0ff36442d0066fc7a8dc202243497d736ede47f3031fd5/robot_rumble-0.1.2.tar.gz
+[2023-07-26 04:07:30] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 13056249>=10485760
+[2023-07-26 04:07:30] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-07-26 04:07:30] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/74/f2/d37439f49591f95c1648dc871a26133bbc0e877d0bf2bf5d7af7dcd16823/otx-1.4.0rc3.tar.gz
+[2023-07-26 04:07:30] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/96/c5/dee83c08d48ab00897f7257008b0b7fc1bc46410703aba13f9b7b7a5cd45/abstra-1.6.5.tar.gz
+[2023-07-26 04:07:30] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/7a/a2/b071b52a1b458ffd34ea1a6388fa1c319535b5290058f9d74d79eb04744d/austrakka-0.32.3-py3-none-any.whl
+[2023-07-26 04:07:30] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-26 04:07:30] WARNING root fetch - processPackages [abstra]: Skipping package: exceeds size limit 28271008>=10485760
+[2023-07-26 04:07:30] INFO root fetch - main [MainThread]: End processing [abstra] error
+[2023-07-26 04:07:30] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/1f/29/db5fe9d4676b949b9a763a88748217fccfe3d7f726bb4459e20a130e8b43/stdflow-0.0.5.tar.gz
+[2023-07-26 04:07:30] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-26 04:07:30] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230726/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-26 04:07:30] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-26 04:07:30] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.4.tar.gz tmp/stdflow-0.0.5.tar.gz --markdown 20230726/s/stdflow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 04:07:31] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/82/63/618c2c5f09235d0341c01d162d96dea2760cc3e7eb7073218099c3746786/austrakka-0.32.4-py3-none-any.whl
+[2023-07-26 04:07:31] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-26 04:07:31] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.32.3-py3-none-any.whl.zip tmp/austrakka-0.32.4-py3-none-any.whl.zip --markdown 20230726/a/austrakka/0.32.3-0.32.4/diff.md --exclude *.pyd
+[2023-07-26 04:07:31] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.4.tar.gz]
+[2023-07-26 04:07:31] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.5.tar.gz]
+[2023-07-26 04:07:31] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-26 04:07:31] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-26 04:07:31] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-26 04:07:31] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-26 04:07:32] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.3-py3-none-any.whl.zip]
+[2023-07-26 04:07:32] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.4-py3-none-any.whl.zip]
+[2023-07-26 04:07:32] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-26 04:07:33] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/a6/d2/fd6e46667b88639b255332bb9a67388d1a7b0ca7365ef6694f1da922b381/otx-1.4.0rc4.tar.gz
+[2023-07-26 04:07:35] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-07-26 04:07:35] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.4.0rc3.tar.gz tmp/otx-1.4.0rc4.tar.gz --markdown 20230726/o/otx/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-07-26 04:07:50] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc3.tar.gz]
+[2023-07-26 04:07:50] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc4.tar.gz]
+[2023-07-26 04:07:50] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-07-26 04:07:50] INFO root fetch - main [MainThread]: Store serial: [19038539]
