@@ -21206,3 +21206,98 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:52:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-26 13:52:08] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-26 13:52:08] INFO root fetch - main [MainThread]: Store serial: [19043176]
+[2023-07-26 13:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043176]
+[2023-07-26 13:57:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybotrade
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idkwhttph
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-driverless
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpa
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: queryandprocessdatautility
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coplot
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zesty.zbs-api-securonix-agent-baseurl-debug
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pmenu-lib
+[2023-07-26 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Data-Preprocessing-analytics4all4ever
+[2023-07-26 13:57:17] INFO root fetch - processPackages [cybotrade]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [selenium-driverless]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [coplot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 13:57:17] ERROR root fetch - processPackages [Data-Preprocessing-analytics4all4ever]: Unable to get metadata: No such project 'Data-Preprocessing-analytics4all4ever'
+[2023-07-26 13:57:17] INFO root fetch - processPackages [Data-Preprocessing-analytics4all4ever]: Start processing: emzed
+[2023-07-26 13:57:17] INFO root fetch - main [MainThread]: End processing [Data-Preprocessing-analytics4all4ever] error
+[2023-07-26 13:57:17] INFO root fetch - processPackages [pmenu-lib]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [simpa]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-26 13:57:17] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-26 13:57:17] WARNING root fetch - processPackages [zesty.zbs-api-securonix-agent-baseurl-debug]: Skipping, unable to determine old version
+[2023-07-26 13:57:17] INFO root fetch - processPackages [zesty.zbs-api-securonix-agent-baseurl-debug]: Start processing: bibleit
+[2023-07-26 13:57:17] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix-agent-baseurl-debug] error
+[2023-07-26 13:57:18] INFO root fetch - processPackages [emzed]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-07-26 13:57:18] INFO root fetch - processPackages [bibleit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 13:57:18] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/73/e6/492c533fdff0e2aa046b46faa6c84a0992223aff5b6120c1360df1bd8d1f/selenium_driverless-1.2.1.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/82/2c/82b592acbdcf57c9d119bbd72bd9de32113331e9119c11bde1a4160da282/simpa-0.8.7.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-07-26 13:57:18] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/10/c4/ef6a176a3b5a20a43ecc8f52dd726c359e9479069ea5fdcd9e6301d3adcc/cybotrade-0.1.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:57:18] INFO root fetch - processPackages [coplot]: Downloading https://files.pythonhosted.org/packages/37/44/7b8027df63e3bdd8658ee2245d2facc06a5f4f654b7ad2cad5d3e98f4269/coplot-0.1.5-py3-none-any.whl
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pmenu-lib]: Downloading https://files.pythonhosted.org/packages/f8/c9/524b3b4b65642626d1e0f298d0a2730c28353e3891ace6add1b0705c24ba/pmenu_lib-0.9.0.tar.gz
+[2023-07-26 13:57:18] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 19970321>=10485760
+[2023-07-26 13:57:18] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2023-07-26 13:57:18] INFO root fetch - processPackages [emzed]: Downloading https://files.pythonhosted.org/packages/ed/0c/bf92db40f9eb2a7a55f2edd6f1ee6ba10f39179f74b5801530026e0958dc/emzed-3.0.0a8.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/bb/49/f640bce1c4fb58e5b64903a2c434e18879cb4cb18c8088f760b1917d3cdd/idkwhttph-0.3.2.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/46/67/1c4081b5ffc00608bcf294305b347654cc44bf04151037a6b5f06cd5ba25/bibleit-0.0.8.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/34/60/f8a48226c1751ea0c1500f9cd3b20e6797aa293debf3ec670dc00ac259da/selenium_driverless-1.2.2.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [coplot]: Downloading https://files.pythonhosted.org/packages/93/d1/5e350181380e70053309b37ed9a78385b9bb543e9719462cb8ef5eeaa9e0/coplot-0.1.6-py3-none-any.whl
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pmenu-lib]: Downloading https://files.pythonhosted.org/packages/f4/dc/155b0b2fa20e95d703fd96788d89f2cdf78044b3b5700f84f5e1d87c8692/pmenu_lib-1.0.0.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-07-26 13:57:18] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230726/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 13:57:18] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/b8/55/1066db6725e52399479f5a0792e14506581ed4e798cc9fd29db36d227ab8/simpa-0.8.9.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [coplot]: executing diffoscope
+[2023-07-26 13:57:18] INFO root fetch - processPackages [coplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coplot-0.1.5-py3-none-any.whl.zip tmp/coplot-0.1.6-py3-none-any.whl.zip --markdown 20230726/c/coplot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 13:57:18] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2023-07-26 13:57:18] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/e5/8d/fb69b3eadc3fba403a9b88f977b6ea49628bf82acf0e17f7695a523c78ac/idkwhttph-0.3.3.tar.gz
+[2023-07-26 13:57:18] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.2.1.tar.gz tmp/selenium_driverless-1.2.2.tar.gz --markdown 20230726/s/selenium-driverless/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pmenu-lib]: executing diffoscope
+[2023-07-26 13:57:18] INFO root fetch - processPackages [pmenu-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmenu_lib-0.9.0.tar.gz tmp/pmenu_lib-1.0.0.tar.gz --markdown 20230726/p/pmenu-lib/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 13:57:19] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-26 13:57:19] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.2.tar.gz tmp/idkwhttph-0.3.3.tar.gz --markdown 20230726/i/idkwhttph/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-26 13:57:19] INFO root fetch - processPackages [emzed]: Downloading https://files.pythonhosted.org/packages/58/69/4768cb9ce9f14e297bb4e299c9bf2a92e5415e75d3e5fcb830eb6018e1f7/emzed-3.0.0a9.tar.gz
+[2023-07-26 13:57:19] INFO root fetch - processPackages [simpa]: executing diffoscope
+[2023-07-26 13:57:19] INFO root fetch - processPackages [simpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpa-0.8.7.tar.gz tmp/simpa-0.8.9.tar.gz --markdown 20230726/s/simpa/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-26 13:57:19] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/48/a2/403182399a047ed6f5ea0175511bae62c223f1efb278739f73b2f82272fa/bibleit-0.0.9.tar.gz
+[2023-07-26 13:57:19] INFO root fetch - processPackages [emzed]: executing diffoscope
+[2023-07-26 13:57:19] INFO root fetch - processPackages [emzed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emzed-3.0.0a8.tar.gz tmp/emzed-3.0.0a9.tar.gz --markdown 20230726/e/emzed/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-07-26 13:57:19] INFO root fetch - processPackages [bibleit]: executing diffoscope
+[2023-07-26 13:57:19] INFO root fetch - processPackages [bibleit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibleit-0.0.8.tar.gz tmp/bibleit-0.0.9.tar.gz --markdown 20230726/b/bibleit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:57:20] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-07-26 13:57:20] INFO root fetch - processPackages [pmenu-lib]: Remove: archive file [/home/abi/fetcher/tmp/pmenu_lib-0.9.0.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [pmenu-lib]: Remove: archive file [/home/abi/fetcher/tmp/pmenu_lib-1.0.0.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [pmenu-lib]: success
+[2023-07-26 13:57:20] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.2.1.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.2.2.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2023-07-26 13:57:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 13:57:20] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.2.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.3.tar.gz]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-26 13:57:20] INFO root fetch - processPackages [coplot]: Remove: archive file [/home/abi/fetcher/tmp/coplot-0.1.5-py3-none-any.whl.zip]
+[2023-07-26 13:57:20] INFO root fetch - processPackages [coplot]: Remove: archive file [/home/abi/fetcher/tmp/coplot-0.1.6-py3-none-any.whl.zip]
+[2023-07-26 13:57:20] INFO root fetch - main [MainThread]: End processing [coplot]: success
+[2023-07-26 13:57:21] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.7.tar.gz]
+[2023-07-26 13:57:21] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.9.tar.gz]
+[2023-07-26 13:57:21] INFO root fetch - main [MainThread]: End processing [simpa]: success
+[2023-07-26 13:57:21] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.8.tar.gz]
+[2023-07-26 13:57:21] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
+[2023-07-26 13:57:21] INFO root fetch - main [MainThread]: End processing [bibleit]: success
+[2023-07-26 13:57:24] INFO root fetch - processPackages [emzed]: Remove: archive file [/home/abi/fetcher/tmp/emzed-3.0.0a8.tar.gz]
+[2023-07-26 13:57:24] INFO root fetch - processPackages [emzed]: Remove: archive file [/home/abi/fetcher/tmp/emzed-3.0.0a9.tar.gz]
+[2023-07-26 13:57:24] INFO root fetch - main [MainThread]: End processing [emzed]: success
+[2023-07-26 13:57:24] INFO root fetch - main [MainThread]: Store serial: [19043222]
