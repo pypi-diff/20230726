@@ -16880,3 +16880,257 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:45:10] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.0.tar.gz]
 [2023-07-26 10:45:10] INFO root fetch - main [MainThread]: End processing [slack-react]: success
 [2023-07-26 10:45:10] INFO root fetch - main [MainThread]: Store serial: [19041437]
+[2023-07-26 10:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041437]
+[2023-07-26 10:50:19] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memoryapi
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyees
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypigu
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sendpost
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhk
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-connector-importer
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finetuner
+[2023-07-26 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rqdatac
+[2023-07-26 10:50:19] INFO root fetch - processPackages [pyees]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [memoryapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 10:50:19] WARNING root fetch - processPackages [sendpost]: Skipping, unable to determine old version
+[2023-07-26 10:50:19] INFO root fetch - processPackages [sendpost]: Start processing: gauth-python
+[2023-07-26 10:50:19] INFO root fetch - main [MainThread]: End processing [sendpost] error
+[2023-07-26 10:50:19] INFO root fetch - processPackages [huhk]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [gauth-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [finetuner]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [hypigu]: New version: [1.4] Old Version: [1.3]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [odoo14-addon-connector-importer]: New version: [14.0.2.4.0] Old Version: [14.0.2.3.0]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202307260846] Old Version: [99.0.202307252249]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-07-26 10:50:19] INFO root fetch - processPackages [memoryapi]: Downloading https://files.pythonhosted.org/packages/0d/e8/958cbb591d9670ef9382ba5fc0aab65320b5d7015623d076821896f5a63b/memoryapi-1.0.0.tar.gz
+[2023-07-26 10:50:19] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/7b/f8/dbe031d47a8eadea8661c17e4bf1d10fd36e4183024423eb954a821925ae/pyees-1.4.6.tar.gz
+[2023-07-26 10:50:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/84/ba37c068c99e946f6c234612d80c35ff81ca631301aa7b7727246ad50ef0/kcli-99.0.202307252249-py3-none-any.whl
+[2023-07-26 10:50:19] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/7c/51/ca9594e089176f9efa118674742b944c6d87e2a21763349a8788acb2ec62/gauth_python-0.1.0.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/bc/75/cf4737ff06de983b93211a36c1ab9e312069662362e54bb62baed0f13910/huhk-1.8.8.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [hypigu]: Downloading https://files.pythonhosted.org/packages/d9/f6/bda8230cb67123736c5b7a86624f40e46d2721aff0758b68240563fae4e9/hypigu-1.3.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [finetuner]: Downloading https://files.pythonhosted.org/packages/45/fe/698b5e1f957daeb59ada8fa39902c309cde2af6528541966fabe1e2a1916/finetuner-0.8.0.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/03/a0/aa047a2ba159674c351264c04290ea1a84048e0876bd2c06ef002a1c4b01/odoo14_addon_connector_importer-14.0.2.3.0-py3-none-any.whl
+[2023-07-26 10:50:20] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-07-26 10:50:20] INFO root fetch - processPackages [memoryapi]: Downloading https://files.pythonhosted.org/packages/69/8a/52e643354a779d710b3f43d5396c3e82b6d23f0a448080d263760ea5ed97/memoryapi-1.0.1.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/be/a8/6ebe29122cc2fc71a528860c8534fbcc6454e9a2060c38860a86d084580a/gauth_python-0.1.1.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/a5/68/c29e3ae5739510e842e6660735403db3c6dabde28269bd691a7443d855e1/pyees-1.4.7.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/f2/8c23c6f799f33cfe9041b4a3baaaf0c07f309ca608bddca4b699e388c79d/kcli-99.0.202307260846-py3-none-any.whl
+[2023-07-26 10:50:20] INFO root fetch - processPackages [memoryapi]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [memoryapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memoryapi-1.0.0.tar.gz tmp/memoryapi-1.0.1.tar.gz --markdown 20230726/m/memoryapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [finetuner]: Downloading https://files.pythonhosted.org/packages/2b/d7/5328c449e46bfca3a6470fc162be45a5ed0cda613a19061fa0018ef16477/finetuner-0.8.1.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/0b/61/cea4188a97836c4e314348ec765e988aa22742bc8bec9647ad876dda2679/huhk-1.8.9.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.0.tar.gz tmp/gauth_python-0.1.1.tar.gz --markdown 20230726/g/gauth-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/da/30/a474255cd4911303cce957b73fc30976bf69a479b16607a9ac34707e78ba/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl
+[2023-07-26 10:50:20] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.4.6.tar.gz tmp/pyees-1.4.7.tar.gz --markdown 20230726/p/pyees/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [hypigu]: Downloading https://files.pythonhosted.org/packages/ed/dc/3615c1030db5965c0f33f70e5d9c0b5b3363c7a2772fe556405f351c3fbf/hypigu-1.4.tar.gz
+[2023-07-26 10:50:20] INFO root fetch - processPackages [finetuner]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [finetuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner-0.8.0.tar.gz tmp/finetuner-0.8.1.tar.gz --markdown 20230726/f/finetuner/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-07-26 10:50:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307252249-py3-none-any.whl.zip tmp/kcli-99.0.202307260846-py3-none-any.whl.zip --markdown 20230726/k/kcli/99.0.202307252249-99.0.202307260846/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230726/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.8.tar.gz tmp/huhk-1.8.9.tar.gz --markdown 20230726/h/huhk/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [hypigu]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [hypigu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypigu-1.3.tar.gz tmp/hypigu-1.4.tar.gz --markdown 20230726/h/hypigu/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [odoo14-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer-14.0.2.3.0-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-connector-importer/14.0.2.3.0-14.0.2.4.0/diff.md --exclude *.pyd
+[2023-07-26 10:50:20] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-07-26 10:50:20] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230726/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-07-26 10:50:22] INFO root fetch - processPackages [memoryapi]: Remove: archive file [/home/abi/fetcher/tmp/memoryapi-1.0.0.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [memoryapi]: Remove: archive file [/home/abi/fetcher/tmp/memoryapi-1.0.1.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [memoryapi]: Start processing: bcmd
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [memoryapi]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.0.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.1.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [gauth-python]: Start processing: actnova-yolo
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bridgecrew]: Start processing: Dactim-MRI
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [finetuner]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-0.8.0.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [finetuner]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-0.8.1.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [finetuner]: Start processing: oarepo-model-builder-drafts
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [finetuner]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [Dactim-MRI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [oarepo-model-builder-drafts]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [Dactim-MRI]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.4.6.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.4.7.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [pyees]: Start processing: odoo-addon-sale-credit-point
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [hypigu]: Remove: archive file [/home/abi/fetcher/tmp/hypigu-1.3.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [hypigu]: Remove: archive file [/home/abi/fetcher/tmp/hypigu-1.4.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [hypigu]: Start processing: requestsbankrko
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [hypigu]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1.3]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 10:50:22] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:22] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/a7/62/85567255545e2d9bbd75381b2e411c4af764046834d68dd7f04f96c554df/oarepo-model-builder-drafts-4.0.0.tar.gz
+[2023-07-26 10:50:22] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 10:50:22] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:22] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: Downloading https://files.pythonhosted.org/packages/5b/ec/052c606b5285042a5dc066d6695f6890afbf58611197848e7eb7e25b4b31/odoo_addon_sale_credit_point-15.0.1.0.1.3-py3-none-any.whl
+[2023-07-26 10:50:22] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.3.0-py3-none-any.whl.zip]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_importer-14.0.2.4.0-py3-none-any.whl.zip]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [odoo14-addon-connector-importer]: Start processing: kfish
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.8.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.9.tar.gz]
+[2023-07-26 10:50:22] INFO root fetch - processPackages [huhk]: Start processing: losscape
+[2023-07-26 10:50:22] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-26 10:50:22] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/5c/35/0d3e067db6c6e0a4a735848aa08e75b5147a3e8e0dd45366c30f0bad6115/oarepo-model-builder-drafts-4.0.1.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [rqdatac]: Start processing: pgsqlx
+[2023-07-26 10:50:23] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-07-26 10:50:23] INFO root fetch - processPackages [kfish]: New version: [99.0.202307252252] Old Version: [99.0.202307252026]
+[2023-07-26 10:50:23] WARNING root fetch - processPackages [Dactim-MRI]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-07-26 10:50:23] INFO root fetch - processPackages [Dactim-MRI]: Start processing: dems
+[2023-07-26 10:50:23] INFO root fetch - main [MainThread]: End processing [Dactim-MRI] error
+[2023-07-26 10:50:23] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/e7/af/d361cef7648cef6c7e05b0a584fd334059e40e190c69dd5d0917611e14b2/requestsbankrko-0.2.6.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.5] Old Version: [1.6.3]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [losscape]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [oarepo-model-builder-drafts]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [oarepo-model-builder-drafts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-drafts-4.0.0.tar.gz tmp/oarepo-model-builder-drafts-4.0.1.tar.gz --markdown 20230726/o/oarepo-model-builder-drafts/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [dems]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/6a/f7/9d9467b20e93f52bc62181eec31ee789572f3ad93bea3f573ef364376eb8/kfish-99.0.202307252026-py3-none-any.whl
+[2023-07-26 10:50:23] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: Downloading https://files.pythonhosted.org/packages/34/36/8a19d7de5a816b8445a69942634d2f40a542d1a6b51f69eff62379fc5139/odoo_addon_sale_credit_point-15.0.1.0.2-py3-none-any.whl
+[2023-07-26 10:50:23] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_credit_point-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_sale_credit_point-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-sale-credit-point/15.0.1.0.1.3-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/bb/b9/018cb43502e65c6560d91e78d22666d5e46c6fb04a0ac53893a47005b999/pgsqlx-1.6.3.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/26/4b/fef412e02be50a1bbf17223d161dab50635dbe6c8fc2af3f8d60bb873fb5/losscape-1.5.8.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [dems]: Downloading https://files.pythonhosted.org/packages/d5/3e/b0670e8072d8a41b49975be60a3c10aeac5f016f1badbd5c95b21ed37524/dems-0.3.0.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/82/2c/6496edb17517e85e76f57fdb613bf2a2e6d9bbdb1d58009a413202ff9eff/requestsbankrko-0.2.7.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/91/66/601e09b55806f0f8bdf5345840df67498a4c628e84f87f7651bf4dd634c7/kfish-99.0.202307252252-py3-none-any.whl
+[2023-07-26 10:50:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307252026-py3-none-any.whl.zip tmp/kfish-99.0.202307252252-py3-none-any.whl.zip --markdown 20230726/k/kfish/99.0.202307252026-99.0.202307252252/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.6.tar.gz tmp/requestsbankrko-0.2.7.tar.gz --markdown 20230726/r/requestsbankrko/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/ed/a9/3f98288c4e9c5aa8a8152b6e6527259205855bead9aac2e0eba651763816/pgsqlx-1.6.5.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [bcmd]: Start processing: django-modeltree
+[2023-07-26 10:50:23] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 10:50:23] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/db/b9/a043de4af09e25ac1647bc8c5ab15480f3474fa165ca137ad597557daee5/losscape-1.5.9.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.3.tar.gz tmp/pgsqlx-1.6.5.tar.gz --markdown 20230726/p/pgsqlx/1.6.3-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [dems]: Downloading https://files.pythonhosted.org/packages/54/3d/aca0b806184d3fd0da4e56befe2afd7ffa8d1305045e3269d15da88626ba/dems-0.4.0.tar.gz
+[2023-07-26 10:50:23] INFO root fetch - processPackages [django-modeltree]: New version: [1.0.dev0] Old Version: [0.5]
+[2023-07-26 10:50:23] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.8.tar.gz tmp/losscape-1.5.9.tar.gz --markdown 20230726/l/losscape/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:23] INFO root fetch - processPackages [dems]: executing diffoscope
+[2023-07-26 10:50:23] INFO root fetch - processPackages [dems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dems-0.3.0.tar.gz tmp/dems-0.4.0.tar.gz --markdown 20230726/d/dems/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-26 10:50:24] INFO root fetch - processPackages [django-modeltree]: Downloading https://files.pythonhosted.org/packages/bf/6e/c7aba04f96b874286d5a29ffaa8a4e0bb24a55667d52fa1882fd23ae5df7/django-modeltree-0.5.tar.gz
+[2023-07-26 10:50:24] INFO root fetch - processPackages [django-modeltree]: Downloading https://files.pythonhosted.org/packages/8b/f2/360c9ac30b7fc8e984587523d71a2783e96b1cd2b7b1578df69aed1c9751/django-modeltree-1.0.dev0.tar.gz
+[2023-07-26 10:50:24] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-4.0.0.tar.gz]
+[2023-07-26 10:50:24] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-4.0.1.tar.gz]
+[2023-07-26 10:50:24] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Start processing: kevin-toolbox
+[2023-07-26 10:50:24] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-drafts]: success
+[2023-07-26 10:50:24] INFO root fetch - processPackages [django-modeltree]: executing diffoscope
+[2023-07-26 10:50:24] INFO root fetch - processPackages [django-modeltree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltree-0.5.tar.gz tmp/django-modeltree-1.0.dev0.tar.gz --markdown 20230726/d/django-modeltree/0.5-1.0.dev0/diff.md --exclude *.pyd
+[2023-07-26 10:50:24] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-26 10:50:24] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/ab/2f/9ccd9ae08bdb55543b07be139d4dd203dd6925d5c27b0ebcdd0e2973eac0/kevin-toolbox-1.1.5.tar.gz
+[2023-07-26 10:50:24] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_credit_point-15.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-07-26 10:50:24] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_credit_point-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-26 10:50:24] INFO root fetch - processPackages [odoo-addon-sale-credit-point]: Start processing: gdal-sid
+[2023-07-26 10:50:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-credit-point]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [gdal-sid]: New version: [3.6.4] Old Version: [3.4.3]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/14/e2/b38d3582d2f6c358597b71302e4e97e39571c05d666efe106d9af1c9e17b/kevin-toolbox-1.1.6.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.6.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.7.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [requestsbankrko]: Start processing: kevin-toolbox-dev
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307252026-py3-none-any.whl.zip]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307252252-py3-none-any.whl.zip]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kfish]: Start processing: pgsqlx-generator
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx-generator]: New version: [1.6.5] Old Version: [1.6.0]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.1.5.tar.gz tmp/kevin-toolbox-1.1.6.tar.gz --markdown 20230726/k/kevin-toolbox/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-26 10:50:25] INFO root fetch - processPackages [gdal-sid]: Downloading https://files.pythonhosted.org/packages/10/99/9d1c37b57e6be444445145e89750d007d92882d2a1bac08ac6af52efa139/gdal_sid-3.4.3-py3-none-win_amd64.whl
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/12/e3/4c2dfda092792fa7f79632e28a647e4c3c4ac2e0ef8988ebee87868c2275/kevin-toolbox-dev-1.1.5.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/11/1d/9c498becb9e3a584558ca255e6a2a9c77b3f90884fa1905ab55f7cf2d07f/pgsqlx-generator-1.6.0.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.3.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.5.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx]: Start processing: actnova-yolo
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: Start processing: vinhvh-package
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.8.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.9.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [losscape]: Start processing: brownie-safe
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [dems]: Remove: archive file [/home/abi/fetcher/tmp/dems-0.3.0.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [dems]: Remove: archive file [/home/abi/fetcher/tmp/dems-0.4.0.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [dems]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/30/aa/e1074d3537f10b47cb207348b606c1ac3765c62f9c5c1d480bc27958f9fd/pgsqlx-generator-1.6.5.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/d1/11/6e3b98944db6f807ba8781a4ec2f1455c8db795e840699554dcec6b62e15/kevin-toolbox-dev-1.1.6.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx-generator]: executing diffoscope
+[2023-07-26 10:50:25] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/e2/4c/b01bcb16459b094efe8458c6265430cc81477c047e76210f06b62cc8367a/vinhvh_package-0.0.8.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [pgsqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-generator-1.6.0.tar.gz tmp/pgsqlx-generator-1.6.5.tar.gz --markdown 20230726/p/pgsqlx-generator/1.6.0-1.6.5/diff.md --exclude *.pyd
+[2023-07-26 10:50:25] INFO root fetch - processPackages [brownie-safe]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-07-26 10:50:25] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.5.tar.gz tmp/kevin-toolbox-dev-1.1.6.tar.gz --markdown 20230726/k/kevin-toolbox-dev/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-26 10:50:25] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/74/3e/eae34f9dd6d258f192a8a087329c017d224699b3f6d4ae86a624c7e8cd98/vinhvh_package-0.0.9.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [django-modeltree]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltree-0.5.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - processPackages [django-modeltree]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltree-1.0.dev0.tar.gz]
+[2023-07-26 10:50:25] INFO root fetch - main [MainThread]: End processing [django-modeltree]: success
+[2023-07-26 10:50:25] INFO root fetch - processPackages [brownie-safe]: Downloading https://files.pythonhosted.org/packages/19/74/af0850be5059fb746f0ce0b86a167dafb873b1f81428d8c171db612b1b79/brownie_safe-0.8.0.tar.gz
+[2023-07-26 10:50:25] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-26 10:50:25] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.8.tar.gz tmp/vinhvh_package-0.0.9.tar.gz --markdown 20230726/v/vinhvh-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:26] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 10:50:26] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:50:26] INFO root fetch - processPackages [gdal-sid]: Downloading https://files.pythonhosted.org/packages/dc/a1/30d3921a356625fb533ce6c63eb8ee8cd86be784a3b494cfae56e3435ff8/gdal_sid-3.6.4-py3-none-win_amd64.whl
+[2023-07-26 10:50:26] INFO root fetch - processPackages [brownie-safe]: Downloading https://files.pythonhosted.org/packages/27/3d/eac977a6a2302a97a3e16af2e438af2d5884220e20f5a5e3c980da23823f/brownie_safe-0.8.1.tar.gz
+[2023-07-26 10:50:26] INFO root fetch - processPackages [brownie-safe]: executing diffoscope
+[2023-07-26 10:50:26] INFO root fetch - processPackages [brownie-safe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownie_safe-0.8.0.tar.gz tmp/brownie_safe-0.8.1.tar.gz --markdown 20230726/b/brownie-safe/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-26 10:50:26] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.0.tar.gz]
+[2023-07-26 10:50:26] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.5.tar.gz]
+[2023-07-26 10:50:26] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator]: success
+[2023-07-26 10:50:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307252249-py3-none-any.whl.zip]
+[2023-07-26 10:50:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307260846-py3-none-any.whl.zip]
+[2023-07-26 10:50:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-26 10:50:27] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.8.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.9.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-26 10:50:27] INFO root fetch - processPackages [gdal-sid]: executing diffoscope
+[2023-07-26 10:50:27] INFO root fetch - processPackages [gdal-sid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal_sid-3.4.3-py3-none-win_amd64.whl.zip tmp/gdal_sid-3.6.4-py3-none-win_amd64.whl.zip --markdown 20230726/g/gdal-sid/3.4.3-3.6.4/diff.md --exclude *.pyd
+[2023-07-26 10:50:27] INFO root fetch - processPackages [brownie-safe]: Remove: archive file [/home/abi/fetcher/tmp/brownie_safe-0.8.0.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - processPackages [brownie-safe]: Remove: archive file [/home/abi/fetcher/tmp/brownie_safe-0.8.1.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - main [MainThread]: End processing [brownie-safe]: success
+[2023-07-26 10:50:27] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.5.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.6.tar.gz]
+[2023-07-26 10:50:27] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-07-26 10:50:28] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.5.tar.gz]
+[2023-07-26 10:50:28] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.6.tar.gz]
+[2023-07-26 10:50:28] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-07-26 10:50:28] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 10:50:28] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 10:50:28] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 10:50:29] INFO root fetch - processPackages [gdal-sid]: Remove: archive file [/home/abi/fetcher/tmp/gdal_sid-3.4.3-py3-none-win_amd64.whl.zip]
+[2023-07-26 10:50:29] INFO root fetch - processPackages [gdal-sid]: Remove: archive file [/home/abi/fetcher/tmp/gdal_sid-3.6.4-py3-none-win_amd64.whl.zip]
+[2023-07-26 10:50:29] INFO root fetch - main [MainThread]: End processing [gdal-sid]: success
+[2023-07-26 10:50:29] INFO root fetch - main [MainThread]: Store serial: [19041545]
