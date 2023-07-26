@@ -10032,3 +10032,143 @@
 [2023-07-26 04:51:17] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
 [2023-07-26 04:51:17] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2023-07-26 04:51:17] INFO root fetch - main [MainThread]: Store serial: [19038748]
+[2023-07-26 04:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038748]
+[2023-07-26 04:56:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IDEAfactortest
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-base-import
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantfactortest
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lincs
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ytdl-sub
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-energy
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-ndev-blizzardapi
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edgar-py
+[2023-07-26 04:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-blockchain
+[2023-07-26 04:56:27] INFO root fetch - processPackages [lincs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: New version: [0.1.0.2] Old Version: [0.1.0]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [quantfactortest]: New version: [1.2] Old Version: [1.1]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [IDEAfactortest]: New version: [1.2] Old Version: [1.0]
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [edgar-py]: Skipping, unable to determine old version
+[2023-07-26 04:56:27] INFO root fetch - processPackages [edgar-py]: Start processing: benimang
+[2023-07-26 04:56:27] INFO root fetch - main [MainThread]: End processing [edgar-py] error
+[2023-07-26 04:56:27] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [antchain-blockchain]: New version: [1.26.36] Old Version: [1.26.33]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.7.26] Old Version: [2023.7.25.post7]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [IDEAfactortest]: Downloading https://files.pythonhosted.org/packages/cf/2e/f962eca6a727ae7a90b99fa63279d0bf9fc98329a0ec769fb871d03c2012/IDEAfactortest-1.0.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [python-ndev-blizzardapi]: fallback to get urls: [0.1.0]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [quantfactortest]: Downloading https://files.pythonhosted.org/packages/87/25/5c91203024a796392d79c419a238ce965ff6f6be34ad24320c2c934207d2/quantfactortest-1.1.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/41/04/c3fc3151d4523f3ca2da898a9714383a3a21a1f21e4c20e06859f29aed2b/lincs-0.5.0.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/23/71/41a674c9ff8539d1fde26e3d72e45283c6c0d2344632ef8b88ae99ce26be/ytdl-sub-2023.7.25.post7.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [python-ndev-blizzardapi]: None
+[2023-07-26 04:56:27] INFO root fetch - processPackages [antchain-blockchain]: Downloading https://files.pythonhosted.org/packages/2a/03/b23297ea09897d4273f92414890683539c14c83a5b194cdb6dc6035640a8/antchain_blockchain-1.26.33.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-26 04:56:27] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [python-ndev-blizzardapi]: None
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [python-ndev-blizzardapi]: unable to get url for both version [0.1.0]
+[2023-07-26 04:56:27] WARNING root fetch - processPackages [python-ndev-blizzardapi]: None
+[2023-07-26 04:56:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: Start processing: imp-toolkit-logs
+[2023-07-26 04:56:27] INFO root fetch - main [MainThread]: End processing [python-ndev-blizzardapi] error
+[2023-07-26 04:56:27] INFO root fetch - processPackages [IDEAfactortest]: Downloading https://files.pythonhosted.org/packages/be/0a/d9301ae1b6934448723de501332515c06d365371a559c413a23f54f6f863/IDEAfactortest-1.2.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [imp-toolkit-logs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 04:56:27] INFO root fetch - processPackages [IDEAfactortest]: executing diffoscope
+[2023-07-26 04:56:27] INFO root fetch - processPackages [IDEAfactortest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDEAfactortest-1.0.tar.gz tmp/IDEAfactortest-1.2.tar.gz --markdown 20230726/I/IDEAfactortest/1.0-1.2/diff.md --exclude *.pyd
+[2023-07-26 04:56:27] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/43/2a/ce790f992e48db3678a2460809f79e124ff854815beb95850a9d17b58067/ytdl-sub-2023.7.26.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [antchain-blockchain]: Downloading https://files.pythonhosted.org/packages/60/a3/c2ebbd79acdc426de6414f04bee3279391ed6bff4a1cd1774f8e934a2df9/antchain_blockchain-1.26.36.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-26 04:56:27] INFO root fetch - processPackages [quantfactortest]: Downloading https://files.pythonhosted.org/packages/e7/49/1c32e357254036f6620a14e39bf24ffc17f9a73cc32016507f4626142aa9/quantfactortest-1.2.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/4a/69/5efcd2e48f11ff30e7f159eb7bee37b1717bf7a8622c39acf7a474711650/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-26 04:56:28] INFO root fetch - processPackages [imp-toolkit-logs]: Downloading https://files.pythonhosted.org/packages/76/82/e1609636317d3cc0d52801d41395c72d762c6db0b55f2006fb2a8cf894ec/imp_toolkit_logs-0.1.1.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [quantfactortest]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [quantfactortest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantfactortest-1.1.tar.gz tmp/quantfactortest-1.2.tar.gz --markdown 20230726/q/quantfactortest/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230726/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.7.25.post7.tar.gz tmp/ytdl-sub-2023.7.26.tar.gz --markdown 20230726/y/ytdl-sub/2023.7.25.post7-2023.7.26/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [antchain-blockchain]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [antchain-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_blockchain-1.26.33.tar.gz tmp/antchain_blockchain-1.26.36.tar.gz --markdown 20230726/a/antchain-blockchain/1.26.33-1.26.36/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-account-move-base-import/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230726/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230726/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/37/c0/b901e5eee676e3c7beb6158a4aec4e366c0b7817212ff1201d4b94a2d517/lincs-0.5.1.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [imp-toolkit-logs]: Downloading https://files.pythonhosted.org/packages/88/b1/59955e5ccf4a373b7e2466c8a305f60ae6a3080b9010ea1c862ba28748a5/imp_toolkit_logs-0.1.2.tar.gz
+[2023-07-26 04:56:28] INFO root fetch - processPackages [lincs]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [lincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincs-0.5.0.tar.gz tmp/lincs-0.5.1.tar.gz --markdown 20230726/l/lincs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-26 04:56:28] INFO root fetch - processPackages [imp-toolkit-logs]: executing diffoscope
+[2023-07-26 04:56:28] INFO root fetch - processPackages [imp-toolkit-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imp_toolkit_logs-0.1.1.tar.gz tmp/imp_toolkit_logs-0.1.2.tar.gz --markdown 20230726/i/imp-toolkit-logs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 04:56:29] INFO root fetch - processPackages [IDEAfactortest]: Remove: archive file [/home/abi/fetcher/tmp/IDEAfactortest-1.0.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [IDEAfactortest]: Remove: archive file [/home/abi/fetcher/tmp/IDEAfactortest-1.2.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [IDEAfactortest]: Start processing: gfatpy
+[2023-07-26 04:56:29] INFO root fetch - main [MainThread]: End processing [IDEAfactortest]: success
+[2023-07-26 04:56:29] INFO root fetch - processPackages [gfatpy]: New version: [0.7.0] Old Version: [0.4.0]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/5b/d8/12aa8083c41740f8af38600df206330718b706d4b3c878bf0bbb1bb98108/gfatpy-0.4.0.tar.gz
+[2023-07-26 04:56:29] INFO root fetch - processPackages [quantfactortest]: Remove: archive file [/home/abi/fetcher/tmp/quantfactortest-1.1.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [quantfactortest]: Remove: archive file [/home/abi/fetcher/tmp/quantfactortest-1.2.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [quantfactortest]: Start processing: alibabacloud-dbs20210101-py2
+[2023-07-26 04:56:29] INFO root fetch - main [MainThread]: End processing [quantfactortest]: success
+[2023-07-26 04:56:29] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-26 04:56:29] INFO root fetch - processPackages [benimang]: Start processing: je-editor-dev
+[2023-07-26 04:56:29] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-26 04:56:29] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: Downloading https://files.pythonhosted.org/packages/2d/e0/de4cfdbd077d2a78faaedc3c0613f24e5c560b26aac342a59f2ca10b9038/alibabacloud_dbs20210101_py2-1.0.2.tar.gz
+[2023-07-26 04:56:29] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [imp-toolkit-logs]: Remove: archive file [/home/abi/fetcher/tmp/imp_toolkit_logs-0.1.1.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [imp-toolkit-logs]: Remove: archive file [/home/abi/fetcher/tmp/imp_toolkit_logs-0.1.2.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [imp-toolkit-logs]: Start processing: fern-merge
+[2023-07-26 04:56:30] INFO root fetch - main [MainThread]: End processing [imp-toolkit-logs]: success
+[2023-07-26 04:56:30] INFO root fetch - processPackages [fern-merge]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-26 04:56:30] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/5b/9a/85c5c30a0ab17ffaa3a8ea9f51caca9c3ad4c5ac8632d6a0a97f22dcd4eb/gfatpy-0.7.0.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/16/0c/a29fe3ab3cff47452fb46f85fa5815c86da631df882722f1a41b7d9e5608/fern_merge-0.1.4.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-26 04:56:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2023-07-26 04:56:30] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.25.post7.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.26.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-07-26 04:56:30] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: Downloading https://files.pythonhosted.org/packages/ed/dc/de628c753e4bfd3e0b3300c599836c8183b61002b980983b2056bd3a1783/alibabacloud_dbs20210101_py2-1.0.3.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/f1/69/28e61f02da821fbdb1760606e6de0956973541ebb4e27773bfc234b1d8c0/fern_merge-0.2.0.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [gfatpy]: executing diffoscope
+[2023-07-26 04:56:30] INFO root fetch - processPackages [gfatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfatpy-0.4.0.tar.gz tmp/gfatpy-0.7.0.tar.gz --markdown 20230726/g/gfatpy/0.4.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-26 04:56:30] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: executing diffoscope
+[2023-07-26 04:56:30] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dbs20210101_py2-1.0.2.tar.gz tmp/alibabacloud_dbs20210101_py2-1.0.3.tar.gz --markdown 20230726/a/alibabacloud-dbs20210101-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 04:56:30] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-07-26 04:56:30] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-07-26 04:56:30] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.1.4.tar.gz tmp/fern_merge-0.2.0.tar.gz --markdown 20230726/f/fern-merge/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 04:56:30] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-07-26 04:56:30] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230726/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 04:56:30] INFO root fetch - processPackages [antchain-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/antchain_blockchain-1.26.33.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [antchain-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/antchain_blockchain-1.26.36.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - main [MainThread]: End processing [antchain-blockchain]: success
+[2023-07-26 04:56:30] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-26 04:56:30] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-26 04:56:31] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-26 04:56:31] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dbs20210101_py2-1.0.2.tar.gz]
+[2023-07-26 04:56:31] INFO root fetch - processPackages [alibabacloud-dbs20210101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dbs20210101_py2-1.0.3.tar.gz]
+[2023-07-26 04:56:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-dbs20210101-py2]: success
+[2023-07-26 04:56:31] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-07-26 04:56:31] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-07-26 04:56:31] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-07-26 04:56:32] INFO root fetch - processPackages [lincs]: Remove: archive file [/home/abi/fetcher/tmp/lincs-0.5.0.tar.gz]
+[2023-07-26 04:56:32] INFO root fetch - processPackages [lincs]: Remove: archive file [/home/abi/fetcher/tmp/lincs-0.5.1.tar.gz]
+[2023-07-26 04:56:32] INFO root fetch - main [MainThread]: End processing [lincs]: success
+[2023-07-26 04:56:32] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.4.0.tar.gz]
+[2023-07-26 04:56:32] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.7.0.tar.gz]
+[2023-07-26 04:56:32] INFO root fetch - main [MainThread]: End processing [gfatpy]: success
+[2023-07-26 04:56:36] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.1.4.tar.gz]
+[2023-07-26 04:56:36] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.0.tar.gz]
+[2023-07-26 04:56:36] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-07-26 04:56:36] INFO root fetch - main [MainThread]: Store serial: [19038807]
