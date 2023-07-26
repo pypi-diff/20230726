@@ -10496,3 +10496,42 @@
 [2023-07-26 05:22:41] INFO root fetch - processPackages [xmltread]: Remove: archive file [/home/abi/fetcher/tmp/xmltread-0.2.tar.gz]
 [2023-07-26 05:22:41] INFO root fetch - main [MainThread]: End processing [xmltread]: success
 [2023-07-26 05:22:41] INFO root fetch - main [MainThread]: Store serial: [19038931]
+[2023-07-26 05:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038931]
+[2023-07-26 05:27:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: france-political-plots
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hust-login
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparglim
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytdl-sub
+[2023-07-26 05:27:50] INFO root fetch - processPackages [france-political-plots]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 05:27:50] INFO root fetch - processPackages [hust-login]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-07-26 05:27:50] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.7.26] Old Version: [2023.7.25.post7]
+[2023-07-26 05:27:50] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/62/34/6d9516f3406f9c188375605886f60cfa1359072e5bbb9d2b25d481261ab6/sparglim-0.1.0rc0.tar.gz
+[2023-07-26 05:27:50] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/23/71/41a674c9ff8539d1fde26e3d72e45283c6c0d2344632ef8b88ae99ce26be/ytdl-sub-2023.7.25.post7.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [france-political-plots]: Downloading https://files.pythonhosted.org/packages/6d/8c/c056d405b60511cd926e2079944b4068f3aebce9519c1ed360450e1185dd/france_political_plots-0.1.0.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/f6/ca/8f7bb9e1d02e2721fe8c18fbdbe32531a52decdbe6fe9e8e8573737ac9c7/hust_login-1.0.1-py3.11.egg
+[2023-07-26 05:27:51] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/55/86/ce21cc680096dbc69f453c2cfcbed097ecbb725077386d6f8f4298d82f19/sparglim-0.1.0rc1.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/43/2a/ce790f992e48db3678a2460809f79e124ff854815beb95850a9d17b58067/ytdl-sub-2023.7.26.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-26 05:27:51] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc0.tar.gz tmp/sparglim-0.1.0rc1.tar.gz --markdown 20230726/s/sparglim/0.1.0rc0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-26 05:27:51] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/35/ec/7ad83c9a9626bd0a7db8ef235cfdeee8a846a65ab22a213cdef5bd6dedad/hust_login-1.0.5.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-07-26 05:27:51] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.7.25.post7.tar.gz tmp/ytdl-sub-2023.7.26.tar.gz --markdown 20230726/y/ytdl-sub/2023.7.25.post7-2023.7.26/diff.md --exclude *.pyd
+[2023-07-26 05:27:51] INFO root fetch - processPackages [france-political-plots]: Downloading https://files.pythonhosted.org/packages/60/c3/61769be1c5f3778b2b77230f7bdc050da2e87293dc7e23bbdc21264efd55/france_political_plots-0.1.1.tar.gz
+[2023-07-26 05:27:51] INFO root fetch - processPackages [hust-login]: executing diffoscope
+[2023-07-26 05:27:51] INFO root fetch - processPackages [hust-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hust_login-1.0.1-py3.11.egg tmp/hust_login-1.0.5.tar.gz --markdown 20230726/h/hust-login/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-07-26 05:27:51] INFO root fetch - processPackages [france-political-plots]: executing diffoscope
+[2023-07-26 05:27:51] INFO root fetch - processPackages [france-political-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/france_political_plots-0.1.0.tar.gz tmp/france_political_plots-0.1.1.tar.gz --markdown 20230726/f/france-political-plots/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 05:27:52] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.1-py3.11.egg]
+[2023-07-26 05:27:52] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.5.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - main [MainThread]: End processing [hust-login]: success
+[2023-07-26 05:27:52] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc0.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc1.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-26 05:27:52] INFO root fetch - processPackages [france-political-plots]: Remove: archive file [/home/abi/fetcher/tmp/france_political_plots-0.1.0.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - processPackages [france-political-plots]: Remove: archive file [/home/abi/fetcher/tmp/france_political_plots-0.1.1.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - main [MainThread]: End processing [france-political-plots]: success
+[2023-07-26 05:27:52] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.25.post7.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.26.tar.gz]
+[2023-07-26 05:27:52] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-07-26 05:27:52] INFO root fetch - main [MainThread]: Store serial: [19038945]
