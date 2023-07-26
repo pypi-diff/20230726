@@ -14570,3 +14570,158 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 09:09:25] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726070746.tar.gz]
 [2023-07-26 09:09:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-26 09:09:25] INFO root fetch - main [MainThread]: Store serial: [19040426]
+[2023-07-26 09:14:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040426]
+[2023-07-26 09:14:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pheno-utils
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iman
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zerocap-api-test
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solcore
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastpdf
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpcal
+[2023-07-26 09:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyzswagcl
+[2023-07-26 09:14:34] INFO root fetch - processPackages [fastpdf]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [zerocap-api-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [gpcal]: New version: [0.9.5.3] Old Version: [0.9.5.2]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [pyzswagcl]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.7.5] Old Version: [0.3.7.4]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [solcore]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [iman]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-26 09:14:34] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/8a/35/ecca1a483775049a05da0b13ae375d6cf66ed337b7d30a31eeb129a538bc/gpcal-0.9.5.2.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [zerocap-api-test]: Downloading https://files.pythonhosted.org/packages/63/f7/30ff12fb599bd87fef58757465fc00676ea7b8084bef8019e8ce70030089/zerocap_api_test-0.1.2.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [fastpdf]: Downloading https://files.pythonhosted.org/packages/40/2b/9996210e96bf13add5c72782b0c48d470d982b5cdb4ce90769b8e1e5e533/fastpdf-0.0.2.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/7a/cf/3e95e64756f6c5460bc4f6ecd6f0358328d7a5272e580fbd8ce092e130c7/pheno-utils-0.3.7.4.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [solcore]: Downloading https://files.pythonhosted.org/packages/ea/1f/5806aa9be1fb5a9895e2ae009570e6c34235e6967c0e77408d387a1aee2f/solcore-5.9.1.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 09:14:34] INFO root fetch - processPackages [pyzswagcl]: Downloading https://files.pythonhosted.org/packages/77/24/5c69ce0c053021b694de746a2ca3a629c3d8e244b49e03bb1aa2234a3261/pyzswagcl-1.5.0-cp39-cp39-win_amd64.whl
+[2023-07-26 09:14:34] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/41/9e/e16614c4328bce9b23ada027a365413327a25c3e31efe6a38ed72f96aad0/iman-0.0.91.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [zerocap-api-test]: Downloading https://files.pythonhosted.org/packages/78/3c/6beec5b87e2c83b59969b71bea9dd76d6c638930994330d074430a59662d/zerocap_api_test-0.1.3.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [fastpdf]: Downloading https://files.pythonhosted.org/packages/84/db/ed482fc1bb1f31c2bb71ae571fb0c6244e70d3faeb007da02fd8bc972583/fastpdf-1.0.0.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/71/1b/0f3b2ee987f752fd6997f588ad6e705af8648d1e512b4549a3afc1d0644d/gpcal-0.9.5.3.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/ea/6a/0552c377479d6f070ada2239aa4cae0d1d13b8f04f48a5f2ec4f1881527d/pheno-utils-0.3.7.5.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [zerocap-api-test]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [zerocap-api-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_test-0.1.2.tar.gz tmp/zerocap_api_test-0.1.3.tar.gz --markdown 20230726/z/zerocap-api-test/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/72/f9/beab6f36cc73426eba8f15edc279d3ceb76bf37c096a465ba0a0d9f4594f/iman-0.0.92.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [fastpdf]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [fastpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpdf-0.0.2.tar.gz tmp/fastpdf-1.0.0.tar.gz --markdown 20230726/f/fastpdf/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.7.4.tar.gz tmp/pheno-utils-0.3.7.5.tar.gz --markdown 20230726/p/pheno-utils/0.3.7.4-0.3.7.5/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [gpcal]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [gpcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpcal-0.9.5.2.tar.gz tmp/gpcal-0.9.5.3.tar.gz --markdown 20230726/g/gpcal/0.9.5.2-0.9.5.3/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pyzswagcl]: Downloading https://files.pythonhosted.org/packages/8c/be/c5f8b91a2e5d22c45f757ee3142aaa72f66d40d4338f8f8031c8e9c662f1/pyzswagcl-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 09:14:35] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.91.tar.gz tmp/iman-0.0.92.tar.gz --markdown 20230726/i/iman/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [solcore]: Downloading https://files.pythonhosted.org/packages/28/e3/3e344636e71a5d8dee095612538784528c7b53d7a46f40bf74cc700e1ac1/solcore-5.9.2.tar.gz
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pyzswagcl]: executing diffoscope
+[2023-07-26 09:14:35] INFO root fetch - processPackages [pyzswagcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzswagcl-1.5.0-cp39-cp39-win_amd64.whl.zip tmp/pyzswagcl-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230726/p/pyzswagcl/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-26 09:14:35] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-26 09:14:36] INFO root fetch - processPackages [zerocap-api-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_test-0.1.2.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [zerocap-api-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_test-0.1.3.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [zerocap-api-test]: Start processing: zswag
+[2023-07-26 09:14:36] INFO root fetch - main [MainThread]: End processing [zerocap-api-test]: success
+[2023-07-26 09:14:36] INFO root fetch - processPackages [solcore]: executing diffoscope
+[2023-07-26 09:14:36] INFO root fetch - processPackages [solcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solcore-5.9.1.tar.gz tmp/solcore-5.9.2.tar.gz --markdown 20230726/s/solcore/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-07-26 09:14:36] INFO root fetch - processPackages [zswag]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [fastpdf]: Remove: archive file [/home/abi/fetcher/tmp/fastpdf-0.0.2.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [fastpdf]: Remove: archive file [/home/abi/fetcher/tmp/fastpdf-1.0.0.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [fastpdf]: Start processing: lsrestclient
+[2023-07-26 09:14:36] INFO root fetch - main [MainThread]: End processing [fastpdf]: success
+[2023-07-26 09:14:36] INFO root fetch - processPackages [lsrestclient]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.4.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.5.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [pheno-utils]: Start processing: cars
+[2023-07-26 09:14:36] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-26 09:14:36] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/79/f8/d7c22dee4e2dde0120ddcedc0ab15fe2ee0bd5747db1dccdaa6376540370/lsrestclient-0.2.1.tar.gz
+[2023-07-26 09:14:36] INFO root fetch - processPackages [zswag]: Downloading https://files.pythonhosted.org/packages/57/fa/4b7110f3c1a97abe42161fcb1a1f5695e51e1803e40a6b52539b0c09ced8/zswag-1.5.0-py3-none-any.whl
+[2023-07-26 09:14:36] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.2.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.3.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [gpcal]: Start processing: lsrestclient
+[2023-07-26 09:14:36] INFO root fetch - main [MainThread]: End processing [gpcal]: success
+[2023-07-26 09:14:36] INFO root fetch - processPackages [cars]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [lsrestclient]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-26 09:14:36] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230726/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-26 09:14:36] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.91.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.92.tar.gz]
+[2023-07-26 09:14:36] INFO root fetch - processPackages [iman]: Start processing: iman
+[2023-07-26 09:14:36] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-26 09:14:36] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/6e/c4/23614bd9c98b6863c052df9cdd34abda2bee4144659f677e7cbac5b8ce8e/lsrestclient-0.2.2.tar.gz
+[2023-07-26 09:14:36] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/6e/c4/23614bd9c98b6863c052df9cdd34abda2bee4144659f677e7cbac5b8ce8e/lsrestclient-0.2.2.tar.gz
+[2023-07-26 09:14:36] INFO root fetch - processPackages [cars]: Downloading https://files.pythonhosted.org/packages/80/ac/676a9a8130b7322d8e26985f88c3db5678a46550cea102a8775a5a5d69ff/cars-0.7.0.tar.gz
+[2023-07-26 09:14:36] INFO root fetch - processPackages [iman]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-26 09:14:37] INFO root fetch - processPackages [zswag]: Downloading https://files.pythonhosted.org/packages/8c/84/f2dd6884405ccbb7f1c494c5dfee09fc8530d734b4cce8c16367aa30b1e7/zswag-1.6.0-py3-none-any.whl
+[2023-07-26 09:14:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/72/f9/beab6f36cc73426eba8f15edc279d3ceb76bf37c096a465ba0a0d9f4594f/iman-0.0.92.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [lsrestclient]: executing diffoscope
+[2023-07-26 09:14:37] INFO root fetch - processPackages [lsrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsrestclient-0.2.1.tar.gz tmp/lsrestclient-0.2.2.tar.gz --markdown 20230726/l/lsrestclient/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 09:14:37] INFO root fetch - processPackages [zswag]: executing diffoscope
+[2023-07-26 09:14:37] INFO root fetch - processPackages [zswag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zswag-1.5.0-py3-none-any.whl.zip tmp/zswag-1.6.0-py3-none-any.whl.zip --markdown 20230726/z/zswag/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-26 09:14:37] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/43/a5/af8325f83b01ab3b2ddada4ab192ca0d12e173d7ae031d7b676e9776a2c3/lsrestclient-0.2.3.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/2e/28/d014a31f108b98c342e9ba904af3dd215e73aba550af1e36f617af5de7e9/iman-0.0.93.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [cars]: Downloading https://files.pythonhosted.org/packages/bf/f4/db7a12bdf6241c0be9d655aacc1b64cf10cc1f29f4c9622c89de58ce883e/cars-0.7.1.tar.gz
+[2023-07-26 09:14:37] INFO root fetch - processPackages [lsrestclient]: executing diffoscope
+[2023-07-26 09:14:37] INFO root fetch - processPackages [lsrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsrestclient-0.2.2.tar.gz tmp/lsrestclient-0.2.3.tar.gz --markdown 20230726/l/lsrestclient/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 09:14:37] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-26 09:14:37] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.92.tar.gz tmp/iman-0.0.93.tar.gz --markdown 20230726/i/iman/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-26 09:14:37] INFO root fetch - processPackages [pyzswagcl]: Remove: archive file [/home/abi/fetcher/tmp/pyzswagcl-1.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 09:14:37] INFO root fetch - processPackages [pyzswagcl]: Remove: archive file [/home/abi/fetcher/tmp/pyzswagcl-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 09:14:37] INFO root fetch - main [MainThread]: End processing [pyzswagcl]: success
+[2023-07-26 09:14:37] INFO root fetch - processPackages [cars]: executing diffoscope
+[2023-07-26 09:14:37] INFO root fetch - processPackages [cars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cars-0.7.0.tar.gz tmp/cars-0.7.1.tar.gz --markdown 20230726/c/cars/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-26 09:14:38] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 09:14:38] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 09:14:38] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 09:14:38] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 09:14:38] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-0.2.1.tar.gz]
+[2023-07-26 09:14:38] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-0.2.2.tar.gz]
+[2023-07-26 09:14:38] INFO root fetch - main [MainThread]: End processing [lsrestclient]: success
+[2023-07-26 09:14:38] INFO root fetch - processPackages [zswag]: Remove: archive file [/home/abi/fetcher/tmp/zswag-1.5.0-py3-none-any.whl.zip]
+[2023-07-26 09:14:38] INFO root fetch - processPackages [zswag]: Remove: archive file [/home/abi/fetcher/tmp/zswag-1.6.0-py3-none-any.whl.zip]
+[2023-07-26 09:14:38] INFO root fetch - main [MainThread]: End processing [zswag]: success
+[2023-07-26 09:14:38] ERROR root fetch - processPackages [lsrestclient]: Diffoscope failed: time="2023-07-26T09:14:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/lsrestclient-0.2.2.tar.gz does not exist
+
+[2023-07-26 09:14:38] INFO root fetch - main [MainThread]: End processing [lsrestclient] error
+[2023-07-26 09:14:39] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.92.tar.gz]
+[2023-07-26 09:14:39] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.93.tar.gz]
+[2023-07-26 09:14:39] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-26 09:14:40] INFO root fetch - processPackages [cars]: Remove: archive file [/home/abi/fetcher/tmp/cars-0.7.0.tar.gz]
+[2023-07-26 09:14:40] INFO root fetch - processPackages [cars]: Remove: archive file [/home/abi/fetcher/tmp/cars-0.7.1.tar.gz]
+[2023-07-26 09:14:40] INFO root fetch - main [MainThread]: End processing [cars]: success
+[2023-07-26 09:14:43] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 09:14:43] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 09:14:43] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 09:14:43] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 09:14:43] INFO root fetch - processPackages [solcore]: Remove: archive file [/home/abi/fetcher/tmp/solcore-5.9.1.tar.gz]
+[2023-07-26 09:14:43] INFO root fetch - processPackages [solcore]: Remove: archive file [/home/abi/fetcher/tmp/solcore-5.9.2.tar.gz]
+[2023-07-26 09:14:43] INFO root fetch - main [MainThread]: End processing [solcore]: success
+[2023-07-26 09:14:46] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-26 09:14:46] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-26 09:14:46] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-26 09:14:46] INFO root fetch - main [MainThread]: Store serial: [19040493]
