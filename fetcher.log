@@ -18550,3 +18550,152 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 11:53:34] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.1.0.tar.gz]
 [2023-07-26 11:53:34] INFO root fetch - main [MainThread]: End processing [enebootools]: success
 [2023-07-26 11:53:34] INFO root fetch - main [MainThread]: Store serial: [19042113]
+[2023-07-26 11:58:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042113]
+[2023-07-26 11:58:42] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylint
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ztool2
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-connector-importer
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcnum
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asimov
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dronefly-discord
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-function
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:42] INFO root fetch - processPackages [ztool2]: New version: [0.2] Old Version: [0.1]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dcnum]: New version: [0.11.4] Old Version: [0.11.3]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [odoo-addon-connector-importer]: New version: [15.0.1.6.2] Old Version: [15.0.1.6.1]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dronefly-discord]: New version: [0.1.1.dev5] Old Version: [0.1.1.dev4]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [openai-function]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [pylint]: New version: [3.0.0a6] Old Version: [3.0.0a5]
+[2023-07-26 11:58:43] INFO root fetch - processPackages [odoo-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/13/16/bb8c93c4383008e88dffc75ae8fac9cc4913a58aac15a716bba247540549/odoo_addon_connector_importer-15.0.1.6.1-py3-none-any.whl
+[2023-07-26 11:58:43] INFO root fetch - processPackages [ztool2]: Downloading https://files.pythonhosted.org/packages/1a/80/01134bc74ac18d50daa94be74b5c82b2680e7aa8577294916fb8a02fa7c5/ztool2-0.1.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/83/62/b3061ccb72a3b37cb0d55e473f4dcba68f5c8d732eabcf410b6d50d1d4b1/dcnum-0.11.3.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/46/ab/9cdbbc0973c79525f1ea421cf9dbac098b653536061a1f6d2b481598f065/openai_function-0.0.2.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/38/85/50eeda5749fc8d22df782c446a0c4421fe05ec3380717979bd2385199c2e/dronefly_discord-0.1.1.dev4.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/d3/6a/063cb65c967d7035cb984ab142762e4e121d61c675b0b0dec3ff44c864f6/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/d3/6a/063cb65c967d7035cb984ab142762e4e121d61c675b0b0dec3ff44c864f6/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/d3/6a/063cb65c967d7035cb984ab142762e4e121d61c675b0b0dec3ff44c864f6/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/c5/b9/5ed11d50773c8edea30493d6b28e0727d3b2730a9801e5192ea1fc1ab5e1/asimov-0.6.0a3-py2.py3-none-any.whl
+[2023-07-26 11:58:43] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/57/33/365b768fac1eef78717268399338ca77ca663201b4856747d5604fa5223f/pylint-3.0.0a5.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [odoo-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/9b/38/7149007f209a1b91c0cbdc213dd869aa67b0f8b3f545702d254a5bc20e66/odoo_addon_connector_importer-15.0.1.6.2-py3-none-any.whl
+[2023-07-26 11:58:43] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/2d/20/96f44d7cd85de097820acf97c727928685957429c2dde22b226329b42a3b/openai_function-0.1.0.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [ztool2]: Downloading https://files.pythonhosted.org/packages/68/3b/b45861506cefd2c8b24094e9691047b68403749e136b8b4bf563357e2e94/ztool2-0.2.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [odoo-addon-connector-importer]: executing diffoscope
+[2023-07-26 11:58:43] INFO root fetch - processPackages [odoo-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_importer-15.0.1.6.1-py3-none-any.whl.zip tmp/odoo_addon_connector_importer-15.0.1.6.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-connector-importer/15.0.1.6.1-15.0.1.6.2/diff.md --exclude *.pyd
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/3e/7d/a299eaa340768bc2dae1bd6e260665733a585759a2a74ff2ac7f2d13615e/dronefly_discord-0.1.1.dev5.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/20/31/ffc0f63a97279204f37f1723d34fc81e32e28ea38e0c37f59e3ee9575e14/pylint-3.0.0a6.tar.gz
+[2023-07-26 11:58:43] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-26 11:58:43] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.0.2.tar.gz tmp/openai_function-0.1.0.tar.gz --markdown 20230726/o/openai-function/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 11:58:43] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/dd/48/5cb26bf1453d1eda98643c8eb9617fdb4a38b6ba0500755f8b6f0da3c892/dcnum-0.11.4.tar.gz
+[2023-07-26 11:58:44] INFO root fetch - processPackages [pylint]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint-3.0.0a5.tar.gz tmp/pylint-3.0.0a6.tar.gz --markdown 20230726/p/pylint/3.0.0a5-3.0.0a6/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/c9/10/0a5d6d343160e8f4b02d39d44e5a8495a8a2bb7c60d5dd9c8b5e6926bfe8/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/c9/10/0a5d6d343160e8f4b02d39d44e5a8495a8a2bb7c60d5dd9c8b5e6926bfe8/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/c9/10/0a5d6d343160e8f4b02d39d44e5a8495a8a2bb7c60d5dd9c8b5e6926bfe8/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz
+[2023-07-26 11:58:44] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/98/95/6194570aceb799c702604b49d3327fe07f33cf20485affb63f840be8a89d/asimov-0.6.0b1-py2.py3-none-any.whl
+[2023-07-26 11:58:44] INFO root fetch - processPackages [ztool2]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [ztool2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztool2-0.1.tar.gz tmp/ztool2-0.2.tar.gz --markdown 20230726/z/ztool2/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [dronefly-discord]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [dronefly-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_discord-0.1.1.dev4.tar.gz tmp/dronefly_discord-0.1.1.dev5.tar.gz --markdown 20230726/d/dronefly-discord/0.1.1.dev4-0.1.1.dev5/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.3.tar.gz tmp/dcnum-0.11.4.tar.gz --markdown 20230726/d/dcnum/0.11.3-0.11.4/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230726/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:44] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:45] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.0.2.tar.gz]
+[2023-07-26 11:58:45] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.0.tar.gz]
+[2023-07-26 11:58:45] INFO root fetch - processPackages [openai-function]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:45] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-26 11:58:45] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:45] INFO root fetch - processPackages [ztool2]: Remove: archive file [/home/abi/fetcher/tmp/ztool2-0.1.tar.gz]
+[2023-07-26 11:58:45] INFO root fetch - processPackages [ztool2]: Remove: archive file [/home/abi/fetcher/tmp/ztool2-0.2.tar.gz]
+[2023-07-26 11:58:45] INFO root fetch - processPackages [ztool2]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:45] INFO root fetch - main [MainThread]: End processing [ztool2]: success
+[2023-07-26 11:58:45] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:45] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:45] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev4.tar.gz]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev5.tar.gz]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dronefly-discord]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-07-26 11:58:46] INFO root fetch - main [MainThread]: End processing [dronefly-discord]: success
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [odoo-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer-15.0.1.6.1-py3-none-any.whl.zip]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [odoo-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer-15.0.1.6.2-py3-none-any.whl.zip]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [odoo-addon-connector-importer]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-importer]: success
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230601] Old Version: [2023.4.0.230427]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-marketingsolutions-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/23/c372d78c01cc155ec32d82b25a42e07b3c669a556952389627488acc3ae8/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.3.tar.gz]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.4.tar.gz]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [dcnum]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:46] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-07-26 11:58:46] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [asimov]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:46] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:46] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/ed/69/38e432c78f28cc16b9b2ad8466712c1b7dc73c31c69d6af719025c1c4b71/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/ed/69/38e432c78f28cc16b9b2ad8466712c1b7dc73c31c69d6af719025c1c4b71/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/01/4d/49bd9deebaa5d72031cec4b53c47b8b52c5282c18436e74db4902437d4f4/criteo-api-retailmedia-sdk-2023.4.0.230601.tar.gz
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230601.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230427-2023.4.0.230601/diff.md --exclude *.pyd
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/a9/43ea349e62e4a3a64afbcf82f42cbf36d2b186eaa53d4939df4ae136fbdc/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/a9/43ea349e62e4a3a64afbcf82f42cbf36d2b186eaa53d4939df4ae136fbdc/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:47] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:49] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.0.0a5.tar.gz]
+[2023-07-26 11:58:49] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.0.0a6.tar.gz]
+[2023-07-26 11:58:49] INFO root fetch - processPackages [pylint]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:49] INFO root fetch - main [MainThread]: End processing [pylint]: success
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230726.tar.gz]
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-marketingsolutions-sdk-2023.7.0.230726.tar.gz]
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:49] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:49] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: criteo-api-retailmedia-sdk
+[2023-07-26 11:58:49] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: markdown-worker
+[2023-07-26 11:58:50] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.7.0.230726] Old Version: [2023.4.0.230726]
+[2023-07-26 11:58:50] WARNING root fetch - processPackages [markdown-worker]: Skipping, unable to determine old version
+[2023-07-26 11:58:50] INFO root fetch - main [MainThread]: End processing [markdown-worker] error
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-07-26 11:58:50] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz --markdown 20230726/c/criteo-api-retailmedia-sdk/2023.4.0.230726-2023.7.0.230726/diff.md --exclude *.pyd
+[2023-07-26 11:58:50] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:51] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:51] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-07-26 11:58:51] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz]
+[2023-07-26 11:58:51] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.4.0.230601.tar.gz]
+[2023-07-26 11:58:51] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:53] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz]
+[2023-07-26 11:58:53] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz]
+[2023-07-26 11:58:53] WARNING root fetch - processPackages [criteo-api-retailmedia-sdk]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.4.0.230726.tar.gz']
+[2023-07-26 11:58:53] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/criteo-api-retailmedia-sdk-2023.7.0.230726.tar.gz]
+[2023-07-26 11:58:53] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:53] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:54] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:54] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:54] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-07-26 11:58:54] INFO root fetch - main [MainThread]: Store serial: [19042176]
