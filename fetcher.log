@@ -5624,3 +5624,42 @@
 [2023-07-26 03:05:41] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.2-py3-none-any.whl.zip]
 [2023-07-26 03:05:41] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
 [2023-07-26 03:05:41] INFO root fetch - main [MainThread]: Store serial: [19037196]
+[2023-07-26 03:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19037196]
+[2023-07-26 03:10:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Deformation3D
+[2023-07-26 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-26 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arize-phoenix
+[2023-07-26 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlflowops
+[2023-07-26 03:10:50] INFO root fetch - processPackages [Deformation3D]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 03:10:50] INFO root fetch - processPackages [mlflowops]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 03:10:50] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 03:10:50] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-26 03:10:50] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/03/77/f602a38794f4717e0b5239704485e56215a67f7f3726b9763f13091a1e8f/Deformation3D-1.0.2-py3-none-any.whl
+[2023-07-26 03:10:50] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-07-26 03:10:50] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-26 03:10:50] INFO root fetch - processPackages [mlflowops]: Downloading https://files.pythonhosted.org/packages/f9/2b/0dda5bd2786513aca412855f9e4313fbeed59072a438ec50e9fd9e177277/mlflowops-0.1.1.tar.gz
+[2023-07-26 03:10:51] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-07-26 03:10:51] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/37/40/3bc853f63d6d9093d887b21600c166d0c439ee20e960c865bdea32590d4e/Deformation3D-1.0.3-py3-none-any.whl
+[2023-07-26 03:10:51] INFO root fetch - processPackages [mlflowops]: Downloading https://files.pythonhosted.org/packages/a8/18/b23db415efd7f9c02fe23ce8455c7e1d823bed59367d6350ed22ef24d0ac/mlflowops-0.1.2.tar.gz
+[2023-07-26 03:10:51] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-07-26 03:10:51] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230726/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 03:10:51] INFO root fetch - processPackages [mlflowops]: executing diffoscope
+[2023-07-26 03:10:51] INFO root fetch - processPackages [mlflowops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflowops-0.1.1.tar.gz tmp/mlflowops-0.1.2.tar.gz --markdown 20230726/m/mlflowops/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 03:10:51] INFO root fetch - processPackages [Deformation3D]: executing diffoscope
+[2023-07-26 03:10:51] INFO root fetch - processPackages [Deformation3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deformation3D-1.0.2-py3-none-any.whl.zip tmp/Deformation3D-1.0.3-py3-none-any.whl.zip --markdown 20230726/D/Deformation3D/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 03:10:51] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-26 03:10:52] INFO root fetch - processPackages [mlflowops]: Remove: archive file [/home/abi/fetcher/tmp/mlflowops-0.1.1.tar.gz]
+[2023-07-26 03:10:52] INFO root fetch - processPackages [mlflowops]: Remove: archive file [/home/abi/fetcher/tmp/mlflowops-0.1.2.tar.gz]
+[2023-07-26 03:10:52] INFO root fetch - main [MainThread]: End processing [mlflowops]: success
+[2023-07-26 03:10:52] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-26 03:10:52] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230726/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-26 03:10:54] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-26 03:10:54] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-26 03:10:54] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-26 03:10:55] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.2-py3-none-any.whl.zip]
+[2023-07-26 03:10:55] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.3-py3-none-any.whl.zip]
+[2023-07-26 03:10:55] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
+[2023-07-26 03:11:08] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.8.tar.gz]
+[2023-07-26 03:11:08] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
+[2023-07-26 03:11:08] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-07-26 03:11:08] INFO root fetch - main [MainThread]: Store serial: [19037207]
