@@ -9215,3 +9215,87 @@
 [2023-07-26 03:41:31] INFO root fetch - processPackages [hana-ml]: Remove: archive file [/home/abi/fetcher/tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip]
 [2023-07-26 03:41:31] INFO root fetch - main [MainThread]: End processing [hana-ml]: success
 [2023-07-26 03:41:31] INFO root fetch - main [MainThread]: Store serial: [19038402]
+[2023-07-26 03:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038402]
+[2023-07-26 03:46:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-wordpress
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-polardb
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-django
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: market-engine
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-resourcedirectorymaster20220419-py2
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-resourcedirectorymaster20220419
+[2023-07-26 03:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openram
+[2023-07-26 03:46:40] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.917] Old Version: [0.0.916]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [market-engine]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-26 03:46:40] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ad/f1/c0e3d4334cf4a71c613191e7258c9bf142894700d9152006f00bae104f15/nbdev-apl-0.0.916.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Downloading https://files.pythonhosted.org/packages/e5/7e/da6e0242d4c4971c50fe32dc1e81cef2b8d4f8f2efcf7d611d0c20c70cac/alibabacloud_resourcedirectorymaster20220419_py2-1.0.2.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Downloading https://files.pythonhosted.org/packages/af/88/0411635ffe267c13e824f7eae6f9704eca5c6e018ebb3ba5b26e17ffaa73/alibabacloud_resourcedirectorymaster20220419-1.0.2.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-26 03:46:40] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-26 03:46:40] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/54/b4/ea54f10d7c5538536edce17c807885e8a0df0839c2bd7c463ce563f69738/nbdev-apl-0.0.917.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Downloading https://files.pythonhosted.org/packages/4c/28/f5a875d12d37efce03905ed155f0647d34bdb45bc6c5ecb071aba6bb8697/alibabacloud_resourcedirectorymaster20220419_py2-1.0.3.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230726/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.916.tar.gz tmp/nbdev-apl-0.0.917.tar.gz --markdown 20230726/n/nbdev-apl/0.0.916-0.0.917/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Downloading https://files.pythonhosted.org/packages/68/39/68a7fb8a27416a09ad0c9d8c67cd9e4d9a1c93b1905ff97e2677ef86e05e/alibabacloud_resourcedirectorymaster20220419-1.0.3.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.2.tar.gz tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.3.tar.gz --markdown 20230726/a/alibabacloud-resourcedirectorymaster20220419-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/fb/ae/e33086c6312de9e8943fc43345ef9d91492f864a3d3a77e6a615c97b83c8/market-engine-0.1.0.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-26 03:46:41] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcedirectorymaster20220419-1.0.2.tar.gz tmp/alibabacloud_resourcedirectorymaster20220419-1.0.3.tar.gz --markdown 20230726/a/alibabacloud-resourcedirectorymaster20220419/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230726/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.9.tar.gz tmp/market-engine-0.1.0.tar.gz --markdown 20230726/m/market-engine/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230726/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-26 03:46:41] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230726/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-26 03:46:41] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-07-26 03:46:42] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.2.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.3.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcedirectorymaster20220419-py2]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-07-26 03:46:42] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230726/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-26 03:46:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.916.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.917.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.0.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcedirectorymaster20220419-1.0.2.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcedirectorymaster20220419-1.0.3.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcedirectorymaster20220419]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-26 03:46:42] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-07-26 03:46:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-07-26 03:46:47] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-07-26 03:46:47] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-07-26 03:46:47] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-07-26 03:46:47] INFO root fetch - main [MainThread]: Store serial: [19038430]
