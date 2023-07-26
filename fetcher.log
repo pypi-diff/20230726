@@ -18891,3 +18891,99 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:09:59] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.4.0-cp39-cp39-win_amd64.whl.zip]
 [2023-07-26 12:09:59] INFO root fetch - main [MainThread]: End processing [viktor]: success
 [2023-07-26 12:09:59] INFO root fetch - main [MainThread]: Store serial: [19042282]
+[2023-07-26 12:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042282]
+[2023-07-26 12:15:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decanter-ai-sdk
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hurstexponent
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocreateapp
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thingsvision
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-cli
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zeroeventhub
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libs-n-utils-package-uq-2022
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drf-misc
+[2023-07-26 12:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: power-grid-model
+[2023-07-26 12:15:09] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9228709919581] Old Version: [1.5.0rc9227505482890]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [decanter-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [autocreateapp]: New version: [0.4] Old Version: [0.3]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [zeroeventhub]: New version: [0.1.1] Old Version: [0.1.0.1]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: New version: [0.0.5.6] Old Version: [0.0.5.5]
+[2023-07-26 12:15:09] WARNING root fetch - processPackages [hurstexponent]: Skipping, unable to determine old version
+[2023-07-26 12:15:09] INFO root fetch - processPackages [hurstexponent]: Start processing: nonebot-plugin-session
+[2023-07-26 12:15:09] INFO root fetch - main [MainThread]: End processing [hurstexponent] error
+[2023-07-26 12:15:09] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [drf-misc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [thingsvision]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/dd/4d/33788a80a95ebe1a8972a25bdd618728cd6478ebf560c73177ac19356bd6/power-grid-model-1.5.0rc9227505482890.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [nonebot-plugin-session]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 12:15:09] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [autocreateapp]: Downloading https://files.pythonhosted.org/packages/41/36/35f522968b12a07814ceec1dfbc7b53ccb7164f700bdf7c780908860ed67/autocreateapp-0.3.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/ec/5e/2f8459bd6b574f343047c25c49da13a0c0553f9603e456d0d3db7ffa2736/thingsvision-2.3.8.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [zeroeventhub]: Downloading https://files.pythonhosted.org/packages/55/91/8f9dd090570ed4da2b44b5bc68761081c17e3d0406b095f71365bfe53311/zeroeventhub-0.1.0.1.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/67/6e/a76e21d8455d1d1aab8ab3b33ffcfea001523f7f5275b3dd775227bda674/decanter-ai-sdk-0.1.8.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/fc/7a/877080c1e7ef657269a517ac380aa1e448d7aac1f261383941b2362b610b/libs_n_utils_package_uq_2022-0.0.5.5.tar.gz
+[2023-07-26 12:15:09] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/ec/66/5a92f682d96a77dd2212d484d69d91ac3226da0c76c867aa2cf46a9e86d8/nonebot_plugin_session-0.0.6.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/a8/48/6c4adc74c75f25556e63964bc628d4939d5250c33f79e334fe22a4c42886/drf_misc-0.2.1.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [autocreateapp]: Downloading https://files.pythonhosted.org/packages/12/c8/40861f7ce72194aa108cbb907656e2b394edd8e24671afbac55ce5d5f771/autocreateapp-0.4.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/a1/09/db983dd701e3b72e2e437b96dcf1c6e447a1546d8ac4decfec4a9913e3fa/power-grid-model-1.5.0rc9228709919581.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [zeroeventhub]: Downloading https://files.pythonhosted.org/packages/0f/69/4c7664f7a39209822f863848904a4893b032f36b86c61a23016716a084d1/zeroeventhub-0.1.1.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/76/17/f173eaefee854bfa8c1878c712e801e2ee25b00be57df0d85987fa4604f2/thingsvision-2.3.9.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/c0/6d/a493e0798624b1138c550dd86dbe63ef8d008f73b7c9b2785b62f802aa2e/nonebot_plugin_session-0.0.7.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/7d/25/697b73519c5e93e32cc15d57327602921ae82762cea10775c3306cd568c3/decanter-ai-sdk-0.1.9.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [zeroeventhub]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [zeroeventhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroeventhub-0.1.0.1.tar.gz tmp/zeroeventhub-0.1.1.tar.gz --markdown 20230726/z/zeroeventhub/0.1.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [autocreateapp]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [autocreateapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocreateapp-0.3.tar.gz tmp/autocreateapp-0.4.tar.gz --markdown 20230726/a/autocreateapp/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9227505482890.tar.gz tmp/power-grid-model-1.5.0rc9228709919581.tar.gz --markdown 20230726/p/power-grid-model/1.5.0rc9227505482890-1.5.0rc9228709919581/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/8f/a9/e0b150121fd380918cf69335e23ab065d63f0ed9e1fd3138046a841ed39b/libs_n_utils_package_uq_2022-0.0.5.6.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/b1/4a/2fce1de5df3043f22e49c45718322fcaf1bfc07e6818b0198f86af826a33/drf_misc-0.2.2.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [nonebot-plugin-session]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [nonebot-plugin-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_session-0.0.6.tar.gz tmp/nonebot_plugin_session-0.0.7.tar.gz --markdown 20230726/n/nonebot-plugin-session/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [decanter-ai-sdk]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [decanter-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decanter-ai-sdk-0.1.8.tar.gz tmp/decanter-ai-sdk-0.1.9.tar.gz --markdown 20230726/d/decanter-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.3.8.tar.gz tmp/thingsvision-2.3.9.tar.gz --markdown 20230726/t/thingsvision/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.2.1.tar.gz tmp/drf_misc-0.2.2.tar.gz --markdown 20230726/d/drf-misc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-07-26 12:15:10] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_n_utils_package_uq_2022-0.0.5.5.tar.gz tmp/libs_n_utils_package_uq_2022-0.0.5.6.tar.gz --markdown 20230726/l/libs-n-utils-package-uq-2022/0.0.5.5-0.0.5.6/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230726/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 12:15:10] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 12:15:10] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 12:15:12] INFO root fetch - processPackages [autocreateapp]: Remove: archive file [/home/abi/fetcher/tmp/autocreateapp-0.3.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [autocreateapp]: Remove: archive file [/home/abi/fetcher/tmp/autocreateapp-0.4.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [autocreateapp]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [zeroeventhub]: Remove: archive file [/home/abi/fetcher/tmp/zeroeventhub-0.1.0.1.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [zeroeventhub]: Remove: archive file [/home/abi/fetcher/tmp/zeroeventhub-0.1.1.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [zeroeventhub]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [nonebot-plugin-session]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_session-0.0.6.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [nonebot-plugin-session]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_session-0.0.7.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-session]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [decanter-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decanter-ai-sdk-0.1.8.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [decanter-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decanter-ai-sdk-0.1.9.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [decanter-ai-sdk]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.2.1.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.2.2.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.5.5.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.5.6.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [libs-n-utils-package-uq-2022]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-07-26 12:15:12] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.8.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.9.tar.gz]
+[2023-07-26 12:15:12] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2023-07-26 12:15:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9227505482890.tar.gz]
+[2023-07-26 12:15:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9228709919581.tar.gz]
+[2023-07-26 12:15:13] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-26 12:15:15] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 12:15:15] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 12:15:15] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 12:15:15] INFO root fetch - main [MainThread]: Store serial: [19042322]
