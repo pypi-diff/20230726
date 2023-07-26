@@ -22515,3 +22515,152 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:55:58] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230726.tar.gz]
 [2023-07-26 14:55:58] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-07-26 14:55:58] INFO root fetch - main [MainThread]: Store serial: [19043741]
+[2023-07-26 15:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043741]
+[2023-07-26 15:01:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-functions
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magik
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ephysiopy
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylatexenc
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymssql-madafaka
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-stock-price-unit-sync
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splight-cli
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otgCrypto
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PlexTraktSync
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastlane-bot
+[2023-07-26 15:01:07] WARNING root fetch - processPackages [custom-functions]: Skipping, unable to determine old version
+[2023-07-26 15:01:07] INFO root fetch - processPackages [custom-functions]: Start processing: checkov
+[2023-07-26 15:01:07] INFO root fetch - main [MainThread]: End processing [custom-functions] error
+[2023-07-26 15:01:07] INFO root fetch - processPackages [magik]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-26 15:01:07] WARNING root fetch - processPackages [pymssql-madafaka]: Skipping, unable to determine old version
+[2023-07-26 15:01:07] INFO root fetch - processPackages [pymssql-madafaka]: Start processing: oda-wd-client
+[2023-07-26 15:01:07] INFO root fetch - main [MainThread]: End processing [pymssql-madafaka] error
+[2023-07-26 15:01:07] INFO root fetch - processPackages [pylatexenc]: New version: [3.0a19] Old Version: [3.0a18]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [splight-cli]: New version: [3.2.0] Old Version: [3.1.3]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [fastlane-bot]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.9] Old Version: [0.26.8]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.26] Old Version: [1.9.25]
+[2023-07-26 15:01:07] INFO root fetch - processPackages [oda-wd-client]: New version: [0.0.3a0] Old Version: [0.0.2]
+[2023-07-26 15:01:08] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [oda-wd-client]: Downloading https://files.pythonhosted.org/packages/41/de/845ca0c1035fda7e9fb273331ef43f8c3c92bb6b1e62cae3942cb904c11c/oda_wd_client-0.0.2.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/81/bb/009541e9a14f8f7ff2dbe93d33ce1ae35476fc1c5f0646db0390352d31e1/splight-cli-3.1.3.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/8e/e5/dec1061bddf6020911c31d5390132265b93efb7994df71e5e9c1fb4222e4/otgCrypto-0.0.4.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/ad/4a/5fc80d62c53834fd41155d9f0e92727af4edf8e65c7c22d7a1484c2d553e/pylatexenc-3.0a18.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Downloading https://files.pythonhosted.org/packages/e7/af/246b6d7afd7ca04e459856d1e4016eeaae965a9c6877a70e8c3adbf866c1/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl
+[2023-07-26 15:01:08] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/1f/ec/35126357c58faca4abd00c77f34db6cf27e23f11926b9992b0bdf581a0cb/ephysiopy-1.9.25.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/42/97/a4617a94d882b0e7993c442e6d21b499948534fdcafe218f91b147059462/magik-0.2.0.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/60/2a/14888d252566214ab86a93ee5926104f0630b63a5333e1032b476bdafcf0/fastlane_bot-2.0.0.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/52/3c/d555058b31d46545ad021a413516da40baa3d65a9800945a6d02351011ca/PlexTraktSync-0.26.8.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/29/10/9c826a547f63b8fce2ebca010eef8ec66c194471a7f59b52704cecdf1b53/splight-cli-3.2.0.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [oda-wd-client]: Downloading https://files.pythonhosted.org/packages/92/7d/720d1f3376f5da4d7532bb231cc31fa8ffa7e233eef082f01316a2e723e4/oda_wd_client-0.0.3a0.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/d6/62/75f3bba298c07da5c9947b751d5fd8126bd5e7779d1f8c56de9dce839a61/otgCrypto-0.0.5.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/32/f5/9db470052683e242adfdd063b7e80d121052a90fc3297ccac68041ba6b86/pylatexenc-3.0a19.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Downloading https://files.pythonhosted.org/packages/95/80/afa127710ad364bf5c02f1fa879cb1d25cbd8b69d4f24507ac1707975994/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.2-py3-none-any.whl
+[2023-07-26 15:01:08] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/68/48/e1bea1afbb37e977d4585f287905ee167118cb8b4e19e9514eb0de2cf590/ephysiopy-1.9.26.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/69/76/50f8bcd0470e3c5e047b0c2e1294eed3bfa1da8a59de5e0aadd959047981/magik-0.2.2.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/76/6f/799f993e46513dec2f1496c434c09f484bd28c3f23dd5e0e45f5b248f16c/fastlane_bot-2.1.0.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-07-26 15:01:08] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.1.3.tar.gz tmp/splight-cli-3.2.0.tar.gz --markdown 20230726/s/splight-cli/3.1.3-3.2.0/diff.md --exclude *.pyd
+[2023-07-26 15:01:08] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/70/46/84383201c92896d99dceaeae7ee3baedc9f3ed49378fc24cce073e832837/PlexTraktSync-0.26.9.tar.gz
+[2023-07-26 15:01:08] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: executing diffoscope
+[2023-07-26 15:01:08] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-purchase-stock-price-unit-sync/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [pylatexenc]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [pylatexenc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylatexenc-3.0a18.tar.gz tmp/pylatexenc-3.0a19.tar.gz --markdown 20230726/p/pylatexenc/3.0a18-3.0a19/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.4.tar.gz tmp/otgCrypto-0.0.5.tar.gz --markdown 20230726/o/otgCrypto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.2.0.tar.gz tmp/magik-0.2.2.tar.gz --markdown 20230726/m/magik/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [oda-wd-client]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [oda-wd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_wd_client-0.0.2.tar.gz tmp/oda_wd_client-0.0.3a0.tar.gz --markdown 20230726/o/oda-wd-client/0.0.2-0.0.3a0/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.25.tar.gz tmp/ephysiopy-1.9.26.tar.gz --markdown 20230726/e/ephysiopy/1.9.25-1.9.26/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230726/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.8.tar.gz tmp/PlexTraktSync-0.26.9.tar.gz --markdown 20230726/P/PlexTraktSync/0.26.8-0.26.9/diff.md --exclude *.pyd
+[2023-07-26 15:01:09] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-26 15:01:09] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-2.0.0.tar.gz tmp/fastlane_bot-2.1.0.tar.gz --markdown 20230726/f/fastlane-bot/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-26 15:01:10] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.4.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.5.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [otgCrypto]: Start processing: netbox-inventory
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [netbox-inventory]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Start processing: run-one
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-price-unit-sync]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [run-one]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.1.3.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.2.0.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [splight-cli]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.2.0.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.2.2.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [magik]: Start processing: pywolf
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230726.12.6.653823] Old Version: [20230726.12.59.957713]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [oda-wd-client]: Remove: archive file [/home/abi/fetcher/tmp/oda_wd_client-0.0.2.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [oda-wd-client]: Remove: archive file [/home/abi/fetcher/tmp/oda_wd_client-0.0.3a0.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [oda-wd-client]: Start processing: taivutin
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [oda-wd-client]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [pywolf]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/39/39/0ff788293e6200a87736db631b40331eea14a992025fda53a21af64834ba/netbox-inventory-1.3.3.tar.gz
+[2023-07-26 15:01:10] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.25.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.26.tar.gz]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [ephysiopy]: Start processing: configula
+[2023-07-26 15:01:10] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-07-26 15:01:10] INFO root fetch - processPackages [taivutin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 15:01:10] INFO root fetch - processPackages [pywolf]: Downloading https://files.pythonhosted.org/packages/91/b0/acd73a7349e7ac13e2d47d44d9383644173d8938c573809e274d7d79ea46/pywolf-0.3.3.tar.gz
+[2023-07-26 15:01:10] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/91/1d/7b16a47876a400b066a3e786acce69090fa3f0da32e8ec276f78d6b433e6/run_one-1.0.5.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/90/cc/ffed2ef2e12f4e1927833ac116e1b34e8946a4590df7fc6c5e28a1597910/certora-cli-alpha-nast-mutation-test-20230726.12.59.957713.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [configula]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-26 15:01:11] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37488872>=10485760
+[2023-07-26 15:01:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-26 15:01:11] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/b6/34/53af5d6ecfb631c6d2a6bdc58f728ec1c0c75966089f71c5c32c083306f0/netbox-inventory-1.4.0.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [taivutin]: Downloading https://files.pythonhosted.org/packages/96/cf/0cf027aaf670bcfea9de7b6326b93072b20315907f59d4f032f77ca87c14/taivutin-0.1.2-py3-none-any.whl
+[2023-07-26 15:01:11] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.0.0.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.1.0.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-26 15:01:11] INFO root fetch - processPackages [pylatexenc]: Remove: archive file [/home/abi/fetcher/tmp/pylatexenc-3.0a18.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - processPackages [pylatexenc]: Remove: archive file [/home/abi/fetcher/tmp/pylatexenc-3.0a19.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - main [MainThread]: End processing [pylatexenc]: success
+[2023-07-26 15:01:11] INFO root fetch - processPackages [pywolf]: Downloading https://files.pythonhosted.org/packages/c9/17/757cee59a6ecbf5f40a68d561fb865efa9a49393894e1cb4a44404d737e4/pywolf-0.3.4.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.8.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.9.tar.gz]
+[2023-07-26 15:01:11] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-07-26 15:01:11] INFO root fetch - processPackages [netbox-inventory]: executing diffoscope
+[2023-07-26 15:01:11] INFO root fetch - processPackages [netbox-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-inventory-1.3.3.tar.gz tmp/netbox-inventory-1.4.0.tar.gz --markdown 20230726/n/netbox-inventory/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-26 15:01:11] INFO root fetch - processPackages [configula]: Downloading https://files.pythonhosted.org/packages/ce/ac/5a633b068350a6fa10b5aa4972fcb2a6aaaaab9d5ed32e803d22ee3dea85/configula-0.5.2.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/d3/66/b38f97c536e4fb305138f30c65a89d40c785cbe851a86e5c3476743d6181/run_one-1.0.6.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [pywolf]: executing diffoscope
+[2023-07-26 15:01:11] INFO root fetch - processPackages [pywolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywolf-0.3.3.tar.gz tmp/pywolf-0.3.4.tar.gz --markdown 20230726/p/pywolf/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-26 15:01:11] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2023-07-26 15:01:11] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.0.5.tar.gz tmp/run_one-1.0.6.tar.gz --markdown 20230726/r/run-one/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-26 15:01:11] INFO root fetch - processPackages [taivutin]: Downloading https://files.pythonhosted.org/packages/cb/24/b002d1fcff263d881b10ee844de66e20d169bbdd4033bcfd1091519dc97c/taivutin-0.1.3-py3-none-any.whl
+[2023-07-26 15:01:11] INFO root fetch - processPackages [configula]: Downloading https://files.pythonhosted.org/packages/37/0d/95723bcf15d732f65056b68839c3bea8ab37d29705f04278fd56492a4309/configula-0.5.3.tar.gz
+[2023-07-26 15:01:11] INFO root fetch - processPackages [taivutin]: executing diffoscope
+[2023-07-26 15:01:11] INFO root fetch - processPackages [taivutin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taivutin-0.1.2-py3-none-any.whl.zip tmp/taivutin-0.1.3-py3-none-any.whl.zip --markdown 20230726/t/taivutin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 15:01:12] INFO root fetch - processPackages [configula]: executing diffoscope
+[2023-07-26 15:01:12] INFO root fetch - processPackages [configula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configula-0.5.2.tar.gz tmp/configula-0.5.3.tar.gz --markdown 20230726/c/configula/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-26 15:01:12] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.5.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.6.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2023-07-26 15:01:12] INFO root fetch - processPackages [pywolf]: Remove: archive file [/home/abi/fetcher/tmp/pywolf-0.3.3.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - processPackages [pywolf]: Remove: archive file [/home/abi/fetcher/tmp/pywolf-0.3.4.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - main [MainThread]: End processing [pywolf]: success
+[2023-07-26 15:01:12] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox-inventory-1.3.3.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox-inventory-1.4.0.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - main [MainThread]: End processing [netbox-inventory]: success
+[2023-07-26 15:01:12] INFO root fetch - processPackages [configula]: Remove: archive file [/home/abi/fetcher/tmp/configula-0.5.2.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - processPackages [configula]: Remove: archive file [/home/abi/fetcher/tmp/configula-0.5.3.tar.gz]
+[2023-07-26 15:01:12] INFO root fetch - main [MainThread]: End processing [configula]: success
+[2023-07-26 15:01:13] INFO root fetch - processPackages [taivutin]: Remove: archive file [/home/abi/fetcher/tmp/taivutin-0.1.2-py3-none-any.whl.zip]
+[2023-07-26 15:01:13] INFO root fetch - processPackages [taivutin]: Remove: archive file [/home/abi/fetcher/tmp/taivutin-0.1.3-py3-none-any.whl.zip]
+[2023-07-26 15:01:13] INFO root fetch - main [MainThread]: End processing [taivutin]: success
+[2023-07-26 15:01:23] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-26 15:01:23] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-26 15:01:23] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-26 15:01:23] INFO root fetch - main [MainThread]: Store serial: [19043799]
