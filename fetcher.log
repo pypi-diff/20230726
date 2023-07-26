@@ -11605,3 +11605,86 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:45:56] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_variant_default_code-14.0.3.0.5.dev1-py3-none-any.whl.zip]
 [2023-07-26 06:45:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-variant-default-code]: success
 [2023-07-26 06:45:56] INFO root fetch - main [MainThread]: Store serial: [19039373]
+[2023-07-26 06:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039373]
+[2023-07-26 06:51:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-product-variant-default-code
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-variant-default-code
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lxcraft
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebridge
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: our1314
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-keyvault
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-containerservice
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyperopt-prophet
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide2-Material-Widgets
+[2023-07-26 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recOrder-napari
+[2023-07-26 06:51:05] INFO root fetch - processPackages [azure-mgmt-keyvault]: New version: [9.3.0] Old Version: [9.2.0]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [lxcraft]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [nonebridge]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-07-26 06:51:05] WARNING root fetch - processPackages [PySide2-Material-Widgets]: Skipping, unable to determine old version
+[2023-07-26 06:51:05] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets] error
+[2023-07-26 06:51:05] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [recOrder-napari]: New version: [0.4.0rc0] Old Version: [0.3.0rc3]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: New version: [14.0.3.0.5.dev1] Old Version: [14.0.3.0.4]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [azure-mgmt-containerservice]: New version: [9.4.0] Old Version: [9.3.0]
+[2023-07-26 06:51:05] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/3b/af/80955f3c0c07d7bca585acb2d1e65ea8aa0f84c76a9f947c64f7a7554c36/hyperopt_prophet-0.1.3.tar.gz
+[2023-07-26 06:51:05] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-26 06:51:05] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/92/3d/63d47d3370fdfb8a8c0cd09ed29285361dc8c49af3233f848d1c3666660d/odoo14_addon_product_variant_default_code-14.0.3.0.4-py3-none-any.whl
+[2023-07-26 06:51:05] INFO root fetch - processPackages [lxcraft]: Downloading https://files.pythonhosted.org/packages/e5/05/447264f53aded75ef997e4a6e1ed34a38d8ee4d088aadaa66f5e405fcc3f/lxcraft-0.0.2.tar.gz
+[2023-07-26 06:51:05] INFO root fetch - processPackages [azure-mgmt-keyvault]: Downloading https://files.pythonhosted.org/packages/36/61/703555e439b335150f14b6b9a29570d0ff4172885e9b273d5768b27c14d9/azure-mgmt-keyvault-9.2.0.zip
+[2023-07-26 06:51:06] INFO root fetch - processPackages [nonebridge]: Downloading https://files.pythonhosted.org/packages/97/e7/fe0ba110dadf7fd0f456c8306735d516777dbe7ca2bd58b9a7ace02879d1/nonebridge-0.1.4.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [azure-mgmt-containerservice]: Downloading https://files.pythonhosted.org/packages/fc/c4/efacbb205c359ec66140bf63abcaceb70be89cdb73caea5b926cf4d9937f/azure-mgmt-containerservice-9.3.0.zip
+[2023-07-26 06:51:06] INFO root fetch - processPackages [recOrder-napari]: Downloading https://files.pythonhosted.org/packages/24/3a/2a451ceb9a714b3ac9dca8a9ace12ee7949accaef775ea02aaea7e577d51/recOrder-napari-0.3.0rc3.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/0e/77/0f91e084fdd8215e4fc720fc297526617dae6dc20e7147290ff42dc4fe1c/odoo_addon_product_variant_default_code-16.0.1.0.1-py3-none-any.whl
+[2023-07-26 06:51:06] WARNING root fetch - processPackages [recOrder-napari]: Skipping package: exceeds size limit 10584397>=10485760
+[2023-07-26 06:51:06] INFO root fetch - main [MainThread]: End processing [recOrder-napari] error
+[2023-07-26 06:51:06] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/88/cc/357b310e014a939ed16aeef54ef8e34e68e5c2e1da10e163566f97bfc779/hyperopt_prophet-0.1.4.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/9f/59/64c26da7286f87aa6b8a918714d24714069c86253ab72d71a0edbebcf27d/odoo14_addon_product_variant_default_code-14.0.3.0.5.dev1-py3-none-any.whl
+[2023-07-26 06:51:06] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230726/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [nonebridge]: Downloading https://files.pythonhosted.org/packages/bb/f7/4e6199353a41620c3771d4dfd9a53d1fefd8af01db656efdf7e9c189174b/nonebridge-0.1.5.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [lxcraft]: Downloading https://files.pythonhosted.org/packages/9f/94/d8763a123d684b7a81e0196738d9a8bbb57cb4154ed9dbadde97a1c4d024/lxcraft-0.0.3.tar.gz
+[2023-07-26 06:51:06] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.3.tar.gz tmp/hyperopt_prophet-0.1.4.tar.gz --markdown 20230726/h/hyperopt-prophet/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/ca/62/559952c1fe778ca6f9e4cad8c2bafa5e95f5088bc403337fefac7bef834d/odoo_addon_product_variant_default_code-16.0.1.0.2-py3-none-any.whl
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_variant_default_code-14.0.3.0.4-py3-none-any.whl.zip tmp/odoo14_addon_product_variant_default_code-14.0.3.0.5.dev1-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-product-variant-default-code/14.0.3.0.4-14.0.3.0.5.dev1/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [nonebridge]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [nonebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebridge-0.1.4.tar.gz tmp/nonebridge-0.1.5.tar.gz --markdown 20230726/n/nonebridge/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [lxcraft]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [lxcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxcraft-0.0.2.tar.gz tmp/lxcraft-0.0.3.tar.gz --markdown 20230726/l/lxcraft/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [azure-mgmt-containerservice]: Downloading https://files.pythonhosted.org/packages/c0/e3/ce640e21c8fc8b037f6b2d7671a1aed2ee9daf3f04739ff43fe74f95f85c/azure-mgmt-containerservice-9.4.0.zip
+[2023-07-26 06:51:06] INFO root fetch - processPackages [azure-mgmt-keyvault]: Downloading https://files.pythonhosted.org/packages/cd/34/6091d8d2ad740cee9db16c6347cd1a315a4df470f08cfdfc0a958630e183/azure-mgmt-keyvault-9.3.0.zip
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_default_code-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_variant_default_code-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-product-variant-default-code/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-26 06:51:06] INFO root fetch - processPackages [azure-mgmt-containerservice]: executing diffoscope
+[2023-07-26 06:51:06] INFO root fetch - processPackages [azure-mgmt-containerservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-containerservice-9.3.0.zip tmp/azure-mgmt-containerservice-9.4.0.zip --markdown 20230726/a/azure-mgmt-containerservice/9.3.0-9.4.0/diff.md --exclude *.pyd
+[2023-07-26 06:51:07] INFO root fetch - processPackages [azure-mgmt-keyvault]: executing diffoscope
+[2023-07-26 06:51:07] INFO root fetch - processPackages [azure-mgmt-keyvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-keyvault-9.2.0.zip tmp/azure-mgmt-keyvault-9.3.0.zip --markdown 20230726/a/azure-mgmt-keyvault/9.2.0-9.3.0/diff.md --exclude *.pyd
+[2023-07-26 06:51:07] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-26 06:51:07] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-26 06:51:07] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-26 06:51:07] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.3.tar.gz]
+[2023-07-26 06:51:07] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.4.tar.gz]
+[2023-07-26 06:51:07] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-26 06:51:08] INFO root fetch - processPackages [lxcraft]: Remove: archive file [/home/abi/fetcher/tmp/lxcraft-0.0.2.tar.gz]
+[2023-07-26 06:51:08] INFO root fetch - processPackages [lxcraft]: Remove: archive file [/home/abi/fetcher/tmp/lxcraft-0.0.3.tar.gz]
+[2023-07-26 06:51:08] INFO root fetch - main [MainThread]: End processing [lxcraft]: success
+[2023-07-26 06:51:08] INFO root fetch - processPackages [nonebridge]: Remove: archive file [/home/abi/fetcher/tmp/nonebridge-0.1.4.tar.gz]
+[2023-07-26 06:51:08] INFO root fetch - processPackages [nonebridge]: Remove: archive file [/home/abi/fetcher/tmp/nonebridge-0.1.5.tar.gz]
+[2023-07-26 06:51:08] INFO root fetch - main [MainThread]: End processing [nonebridge]: success
+[2023-07-26 06:51:08] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_default_code-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 06:51:08] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_default_code-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-26 06:51:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-default-code]: success
+[2023-07-26 06:51:08] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_variant_default_code-14.0.3.0.4-py3-none-any.whl.zip]
+[2023-07-26 06:51:08] INFO root fetch - processPackages [odoo14-addon-product-variant-default-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_variant_default_code-14.0.3.0.5.dev1-py3-none-any.whl.zip]
+[2023-07-26 06:51:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-variant-default-code]: success
+[2023-07-26 06:51:08] INFO root fetch - processPackages [azure-mgmt-keyvault]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-keyvault-9.2.0.zip]
+[2023-07-26 06:51:08] INFO root fetch - processPackages [azure-mgmt-keyvault]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-keyvault-9.3.0.zip]
+[2023-07-26 06:51:08] INFO root fetch - main [MainThread]: End processing [azure-mgmt-keyvault]: success
+[2023-07-26 06:51:09] INFO root fetch - processPackages [azure-mgmt-containerservice]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-containerservice-9.3.0.zip]
+[2023-07-26 06:51:09] INFO root fetch - processPackages [azure-mgmt-containerservice]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-containerservice-9.4.0.zip]
+[2023-07-26 06:51:09] INFO root fetch - main [MainThread]: End processing [azure-mgmt-containerservice]: success
+[2023-07-26 06:51:09] INFO root fetch - main [MainThread]: Store serial: [19039406]
