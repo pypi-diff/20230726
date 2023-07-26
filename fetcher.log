@@ -19977,3 +19977,95 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:02:36] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.2.0a4-py3-none-any.whl.zip]
 [2023-07-26 13:02:36] INFO root fetch - main [MainThread]: End processing [pyavd]: success
 [2023-07-26 13:02:36] INFO root fetch - main [MainThread]: Store serial: [19042700]
+[2023-07-26 13:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042700]
+[2023-07-26 13:07:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-api-decorator
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biom3d
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aityz
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-interests
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: requestsbankrko
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-ads-api-report-fetcher
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autotrain-advanced
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woebin-python
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botiverse
+[2023-07-26 13:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfmreader
+[2023-07-26 13:07:45] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [django-api-decorator]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [botiverse]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [woebin-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [aityz]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2023-07-26 13:07:45] INFO root fetch - processPackages [pyfmreader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 13:07:46] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/74/0b/3825be188a130045b4b8dddff5c8c9aad555ae72aa8989a46a092ce2066a/requestsbankrko-0.2.8.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/b1/cf/a585e684d2253d773a1451924c5aa64bec8a95b0d20d8ae1ec6d84633cd2/tendril-interests-0.2.9.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d5/27/2546146674cebdbc971e2f976cbf43a3b268daf7948f7a62dfff94fc6bad/autotrain-advanced-0.6.4.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [pyfmreader]: Downloading https://files.pythonhosted.org/packages/77/e6/5de1f631b3c5de24ec839fc04b5e58896806d3ce673324c11a209995f061/pyfmreader-0.1.0.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/36/5d/8a276a8eb268e00f7ab24de93e36c1536893c1e32f8e67a8056d12efc9e7/botiverse-0.4.8-py3-none-any.whl
+[2023-07-26 13:07:46] INFO root fetch - processPackages [django-api-decorator]: Downloading https://files.pythonhosted.org/packages/ab/0e/f8719bceb735ecbacd686f37b9f6abb0da8d82b9bc5704825ca4a1625b68/django_api_decorator-0.2.0a1.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/b1/84/e29d557a1865284ec01adca20818889c1ea7fbdd88c815f4d6f6bb496164/woebin-python-0.1.8.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/a5/4e/58538dd2d03989692e7d3b5c615f3843892ff7c837a4ebd59c0ca54f5ba8/aityz-1.0.1.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/9a/64/a24a456bcddbf558dedec89fd3391a5d78687a97cfd59be0b87207b50eff/requestsbankrko-0.2.9.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [pyfmreader]: Downloading https://files.pythonhosted.org/packages/57/52/ac8886986fec7bf87731a66f176fe1dcee1c043ad77dc935a601064f461e/pyfmreader-0.1.1.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2023-07-26 13:07:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20230726/g/google-ads-api-report-fetcher/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-26 13:07:46] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/8c/64/45f7706515f9a787f3b678214a7c61cf45765d5f854acff37f2c0dbf317b/tendril-interests-0.3.0.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ed/ec/8039c182a5bc6e8d4cee1986f05cac9db64047a7824e0551239a06445a1d/autotrain-advanced-0.6.5.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [django-api-decorator]: Downloading https://files.pythonhosted.org/packages/1d/b9/ef8b8ef7ad6b32618827f0a5374c74a63a94ae549b960b91b4c2e354e70e/django_api_decorator-0.2.0a2.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-26 13:07:46] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.8.tar.gz tmp/requestsbankrko-0.2.9.tar.gz --markdown 20230726/r/requestsbankrko/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 13:07:46] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/c5/4e/3a9bc77079fe77be31b758310cfbe670abf986e67eaaa005cd3d32e64bb9/aityz-1.0.1.1.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/1b/54/68fcbf3268d95f4c5b4fc8c856a2dc7cacd3f0a7cbc450b4b628fd699180/botiverse-0.4.9-py3-none-any.whl
+[2023-07-26 13:07:46] INFO root fetch - processPackages [pyfmreader]: executing diffoscope
+[2023-07-26 13:07:46] INFO root fetch - processPackages [pyfmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfmreader-0.1.0.tar.gz tmp/pyfmreader-0.1.1.tar.gz --markdown 20230726/p/pyfmreader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:07:46] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/de/c7/a81d43753df3ed289d5dee054c1e91530a8368350a0e391b25088c75a37a/woebin-python-0.1.9.tar.gz
+[2023-07-26 13:07:46] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-07-26 13:07:46] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230726/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:07:46] INFO root fetch - processPackages [django-api-decorator]: executing diffoscope
+[2023-07-26 13:07:46] INFO root fetch - processPackages [django-api-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_api_decorator-0.2.0a1.tar.gz tmp/django_api_decorator-0.2.0a2.tar.gz --markdown 20230726/d/django-api-decorator/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-07-26 13:07:47] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-26 13:07:47] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.4.tar.gz tmp/autotrain-advanced-0.6.5.tar.gz --markdown 20230726/a/autotrain-advanced/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-26 13:07:47] INFO root fetch - processPackages [woebin-python]: executing diffoscope
+[2023-07-26 13:07:47] INFO root fetch - processPackages [woebin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woebin-python-0.1.8.tar.gz tmp/woebin-python-0.1.9.tar.gz --markdown 20230726/w/woebin-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 13:07:47] INFO root fetch - processPackages [botiverse]: executing diffoscope
+[2023-07-26 13:07:47] INFO root fetch - processPackages [botiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botiverse-0.4.8-py3-none-any.whl.zip tmp/botiverse-0.4.9-py3-none-any.whl.zip --markdown 20230726/b/botiverse/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-26 13:07:47] INFO root fetch - processPackages [aityz]: executing diffoscope
+[2023-07-26 13:07:47] INFO root fetch - processPackages [aityz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aityz-1.0.1.tar.gz tmp/aityz-1.0.1.1.tar.gz --markdown 20230726/a/aityz/1.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:07:47] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-26 13:07:47] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.2.9.tar.gz tmp/tendril-interests-0.3.0.tar.gz --markdown 20230726/t/tendril-interests/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 13:07:48] INFO root fetch - processPackages [pyfmreader]: Remove: archive file [/home/abi/fetcher/tmp/pyfmreader-0.1.0.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [pyfmreader]: Remove: archive file [/home/abi/fetcher/tmp/pyfmreader-0.1.1.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [pyfmreader]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.8.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.9.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.1.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.1.1.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [aityz]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [django-api-decorator]: Remove: archive file [/home/abi/fetcher/tmp/django_api_decorator-0.2.0a1.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [django-api-decorator]: Remove: archive file [/home/abi/fetcher/tmp/django_api_decorator-0.2.0a2.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [django-api-decorator]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.7.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.9.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.4.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.5.tar.gz]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-26 13:07:48] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.4.8-py3-none-any.whl.zip]
+[2023-07-26 13:07:48] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.4.9-py3-none-any.whl.zip]
+[2023-07-26 13:07:48] INFO root fetch - main [MainThread]: End processing [botiverse]: success
+[2023-07-26 13:07:49] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.9.tar.gz]
+[2023-07-26 13:07:49] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.0.tar.gz]
+[2023-07-26 13:07:49] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-26 13:07:49] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.8.tar.gz]
+[2023-07-26 13:07:49] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.9.tar.gz]
+[2023-07-26 13:07:49] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
+[2023-07-26 13:07:49] INFO root fetch - main [MainThread]: Store serial: [19042727]
