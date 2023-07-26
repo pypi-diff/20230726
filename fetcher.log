@@ -10771,3 +10771,99 @@
 [2023-07-26 05:48:38] INFO root fetch - processPackages [shiny-mdc]: Remove: archive file [/home/abi/fetcher/tmp/shiny_mdc-1.9.0.tar.gz]
 [2023-07-26 05:48:38] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
 [2023-07-26 05:48:38] INFO root fetch - main [MainThread]: Store serial: [19039053]
+[2023-07-26 05:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039053]
+[2023-07-26 05:53:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MultiAssayExperiment
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recmetrics-pyspark
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tstoolbox
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiderx
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cog-airflow-notify-sns
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-tasks
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llmflows
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rusty-ancestry
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud-volume
+[2023-07-26 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhei
+[2023-07-26 05:53:46] INFO root fetch - processPackages [MultiAssayExperiment]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-26 05:53:46] INFO root fetch - processPackages [easy-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:53:46] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-26 05:53:46] WARNING root fetch - processPackages [zhei]: Skipping, unable to determine old version
+[2023-07-26 05:53:46] INFO root fetch - processPackages [zhei]: Start processing: zheinit
+[2023-07-26 05:53:46] INFO root fetch - main [MainThread]: End processing [zhei] error
+[2023-07-26 05:53:46] WARNING root fetch - processPackages [recmetrics-pyspark]: Skipping, unable to determine old version
+[2023-07-26 05:53:46] INFO root fetch - processPackages [recmetrics-pyspark]: Start processing: bcmd
+[2023-07-26 05:53:46] INFO root fetch - main [MainThread]: End processing [recmetrics-pyspark] error
+[2023-07-26 05:53:46] INFO root fetch - processPackages [llmflows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:53:46] WARNING root fetch - processPackages [rusty-ancestry]: Skipping, unable to determine old version
+[2023-07-26 05:53:46] INFO root fetch - processPackages [rusty-ancestry]: Start processing: bnpm
+[2023-07-26 05:53:46] INFO root fetch - main [MainThread]: End processing [rusty-ancestry] error
+[2023-07-26 05:53:46] INFO root fetch - processPackages [cog-airflow-notify-sns]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-26 05:53:46] INFO root fetch - processPackages [tstoolbox]: New version: [9.31.17.13] Old Version: [9.30.17.13]
+[2023-07-26 05:53:46] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2023-07-26 05:53:46] WARNING root fetch - processPackages [zheinit]: Skipping, unable to determine old version
+[2023-07-26 05:53:46] INFO root fetch - main [MainThread]: End processing [zheinit] error
+[2023-07-26 05:53:47] INFO root fetch - processPackages [easy-tasks]: Downloading https://files.pythonhosted.org/packages/71/8e/20bcec00e74c8b5458a89144a74f366dcae0f37681c71cd1a7ac66df9983/easy_tasks-0.0.8.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/99/38/f8639033514d023040657854f17a80ef614444860cd71f74f9312b4d5b89/cog-airflow-notify-sns-2.0.1.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bnpm]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-26 05:53:47] INFO root fetch - processPackages [MultiAssayExperiment]: Downloading https://files.pythonhosted.org/packages/b4/a5/6b3014e63a01ef5f3f3018126d0ffd5cec082fd72f821990c23d30158d59/MultiAssayExperiment-0.2.3.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [tstoolbox]: Downloading https://files.pythonhosted.org/packages/01/c0/10fae200ccd26252e3c2bd8dfa350e55067450023164f6ee52c929c640ab/tstoolbox-9.30.17.13.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/d1/8a/7ba657088beea67a9f8e2eb6803731739d9de02908c01f2ae802268e11fb/llmflows-0.0.8.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/39/3d/cb4e0c72c35d1d378a72f0e333b770568ce202a45f7ce6e4ee88fe508d9d/cloud-volume-8.9.1.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/b5/5e/23704b352134e74640f5489972e28df2caf409aefb9c6824c4f10f2c248f/bnpm-0.2.3.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [easy-tasks]: Downloading https://files.pythonhosted.org/packages/37/c2/54de7b8555f43c414b80c0909191b2805a4d87063dfbcf709fb90c3ff99b/easy_tasks-0.0.9.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cog-airflow-notify-sns]: Downloading https://files.pythonhosted.org/packages/f3/72/82741353144f605ba6ca0ae4ef1c15cd4ebc6041c079c85e1d44d6d94338/cog-airflow-notify-sns-2.0.2.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [MultiAssayExperiment]: Downloading https://files.pythonhosted.org/packages/ea/18/c47e57c660db9276acf70b16b24bfd949d57546f93b229580c940b5a01f0/MultiAssayExperiment-0.2.4.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [easy-tasks]: executing diffoscope
+[2023-07-26 05:53:47] INFO root fetch - processPackages [easy-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_tasks-0.0.8.tar.gz tmp/easy_tasks-0.0.9.tar.gz --markdown 20230726/e/easy-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:53:47] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-26 05:53:47] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230726/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 05:53:47] INFO root fetch - processPackages [MultiAssayExperiment]: executing diffoscope
+[2023-07-26 05:53:47] INFO root fetch - processPackages [MultiAssayExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiAssayExperiment-0.2.3.tar.gz tmp/MultiAssayExperiment-0.2.4.tar.gz --markdown 20230726/M/MultiAssayExperiment/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cog-airflow-notify-sns]: executing diffoscope
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cog-airflow-notify-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-airflow-notify-sns-2.0.1.tar.gz tmp/cog-airflow-notify-sns-2.0.2.tar.gz --markdown 20230726/c/cog-airflow-notify-sns/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-26 05:53:47] INFO root fetch - processPackages [tstoolbox]: Downloading https://files.pythonhosted.org/packages/83/0f/c38ea34731e748e4e2482fe023c5c496ab36cbda13aa3b3f0d5328239841/tstoolbox-9.31.17.13.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/c7/cb/c86b59ec187a7675af76a57206f33dc9397eaf5a39e310a2b6649d63326d/llmflows-0.0.9.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/5c/5c/0be84b9822b3ecf3f89e49556ccdc9715e63ead9772ef037c5f2b8e51145/cloud-volume-8.9.2.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/8d/bb/626baa32643daf12739fa97b3e573a6ea983ac82068fd3a3c77d065ef2dc/bnpm-0.2.4.tar.gz
+[2023-07-26 05:53:47] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-26 05:53:47] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.8.tar.gz tmp/llmflows-0.0.9.tar.gz --markdown 20230726/l/llmflows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:53:48] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 05:53:48] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:53:48] INFO root fetch - processPackages [tstoolbox]: executing diffoscope
+[2023-07-26 05:53:48] INFO root fetch - processPackages [tstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tstoolbox-9.30.17.13.tar.gz tmp/tstoolbox-9.31.17.13.tar.gz --markdown 20230726/t/tstoolbox/9.30.17.13-9.31.17.13/diff.md --exclude *.pyd
+[2023-07-26 05:53:48] INFO root fetch - processPackages [bnpm]: executing diffoscope
+[2023-07-26 05:53:48] INFO root fetch - processPackages [bnpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnpm-0.2.3.tar.gz tmp/bnpm-0.2.4.tar.gz --markdown 20230726/b/bnpm/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-26 05:53:48] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2023-07-26 05:53:48] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20230726/c/cloud-volume/8.9.1-8.9.2/diff.md --exclude *.pyd
+[2023-07-26 05:53:49] INFO root fetch - processPackages [easy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/easy_tasks-0.0.8.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [easy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/easy_tasks-0.0.9.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [easy-tasks]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-2.0.1.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [cog-airflow-notify-sns]: Remove: archive file [/home/abi/fetcher/tmp/cog-airflow-notify-sns-2.0.2.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [cog-airflow-notify-sns]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [MultiAssayExperiment]: Remove: archive file [/home/abi/fetcher/tmp/MultiAssayExperiment-0.2.3.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [MultiAssayExperiment]: Remove: archive file [/home/abi/fetcher/tmp/MultiAssayExperiment-0.2.4.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [MultiAssayExperiment]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [tstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tstoolbox-9.30.17.13.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [tstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tstoolbox-9.31.17.13.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [tstoolbox]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.8.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.9.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.1.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.2.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2023-07-26 05:53:49] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.2.3.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.2.4.tar.gz]
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [bnpm]: success
+[2023-07-26 05:53:49] INFO root fetch - main [MainThread]: Store serial: [19039098]
