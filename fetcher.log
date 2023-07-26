@@ -9438,3 +9438,59 @@
 [2023-07-26 03:57:10] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.3.tar.gz]
 [2023-07-26 03:57:10] INFO root fetch - main [MainThread]: End processing [stdflow]: success
 [2023-07-26 03:57:10] INFO root fetch - main [MainThread]: Store serial: [19038489]
+[2023-07-26 04:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038489]
+[2023-07-26 04:02:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actnova-yolo
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FuncionesMatematicas
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-simplewebsite-deploy
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uhfReaderApi
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kocoafab
+[2023-07-26 04:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warp-lang
+[2023-07-26 04:02:19] INFO root fetch - processPackages [warp-lang]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-26 04:02:19] INFO root fetch - processPackages [uhfReaderApi]: New version: [0.0.9] Old Version: [0.0.8.1]
+[2023-07-26 04:02:19] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 04:02:19] INFO root fetch - processPackages [kocoafab]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 04:02:19] WARNING root fetch - processPackages [FuncionesMatematicas]: Skipping, unable to determine old version
+[2023-07-26 04:02:19] INFO root fetch - main [MainThread]: End processing [FuncionesMatematicas] error
+[2023-07-26 04:02:19] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 04:02:19] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-26 04:02:19] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/e3/a0/97c16cf2d21196a06aa75fbacaa62618cecf85c48fcf2cf2b92bb7bcc642/kocoafab-0.0.2-py3-none-any.whl
+[2023-07-26 04:02:19] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [uhfReaderApi]: Downloading https://files.pythonhosted.org/packages/3c/43/00bad2d8e677f5dfe753b0e2f9d41f00dad2bfe6e986f5a7525d698cd40a/uhfReaderApi-0.0.8.1.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [warp-lang]: Downloading https://files.pythonhosted.org/packages/0b/60/93a5de053516a855d3221cd98dedb108f2325531e0e05a05c7663e704d74/warp-lang-0.8.0.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/02/09/509568941e2977294b6ec9c2c0e2cac9e1ce7100d236a2d2edb7092f92f6/cdk-simplewebsite-deploy-2.0.8.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-26 04:02:19] WARNING root fetch - processPackages [warp-lang]: Skipping package: exceeds size limit 48673400>=10485760
+[2023-07-26 04:02:19] INFO root fetch - main [MainThread]: End processing [warp-lang] error
+[2023-07-26 04:02:19] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/78/6d/56b9f0b5e00d085ba816962e199f2e15256a13415ba6a22c1e951ec1ad2c/kocoafab-0.0.3.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-26 04:02:19] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230726/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 04:02:19] INFO root fetch - processPackages [uhfReaderApi]: Downloading https://files.pythonhosted.org/packages/6f/23/47b9739157601a046407a0cac604e4b6043c7e9dd93f8f51a5c2604dd287/uhfReaderApi-0.0.9.tar.gz
+[2023-07-26 04:02:19] INFO root fetch - processPackages [kocoafab]: executing diffoscope
+[2023-07-26 04:02:19] INFO root fetch - processPackages [kocoafab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kocoafab-0.0.2-py3-none-any.whl.zip tmp/kocoafab-0.0.3.tar.gz --markdown 20230726/k/kocoafab/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 04:02:19] INFO root fetch - processPackages [uhfReaderApi]: executing diffoscope
+[2023-07-26 04:02:19] INFO root fetch - processPackages [uhfReaderApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhfReaderApi-0.0.8.1.tar.gz tmp/uhfReaderApi-0.0.9.tar.gz --markdown 20230726/u/uhfReaderApi/0.0.8.1-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 04:02:19] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 04:02:19] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 04:02:20] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2023-07-26 04:02:20] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2023-07-26 04:02:20] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20230726/c/cdk-simplewebsite-deploy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-26 04:02:20] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-0.0.2-py3-none-any.whl.zip]
+[2023-07-26 04:02:20] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-0.0.3.tar.gz]
+[2023-07-26 04:02:20] INFO root fetch - main [MainThread]: End processing [kocoafab]: success
+[2023-07-26 04:02:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-26 04:02:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-26 04:02:20] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-26 04:02:20] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz]
+[2023-07-26 04:02:20] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2023-07-26 04:02:20] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2023-07-26 04:02:21] INFO root fetch - processPackages [uhfReaderApi]: Remove: archive file [/home/abi/fetcher/tmp/uhfReaderApi-0.0.8.1.tar.gz]
+[2023-07-26 04:02:21] INFO root fetch - processPackages [uhfReaderApi]: Remove: archive file [/home/abi/fetcher/tmp/uhfReaderApi-0.0.9.tar.gz]
+[2023-07-26 04:02:21] INFO root fetch - main [MainThread]: End processing [uhfReaderApi]: success
+[2023-07-26 04:02:21] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 04:02:21] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 04:02:21] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 04:02:21] INFO root fetch - main [MainThread]: Store serial: [19038519]
