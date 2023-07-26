@@ -16085,3 +16085,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:18:14] INFO root fetch - processPackages [picard]: Remove: archive file [/home/abi/fetcher/tmp/picard-2.9.0b3.tar.gz]
 [2023-07-26 10:18:14] INFO root fetch - main [MainThread]: End processing [picard]: success
 [2023-07-26 10:18:14] INFO root fetch - main [MainThread]: Store serial: [19041137]
+[2023-07-26 10:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041137]
+[2023-07-26 10:23:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multisig-ci
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huhk
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micrologai
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ats-case
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robot-rumble
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: connect-cli
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-rise
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipc-worker
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vinhvh-package
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aigc-zoo
+[2023-07-26 10:23:25] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [jupyterlab-rise]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [micrologai]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [ipc-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.12.post1] Old Version: [0.1.12.post0]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [connect-cli]: New version: [28.0] Old Version: [27.8]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [huhk]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-26 10:23:25] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/e2/4c/b01bcb16459b094efe8458c6265430cc81477c047e76210f06b62cc8367a/vinhvh_package-0.0.8.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/68/16/8add131f84b4b7708a85e7f35b70f5de9d90898c22a985b5fe320d5f280c/multisig_ci-0.6.1.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/b0/ce/0352e139bbda30f1ad26993215531106a3f6a1231d5137bcb4f629bf3923/micrologai-1.3.0.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/06/b1/63a8d7944f572542a6dc9e3c4ebb063718a30eb44a6dfc7ca4323639b3ce/aigc_zoo-0.1.12.post0-py3-none-any.whl
+[2023-07-26 10:23:26] INFO root fetch - processPackages [jupyterlab-rise]: Downloading https://files.pythonhosted.org/packages/2b/a1/94f41b750efaa9eb4792e5174c46c5d8f71e97284bca8dfd7dff2e016243/jupyterlab_rise-0.2.0.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/83/4a/995e5fe7fd1e1298d3abda7e7302beaeab371bc100eb6e0e9a1cb54d43c0/huhk-1.8.3.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/dc/d0/e7ffca827f728ce00fa2fadde8662e61f3a5673ea48298f919f2fcdb2e23/ipc_worker-0.0.8-py3-none-any.whl
+[2023-07-26 10:23:26] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/7c/39/1e06c08c2d2376c4a95fa303051f23441ebd77e4aeb8f66c341c1c2a03f5/connect_cli-27.8.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/51/82/40f8ef00f19dc91b766251db75d00cf87d74b3e6ca7443898da6dd54ffde/robot_rumble-0.1.3.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/74/3e/eae34f9dd6d258f192a8a087329c017d224699b3f6d4ae86a624c7e8cd98/vinhvh_package-0.0.9.tar.gz
+[2023-07-26 10:23:26] WARNING root fetch - processPackages [jupyterlab-rise]: Skipping package: exceeds size limit 25381031>=10485760
+[2023-07-26 10:23:26] INFO root fetch - processPackages [jupyterlab-rise]: Start processing: huhk
+[2023-07-26 10:23:26] INFO root fetch - main [MainThread]: End processing [jupyterlab-rise] error
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-26 10:23:26] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.8.tar.gz tmp/vinhvh_package-0.0.9.tar.gz --markdown 20230726/v/vinhvh-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/04/1f/e1c96198ea24ce0819e29bab31d96c28771903f0e4e194977b8ef35ad88f/multisig_ci-0.6.2.tar.gz
+[2023-07-26 10:23:26] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 13082260>=10485760
+[2023-07-26 10:23:26] INFO root fetch - processPackages [robot-rumble]: Start processing: armonik
+[2023-07-26 10:23:26] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.1.tar.gz tmp/multisig_ci-0.6.2.tar.gz --markdown 20230726/m/multisig-ci/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-26 10:23:26] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/90/5d/f5ca7c71622ce0babb31b6a5446cbf07a297607aa8bdf4dffa8206fa4cdd/aigc_zoo-0.1.12.post1-py3-none-any.whl
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/c4/19/0a05f54507c54e5ce8c42bfdd9ccac63683ef230697012bf5a3ba4c2d124/huhk-1.8.4.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/c4/19/0a05f54507c54e5ce8c42bfdd9ccac63683ef230697012bf5a3ba4c2d124/huhk-1.8.4.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-07-26 10:23:26] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/59/11/aace968d1ba3e2e09ae48999559abf0da2735ab14faec43de91022761762/connect_cli-28.0.tar.gz
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230726/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.8-py3-none-any.whl.zip tmp/ipc_worker-0.0.9-py3-none-any.whl.zip --markdown 20230726/i/ipc-worker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.3.tar.gz tmp/huhk-1.8.4.tar.gz --markdown 20230726/h/huhk/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-26 10:23:26] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.12.post0-py3-none-any.whl.zip tmp/aigc_zoo-0.1.12.post1-py3-none-any.whl.zip --markdown 20230726/a/aigc-zoo/0.1.12.post0-0.1.12.post1/diff.md --exclude *.pyd
+[2023-07-26 10:23:26] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-26 10:23:27] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-07-26 10:23:27] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-27.8.tar.gz tmp/connect_cli-28.0.tar.gz --markdown 20230726/c/connect-cli/27.8-28.0/diff.md --exclude *.pyd
+[2023-07-26 10:23:27] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/8d/12/9ecf789f8131a32c9d35f176a80c7b0a67b9d8836da072f6cf7e098b3786/micrologai-1.3.1.tar.gz
+[2023-07-26 10:23:27] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/46/32/29e2d77afafa8af31e72650716410bca915172719d98092f7b1be427650d/huhk-1.8.5.tar.gz
+[2023-07-26 10:23:27] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-07-26 10:23:27] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.0.tar.gz tmp/micrologai-1.3.1.tar.gz --markdown 20230726/m/micrologai/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-26 10:23:27] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-26 10:23:27] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:23:27] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.4.tar.gz tmp/huhk-1.8.5.tar.gz --markdown 20230726/h/huhk/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-26 10:23:27] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-26 10:23:27] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230726/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-26 10:23:27] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.8.tar.gz]
+[2023-07-26 10:23:27] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.9.tar.gz]
+[2023-07-26 10:23:27] INFO root fetch - processPackages [vinhvh-package]: Start processing: coder-retriever
+[2023-07-26 10:23:27] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-26 10:23:27] INFO root fetch - processPackages [coder-retriever]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/7d/c8/d78b2f27e80db8b996152a1521dcf29057f64e8a20cb35f5d6304c476b0f/coder_retriever-0.1.2.tar.gz
+[2023-07-26 10:23:28] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.1.tar.gz]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.2.tar.gz]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [multisig-ci]: Start processing: lazysdk
+[2023-07-26 10:23:28] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-26 10:23:28] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-26 10:23:28] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/36/0b/4d6b7f290d8bd54299aa87e82f9ce3b10302a347106a6d1aaee88398d34b/coder_retriever-0.1.3.tar.gz
+[2023-07-26 10:23:28] INFO root fetch - processPackages [coder-retriever]: executing diffoscope
+[2023-07-26 10:23:28] INFO root fetch - processPackages [coder-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coder_retriever-0.1.2.tar.gz tmp/coder_retriever-0.1.3.tar.gz --markdown 20230726/c/coder-retriever/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 10:23:28] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ats-case]: Start processing: huhk
+[2023-07-26 10:23:28] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [ipc-worker]: Start processing: robotframework-imagedetection
+[2023-07-26 10:23:28] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-07-26 10:23:28] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-26 10:23:28] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230726/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 10:23:28] INFO root fetch - processPackages [huhk]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [robotframework-imagedetection]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.12.post0-py3-none-any.whl.zip]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.12.post1-py3-none-any.whl.zip]
+[2023-07-26 10:23:28] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/dd/c5/de516758ca8e086867aa024f9bc239e49b7c717f55bfdccafe98b5194cb1/robotframework-imagedetection-0.0.1.tar.gz
+[2023-07-26 10:23:28] INFO root fetch - processPackages [aigc-zoo]: Start processing: astronomer-providers
+[2023-07-26 10:23:28] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-26 10:23:29] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:23:29] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.4.tar.gz tmp/huhk-1.8.5.tar.gz --markdown 20230726/h/huhk/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-26 10:23:29] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-26 10:23:29] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.3.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.4.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-26 10:23:29] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/e5/82/4e4701c5e28b886ad9d867854538b49a320654f8b65ef2ae59ad090cf502/robotframework-imagedetection-0.0.2.tar.gz
+[2023-07-26 10:23:29] INFO root fetch - processPackages [robotframework-imagedetection]: executing diffoscope
+[2023-07-26 10:23:29] INFO root fetch - processPackages [robotframework-imagedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-imagedetection-0.0.1.tar.gz tmp/robotframework-imagedetection-0.0.2.tar.gz --markdown 20230726/r/robotframework-imagedetection/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 10:23:29] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2023-07-26 10:23:29] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.5.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-26 10:23:29] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-26 10:23:29] ERROR root fetch - processPackages [huhk]: Diffoscope failed: time="2023-07-26T10:23:29+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/huhk-1.8.4.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/huhk-1.8.5.tar.gz: No such file or directory
+
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-07-26 10:23:29] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.2.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.3.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [coder-retriever]: success
+[2023-07-26 10:23:29] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2023-07-26 10:23:29] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.0.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.1.tar.gz]
+[2023-07-26 10:23:29] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-07-26 10:23:30] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2023-07-26 10:23:30] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20230726/a/astronomer-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-26 10:23:30] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-26 10:23:30] INFO root fetch - processPackages [connect-cli]: Remove: archive file [/home/abi/fetcher/tmp/connect_cli-27.8.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - processPackages [connect-cli]: Remove: archive file [/home/abi/fetcher/tmp/connect_cli-28.0.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-07-26 10:23:30] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.1.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.2.tar.gz]
+[2023-07-26 10:23:30] INFO root fetch - main [MainThread]: End processing [robotframework-imagedetection]: success
+[2023-07-26 10:23:31] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.8.1.tar.gz]
+[2023-07-26 10:23:31] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.9.0.tar.gz]
+[2023-07-26 10:23:31] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2023-07-26 10:23:31] INFO root fetch - main [MainThread]: Store serial: [19041189]
