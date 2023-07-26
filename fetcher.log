@@ -15327,3 +15327,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:41:01] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.3.tar.gz]
 [2023-07-26 09:41:01] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
 [2023-07-26 09:41:01] INFO root fetch - main [MainThread]: Store serial: [19040817]
+[2023-07-26 09:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040817]
+[2023-07-26 09:46:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devialet
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rgmining-fraud-eagle
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdypy-sep005
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gislib
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opnsense
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafri
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rgmining-rsd
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readyocr
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bemserver-api-client
+[2023-07-26 09:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aspose-3d
+[2023-07-26 09:46:11] INFO root fetch - processPackages [devialet]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-26 09:46:11] WARNING root fetch - processPackages [gislib]: Skipping, unable to determine old version
+[2023-07-26 09:46:11] INFO root fetch - processPackages [gislib]: Start processing: audioshake-job-manager
+[2023-07-26 09:46:11] INFO root fetch - main [MainThread]: End processing [gislib] error
+[2023-07-26 09:46:11] WARNING root fetch - processPackages [sdypy-sep005]: Skipping, unable to determine old version
+[2023-07-26 09:46:11] INFO root fetch - main [MainThread]: End processing [sdypy-sep005] error
+[2023-07-26 09:46:11] INFO root fetch - processPackages [audioshake-job-manager]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [bemserver-api-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [adafri]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-fraud-eagle]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-rsd]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [aspose-3d]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-26 09:46:11] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/cf/32/d209b7c3455c5377deb7a6887586247bccdc3515764d01dccdb804fe1102/pulumi_opnsense-0.0.95.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [audioshake-job-manager]: Downloading https://files.pythonhosted.org/packages/a6/fd/d3a9c104ba6a6bb68a4fedb7c6b3f1e0a375b4ede21553ad282ffbe4edf5/audioshake_job_manager-0.0.0.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/2c/04/81d465b6e721293b3d6aedac27a2b99d08b2b4ff7c9b458517d7f4fe13f7/adafri-0.0.64.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-rsd]: Downloading https://files.pythonhosted.org/packages/db/41/491cf04d72bf72749ef98cc04ebb8947ce904f318ba0495299800869f00b/rgmining_rsd-0.3.2.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [bemserver-api-client]: Downloading https://files.pythonhosted.org/packages/0e/99/0eb7441cfa9134156d82b72d4eb03d5b10dd22aa7482410b5dc4aebf05f9/bemserver-api-client-0.8.0.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [devialet]: Downloading https://files.pythonhosted.org/packages/91/13/cceb8b0f4921f6607be8fb46d276f8c2781fec9c3afeaac932da206a0057/devialet-1.4.1.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-fraud-eagle]: Downloading https://files.pythonhosted.org/packages/a6/80/7e4abf67b27927612cb2082c66fa101110ce4690521e83394ba6676f0cfd/rgmining-fraud-eagle-0.9.6.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [aspose-3d]: Downloading https://files.pythonhosted.org/packages/58/06/8face9791156f502b132f81e4fb31cb530319e1d07b9cadc5c23f9935f90/aspose_3d-23.6.0-py3-none-win_amd64.whl
+[2023-07-26 09:46:11] INFO root fetch - processPackages [audioshake-job-manager]: Downloading https://files.pythonhosted.org/packages/b0/30/2ece9fcd1e2da6f80a833fd259bb54c9fd4fbd3d790e2cccf34a9bf38d40/audioshake_job_manager-0.0.1.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-26 09:46:11] WARNING root fetch - processPackages [aspose-3d]: Skipping package: exceeds size limit 39619625>=10485760
+[2023-07-26 09:46:11] INFO root fetch - main [MainThread]: End processing [aspose-3d] error
+[2023-07-26 09:46:11] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f7/4c/2875b5514d9845681d50ae9b1628848f067f868b83942ebcdf6c5a906825/adafri-0.0.65.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/c7/dc/c34061b6ab576bb185795379e5e45e8132c79ca42f449f7065568d2d5d85/pulumi_opnsense-0.0.96.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [audioshake-job-manager]: executing diffoscope
+[2023-07-26 09:46:11] INFO root fetch - processPackages [audioshake-job-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioshake_job_manager-0.0.0.tar.gz tmp/audioshake_job_manager-0.0.1.tar.gz --markdown 20230726/a/audioshake-job-manager/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-rsd]: Downloading https://files.pythonhosted.org/packages/f0/8d/d1a58d0aca617e933bebc4c2ef24af4137ebd1b1d6fd72ea2b21c4c9dfb8/rgmining_rsd-0.3.3.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-26 09:46:11] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230726/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:46:11] INFO root fetch - processPackages [devialet]: Downloading https://files.pythonhosted.org/packages/f7/e7/11321ee1a6000a803ffdb6b69b7f3221a4a69e415ea4f304095bd1138d77/devialet-1.4.2.tar.gz
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-rsd]: executing diffoscope
+[2023-07-26 09:46:11] INFO root fetch - processPackages [rgmining-rsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgmining_rsd-0.3.2.tar.gz tmp/rgmining_rsd-0.3.3.tar.gz --markdown 20230726/r/rgmining-rsd/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-26 09:46:12] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-26 09:46:12] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.64.tar.gz tmp/adafri-0.0.65.tar.gz --markdown 20230726/a/adafri/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-07-26 09:46:12] INFO root fetch - processPackages [devialet]: executing diffoscope
+[2023-07-26 09:46:12] INFO root fetch - processPackages [devialet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devialet-1.4.1.tar.gz tmp/devialet-1.4.2.tar.gz --markdown 20230726/d/devialet/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-26 09:46:12] INFO root fetch - processPackages [bemserver-api-client]: Downloading https://files.pythonhosted.org/packages/2f/c8/91a5eda66cf4fda540caaceb9c6396f2bd073d5f4051b35f1c2689988108/bemserver-api-client-0.9.0.tar.gz
+[2023-07-26 09:46:12] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 09:46:12] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.95.tar.gz tmp/pulumi_opnsense-0.0.96.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-07-26 09:46:12] INFO root fetch - processPackages [bemserver-api-client]: executing diffoscope
+[2023-07-26 09:46:12] INFO root fetch - processPackages [bemserver-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-client-0.8.0.tar.gz tmp/bemserver-api-client-0.9.0.tar.gz --markdown 20230726/b/bemserver-api-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 09:46:12] INFO root fetch - processPackages [rgmining-fraud-eagle]: Downloading https://files.pythonhosted.org/packages/c0/ba/5201027fa2bf81a8368c50de4ad1ceb1d7cecee78514364ec2b8ad8ece7d/rgmining-fraud-eagle-0.9.7.tar.gz
+[2023-07-26 09:46:12] INFO root fetch - processPackages [rgmining-fraud-eagle]: executing diffoscope
+[2023-07-26 09:46:12] INFO root fetch - processPackages [rgmining-fraud-eagle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgmining-fraud-eagle-0.9.6.tar.gz tmp/rgmining-fraud-eagle-0.9.7.tar.gz --markdown 20230726/r/rgmining-fraud-eagle/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-26 09:46:13] INFO root fetch - processPackages [audioshake-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/audioshake_job_manager-0.0.0.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [audioshake-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/audioshake_job_manager-0.0.1.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [audioshake-job-manager]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [devialet]: Remove: archive file [/home/abi/fetcher/tmp/devialet-1.4.1.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [devialet]: Remove: archive file [/home/abi/fetcher/tmp/devialet-1.4.2.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [devialet]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [rgmining-rsd]: Remove: archive file [/home/abi/fetcher/tmp/rgmining_rsd-0.3.2.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [rgmining-rsd]: Remove: archive file [/home/abi/fetcher/tmp/rgmining_rsd-0.3.3.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [rgmining-rsd]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.95.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.96.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [bemserver-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-api-client-0.8.0.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [bemserver-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-api-client-0.9.0.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [bemserver-api-client]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.64.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.65.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-26 09:46:13] INFO root fetch - processPackages [rgmining-fraud-eagle]: Remove: archive file [/home/abi/fetcher/tmp/rgmining-fraud-eagle-0.9.6.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - processPackages [rgmining-fraud-eagle]: Remove: archive file [/home/abi/fetcher/tmp/rgmining-fraud-eagle-0.9.7.tar.gz]
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: End processing [rgmining-fraud-eagle]: success
+[2023-07-26 09:46:13] INFO root fetch - main [MainThread]: Store serial: [19040852]
