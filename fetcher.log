@@ -11688,3 +11688,54 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:51:09] INFO root fetch - processPackages [azure-mgmt-containerservice]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-containerservice-9.4.0.zip]
 [2023-07-26 06:51:09] INFO root fetch - main [MainThread]: End processing [azure-mgmt-containerservice]: success
 [2023-07-26 06:51:09] INFO root fetch - main [MainThread]: Store serial: [19039406]
+[2023-07-26 06:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039406]
+[2023-07-26 06:56:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nexas
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide2-Material-Widgets
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyinit
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-purchase-security
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deck-chores
+[2023-07-26 06:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shipper-shippy
+[2023-07-26 06:56:18] INFO root fetch - processPackages [PySide2-Material-Widgets]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-07-26 06:56:18] INFO root fetch - processPackages [lazyinit]: New version: [0.0.262] Old Version: [0.0.261]
+[2023-07-26 06:56:18] INFO root fetch - processPackages [odoo13-addon-purchase-security]: New version: [13.0.2.0.1.dev1] Old Version: [13.0.2.0.0]
+[2023-07-26 06:56:18] INFO root fetch - processPackages [shipper-shippy]: New version: [2.17.0] Old Version: [1.9.0a5]
+[2023-07-26 06:56:18] INFO root fetch - processPackages [deck-chores]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-26 06:56:18] WARNING root fetch - processPackages [nexas]: Skipping, unable to determine old version
+[2023-07-26 06:56:18] INFO root fetch - main [MainThread]: End processing [nexas] error
+[2023-07-26 06:56:18] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/e6/02/09206ddbf7c0cb9ecad4d151f7fd3340e6503076e7f6d581e5de1efd2907/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl
+[2023-07-26 06:56:18] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/b7/fd/8735e3daf014d2b70a643cd848a20c210bdedf2b0ee72695ab71abe66a3b/lazyinit-0.0.261.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/04/8b/a691d67171daceb9b207b034f7d388f2c63ef496f19c0926c14a4e553d63/PySide2-Material-Widgets-0.0.10.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/44/9f/7329e3598b4169adaefa20b50c5655e10ee330058150cfeb6b0d7bdc09d4/shipper-shippy-1.9.0a5.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/e1/12/f4ce245c73d31fc180f7d1bea1d03eda0319e43da3b393165d5daa4773bf/deck_chores-1.3.8.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/06/e5/ee3e3d116b96b48c1dfd1d9fc0642c4593c1ec95ddfa44e764716e947bd5/odoo13_addon_purchase_security-13.0.2.0.1.dev1-py3-none-any.whl
+[2023-07-26 06:56:18] INFO root fetch - processPackages [odoo13-addon-purchase-security]: executing diffoscope
+[2023-07-26 06:56:18] INFO root fetch - processPackages [odoo13-addon-purchase-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl.zip tmp/odoo13_addon_purchase_security-13.0.2.0.1.dev1-py3-none-any.whl.zip --markdown 20230726/o/odoo13-addon-purchase-security/13.0.2.0.0-13.0.2.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-26 06:56:18] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/f4/2a/c58a36b2f36cbdb840d254cbe5c843aa497ce4827a9eca6c63ea4d2d6eb3/lazyinit-0.0.262.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/51/b4/be03fe30b01157180ad8b62b702fc38054b0ff3895d6b21471961819d24e/deck_chores-1.3.9.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/25/d3/3eb21db1088110fa03abf35bb13e0236371ac8a77c67a6bac9797bd00060/shipper-shippy-2.17.0.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/ce/72/c94a8a40398217a700f2a89095119941e666f7123657ffe41f44a39d81cf/PySide2-Material-Widgets-0.0.11.tar.gz
+[2023-07-26 06:56:18] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:56:18] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.261.tar.gz tmp/lazyinit-0.0.262.tar.gz --markdown 20230726/l/lazyinit/0.0.261-0.0.262/diff.md --exclude *.pyd
+[2023-07-26 06:56:18] INFO root fetch - processPackages [deck-chores]: executing diffoscope
+[2023-07-26 06:56:18] INFO root fetch - processPackages [deck-chores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deck_chores-1.3.8.tar.gz tmp/deck_chores-1.3.9.tar.gz --markdown 20230726/d/deck-chores/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-26 06:56:19] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-07-26 06:56:19] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-1.9.0a5.tar.gz tmp/shipper-shippy-2.17.0.tar.gz --markdown 20230726/s/shipper-shippy/1.9.0a5-2.17.0/diff.md --exclude *.pyd
+[2023-07-26 06:56:19] INFO root fetch - processPackages [PySide2-Material-Widgets]: executing diffoscope
+[2023-07-26 06:56:19] INFO root fetch - processPackages [PySide2-Material-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Material-Widgets-0.0.10.tar.gz tmp/PySide2-Material-Widgets-0.0.11.tar.gz --markdown 20230726/P/PySide2-Material-Widgets/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-07-26 06:56:19] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-26 06:56:19] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_security-13.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-26 06:56:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-security]: success
+[2023-07-26 06:56:19] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.8.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.9.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - main [MainThread]: End processing [deck-chores]: success
+[2023-07-26 06:56:19] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.261.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.262.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:56:19] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-1.9.0a5.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.17.0.tar.gz]
+[2023-07-26 06:56:19] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-07-26 06:56:20] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.0.10.tar.gz]
+[2023-07-26 06:56:20] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.0.11.tar.gz]
+[2023-07-26 06:56:20] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets]: success
+[2023-07-26 06:56:20] INFO root fetch - main [MainThread]: Store serial: [19039425]
