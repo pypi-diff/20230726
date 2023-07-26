@@ -19077,3 +19077,110 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:20:31] INFO root fetch - processPackages [parse-emails]: Remove: archive file [/home/abi/fetcher/tmp/parse_emails-0.1.9.tar.gz]
 [2023-07-26 12:20:31] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
 [2023-07-26 12:20:31] INFO root fetch - main [MainThread]: Store serial: [19042360]
+[2023-07-26 12:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042360]
+[2023-07-26 12:25:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zbxtool-cfomp
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lqg
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-utils
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Grid2Op
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-gptq
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: card91BusinessSDK
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s3-data-packer
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gamla
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jcloud
+[2023-07-26 12:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xyz-py
+[2023-07-26 12:25:41] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [auto-gptq]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [card91BusinessSDK]: New version: [0.0.16] Old Version: [0.0.14]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [s3-data-packer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [lqg]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [Grid2Op]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [xyz-py]: New version: [5.7.0] Old Version: [5.6.1]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/78/a8/548da64824e09fe8a5c028005c2f10f3b6e3e6064c3c1fe54684244c66c8/auto_gptq-0.3.0.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f7/8a/f15dd652e0539738dc19c24dfcc4cd613ab084cdd9bcf8fdee5ee649f28f/lesscode_utils-0.0.6.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/fa/c6/1222f07f464b7ad6280b2be33d4db5d7f29cb43bd99256cc57ac23079481/xyz_py-5.6.1.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [card91BusinessSDK]: Downloading https://files.pythonhosted.org/packages/aa/b7/e68da921c328342a4b3bea4d4daccbc08bff3a7dfa7390cdaec222d32d1b/card91BusinessSDK-0.0.14.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [s3-data-packer]: Downloading https://files.pythonhosted.org/packages/a7/ae/c7bafc3de6d02ad65392b4b17df7060384e9bf5a99c70b9d5a60d07e830c/s3_data_packer-0.0.6.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/47/28/cf99c06712ab9c409ec9300681abe427c6c154026cf5ed6f5b84ca1906b4/lqg-0.1.9.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [Grid2Op]: Downloading https://files.pythonhosted.org/packages/f9/94/eeef0ef4f9a2755457a54a47671c4454fe52b86c05b40404abfdc61044e3/Grid2Op-1.9.1.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-07-26 12:25:41] WARNING root fetch - processPackages [Grid2Op]: Skipping package: exceeds size limit 16149821>=10485760
+[2023-07-26 12:25:41] INFO root fetch - processPackages [Grid2Op]: Start processing: extend-orfs-pyranges
+[2023-07-26 12:25:41] INFO root fetch - main [MainThread]: End processing [Grid2Op] error
+[2023-07-26 12:25:41] INFO root fetch - processPackages [extend-orfs-pyranges]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 12:25:41] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/31/d1/f7e86b67a843383e826d8d1a182d8614054b545d2bb7425791304f7d848a/lesscode_utils-0.0.7.tar.gz
+[2023-07-26 12:25:41] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/3f/5c/28d57f833498e014e9d066ea0199a503b5e59d4c8e8e701a460223e143da/auto_gptq-0.3.1.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [extend-orfs-pyranges]: Downloading https://files.pythonhosted.org/packages/aa/5b/b9b0c62568a68197b3af33cb7ac1b142e5b78549ec4909611ea9dcdd96fc/extend_orfs_pyranges-0.1.0.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/6a/83/79005a751919f16428de7303a0196bdbb2a64122d18e20b97852ecd272f4/xyz_py-5.7.0.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.6.tar.gz tmp/lesscode_utils-0.0.7.tar.gz --markdown 20230726/l/lesscode-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [card91BusinessSDK]: Downloading https://files.pythonhosted.org/packages/9c/60/865ab2cf4a4b05f3bb09be00214774406652e4ddafda8e75b67bec82d7bd/card91BusinessSDK-0.0.16.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [s3-data-packer]: Downloading https://files.pythonhosted.org/packages/6d/ba/3f5229666f063e189b6c7f2804111f3d20e0a94aadc6c20ab8500969617d/s3_data_packer-0.0.7.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [auto-gptq]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [auto-gptq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_gptq-0.3.0.tar.gz tmp/auto_gptq-0.3.1.tar.gz --markdown 20230726/a/auto-gptq/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/dd/ce/6d2c77a41390f0fd5e4eba7ed826647085e40899ee5900febd39693553c6/lqg-0.2.0.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230726/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [s3-data-packer]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [s3-data-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_data_packer-0.0.6.tar.gz tmp/s3_data_packer-0.0.7.tar.gz --markdown 20230726/s/s3-data-packer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.6.1.tar.gz tmp/xyz_py-5.7.0.tar.gz --markdown 20230726/x/xyz-py/5.6.1-5.7.0/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [lqg]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [lqg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqg-0.1.9.tar.gz tmp/lqg-0.2.0.tar.gz --markdown 20230726/l/lqg/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [card91BusinessSDK]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [card91BusinessSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/card91BusinessSDK-0.0.14.tar.gz tmp/card91BusinessSDK-0.0.16.tar.gz --markdown 20230726/c/card91BusinessSDK/0.0.14-0.0.16/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230726/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [extend-orfs-pyranges]: Downloading https://files.pythonhosted.org/packages/81/70/bd2522981677d8539501cd4ae58473860cc564b8a4260fc77ff107ca7f86/extend_orfs_pyranges-0.1.1.tar.gz
+[2023-07-26 12:25:42] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230726/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-07-26 12:25:42] INFO root fetch - processPackages [extend-orfs-pyranges]: executing diffoscope
+[2023-07-26 12:25:42] INFO root fetch - processPackages [extend-orfs-pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extend_orfs_pyranges-0.1.0.tar.gz tmp/extend_orfs_pyranges-0.1.1.tar.gz --markdown 20230726/e/extend-orfs-pyranges/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 12:25:43] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.6.tar.gz]
+[2023-07-26 12:25:43] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.7.tar.gz]
+[2023-07-26 12:25:43] INFO root fetch - processPackages [lesscode-utils]: Start processing: gauth-python
+[2023-07-26 12:25:43] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-26 12:25:43] INFO root fetch - processPackages [gauth-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 12:25:43] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/be/a8/6ebe29122cc2fc71a528860c8534fbcc6454e9a2060c38860a86d084580a/gauth_python-0.1.1.tar.gz
+[2023-07-26 12:25:43] INFO root fetch - processPackages [s3-data-packer]: Remove: archive file [/home/abi/fetcher/tmp/s3_data_packer-0.0.6.tar.gz]
+[2023-07-26 12:25:43] INFO root fetch - processPackages [s3-data-packer]: Remove: archive file [/home/abi/fetcher/tmp/s3_data_packer-0.0.7.tar.gz]
+[2023-07-26 12:25:43] INFO root fetch - main [MainThread]: End processing [s3-data-packer]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/09/e4/edce664b567e520e00b582137568d6d4394dac11ca616460ff2a16603729/gauth_python-0.1.2.tar.gz
+[2023-07-26 12:25:44] INFO root fetch - processPackages [card91BusinessSDK]: Remove: archive file [/home/abi/fetcher/tmp/card91BusinessSDK-0.0.14.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [card91BusinessSDK]: Remove: archive file [/home/abi/fetcher/tmp/card91BusinessSDK-0.0.16.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [card91BusinessSDK]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.1.tar.gz tmp/gauth_python-0.1.2.tar.gz --markdown 20230726/g/gauth-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 12:25:44] INFO root fetch - processPackages [lqg]: Remove: archive file [/home/abi/fetcher/tmp/lqg-0.1.9.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [lqg]: Remove: archive file [/home/abi/fetcher/tmp/lqg-0.2.0.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [lqg]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [xyz-py]: Remove: archive file [/home/abi/fetcher/tmp/xyz_py-5.6.1.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [xyz-py]: Remove: archive file [/home/abi/fetcher/tmp/xyz_py-5.7.0.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-98.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [auto-gptq]: Remove: archive file [/home/abi/fetcher/tmp/auto_gptq-0.3.0.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [auto-gptq]: Remove: archive file [/home/abi/fetcher/tmp/auto_gptq-0.3.1.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [auto-gptq]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [extend-orfs-pyranges]: Remove: archive file [/home/abi/fetcher/tmp/extend_orfs_pyranges-0.1.0.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [extend-orfs-pyranges]: Remove: archive file [/home/abi/fetcher/tmp/extend_orfs_pyranges-0.1.1.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [extend-orfs-pyranges]: success
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.1.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.2.tar.gz]
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 12:25:44] INFO root fetch - main [MainThread]: Store serial: [19042396]
