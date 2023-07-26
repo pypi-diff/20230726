@@ -22664,3 +22664,212 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 15:01:23] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-26 15:01:23] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-26 15:01:23] INFO root fetch - main [MainThread]: Store serial: [19043799]
+[2023-07-26 15:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043799]
+[2023-07-26 15:06:32] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configula
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supervisely
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-loader
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2xcore
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btdashboard
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ncas-amof-netcdf-template
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DBLite3
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: carburetor
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blissful-basics
+[2023-07-26 15:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mdformat_mkdocs
+[2023-07-26 15:06:33] INFO root fetch - processPackages [configula]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [e2xcore]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [DBLite3]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [ncas-amof-netcdf-template]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [carburetor]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [btdashboard]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [mdformat_mkdocs]: New version: [1.0.4rc2] Old Version: [1.0.4rc1]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [blissful-basics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [configula]: Downloading https://files.pythonhosted.org/packages/ce/ac/5a633b068350a6fa10b5aa4972fcb2a6aaaaab9d5ed32e803d22ee3dea85/configula-0.5.2.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Downloading https://files.pythonhosted.org/packages/50/48/5e36e2782bb878175a8172ada55a79a82cd7e7562c9117f8fc11a46253f6/ncas_amof_netcdf_template-2.2.1.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [DBLite3]: Downloading https://files.pythonhosted.org/packages/0b/6e/71012c428f86ecce57dfe153eff57347fbd6bfa7a92343c3a72091534b81/DBLite3-0.1.3.1.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [btdashboard]: Downloading https://files.pythonhosted.org/packages/1d/fd/55eaff28a62fa48c5b717c4c45313fe83b2b5f239637798d21e32156b3bf/btdashboard-0.1.0.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [e2xcore]: Downloading https://files.pythonhosted.org/packages/9a/cf/030eda0a2303e97b722b477db7439ae5e743e2035b45a76083da76d9530d/e2xcore-0.0.1.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [blissful-basics]: Downloading https://files.pythonhosted.org/packages/45/4e/7109be16bec0b30318911f039164a027077b76002e74c0ab5c1861c55716/blissful_basics-0.2.8.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/4d/19/c2bcfe39bb0ff89258f7aab5c37417b3b0dd8d6a33e742dc5f4b960ab6ba/mdformat_mkdocs-1.0.4rc1.tar.gz
+[2023-07-26 15:06:33] WARNING root fetch - processPackages [btdashboard]: Skipping package: exceeds size limit 22148131>=10485760
+[2023-07-26 15:06:33] INFO root fetch - processPackages [btdashboard]: Start processing: setuptools-ocrd
+[2023-07-26 15:06:33] INFO root fetch - main [MainThread]: End processing [btdashboard] error
+[2023-07-26 15:06:33] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [carburetor]: Downloading https://files.pythonhosted.org/packages/bc/e1/8c43920b1533e02c0fb771a81d592c57d7940a9fcab64aea784d96a5cb27/carburetor-4.0.3.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-26 15:06:33] WARNING root fetch - processPackages [setuptools-ocrd]: Skipping, unable to determine old version
+[2023-07-26 15:06:33] INFO root fetch - processPackages [setuptools-ocrd]: Start processing: coiled
+[2023-07-26 15:06:33] INFO root fetch - main [MainThread]: End processing [setuptools-ocrd] error
+[2023-07-26 15:06:33] INFO root fetch - processPackages [configula]: Downloading https://files.pythonhosted.org/packages/37/0d/95723bcf15d732f65056b68839c3bea8ab37d29705f04278fd56492a4309/configula-0.5.3.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-26 15:06:33] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Downloading https://files.pythonhosted.org/packages/dd/fc/91850207020a48cab9421671b673cc6f4cbcd5990bd62e91387370bcbe95/ncas_amof_netcdf_template-2.2.2.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [e2xcore]: Downloading https://files.pythonhosted.org/packages/da/d6/43ac36a800bca9653273fcc4d0275a1bedef51e074d888be494d3d059f1d/e2xcore-0.0.2.tar.gz
+[2023-07-26 15:06:33] INFO root fetch - processPackages [configula]: executing diffoscope
+[2023-07-26 15:06:33] INFO root fetch - processPackages [configula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configula-0.5.2.tar.gz tmp/configula-0.5.3.tar.gz --markdown 20230726/c/configula/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [DBLite3]: Downloading https://files.pythonhosted.org/packages/e6/9a/cc261dd3487d9405881ab1254df000bdffde4013ceea94e38cc760dc854e/DBLite3-0.1.4.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/d8/94/a2b422249d3a45fd4fe550f07250472983312466550f1c18caab5153c68b/mdformat_mkdocs-1.0.4rc2.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [ncas-amof-netcdf-template]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [ncas-amof-netcdf-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncas_amof_netcdf_template-2.2.1.tar.gz tmp/ncas_amof_netcdf_template-2.2.2.tar.gz --markdown 20230726/n/ncas-amof-netcdf-template/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [carburetor]: Downloading https://files.pythonhosted.org/packages/e9/f0/b5d0744f02dd876f38419501c01bfc4ed856984c3714bc865da7ddd19b33/carburetor-4.1.0.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [DBLite3]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [DBLite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBLite3-0.1.3.1.tar.gz tmp/DBLite3-0.1.4.tar.gz --markdown 20230726/D/DBLite3/0.1.3.1-0.1.4/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [e2xcore]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [e2xcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2xcore-0.0.1.tar.gz tmp/e2xcore-0.0.2.tar.gz --markdown 20230726/e/e2xcore/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [mdformat_mkdocs]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [mdformat_mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_mkdocs-1.0.4rc1.tar.gz tmp/mdformat_mkdocs-1.0.4rc2.tar.gz --markdown 20230726/m/mdformat_mkdocs/1.0.4rc1-1.0.4rc2/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230726/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-26 15:06:34] INFO root fetch - processPackages [carburetor]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [carburetor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carburetor-4.0.3.tar.gz tmp/carburetor-4.1.0.tar.gz --markdown 20230726/c/carburetor/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230726/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-26 15:06:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-26 15:06:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230726/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-26 15:06:35] INFO root fetch - processPackages [blissful-basics]: Downloading https://files.pythonhosted.org/packages/fe/eb/35e4230b4cebd5fb9e3e5b82a0c7bb74c35f9aad17836f1e19d6ee045fe2/blissful_basics-0.2.9.tar.gz
+[2023-07-26 15:06:35] INFO root fetch - processPackages [configula]: Remove: archive file [/home/abi/fetcher/tmp/configula-0.5.2.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [configula]: Remove: archive file [/home/abi/fetcher/tmp/configula-0.5.3.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [configula]: Start processing: typed-blocks
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [configula]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/ae/54/f0f92843fa14270ed94a77e503fedd257e248ec484464c5f96702eb2e2d9/typed-blocks-0.9.8.tar.gz
+[2023-07-26 15:06:35] INFO root fetch - processPackages [e2xcore]: Remove: archive file [/home/abi/fetcher/tmp/e2xcore-0.0.1.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [e2xcore]: Remove: archive file [/home/abi/fetcher/tmp/e2xcore-0.0.2.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [e2xcore]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [e2xcore]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [code-loader]: Start processing: keycmd
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Remove: archive file [/home/abi/fetcher/tmp/ncas_amof_netcdf_template-2.2.1.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Remove: archive file [/home/abi/fetcher/tmp/ncas_amof_netcdf_template-2.2.2.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Start processing: agoraiot
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [ncas-amof-netcdf-template]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [keycmd]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [agoraiot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.4rc1.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.4rc2.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [mdformat_mkdocs]: Start processing: agora-busclient
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [mdformat_mkdocs]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [DBLite3]: Remove: archive file [/home/abi/fetcher/tmp/DBLite3-0.1.3.1.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [DBLite3]: Remove: archive file [/home/abi/fetcher/tmp/DBLite3-0.1.4.tar.gz]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [DBLite3]: Start processing: agora-config
+[2023-07-26 15:06:35] INFO root fetch - main [MainThread]: End processing [DBLite3]: success
+[2023-07-26 15:06:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.26] Old Version: [2023.7.25]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [agora-busclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [agora-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 15:06:35] INFO root fetch - processPackages [keycmd]: Downloading https://files.pythonhosted.org/packages/68/3c/2480e2c018ae083dd3630b07ef8fc8a9748b271baa8ba615f9f0ee344398/keycmd-0.2.0.tar.gz
+[2023-07-26 15:06:35] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/22/ee/31b515dced27bee07e91d33e78a5d0eacc7cc71f545ea156740473ea5f57/typed-blocks-0.9.9.tar.gz
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/8a/e0/414fcdb4273e8b74d9c5a66d12df619ba9d6a30afa6bda0510a07a36c410/agoraiot-1.0.8-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [carburetor]: Remove: archive file [/home/abi/fetcher/tmp/carburetor-4.0.3.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [carburetor]: Remove: archive file [/home/abi/fetcher/tmp/carburetor-4.1.0.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/40/5d/66d095ff825119ee02c38d05f68215de694077fb5b5303d5efb2c005e61f/fbgemm_gpu_nightly_cpu-2023.7.25-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [carburetor]: Start processing: agora-logging
+[2023-07-26 15:06:36] INFO root fetch - main [MainThread]: End processing [carburetor]: success
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/83/c6/8bf5d93c612541df610b5eb4aabe68ff70e3aecf862f3cde867c63308c62/agora_busclient-1.0.8-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-logging]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/17/5f/cabc6be10e89630eafc28c9b209245714c46e34955c60cb38e94dde60b2f/agora_config-1.0.8-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [coiled]: Start processing: agora-redis-client
+[2023-07-26 15:06:36] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-26 15:06:36] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20230726/t/typed-blocks/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-redis-client]: New version: [1.0.29] Old Version: [1.0.28]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/d2/39/638a9e01a2e91b107882e0023519d858d9ea5c4cb253b30bc7cf4864c23b/agora_logging-1.0.8-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [keycmd]: Downloading https://files.pythonhosted.org/packages/58/9d/bf631dc205728fbfbca9d5900ca3db70a75b3d7ce333cdce99914dc83758/keycmd-0.3.0.tar.gz
+[2023-07-26 15:06:36] INFO root fetch - processPackages [blissful-basics]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [blissful-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blissful_basics-0.2.8.tar.gz tmp/blissful_basics-0.2.9.tar.gz --markdown 20230726/b/blissful-basics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/b4/0a/176dd13f5a497634b32c7d6ea11b16c2a383d3c61275449702720b00392e/agoraiot-1.0.9-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/84/91/fdce585fbc9fe0ed208907c48c2e24f9812b7e2a159f422fed99764e7ab3/agora_busclient-1.0.9-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/56/7c/5bc63493fcb8152fe586911b7a71463093e74b26db4511cc6aebf3ccca8f/agora_redis_client-1.0.28-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [keycmd]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [keycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycmd-0.2.0.tar.gz tmp/keycmd-0.3.0.tar.gz --markdown 20230726/k/keycmd/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/b4/be/4986503ea9eb1ff31ad854650d7bed4e8a12ddf712460e60480c0ee44114/agora_config-1.0.9-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.0.8-py2.py3-none-any.whl.zip tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip --markdown 20230726/a/agoraiot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.0.8-py2.py3-none-any.whl.zip tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip --markdown 20230726/a/agora-busclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.0.8-py2.py3-none-any.whl.zip tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip --markdown 20230726/a/agora-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/4b/46/8e527f1076a1d8603244285bf7f9c4921df1a7ed7a6bb6e938f13bb72bf4/agora_logging-1.0.9-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/48/9b/5e7af13b42ead92c4ac17fe8c4779a374bc90dabf2e77a676b300886594c/fbgemm_gpu_nightly_cpu-2023.7.26-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/f9/d9/be90ffa087cb1b3bd576fdc2f1a5c69a1ff40be64053de0c64ff5c7ae4c5/agora_redis_client-1.0.29-py2.py3-none-any.whl
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-26 15:06:36] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.0.8-py2.py3-none-any.whl.zip tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip --markdown 20230726/a/agora-logging/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:36] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-26 15:06:36] INFO root fetch - processPackages [supervisely]: Start processing: agora-utils
+[2023-07-26 15:06:36] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.0.28-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.0.29-py2.py3-none-any.whl.zip --markdown 20230726/a/agora-redis-client/1.0.28-1.0.29/diff.md --exclude *.pyd
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/f7/a4/337cc9cbf8da50bdcc5550fbd4b3efada97b862628661f8d94aaaa172b63/agora_utils-1.0.8-py2.py3-none-any.whl
+[2023-07-26 15:06:37] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.8.tar.gz]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.9.tar.gz]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [typed-blocks]: Start processing: clearconf
+[2023-07-26 15:06:37] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2023-07-26 15:06:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-26 15:06:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.25-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.26-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230726/f/fbgemm-gpu-nightly-cpu/2023.7.25-2023.7.26/diff.md --exclude *.pyd
+[2023-07-26 15:06:37] INFO root fetch - processPackages [clearconf]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/bb/46/5bf6a1160cf2828e539b496682d85243fc627d93d680ae4ecceac1f0798e/agora_utils-1.0.9-py2.py3-none-any.whl
+[2023-07-26 15:06:37] INFO root fetch - processPackages [keycmd]: Remove: archive file [/home/abi/fetcher/tmp/keycmd-0.2.0.tar.gz]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [keycmd]: Remove: archive file [/home/abi/fetcher/tmp/keycmd-0.3.0.tar.gz]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [keycmd]: Start processing: omero-web
+[2023-07-26 15:06:37] INFO root fetch - main [MainThread]: End processing [keycmd]: success
+[2023-07-26 15:06:37] INFO root fetch - processPackages [omero-web]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [clearconf]: Downloading https://files.pythonhosted.org/packages/d8/d6/96cecc2020bd7e5b79d70b95082af7f18121c9fe949349f461382d5657fe/clearconf-0.3.5.tar.gz
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.0.8-py2.py3-none-any.whl.zip tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip --markdown 20230726/a/agora-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:37] INFO root fetch - processPackages [agoraiot]: Start processing: tcod-ecs
+[2023-07-26 15:06:37] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/ef/56/ca934f6599bd2daf503a86e6203dce722bddc087ffae9459329b73fbf470/omero-web-5.9.1.tar.gz
+[2023-07-26 15:06:38] INFO root fetch - processPackages [tcod-ecs]: New version: [4.0.0] Old Version: [3.5.0]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [clearconf]: Downloading https://files.pythonhosted.org/packages/5a/f6/b94d6ba82a69b25d7576f147d768933ba5f5f7ac26ff020f5ab72fa86ce1/clearconf-0.3.6.tar.gz
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [clearconf]: executing diffoscope
+[2023-07-26 15:06:38] INFO root fetch - processPackages [clearconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearconf-0.3.5.tar.gz tmp/clearconf-0.3.6.tar.gz --markdown 20230726/c/clearconf/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.0.28-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.0.29-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/8b/8a/d8242880cada6ab5cea609263b165e3d1098c2d6abf6a100b67c5224693e/tcod_ecs-3.5.0.tar.gz
+[2023-07-26 15:06:38] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/87/b1/97dedd01aff39d93e282ea870287e6bf741460c2d7cae96d7dcae38d4d30/omero-web-5.9.2.tar.gz
+[2023-07-26 15:06:38] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/23/a0/ad7d367a9f19d1631d1607c28e76fa2af1285f1c7bf75f533ab1b80a5d6e/tcod_ecs-4.0.0.tar.gz
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-26 15:06:38] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-26 15:06:38] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-26 15:06:38] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.5.0.tar.gz tmp/tcod_ecs-4.0.0.tar.gz --markdown 20230726/t/tcod-ecs/3.5.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-26 15:06:39] INFO root fetch - processPackages [blissful-basics]: Remove: archive file [/home/abi/fetcher/tmp/blissful_basics-0.2.8.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - processPackages [blissful-basics]: Remove: archive file [/home/abi/fetcher/tmp/blissful_basics-0.2.9.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - main [MainThread]: End processing [blissful-basics]: success
+[2023-07-26 15:06:39] INFO root fetch - processPackages [clearconf]: Remove: archive file [/home/abi/fetcher/tmp/clearconf-0.3.5.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - processPackages [clearconf]: Remove: archive file [/home/abi/fetcher/tmp/clearconf-0.3.6.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - main [MainThread]: End processing [clearconf]: success
+[2023-07-26 15:06:39] INFO root fetch - processPackages [omero-web]: executing diffoscope
+[2023-07-26 15:06:39] INFO root fetch - processPackages [omero-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-web-5.9.1.tar.gz tmp/omero-web-5.9.2.tar.gz --markdown 20230726/o/omero-web/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-07-26 15:06:39] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.5.0.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.0.0.tar.gz]
+[2023-07-26 15:06:39] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-26 15:06:44] INFO root fetch - processPackages [omero-web]: Remove: archive file [/home/abi/fetcher/tmp/omero-web-5.9.1.tar.gz]
+[2023-07-26 15:06:44] INFO root fetch - processPackages [omero-web]: Remove: archive file [/home/abi/fetcher/tmp/omero-web-5.9.2.tar.gz]
+[2023-07-26 15:06:44] INFO root fetch - main [MainThread]: End processing [omero-web]: success
+[2023-07-26 15:07:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.25-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-26 15:07:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.26-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-26 15:07:03] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-26 15:07:03] INFO root fetch - main [MainThread]: Store serial: [19043865]
