@@ -13175,3 +13175,105 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:09:49] INFO root fetch - processPackages [liquidctl]: Remove: archive file [/home/abi/fetcher/tmp/liquidctl-1.9.1.tar.gz]
 [2023-07-26 08:09:49] INFO root fetch - main [MainThread]: End processing [liquidctl]: success
 [2023-07-26 08:09:49] INFO root fetch - main [MainThread]: Store serial: [19039907]
+[2023-07-26 08:14:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039907]
+[2023-07-26 08:14:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asdff
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unigui
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg-sui
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: actnova-yolo
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-ft
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sinabs-dynapcnn
+[2023-07-26 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-ionq
+[2023-07-26 08:14:58] INFO root fetch - processPackages [asdff]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [cirq-ft]: New version: [1.3.0.dev20230725201132] Old Version: [1.3.0.dev20230725194145]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [pg-sui]: New version: [0.3.0.1] Old Version: [0.3]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.87] Old Version: [0.0.85]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [cirq-ionq]: New version: [1.3.0.dev20230725201132] Old Version: [1.3.0.dev20230725194145]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 08:14:58] INFO root fetch - processPackages [unigui]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-26 08:14:59] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230725] Old Version: [2.4.0.dev20230724]
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ea/61/210ff5382f781f942c28aa537e654862c8cbcf66dc65cfd6a098774d0aba/pulumi_opnsense-0.0.85.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-07-26 08:14:59] INFO root fetch - processPackages [asdff]: Downloading https://files.pythonhosted.org/packages/35/fa/253dd7d3cc209c172cdf3ab9e6c74e0d5bcf39e19f6ffa717949fb2c0bf1/asdff-0.1.1.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/ca/50/daaa24ece778323d16c818868ebea2d23ca058923518413770a1de87f4cf/cirq_ft-1.3.0.dev20230725194145-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/98/80/e2be7fe6553103dad0316634918b3b8b4b8b91a8f6104ecc8fa61aeb07c9/pg-sui-0.3.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/3b/13/326778c1429f6ae0138d5b71d5100f15c1bd35071cf2664da7a3f0edc7b5/unigui-1.9.2.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a3/0c/e5deea9d578b6e31222daaa4739a14bbfec8355ffe15b2a40f87396ba26c/pyg_nightly-2.4.0.dev20230724.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/60/56/3647f976dbf42fb862e8e05781a023eeee552d4ba08ef3080701b619adad/cirq_ionq-1.3.0.dev20230725194145-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/52/c8/3653c673fd58bc29d57aadf72305fe8facf2d9b4037f14184cb65e5eae8b/pulumi_opnsense-0.0.87.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [asdff]: Downloading https://files.pythonhosted.org/packages/9a/f3/c5835822118b4669fc925d5dd0b6c14d144ffd55202d19cccb1d03fbcfa6/asdff-0.2.0.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/cd/2c/c4b770177e9184226bf3378f362185a7c40e1c2e85f9fa000438fb5634b0/cirq_ionq-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/70/d2/9d5052cdcb5095c4bb3de59928798c8ebfda956513355bba9332420eed85/cirq_ft-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/bb/05/0f7c3fdf74b948e9731a1a3e11d91b1b12471039923dc543012ec9880073/unigui-1.9.3.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/2a/80/bed9d26875b62bc923b1299e96fffd90d44bb08648f9110a2b9c541782a1/pg-sui-0.3.0.1.tar.gz
+[2023-07-26 08:14:59] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-07-26 08:14:59] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.3.0.dev20230725194145-py3-none-any.whl.zip tmp/cirq_ionq-1.3.0.dev20230725201132-py3-none-any.whl.zip --markdown 20230726/c/cirq-ionq/1.3.0.dev20230725194145-1.3.0.dev20230725201132/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.3.0.dev20230725194145-py3-none-any.whl.zip tmp/cirq_ft-1.3.0.dev20230725201132-py3-none-any.whl.zip --markdown 20230726/c/cirq-ft/1.3.0.dev20230725194145-1.3.0.dev20230725201132/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7d/de/238a1628c7b972a13834dc8ac20fc07539c90e75444e70acd6393b83c4ae/pyg_nightly-2.4.0.dev20230725.tar.gz
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.85.tar.gz tmp/pulumi_opnsense-0.0.87.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.85-0.0.87/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [asdff]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [asdff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asdff-0.1.1.tar.gz tmp/asdff-0.2.0.tar.gz --markdown 20230726/a/asdff/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230726/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-07-26 08:15:00] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.9.2.tar.gz tmp/unigui-1.9.3.tar.gz --markdown 20230726/u/unigui/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230724.tar.gz tmp/pyg_nightly-2.4.0.dev20230725.tar.gz --markdown 20230726/p/pyg-nightly/2.4.0.dev20230724-2.4.0.dev20230725/diff.md --exclude *.pyd
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-26 08:15:00] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-sui-0.3.tar.gz tmp/pg-sui-0.3.0.1.tar.gz --markdown 20230726/p/pg-sui/0.3-0.3.0.1/diff.md --exclude *.pyd
+[2023-07-26 08:15:01] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-07-26 08:15:01] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230726/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-07-26 08:15:01] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.85.tar.gz]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.87.tar.gz]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: cirq-core
+[2023-07-26 08:15:01] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:15:01] INFO root fetch - processPackages [asdff]: Remove: archive file [/home/abi/fetcher/tmp/asdff-0.1.1.tar.gz]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [asdff]: Remove: archive file [/home/abi/fetcher/tmp/asdff-0.2.0.tar.gz]
+[2023-07-26 08:15:01] INFO root fetch - main [MainThread]: End processing [asdff]: success
+[2023-07-26 08:15:01] INFO root fetch - processPackages [cirq-core]: New version: [1.3.0.dev20230725201132] Old Version: [1.3.0.dev20230725194145]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.3.0.dev20230725194145-py3-none-any.whl.zip]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:15:01] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-07-26 08:15:01] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.3.0.dev20230725194145-py3-none-any.whl.zip]
+[2023-07-26 08:15:01] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:15:01] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-07-26 08:15:02] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/e2/5c/b543084433e7eb31c1df9d5079f10cca6471e612cd030054b67ea6b0edb1/cirq_core-1.3.0.dev20230725194145-py3-none-any.whl
+[2023-07-26 08:15:02] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.2.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.3.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-26 08:15:02] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b0/5e/6f2d40392e2c3ab43f3a86286fed30887f30eef199ef52b9d61f5e24329c/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:15:02] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.3.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.3.0.1.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-26 08:15:02] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-07-26 08:15:02] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.3.0.dev20230725194145-py3-none-any.whl.zip tmp/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl.zip --markdown 20230726/c/cirq-core/1.3.0.dev20230725194145-1.3.0.dev20230725201132/diff.md --exclude *.pyd
+[2023-07-26 08:15:02] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 08:15:02] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-07-26 08:15:02] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-07-26 08:15:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-26 08:15:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-26 08:15:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-26 08:15:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230724.tar.gz]
+[2023-07-26 08:15:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230725.tar.gz]
+[2023-07-26 08:15:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-26 08:15:08] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230725194145-py3-none-any.whl.zip]
+[2023-07-26 08:15:08] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:15:08] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-07-26 08:15:08] INFO root fetch - main [MainThread]: Store serial: [19039937]
