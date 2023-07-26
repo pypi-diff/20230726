@@ -20069,3 +20069,187 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:07:49] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.9.tar.gz]
 [2023-07-26 13:07:49] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
 [2023-07-26 13:07:49] INFO root fetch - main [MainThread]: Store serial: [19042727]
+[2023-07-26 13:12:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042727]
+[2023-07-26 13:12:57] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyFlyt
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systemdumpy-hilch
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aityz
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catchpoint-trace
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcentrapi
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catchpoint-trace
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mavisim
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: periflow-client
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osm-easy-api
+[2023-07-26 13:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gauth-python
+[2023-07-26 13:12:58] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111057] Old Version: [0.0.3b20230726111127]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111057] Old Version: [0.0.3b20230726111127]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [aityz]: New version: [1.0.2] Old Version: [1.0.1.1]
+[2023-07-26 13:12:58] WARNING root fetch - processPackages [systemdumpy-hilch]: Skipping, unable to determine old version
+[2023-07-26 13:12:58] INFO root fetch - processPackages [systemdumpy-hilch]: Start processing: monocleaner
+[2023-07-26 13:12:58] INFO root fetch - main [MainThread]: End processing [systemdumpy-hilch] error
+[2023-07-26 13:12:58] INFO root fetch - processPackages [periflow-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [gauth-python]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [mavisim]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [dcentrapi]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [monocleaner]: New version: [1.6] Old Version: [1.5]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [osm-easy-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-26 13:12:58] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/62/e7/d144b4aeefb2f722532b0eaa2cc7f41cbb344061b010f8f833ef7ba8e173/catchpoint-trace-0.0.3b20230726111127.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/c5/4e/3a9bc77079fe77be31b758310cfbe670abf986e67eaaa005cd3d32e64bb9/aityz-1.0.1.1.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/62/e7/d144b4aeefb2f722532b0eaa2cc7f41cbb344061b010f8f833ef7ba8e173/catchpoint-trace-0.0.3b20230726111127.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/1e/5d/2bcb6ba30d520c48997c6ed12660966e99d17d9b32a0d9fce71a75e99910/PyFlyt-0.8.4.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/8b/40/7b70d11e640c6ef6208ff05d1fcc1ccaf922f1fd71587d74dec9cd925d5b/periflow_client-0.1.2.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/8e/52/f1347cba956ce363c96e6d28a3d4e47166e7b9db5436bbe6591c906d0185/gauth_python-0.1.4.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/9d/5a/e0dbe7e6ff03853bc0e2145643cb31136d19ef2e12c315b298ce9e743185/mavisim-1.1.8.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/74/db/c071394b74efbaa576e39883061ffcc68c1767242124755d2da4c28d6325/dcentrapi-0.3.1.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/64/0f/20c02a572df1174ae1371abba518d1cd64b986519eb35108db34e8b5d404/monocleaner-1.5.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [osm-easy-api]: Downloading https://files.pythonhosted.org/packages/aa/64/2087c826461a6467f09815caa8f9633d7424502b5267c441888865662e79/osm_easy_api-1.0.1.tar.gz
+[2023-07-26 13:12:58] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/d7/17/ccd63820506602cd3436515b2f860e77b354015aaf0b256c7d2e3ea7bb27/aityz-1.0.2.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/70/b2/d07f7e060c87b83b7736ae447bc17a6c8ff5f249e69e00a6ba1244e8422e/catchpoint-trace-0.0.3rc20230726111057.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/70/b2/d07f7e060c87b83b7736ae447bc17a6c8ff5f249e69e00a6ba1244e8422e/catchpoint-trace-0.0.3rc20230726111057.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/24/17/69502b700e0f33d91e4270fe0d2a4f5bc3f90037b8eedda4784a65d3f26e/gauth_python-0.1.6.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [aityz]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [aityz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aityz-1.0.1.1.tar.gz tmp/aityz-1.0.2.tar.gz --markdown 20230726/a/aityz/1.0.1.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/0f/84/a2b5884f4310c0fd8600e85cacec6f14b84720feef53825516c751226140/dcentrapi-0.3.2.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/01/b6/d1787cf91babf57fbc330b363edb69365d24e8505f9c5d012afb6abecf62/PyFlyt-0.9.0.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/a7/24/68032a2ba3995f95aaf932a53f8dd85cefe8735bb2bb85cc7ab4020619bd/periflow_client-0.1.3.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/fa/1a/6083d193a61e74fb23f8c5eda765dd8b1f9acc6333e87b23faa729ff53b3/mavisim-1.1.9.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.4.tar.gz tmp/gauth_python-0.1.6.tar.gz --markdown 20230726/g/gauth-python/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/e3/db/e074c9f6638f590d0e7a5eea34611019755e8e8a126072e372f56e45baa0/monocleaner-1.6.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [osm-easy-api]: Downloading https://files.pythonhosted.org/packages/6e/a8/e42029f352516dea30270a6872d031312df15b2d88ab01428707e729ad73/osm_easy_api-1.0.2.tar.gz
+[2023-07-26 13:12:59] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.8.4.tar.gz tmp/PyFlyt-0.9.0.tar.gz --markdown 20230726/P/PyFlyt/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.3.1.tar.gz tmp/dcentrapi-0.3.2.tar.gz --markdown 20230726/d/dcentrapi/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [periflow-client]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [periflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow_client-0.1.2.tar.gz tmp/periflow_client-0.1.3.tar.gz --markdown 20230726/p/periflow-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3b20230726111127-0.0.3rc20230726111057/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3b20230726111127-0.0.3rc20230726111057/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [monocleaner]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [monocleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monocleaner-1.5.tar.gz tmp/monocleaner-1.6.tar.gz --markdown 20230726/m/monocleaner/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [osm-easy-api]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [osm-easy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm_easy_api-1.0.1.tar.gz tmp/osm_easy_api-1.0.2.tar.gz --markdown 20230726/o/osm-easy-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 13:12:59] INFO root fetch - processPackages [mavisim]: executing diffoscope
+[2023-07-26 13:12:59] INFO root fetch - processPackages [mavisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavisim-1.1.8.tar.gz tmp/mavisim-1.1.9.tar.gz --markdown 20230726/m/mavisim/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-26 13:13:00] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.1.1.tar.gz]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.2.tar.gz]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [aityz]: Start processing: Jord
+[2023-07-26 13:13:00] INFO root fetch - main [MainThread]: End processing [aityz]: success
+[2023-07-26 13:13:00] INFO root fetch - processPackages [Jord]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/89/53/2bbe6bf9b6d4284dd8693416a1b0be289392ba3e3b22c4c687f18420dac1/Jord-0.1.0.tar.gz
+[2023-07-26 13:13:00] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.4.tar.gz]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.6.tar.gz]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [gauth-python]: Start processing: certora-cli-alpha-master
+[2023-07-26 13:13:00] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 13:13:00] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.1.tar.gz]
+[2023-07-26 13:13:00] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.2.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [dcentrapi]: Start processing: jupyterlab-theme-onedark
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.5.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.6.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [monocleaner]: Start processing: c2cciutils
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [monocleaner]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230726.7.0.920346] Old Version: [20230726.11.10.800363]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 13:13:01] WARNING root fetch - processPackages [jupyterlab-theme-onedark]: Skipping, unable to determine old version
+[2023-07-26 13:13:01] INFO root fetch - processPackages [jupyterlab-theme-onedark]: Start processing: DynamicForms
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-theme-onedark] error
+[2023-07-26 13:13:01] INFO root fetch - processPackages [osm-easy-api]: Remove: archive file [/home/abi/fetcher/tmp/osm_easy_api-1.0.1.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [osm-easy-api]: Remove: archive file [/home/abi/fetcher/tmp/osm_easy_api-1.0.2.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [osm-easy-api]: Start processing: catchpoint-trace
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [osm-easy-api]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.8.4.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.0.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [PyFlyt]: Start processing: power-grid-model
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/7c/94/27b579f75f0aaae851af59d0be1103238b335fa089a7d1dcc71309957455/Jord-0.1.1.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111057] Old Version: [0.0.3b20230726111127]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/92/89/800b58ec84292bc65d7506ea5bc936a4f8818c813c9d4a905aaca213fb3a/certora-cli-alpha-master-20230726.11.10.800363.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.2.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.3.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [periflow-client]: Start processing: catchpoint-trace
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [periflow-client]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9230711980156] Old Version: [1.5.0rc9230001994068]
+[2023-07-26 13:13:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37691753>=10485760
+[2023-07-26 13:13:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: catchpoint-trace
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-26 13:13:01] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2023-07-26 13:13:01] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.1.0.tar.gz tmp/Jord-0.1.1.tar.gz --markdown 20230726/J/Jord/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111057] Old Version: [0.0.3b20230726111127]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.8.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.9.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [mavisim]: Start processing: aiohttp-deps
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [mavisim]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111057] Old Version: [0.0.3b20230726111127]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3b20230726111127-0.0.3rc20230726111057/diff.md --exclude *.pyd
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Start processing: datalayer
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/d1/ff/77aff48ea1e6809865b9905bf4d5e2d989e45723508160d0986148b2fc63/power-grid-model-1.5.0rc9230001994068.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [aiohttp-deps]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Start processing: craft2d
+[2023-07-26 13:13:01] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/62/e7/d144b4aeefb2f722532b0eaa2cc7f41cbb344061b010f8f833ef7ba8e173/catchpoint-trace-0.0.3b20230726111127.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [datalayer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/70/b2/d07f7e060c87b83b7736ae447bc17a6c8ff5f249e69e00a6ba1244e8422e/catchpoint-trace-0.0.3rc20230726111057.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [craft2d]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 13:13:01] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/29/f9/5d2cf39a8d5c81e26a5073e67819d38ed89473721610e22fab195e7348c4/aiohttp_deps-0.3.0.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [datalayer]: Downloading https://files.pythonhosted.org/packages/fb/e3/d96b405e0bc989ccb6fd201f2492661514240782a7a96fe221ebb8990500/datalayer-0.0.3.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 13:13:01] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 13:13:01] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/02/e8/f147262d299e9874284cbf8d4ef97b46c1eaf7c90ded4a1c445c84224507/craft2d-0.1.5.tar.gz
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3b20230726111127-0.0.3rc20230726111057/diff.md --exclude *.pyd
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:13:01] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3b20230726111127-0.0.3rc20230726111057/diff.md --exclude *.pyd
+[2023-07-26 13:13:02] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-07-26 13:13:02] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/6b/84/5d2bb0ae859a1de084a548606a9e8d440870ad5d9585f75a1360b1db7879/craft2d-0.1.6.tar.gz
+[2023-07-26 13:13:02] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/44/59/2a4958c4ab74778ff1522792eb9fa38655ef2a3506a5124b40337fc9b2e6/aiohttp_deps-0.3.1.tar.gz
+[2023-07-26 13:13:02] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/9b/58/d177573579f0d6731471d38a7b22c50999034f4efa2560dea0025aa2714c/power-grid-model-1.5.0rc9230711980156.tar.gz
+[2023-07-26 13:13:02] INFO root fetch - processPackages [datalayer]: Downloading https://files.pythonhosted.org/packages/1a/ed/873bc890d672e6dd131117490282a622a6944e37566411773474040741f2/datalayer-0.0.4.tar.gz
+[2023-07-26 13:13:02] INFO root fetch - processPackages [aiohttp-deps]: executing diffoscope
+[2023-07-26 13:13:02] INFO root fetch - processPackages [aiohttp-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_deps-0.3.0.tar.gz tmp/aiohttp_deps-0.3.1.tar.gz --markdown 20230726/a/aiohttp-deps/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 13:13:02] INFO root fetch - processPackages [datalayer]: executing diffoscope
+[2023-07-26 13:13:02] INFO root fetch - processPackages [datalayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalayer-0.0.3.tar.gz tmp/datalayer-0.0.4.tar.gz --markdown 20230726/d/datalayer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-26 13:13:02] INFO root fetch - processPackages [craft2d]: executing diffoscope
+[2023-07-26 13:13:02] INFO root fetch - processPackages [craft2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft2d-0.1.5.tar.gz tmp/craft2d-0.1.6.tar.gz --markdown 20230726/c/craft2d/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 13:13:02] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-26 13:13:02] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9230001994068.tar.gz tmp/power-grid-model-1.5.0rc9230711980156.tar.gz --markdown 20230726/p/power-grid-model/1.5.0rc9230001994068-1.5.0rc9230711980156/diff.md --exclude *.pyd
+[2023-07-26 13:13:02] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-07-26 13:13:02] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230726/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 13:13:03] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.0.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.1.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2023-07-26 13:13:03] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.3.0.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.3.1.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - main [MainThread]: End processing [aiohttp-deps]: success
+[2023-07-26 13:13:03] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3b20230726111127.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:13:03] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.5.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.6.tar.gz]
+[2023-07-26 13:13:03] INFO root fetch - main [MainThread]: End processing [craft2d]: success
+[2023-07-26 13:13:04] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:13:04] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:13:05] INFO root fetch - processPackages [datalayer]: Remove: archive file [/home/abi/fetcher/tmp/datalayer-0.0.3.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - processPackages [datalayer]: Remove: archive file [/home/abi/fetcher/tmp/datalayer-0.0.4.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - main [MainThread]: End processing [datalayer]: success
+[2023-07-26 13:13:05] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-07-26 13:13:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9230001994068.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9230711980156.tar.gz]
+[2023-07-26 13:13:05] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-26 13:13:06] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 13:13:06] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 13:13:06] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 13:13:06] INFO root fetch - main [MainThread]: Store serial: [19042815]
