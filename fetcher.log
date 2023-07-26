@@ -11512,3 +11512,36 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:35:33] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.7.0a1690344837.tar.gz]
 [2023-07-26 06:35:33] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2023-07-26 06:35:33] INFO root fetch - main [MainThread]: Store serial: [19039336]
+[2023-07-26 06:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039336]
+[2023-07-26 06:40:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 06:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-zerocap-client
+[2023-07-26 06:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyinit
+[2023-07-26 06:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pms
+[2023-07-26 06:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odtlearn
+[2023-07-26 06:40:43] INFO root fetch - processPackages [rest-zerocap-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 06:40:43] INFO root fetch - processPackages [lazyinit]: New version: [0.0.261] Old Version: [0.0.26]
+[2023-07-26 06:40:43] WARNING root fetch - processPackages [odtlearn]: Skipping, unable to determine old version
+[2023-07-26 06:40:43] INFO root fetch - main [MainThread]: End processing [odtlearn] error
+[2023-07-26 06:40:43] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-07-26 06:40:43] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/e9/0c/5ab7b35569df39f10ba7740cac9ae864ad5806745f6e0d4dabe40552584d/lazyinit-0.0.26.tar.gz
+[2023-07-26 06:40:43] INFO root fetch - processPackages [rest-zerocap-client]: Downloading https://files.pythonhosted.org/packages/d0/0b/96d1284890515f0cfb3aa19eac6bbce8b705e1e8b9269853fc1c64a5ee6b/rest_zerocap_client-0.0.2.tar.gz
+[2023-07-26 06:40:43] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2023-07-26 06:40:43] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/b7/fd/8735e3daf014d2b70a643cd848a20c210bdedf2b0ee72695ab71abe66a3b/lazyinit-0.0.261.tar.gz
+[2023-07-26 06:40:43] INFO root fetch - processPackages [rest-zerocap-client]: Downloading https://files.pythonhosted.org/packages/12/90/1ddc9ea8b6aa35d238a38028d4629f4ca64d773c80c6c6d967c3f00926ea/rest_zerocap_client-0.0.3.tar.gz
+[2023-07-26 06:40:43] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:40:43] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.26.tar.gz tmp/lazyinit-0.0.261.tar.gz --markdown 20230726/l/lazyinit/0.0.26-0.0.261/diff.md --exclude *.pyd
+[2023-07-26 06:40:43] INFO root fetch - processPackages [rest-zerocap-client]: executing diffoscope
+[2023-07-26 06:40:43] INFO root fetch - processPackages [rest-zerocap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_zerocap_client-0.0.2.tar.gz tmp/rest_zerocap_client-0.0.3.tar.gz --markdown 20230726/r/rest-zerocap-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 06:40:43] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2023-07-26 06:40:44] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-07-26 06:40:44] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-07-26 06:40:44] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.26.tar.gz]
+[2023-07-26 06:40:44] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.261.tar.gz]
+[2023-07-26 06:40:44] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:40:44] INFO root fetch - processPackages [rest-zerocap-client]: Remove: archive file [/home/abi/fetcher/tmp/rest_zerocap_client-0.0.2.tar.gz]
+[2023-07-26 06:40:44] INFO root fetch - processPackages [rest-zerocap-client]: Remove: archive file [/home/abi/fetcher/tmp/rest_zerocap_client-0.0.3.tar.gz]
+[2023-07-26 06:40:44] INFO root fetch - main [MainThread]: End processing [rest-zerocap-client]: success
+[2023-07-26 06:40:45] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2023-07-26 06:40:45] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-07-26 06:40:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-07-26 06:40:45] INFO root fetch - main [MainThread]: Store serial: [19039349]
