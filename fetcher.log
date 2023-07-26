@@ -16002,3 +16002,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:12:53] INFO root fetch - processPackages [rethinkdb-mock]: Remove: archive file [/home/abi/fetcher/tmp/rethinkdb_mock-0.9.9.tar.gz]
 [2023-07-26 10:12:53] INFO root fetch - main [MainThread]: End processing [rethinkdb-mock]: success
 [2023-07-26 10:12:53] INFO root fetch - main [MainThread]: Store serial: [19041092]
+[2023-07-26 10:17:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041092]
+[2023-07-26 10:18:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-github
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picard
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adb-enhanced
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-sinli
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zlgsendcan
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gopro-overlay
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connect-openapi-client
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: navalmartin-mir-aws-utils
+[2023-07-26 10:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ShanHeuniversity
+[2023-07-26 10:18:02] WARNING root fetch - processPackages [odoo13-addon-sinli]: Skipping, unable to determine old version
+[2023-07-26 10:18:02] INFO root fetch - processPackages [odoo13-addon-sinli]: Start processing: kcai-bentoml
+[2023-07-26 10:18:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sinli] error
+[2023-07-26 10:18:02] INFO root fetch - processPackages [gopro-overlay]: New version: [0.98.0] Old Version: [0.97.0]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [invenio-github]: New version: [1.0.1] Old Version: [1.0.0b7]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [picard]: New version: [2.9.0b3] Old Version: [2.9.0b2]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [zlgsendcan]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 10:18:02] WARNING root fetch - processPackages [ShanHeuniversity]: Skipping, unable to determine old version
+[2023-07-26 10:18:02] INFO root fetch - main [MainThread]: End processing [ShanHeuniversity] error
+[2023-07-26 10:18:02] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.31]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [adb-enhanced]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [connect-openapi-client]: New version: [28.0] Old Version: [25.9]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [kcai-bentoml]: New version: [1.0.22.post3] Old Version: [1.0.22.post2]
+[2023-07-26 10:18:02] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/70/24/8e400b5bca10475a3c991ee3bba3a8dbb0765f106cf993113f280ac1b8ee/zlgsendcan-1.0.8.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [kcai-bentoml]: Downloading https://files.pythonhosted.org/packages/fc/37/1246e954a589d48cd0c1714464f569652abe276cdb84624503609f457d53/kcai-bentoml-1.0.22.post2.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/3d/8e/95fb3ebd84b9b789f01028b2a2ba579e7863ee74715b901535646df8d027/invenio-github-1.0.0b7.tar.gz
+[2023-07-26 10:18:02] WARNING root fetch - processPackages [kcai-bentoml]: Skipping package: exceeds size limit 19845380>=10485760
+[2023-07-26 10:18:02] INFO root fetch - main [MainThread]: End processing [kcai-bentoml] error
+[2023-07-26 10:18:02] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/e4/cc/69718fe9947a35673d5ba8eef08edc8d079ee5aa41e245ada6d4961be9ce/navalmartin_mir_aws_utils-0.0.31.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/f4/ed/2f0c1ccd392cc81133edfeff7cc7d37b8b26fc8e0c0684699dc5c24fe61d/gopro-overlay-0.97.0.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/8a/fc/459ee5fecac8e5b8dcbba7ff164cb0c51acca6a9165d945e074f2dfba9a0/picard-2.9.0b2.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [adb-enhanced]: Downloading https://files.pythonhosted.org/packages/66/96/61eb70ea1d11a9171a47d8d36796eaedc5fb10fea509b9e3853f4408b9a1/adb-enhanced-2.5.8.tar.gz
+[2023-07-26 10:18:02] INFO root fetch - processPackages [connect-openapi-client]: Downloading https://files.pythonhosted.org/packages/65/05/5b581c239e0a274df0b357b6fde2c07de077b44c45a16b2383901bb29bc1/connect-openapi-client-25.9.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230726] Old Version: [2.14.0.dev20230725]
+[2023-07-26 10:18:03] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/1d/ac/069ff2cd0f296907d6e21665e3d05c7c2864b152665b76cc6e7f9151bca8/zlgsendcan-1.0.9.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-07-26 10:18:03] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.31.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230726/n/navalmartin-mir-aws-utils/0.0.31-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:18:03] INFO root fetch - processPackages [connect-openapi-client]: Downloading https://files.pythonhosted.org/packages/21/cd/59cb2c4b5d829b48bbc48ae25953a3172aad6b882f895311f9fedb517546/connect_openapi_client-28.0.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/51/37/34f2912a0546fbced0caaaa4d6f37700ac992e6e03131c5d9cc56f871c26/invenio-github-1.0.1.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/af/48/2d84816c2a47b15d28669fb9964b5de805a7e83f7a98f1fca6cefbbe5738/tf_nightly-2.14.0.dev20230725-cp39-cp39-win_amd64.whl
+[2023-07-26 10:18:03] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-26 10:18:03] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.0.8.tar.gz tmp/zlgsendcan-1.0.9.tar.gz --markdown 20230726/z/zlgsendcan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:18:03] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/92/3d/ae0a217ac566717cf61951a5d2dfb9e41f722ecfda7d22f6e6256a086202/gopro-overlay-0.98.0.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [connect-openapi-client]: executing diffoscope
+[2023-07-26 10:18:03] INFO root fetch - processPackages [connect-openapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-openapi-client-25.9.tar.gz tmp/connect_openapi_client-28.0.tar.gz --markdown 20230726/c/connect-openapi-client/25.9-28.0/diff.md --exclude *.pyd
+[2023-07-26 10:18:03] INFO root fetch - processPackages [invenio-github]: executing diffoscope
+[2023-07-26 10:18:03] INFO root fetch - processPackages [invenio-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-github-1.0.0b7.tar.gz tmp/invenio-github-1.0.1.tar.gz --markdown 20230726/i/invenio-github/1.0.0b7-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 10:18:03] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/7d/d9/ed6acc3186d1398cde6942f5cde42323fdf9f7ea6e4f11d081250ff90273/tf_nightly-2.14.0.dev20230726-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 10:18:03] INFO root fetch - processPackages [adb-enhanced]: Downloading https://files.pythonhosted.org/packages/3f/f8/923f303e71299b7de66680c9bc6f630793c4a4a05fb23f6dd65787981b42/adb-enhanced-2.5.9.tar.gz
+[2023-07-26 10:18:03] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-07-26 10:18:03] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.97.0.tar.gz tmp/gopro-overlay-0.98.0.tar.gz --markdown 20230726/g/gopro-overlay/0.97.0-0.98.0/diff.md --exclude *.pyd
+[2023-07-26 10:18:03] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486810010>=10485760
+[2023-07-26 10:18:03] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-26 10:18:04] INFO root fetch - processPackages [adb-enhanced]: executing diffoscope
+[2023-07-26 10:18:04] INFO root fetch - processPackages [adb-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb-enhanced-2.5.8.tar.gz tmp/adb-enhanced-2.5.9.tar.gz --markdown 20230726/a/adb-enhanced/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-26 10:18:04] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.8.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.0.9.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-26 10:18:04] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/76/2a/9948fb6b329fd7957d0d3039ceadd601e6794a3064017e84514548e009ad/picard-2.9.0b3.tar.gz
+[2023-07-26 10:18:04] INFO root fetch - processPackages [connect-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/connect-openapi-client-25.9.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - processPackages [connect-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/connect_openapi_client-28.0.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - main [MainThread]: End processing [connect-openapi-client]: success
+[2023-07-26 10:18:04] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.31.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-07-26 10:18:04] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b7.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.1.tar.gz]
+[2023-07-26 10:18:04] INFO root fetch - main [MainThread]: End processing [invenio-github]: success
+[2023-07-26 10:18:05] INFO root fetch - processPackages [gopro-overlay]: Remove: archive file [/home/abi/fetcher/tmp/gopro-overlay-0.97.0.tar.gz]
+[2023-07-26 10:18:05] INFO root fetch - processPackages [gopro-overlay]: Remove: archive file [/home/abi/fetcher/tmp/gopro-overlay-0.98.0.tar.gz]
+[2023-07-26 10:18:05] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-07-26 10:18:05] INFO root fetch - processPackages [picard]: executing diffoscope
+[2023-07-26 10:18:05] INFO root fetch - processPackages [picard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picard-2.9.0b2.tar.gz tmp/picard-2.9.0b3.tar.gz --markdown 20230726/p/picard/2.9.0b2-2.9.0b3/diff.md --exclude *.pyd
+[2023-07-26 10:18:05] INFO root fetch - processPackages [adb-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/adb-enhanced-2.5.8.tar.gz]
+[2023-07-26 10:18:05] INFO root fetch - processPackages [adb-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/adb-enhanced-2.5.9.tar.gz]
+[2023-07-26 10:18:05] INFO root fetch - main [MainThread]: End processing [adb-enhanced]: success
+[2023-07-26 10:18:14] INFO root fetch - processPackages [picard]: Remove: archive file [/home/abi/fetcher/tmp/picard-2.9.0b2.tar.gz]
+[2023-07-26 10:18:14] INFO root fetch - processPackages [picard]: Remove: archive file [/home/abi/fetcher/tmp/picard-2.9.0b3.tar.gz]
+[2023-07-26 10:18:14] INFO root fetch - main [MainThread]: End processing [picard]: success
+[2023-07-26 10:18:14] INFO root fetch - main [MainThread]: Store serial: [19041137]
