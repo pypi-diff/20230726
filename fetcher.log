@@ -20786,3 +20786,188 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:34:31] INFO root fetch - processPackages [thapbi-pict]: Remove: archive file [/home/abi/fetcher/tmp/thapbi_pict-1.0.1.tar.gz]
 [2023-07-26 13:34:31] INFO root fetch - main [MainThread]: End processing [thapbi-pict]: success
 [2023-07-26 13:34:31] INFO root fetch - main [MainThread]: Store serial: [19043011]
+[2023-07-26 13:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043011]
+[2023-07-26 13:39:40] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anki
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyneople
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqt
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coretex
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-pydash
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyre-check-nightly
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu118
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mask2bbox
+[2023-07-26 13:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Data-Preprocessing-analytics4all4ever
+[2023-07-26 13:39:40] INFO root fetch - processPackages [simple-pydash]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-26 13:39:40] INFO root fetch - processPackages [pyneople]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 13:39:40] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-26 13:39:40] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 13:39:40] WARNING root fetch - processPackages [Data-Preprocessing-analytics4all4ever]: Skipping, unable to determine old version
+[2023-07-26 13:39:40] INFO root fetch - processPackages [Data-Preprocessing-analytics4all4ever]: Start processing: nvfuser-cu117
+[2023-07-26 13:39:40] INFO root fetch - main [MainThread]: End processing [Data-Preprocessing-analytics4all4ever] error
+[2023-07-26 13:39:40] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-26 13:39:40] INFO root fetch - processPackages [mask2bbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 13:39:41] INFO root fetch - processPackages [aqt]: New version: [2.1.66b1] Old Version: [2.1.65]
+[2023-07-26 13:39:41] INFO root fetch - processPackages [anki]: New version: [2.1.66b1] Old Version: [2.1.65]
+[2023-07-26 13:39:41] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-26 13:39:41] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690369866] Old Version: [0.0.101690283451]
+[2023-07-26 13:39:41] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/1e/e3/e384360e938e451cae7b3fdd49ff0d10ab16e8854bc78c5f55203966c3f4/simple_pydash-0.3.1.tar.gz
+[2023-07-26 13:39:41] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/52/60/7964ec8ff64f9e0b45f64bf9fea56542dc25af8b73fe43104a72f1c9c899/pyneople-0.0.4.tar.gz
+[2023-07-26 13:39:41] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:41] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:41] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-07-26 13:39:41] INFO root fetch - processPackages [anki]: Downloading https://files.pythonhosted.org/packages/6b/e1/db089315ba72fd1123167749c2d92f9b6a7c8aad51d4ffe06eca577c87c3/anki-2.1.65-cp39-abi3-win_amd64.whl
+[2023-07-26 13:39:41] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/82/9e/f07a219db472d395645653aa85ddadb05e4e115aed6cb8687b07ab502d44/aqt-2.1.65-py3-none-any.whl
+[2023-07-26 13:39:41] INFO root fetch - processPackages [mask2bbox]: Downloading https://files.pythonhosted.org/packages/53/42/12625c0311afeb0828f7eac8841eea406e934647d5620b9fdad701da0b07/mask2bbox-0.0.8.tar.gz
+[2023-07-26 13:39:41] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:41] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/df/18/3e391b5e438eebc3bb46ebe21db9b1599b2f3ee3174e2fafb5709fbb8cd7/pyre-check-nightly-0.0.101690283451.tar.gz
+[2023-07-26 13:39:43] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23771090>=10485760
+[2023-07-26 13:39:43] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: pulumi-opnsense
+[2023-07-26 13:39:43] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-26 13:39:43] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 13:39:43] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/0f/ff/10f94f43f6d0622026059ab39abd6c2328ce38332ab43e0982ab1a989804/simple_pydash-0.3.2.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/eb/eb/11e23499805b6a859324a41360e7baf38641c12afc256ef5164ac39b3e28/pyneople-0.0.5.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.3.1.tar.gz tmp/simple_pydash-0.3.2.tar.gz --markdown 20230726/s/simple-pydash/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [mask2bbox]: Downloading https://files.pythonhosted.org/packages/86/c3/3fa149c537e3d7e823f5a3c230b705abb99adb5bb10efb4253d89a140ff0/mask2bbox-0.0.9.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.0.4.tar.gz tmp/pyneople-0.0.5.tar.gz --markdown 20230726/p/pyneople/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230726/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:44] INFO root fetch - processPackages [mask2bbox]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [mask2bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask2bbox-0.0.8.tar.gz tmp/mask2bbox-0.0.9.tar.gz --markdown 20230726/m/mask2bbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:44] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/4e/da/998ae9ee8fcaebb830da41c411cbac3d5a1bef887dfd1aeb22b71482300d/aqt-2.1.66b1-py3-none-any.whl
+[2023-07-26 13:39:44] INFO root fetch - processPackages [anki]: Downloading https://files.pythonhosted.org/packages/c2/c7/7450d5ccfafd4fae3ef4f3942dc38394cd95b9f4b987385c2be16639f0df/anki-2.1.66b1-cp39-abi3-win_amd64.whl
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230726/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [anki]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [anki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anki-2.1.65-cp39-abi3-win_amd64.whl.zip tmp/anki-2.1.66b1-cp39-abi3-win_amd64.whl.zip --markdown 20230726/a/anki/2.1.65-2.1.66b1/diff.md --exclude *.pyd
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-26 13:39:44] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230726/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-26 13:39:45] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2023-07-26 13:39:45] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-2.1.65-py3-none-any.whl.zip tmp/aqt-2.1.66b1-py3-none-any.whl.zip --markdown 20230726/a/aqt/2.1.65-2.1.66b1/diff.md --exclude *.pyd
+[2023-07-26 13:39:45] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.1.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.2.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [simple-pydash]: Start processing: finterion-investing-algorithm-framework
+[2023-07-26 13:39:45] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:39:45] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.4.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.5.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pyneople]: Start processing: devchat-ask
+[2023-07-26 13:39:45] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2023-07-26 13:39:45] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/97/63/698514cd76eb7f192fc8988df2ffc51a5e6e7561ecbb47b0fb1b6451efa9/finterion_investing_algorithm_framework-0.5-py3-none-any.whl
+[2023-07-26 13:39:45] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-26 13:39:45] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230726/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-26 13:39:45] INFO root fetch - processPackages [devchat-ask]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [mask2bbox]: Remove: archive file [/home/abi/fetcher/tmp/mask2bbox-0.0.8.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [mask2bbox]: Remove: archive file [/home/abi/fetcher/tmp/mask2bbox-0.0.9.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [mask2bbox]: Start processing: qsipy
+[2023-07-26 13:39:45] INFO root fetch - main [MainThread]: End processing [mask2bbox]: success
+[2023-07-26 13:39:45] INFO root fetch - processPackages [qsipy]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [qsipy]: Downloading https://files.pythonhosted.org/packages/e2/51/ea07a04cd8acb06f4bdfa2d35798149793de2367276d311111318941e11d/qsipy-0.1.1.tar.gz
+[2023-07-26 13:39:45] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/e4/35/de30cfb20193c3b044143849b4b68cfe4f1adaefc60aa1975d06bac02a80/devchat_ask-0.0.4-py3-none-any.whl
+[2023-07-26 13:39:45] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/35/4b/95dc9d6b02a0043ce1c48adc19e76b991f9825889c6e8d32a6947e84aed3/finterion_investing_algorithm_framework-0.5.1-py3-none-any.whl
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: systemdumpy
+[2023-07-26 13:39:45] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 13:39:45] INFO root fetch - processPackages [systemdumpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-26 13:39:45] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-07-26 13:39:45] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.5-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.5.1-py3-none-any.whl.zip --markdown 20230726/f/finterion-investing-algorithm-framework/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-26 13:39:46] INFO root fetch - processPackages [qsipy]: Downloading https://files.pythonhosted.org/packages/db/7f/afbe9c9fb705dde238f61ee848c7a77d744fe6c6b75a00b6a6669985397e/qsipy-1.0.0.tar.gz
+[2023-07-26 13:39:46] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/ac/1e/85bd90f0ad7cda95e1af0236d66b85e9ab9cd9c15a49d367c2b62c6e20bc/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl
+[2023-07-26 13:39:46] INFO root fetch - processPackages [systemdumpy]: Downloading https://files.pythonhosted.org/packages/e3/8f/2d33cfa4d59cba6cbc36e88534ddd9debd12fc7b03ab08836db1cc2a5715/systemdumpy-1.0.1.tar.gz
+[2023-07-26 13:39:46] INFO root fetch - processPackages [qsipy]: executing diffoscope
+[2023-07-26 13:39:46] INFO root fetch - processPackages [qsipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsipy-0.1.1.tar.gz tmp/qsipy-1.0.0.tar.gz --markdown 20230726/q/qsipy/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-26 13:39:46] INFO root fetch - processPackages [systemdumpy]: Downloading https://files.pythonhosted.org/packages/77/c3/e19c41d650e4c30d16b7c067df20bb711ad5d5d43afb6559d76e33274b07/systemdumpy-1.0.2.tar.gz
+[2023-07-26 13:39:46] INFO root fetch - processPackages [devchat-ask]: executing diffoscope
+[2023-07-26 13:39:46] INFO root fetch - processPackages [devchat-ask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat_ask-0.0.4-py3-none-any.whl.zip tmp/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl.zip --markdown 20230726/d/devchat-ask/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 13:39:46] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-07-26 13:39:46] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-07-26 13:39:46] INFO root fetch - processPackages [coretex]: Start processing: assisted-service-client
+[2023-07-26 13:39:46] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-07-26 13:39:46] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-26 13:39:46] INFO root fetch - processPackages [systemdumpy]: executing diffoscope
+[2023-07-26 13:39:46] INFO root fetch - processPackages [systemdumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemdumpy-1.0.1.tar.gz tmp/systemdumpy-1.0.2.tar.gz --markdown 20230726/s/systemdumpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 13:39:46] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu117]: Start processing: simple-pydash
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-26 13:39:47] INFO root fetch - processPackages [simple-pydash]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/0f/ff/10f94f43f6d0622026059ab39abd6c2328ce38332ab43e0982ab1a989804/simple_pydash-0.3.2.tar.gz
+[2023-07-26 13:39:47] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-26 13:39:47] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.5-py3-none-any.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.5.1-py3-none-any.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Start processing: gaohn-common-utils
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: pymeili
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-26 13:39:47] INFO root fetch - processPackages [anki]: Remove: archive file [/home/abi/fetcher/tmp/anki-2.1.65-cp39-abi3-win_amd64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [anki]: Remove: archive file [/home/abi/fetcher/tmp/anki-2.1.66b1-cp39-abi3-win_amd64.whl.zip]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [pymeili]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [anki]: Start processing: talkytrend
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [anki]: success
+[2023-07-26 13:39:47] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/9c/0b/11d7ca37eada5326920e854afcc827b14f6404a71217d1714d72cc511914/pymeili-0.1.0.tar.gz
+[2023-07-26 13:39:47] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-26 13:39:47] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230726/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-26 13:39:47] INFO root fetch - processPackages [qsipy]: Remove: archive file [/home/abi/fetcher/tmp/qsipy-0.1.1.tar.gz]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [qsipy]: Remove: archive file [/home/abi/fetcher/tmp/qsipy-1.0.0.tar.gz]
+[2023-07-26 13:39:47] INFO root fetch - processPackages [qsipy]: Start processing: x13-rs-py
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [qsipy]: success
+[2023-07-26 13:39:47] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/6f/99/131e69a50456458de5a10a58459575827351dd40c5c6c6de08b15ad6482f/simple_pydash-0.3.3.tar.gz
+[2023-07-26 13:39:47] WARNING root fetch - processPackages [x13-rs-py]: Skipping, unable to determine old version
+[2023-07-26 13:39:47] INFO root fetch - main [MainThread]: End processing [x13-rs-py] error
+[2023-07-26 13:39:48] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:48] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-26 13:39:48] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-26 13:39:48] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/14/8a/bb92064e15ab57af879a44692a0004744d6469b5ee06852eba8f1a5fe235/gaohn-common-utils-0.0.95.tar.gz
+[2023-07-26 13:39:48] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-07-26 13:39:48] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/70/e2/8d8312eb8f7f72ddd1a817b6bfbb1ce27200b5025186c96d9044fac5e04f/pymeili-0.1.1.tar.gz
+[2023-07-26 13:39:48] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:39:48] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.3.2.tar.gz tmp/simple_pydash-0.3.3.tar.gz --markdown 20230726/s/simple-pydash/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-26 13:39:48] INFO root fetch - processPackages [pymeili]: executing diffoscope
+[2023-07-26 13:39:48] INFO root fetch - processPackages [pymeili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeili-0.1.0.tar.gz tmp/pymeili-0.1.1.tar.gz --markdown 20230726/p/pymeili/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:39:48] INFO root fetch - processPackages [systemdumpy]: Remove: archive file [/home/abi/fetcher/tmp/systemdumpy-1.0.1.tar.gz]
+[2023-07-26 13:39:48] INFO root fetch - processPackages [systemdumpy]: Remove: archive file [/home/abi/fetcher/tmp/systemdumpy-1.0.2.tar.gz]
+[2023-07-26 13:39:48] INFO root fetch - main [MainThread]: End processing [systemdumpy]: success
+[2023-07-26 13:39:48] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/4d/26/515137ee67c6b1578b567cc90986ad73065f15c8ee3eb523f9cd2ba90ca8/gaohn-common-utils-0.0.96.tar.gz
+[2023-07-26 13:39:48] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.4-py3-none-any.whl.zip]
+[2023-07-26 13:39:48] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.5-cp311-cp311-macosx_12_0_x86_64.whl.zip]
+[2023-07-26 13:39:48] INFO root fetch - main [MainThread]: End processing [devchat-ask]: success
+[2023-07-26 13:39:48] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-07-26 13:39:48] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-26 13:39:48] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.95.tar.gz tmp/gaohn-common-utils-0.0.96.tar.gz --markdown 20230726/g/gaohn-common-utils/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-07-26 13:39:48] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-26 13:39:48] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230726/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-26 13:39:49] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.2.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.3.3.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:39:49] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.0.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.1.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - main [MainThread]: End processing [pymeili]: success
+[2023-07-26 13:39:49] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-26 13:39:49] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.95.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.96.tar.gz]
+[2023-07-26 13:39:49] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-26 13:39:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-26 13:39:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-26 13:39:50] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-26 13:41:20] INFO root fetch - processPackages [aqt]: Remove: archive file [/home/abi/fetcher/tmp/aqt-2.1.65-py3-none-any.whl.zip]
+[2023-07-26 13:41:20] INFO root fetch - processPackages [aqt]: Remove: archive file [/home/abi/fetcher/tmp/aqt-2.1.66b1-py3-none-any.whl.zip]
+[2023-07-26 13:41:20] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2023-07-26 13:41:20] INFO root fetch - main [MainThread]: Store serial: [19043075]
