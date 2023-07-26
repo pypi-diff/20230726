@@ -19775,3 +19775,57 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:52:07] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
 [2023-07-26 12:52:07] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-07-26 12:52:07] INFO root fetch - main [MainThread]: Store serial: [19042617]
+[2023-07-26 12:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042617]
+[2023-07-26 12:57:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voyagerpy
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aityz
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geosss
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mariqt-widgets
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NodeGraphQt
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyZeta
+[2023-07-26 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aityz
+[2023-07-26 12:57:17] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-26 12:57:17] WARNING root fetch - processPackages [aityz]: Skipping, unable to determine old version
+[2023-07-26 12:57:17] INFO root fetch - main [MainThread]: End processing [aityz] error
+[2023-07-26 12:57:17] INFO root fetch - processPackages [PyZeta]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 12:57:17] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-26 12:57:17] INFO root fetch - processPackages [geosss]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 12:57:17] INFO root fetch - processPackages [voyagerpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 12:57:17] WARNING root fetch - processPackages [aityz]: Skipping, unable to determine old version
+[2023-07-26 12:57:17] INFO root fetch - main [MainThread]: End processing [aityz] error
+[2023-07-26 12:57:17] INFO root fetch - processPackages [geosss]: Downloading https://files.pythonhosted.org/packages/b2/51/e36fa4d0912b14b7d69f80b15cb2dfb61fd5297dd8072660f172b5338e71/geosss-0.1.4.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/c8/2b/b3c5051a7872560e7012f46ed5fb5a29b6b28a6d075ad67b129531862fe5/mariqt_widgets-0.3.1-py2.py3-none-any.whl
+[2023-07-26 12:57:18] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [PyZeta]: Downloading https://files.pythonhosted.org/packages/0a/60/89d8e2532b45accdcf69b349c77b9bb1641ffd5cc494fb1e3bf202706b80/PyZeta-0.0.1.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [voyagerpy]: Downloading https://files.pythonhosted.org/packages/26/fa/2b64ea96df6ba64b9404d105d41b681ce5d1e522c5aa9f5bb0a11d948aec/voyagerpy-0.1.0.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [geosss]: Downloading https://files.pythonhosted.org/packages/89/a1/65f6bc98e89d76a230dfb99582f10cd234ecfce0787afb49edf074513549/geosss-0.1.5.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [geosss]: executing diffoscope
+[2023-07-26 12:57:18] INFO root fetch - processPackages [geosss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geosss-0.1.4.tar.gz tmp/geosss-0.1.5.tar.gz --markdown 20230726/g/geosss/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-26 12:57:18] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/f4/92/4748f1d9581c8eb634e754d3b22259e5511402f0a7e4e925bce33555dae3/mariqt_widgets-0.3.3-py2.py3-none-any.whl
+[2023-07-26 12:57:18] INFO root fetch - processPackages [PyZeta]: Downloading https://files.pythonhosted.org/packages/b0/0d/870b1e6d97aa35e07a90680f3e6c738bb97a191a018a1cd85541ab423bfa/PyZeta-0.0.2.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2023-07-26 12:57:18] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.3.1-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.3.3-py2.py3-none-any.whl.zip --markdown 20230726/m/mariqt-widgets/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-26 12:57:18] INFO root fetch - processPackages [voyagerpy]: Downloading https://files.pythonhosted.org/packages/f7/e8/b0453e7aabffca9bc77e8a027c7f2268b716b3f736af7c3c9e37c0dd1999/voyagerpy-0.1.1.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [PyZeta]: executing diffoscope
+[2023-07-26 12:57:18] INFO root fetch - processPackages [PyZeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyZeta-0.0.1.tar.gz tmp/PyZeta-0.0.2.tar.gz --markdown 20230726/P/PyZeta/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 12:57:18] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/a3/f2/b8c7d17e13327bb0d735dbec6846a6b32ccbd207306ff420c7c93c99d52e/NodeGraphQt-0.6.9.tar.gz
+[2023-07-26 12:57:18] INFO root fetch - processPackages [voyagerpy]: executing diffoscope
+[2023-07-26 12:57:18] INFO root fetch - processPackages [voyagerpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voyagerpy-0.1.0.tar.gz tmp/voyagerpy-0.1.1.tar.gz --markdown 20230726/v/voyagerpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 12:57:18] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-07-26 12:57:18] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.8.tar.gz tmp/NodeGraphQt-0.6.9.tar.gz --markdown 20230726/N/NodeGraphQt/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-26 12:57:19] INFO root fetch - processPackages [geosss]: Remove: archive file [/home/abi/fetcher/tmp/geosss-0.1.4.tar.gz]
+[2023-07-26 12:57:19] INFO root fetch - processPackages [geosss]: Remove: archive file [/home/abi/fetcher/tmp/geosss-0.1.5.tar.gz]
+[2023-07-26 12:57:19] INFO root fetch - main [MainThread]: End processing [geosss]: success
+[2023-07-26 12:57:19] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-26 12:57:19] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.3-py2.py3-none-any.whl.zip]
+[2023-07-26 12:57:19] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2023-07-26 12:57:19] INFO root fetch - processPackages [voyagerpy]: Remove: archive file [/home/abi/fetcher/tmp/voyagerpy-0.1.0.tar.gz]
+[2023-07-26 12:57:19] INFO root fetch - processPackages [voyagerpy]: Remove: archive file [/home/abi/fetcher/tmp/voyagerpy-0.1.1.tar.gz]
+[2023-07-26 12:57:19] INFO root fetch - main [MainThread]: End processing [voyagerpy]: success
+[2023-07-26 12:57:19] INFO root fetch - processPackages [PyZeta]: Remove: archive file [/home/abi/fetcher/tmp/PyZeta-0.0.1.tar.gz]
+[2023-07-26 12:57:20] INFO root fetch - processPackages [PyZeta]: Remove: archive file [/home/abi/fetcher/tmp/PyZeta-0.0.2.tar.gz]
+[2023-07-26 12:57:20] INFO root fetch - main [MainThread]: End processing [PyZeta]: success
+[2023-07-26 12:57:20] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-07-26 12:57:20] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
+[2023-07-26 12:57:20] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-07-26 12:57:20] INFO root fetch - main [MainThread]: Store serial: [19042644]
