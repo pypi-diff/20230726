@@ -14140,3 +14140,102 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:53:39] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
 [2023-07-26 08:53:39] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2023-07-26 08:53:39] INFO root fetch - main [MainThread]: Store serial: [19040272]
+[2023-07-26 08:58:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040272]
+[2023-07-26 08:58:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airtouch5py
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcmd
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aloso
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyinit
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-request-analytic
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snusbase.py
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-pilot
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsmlibrary
+[2023-07-26 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qwak-core
+[2023-07-26 08:58:48] INFO root fetch - processPackages [data-pilot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [airtouch5py]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [lazyinit]: New version: [0.0.264] Old Version: [0.0.263]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [snusbase.py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [dsmlibrary]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:58:48] WARNING root fetch - processPackages [odoo-addon-purchase-request-analytic]: Skipping, unable to determine old version
+[2023-07-26 08:58:48] INFO root fetch - processPackages [odoo-addon-purchase-request-analytic]: Start processing: bcedit-madeby-train
+[2023-07-26 08:58:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request-analytic] error
+[2023-07-26 08:58:48] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/b8/e5/452f28c916727e31fd7c91aa70625ff79011ae5e0691e142076deac09cde/lazyinit-0.0.263.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/d2/30/5644a428ef4475a3ba0429c294103a748676ad7e3ddcd4464b27aec271b0/snusbase.py-1.0.0.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [bcedit-madeby-train]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 08:58:48] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-26 08:58:48] INFO root fetch - processPackages [data-pilot]: Downloading https://files.pythonhosted.org/packages/00/d4/d6d12f328d8df96633b4a815bc6b2395183e0ae06cd9159389018ab4cf06/data_pilot-0.0.1.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/2d/b4/349cf477597e3246da2fb92f755eb53a5ddc72efc5b55c4bab6643f00126/dsmlibrary-1.0.8.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/2f/4e/1fffcfbb6b80c5ef449e3d62c70d2bfe21784e36a2eed954efb9dd3def3d/airtouch5py-0.2.2.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/60/b0/09c4ec1b06550d9b399073da915f7c54696e8d843c1bfb2e6259b260a1a4/bcedit_madeby_train-0.0.6.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 08:58:48] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-26 08:58:48] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/6f/fb/eaeb2e73b4e34794d3d9402a8afc22746e1fec017fa0b44f0e4c31651b45/lazyinit-0.0.264.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/ec/cf/c098e2830a1e8ab3d1927b97536b48321f768367acf13b0d4937d100bb51/snusbase.py-1.0.1.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [data-pilot]: Downloading https://files.pythonhosted.org/packages/21/3a/7d912b4fb2a845a1b6324aa8ef8aebd32173c21ce5ecaeb56f365866623e/data_pilot-0.0.2.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/ed/23/d6cbe9327efae7ae1dafacdb28e18d81997710955a400062b14e2fda06e5/airtouch5py-0.2.3.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/ea/3e/efd41c6216445e1e6c4a3c6894202966ae2c647e1015bdb63493c543a500/dsmlibrary-1.0.9.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230726/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [snusbase.py]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [snusbase.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snusbase.py-1.0.0.tar.gz tmp/snusbase.py-1.0.1.tar.gz --markdown 20230726/s/snusbase.py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [data-pilot]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [data-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pilot-0.0.1.tar.gz tmp/data_pilot-0.0.2.tar.gz --markdown 20230726/d/data-pilot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.263.tar.gz tmp/lazyinit-0.0.264.tar.gz --markdown 20230726/l/lazyinit/0.0.263-0.0.264/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [airtouch5py]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [airtouch5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch5py-0.2.2.tar.gz tmp/airtouch5py-0.2.3.tar.gz --markdown 20230726/a/airtouch5py/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230726/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/d3/42/6b4b79e104f70e035f42b4c97527a147b9cd6d3fd38287c044031613c112/bcedit_madeby_train-0.0.7.tar.gz
+[2023-07-26 08:58:49] INFO root fetch - processPackages [dsmlibrary]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [dsmlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary-1.0.8.tar.gz tmp/dsmlibrary-1.0.9.tar.gz --markdown 20230726/d/dsmlibrary/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230726/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:58:49] INFO root fetch - processPackages [bcedit-madeby-train]: executing diffoscope
+[2023-07-26 08:58:49] INFO root fetch - processPackages [bcedit-madeby-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcedit_madeby_train-0.0.6.tar.gz tmp/bcedit_madeby_train-0.0.7.tar.gz --markdown 20230726/b/bcedit-madeby-train/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 08:58:51] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.0.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.1.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [snusbase.py]: Start processing: sdypy-sep005
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [snusbase.py]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [data-pilot]: Remove: archive file [/home/abi/fetcher/tmp/data_pilot-0.0.1.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [data-pilot]: Remove: archive file [/home/abi/fetcher/tmp/data_pilot-0.0.2.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [data-pilot]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 08:58:51] WARNING root fetch - processPackages [sdypy-sep005]: Skipping, unable to determine old version
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [sdypy-sep005] error
+[2023-07-26 08:58:51] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.2.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.3.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [airtouch5py]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.8.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.9.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [dsmlibrary]: success
+[2023-07-26 08:58:51] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-0.0.6.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-0.0.7.tar.gz]
+[2023-07-26 08:58:51] INFO root fetch - main [MainThread]: End processing [bcedit-madeby-train]: success
+[2023-07-26 08:58:52] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.263.tar.gz]
+[2023-07-26 08:58:52] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.264.tar.gz]
+[2023-07-26 08:58:52] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 08:58:53] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-26 08:58:53] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-26 08:58:53] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-26 08:58:53] INFO root fetch - main [MainThread]: Store serial: [19040308]
