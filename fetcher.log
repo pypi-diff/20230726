@@ -16333,3 +16333,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:28:46] INFO root fetch - processPackages [pyoes]: Remove: archive file [/home/abi/fetcher/tmp/pyoes-0.9.2-py2.py3-none-any.whl.zip]
 [2023-07-26 10:28:46] INFO root fetch - main [MainThread]: End processing [pyoes]: success
 [2023-07-26 10:28:46] INFO root fetch - main [MainThread]: Store serial: [19041239]
+[2023-07-26 10:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041239]
+[2023-07-26 10:33:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vinhvh-package
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-runtime
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-indexing
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moptipy
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blockprint
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kale-kadoo
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiversx-sdk-cli
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitease
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vinhvh-package
+[2023-07-26 10:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: htscf
+[2023-07-26 10:33:55] WARNING root fetch - processPackages [kale-kadoo]: Skipping, unable to determine old version
+[2023-07-26 10:33:55] INFO root fetch - processPackages [kale-kadoo]: Start processing: trajectopy
+[2023-07-26 10:33:55] INFO root fetch - main [MainThread]: End processing [kale-kadoo] error
+[2023-07-26 10:33:55] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:33:55] WARNING root fetch - processPackages [blockprint]: Skipping, unable to determine old version
+[2023-07-26 10:33:55] INFO root fetch - processPackages [pandas-indexing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [blockprint]: Start processing: east-tool
+[2023-07-26 10:33:55] INFO root fetch - main [MainThread]: End processing [blockprint] error
+[2023-07-26 10:33:55] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.88]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [gitease]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [trajectopy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-26 10:33:55] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/e2/4c/b01bcb16459b094efe8458c6265430cc81477c047e76210f06b62cc8367a/vinhvh_package-0.0.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/1a/b2/0cc4a6200d2e41b5b9ab5d82a8b1b59f81d995a697fb2732db8130cc10ee/pandas-indexing-0.2.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/aa/b9/a419d04e61bd48ae734d95f9cd4f958486d35393487838669b55b851e22c/east-tool-0.8.0.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/e2/4c/b01bcb16459b094efe8458c6265430cc81477c047e76210f06b62cc8367a/vinhvh_package-0.0.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/33/99/f244625590a169e162cb133c3032fb512b3e975833855257fc056eb20062/trajectopy-0.3.0.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/78/24/54d5725b816864723646b8cfa0db6703ef04c3aab388680f2184e00980c4/gitease-0.0.8.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/b4/f2/60242ae68db35df559ca10ed2d806620fdf427cd39c8883246bb04821979/moptipy-0.9.88.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/8c/55/17f61b3bc6b703c5ebec94d3382f1758054f094f1d1c7ea6b9b2ad6082e1/multiversx_sdk_cli-7.1.0.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/d9/f5/84f569382537af34b038eeb650f92ead8bf4d93c9a4c11945d7321c5ac66/pandas-indexing-0.2.9.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/74/3e/eae34f9dd6d258f192a8a087329c017d224699b3f6d4ae86a624c7e8cd98/vinhvh_package-0.0.9.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/9b/6f/2e25b49e9a58602e4dce92b098f9a5e902680457f352224bd59321655dd2/east-tool-0.9.0.tar.gz
+[2023-07-26 10:33:55] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-26 10:33:55] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230726/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/74/3e/eae34f9dd6d258f192a8a087329c017d224699b3f6d4ae86a624c7e8cd98/vinhvh_package-0.0.9.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.2.8.tar.gz tmp/pandas-indexing-0.2.9.tar.gz --markdown 20230726/p/pandas-indexing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.8.tar.gz tmp/vinhvh_package-0.0.9.tar.gz --markdown 20230726/v/vinhvh-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/da/4d/f1f1c7a4083030bc23ae3328608bbbe1df403f242f4b661f1a23f83eaeae/trajectopy-0.3.1.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/41/31/6d81d00b02735ba9cb8b622c2a24ea5a13a6cd09645600a0d43e24e65d0b/gitease-0.0.9.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/c5/51/184253e7eecfb8768c9fac58fbfaa302f16d67dcb1dd9e7d9792897689d9/multiversx_sdk_cli-7.2.0.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.8.tar.gz tmp/vinhvh_package-0.0.9.tar.gz --markdown 20230726/v/vinhvh-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230726/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20230726/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [gitease]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [gitease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitease-0.0.8.tar.gz tmp/gitease-0.0.9.tar.gz --markdown 20230726/g/gitease/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-7.1.0.tar.gz tmp/multiversx_sdk_cli-7.2.0.tar.gz --markdown 20230726/m/multiversx-sdk-cli/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-26 10:33:56] INFO root fetch - processPackages [trajectopy]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [trajectopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy-0.3.0.tar.gz tmp/trajectopy-0.3.1.tar.gz --markdown 20230726/t/trajectopy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 10:33:56] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-26 10:33:56] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.88.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230726/m/moptipy/0.9.88-0.9.9/diff.md --exclude *.pyd
+[2023-07-26 10:33:58] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.8.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.9.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-26 10:33:58] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-26 10:33:58] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-26 10:33:58] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.8.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.9.tar.gz]
+[2023-07-26 10:33:58] INFO root fetch - main [MainThread]: End processing [gitease]: success
+[2023-07-26 10:33:59] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-26 10:33:59] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.8.0.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.9.0.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2023-07-26 10:33:59] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.1.0.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.2.0.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-07-26 10:33:59] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-0.3.0.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-0.3.1.tar.gz]
+[2023-07-26 10:33:59] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
+[2023-07-26 10:34:00] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.88.tar.gz]
+[2023-07-26 10:34:00] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-26 10:34:00] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-26 10:34:23] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.8.tar.gz]
+[2023-07-26 10:34:23] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.9.tar.gz]
+[2023-07-26 10:34:23] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2023-07-26 10:34:23] INFO root fetch - main [MainThread]: Store serial: [19041282]
