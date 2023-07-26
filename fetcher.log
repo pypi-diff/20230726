@@ -9655,3 +9655,65 @@
 [2023-07-26 04:23:22] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-07-26 04:23:22] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-07-26 04:23:22] INFO root fetch - main [MainThread]: Store serial: [19038586]
+[2023-07-26 04:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038586]
+[2023-07-26 04:28:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bilby
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcs-cli
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GPyS
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydflow
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dingtalk
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veilcord
+[2023-07-26 04:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spiderx
+[2023-07-26 04:28:30] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [bilby]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [veilcord]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [GPyS]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.27] Old Version: [2.0.26]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-26 04:28:30] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/6e/02/84ed0d04223bdea36dc5fa1e85d5d4376133220676d1e870aad1e495ae20/veilcord-0.0.3.tar.gz
+[2023-07-26 04:28:30] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-26 04:28:30] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/2e/7c/16eb12affce426302729fd0c3ecc77c959c3d82692a833410418f69517ea/GPyS-0.1.0.tar.gz
+[2023-07-26 04:28:30] INFO root fetch - processPackages [bilby]: Downloading https://files.pythonhosted.org/packages/ab/c7/f814d6d5a51e7ec71d553fff4d376727659da99f95bfa4bb688ae05babbe/bilby-2.1.1.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/14/17/2958fdb3301a106971249aa45ebea4d97b8e2af5776de1fff0efed6aaf0f/hcs-cli-0.1.46.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/7c/41/22eca393505a9bb778dd4045228a6c94ab45dfc37b508648c75a6a9ae473/alibabacloud_dingtalk-2.0.26.tar.gz
+[2023-07-26 04:28:31] WARNING root fetch - processPackages [bilby]: Skipping package: exceeds size limit 11473931>=10485760
+[2023-07-26 04:28:31] INFO root fetch - main [MainThread]: End processing [bilby] error
+[2023-07-26 04:28:31] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/86/19/c02e9d58d1c3945b1006b77bf8d46a280ccdac9b04e4ef4e8f71162fb03f/veilcord-0.0.3.1.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/e8/b0/cfb071f2a0a7182a5e440c07ad46e525ba021ec0fb8eadfe7ca7153713bf/GPyS-0.1.1.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [GPyS]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [GPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPyS-0.1.0.tar.gz tmp/GPyS-0.1.1.tar.gz --markdown 20230726/G/GPyS/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 04:28:31] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230726/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-26 04:28:31] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/6d/bb/06a0190758bf69d2e863208896e7306dbf700e1543e92ce9d2e511ffda3d/hcs-cli-0.1.47.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [veilcord]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [veilcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veilcord-0.0.3.tar.gz tmp/veilcord-0.0.3.1.tar.gz --markdown 20230726/v/veilcord/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-26 04:28:31] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/21/6e/1186ed0ce7d3702f993a8471a5a8ef0550ee25b35205d4301f1f3688fdc9/alibabacloud_dingtalk-2.0.27.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.46.tar.gz tmp/hcs-cli-0.1.47.tar.gz --markdown 20230726/h/hcs-cli/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-07-26 04:28:31] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-26 04:28:31] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.26.tar.gz tmp/alibabacloud_dingtalk-2.0.27.tar.gz --markdown 20230726/a/alibabacloud-dingtalk/2.0.26-2.0.27/diff.md --exclude *.pyd
+[2023-07-26 04:28:31] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-26 04:28:31] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230726/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-26 04:28:32] INFO root fetch - processPackages [veilcord]: Remove: archive file [/home/abi/fetcher/tmp/veilcord-0.0.3.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - processPackages [veilcord]: Remove: archive file [/home/abi/fetcher/tmp/veilcord-0.0.3.1.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - main [MainThread]: End processing [veilcord]: success
+[2023-07-26 04:28:32] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.1.0.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.1.1.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - main [MainThread]: End processing [GPyS]: success
+[2023-07-26 04:28:32] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-26 04:28:32] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-26 04:28:32] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-26 04:28:33] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.46.tar.gz]
+[2023-07-26 04:28:33] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.47.tar.gz]
+[2023-07-26 04:28:33] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-07-26 04:28:35] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.26.tar.gz]
+[2023-07-26 04:28:35] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.27.tar.gz]
+[2023-07-26 04:28:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-26 04:28:35] INFO root fetch - main [MainThread]: Store serial: [19038613]
