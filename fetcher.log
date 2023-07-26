@@ -22873,3 +22873,159 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 15:07:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.26-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-26 15:07:03] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-26 15:07:03] INFO root fetch - main [MainThread]: Store serial: [19043865]
+[2023-07-26 15:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043865]
+[2023-07-26 15:12:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcod-ecs
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-tech-docs-template
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seveno-pyutil
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-relationship
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cerbos
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OCR-with-format
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-ui
+[2023-07-26 15:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: svcs
+[2023-07-26 15:12:14] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [mkdocs-tech-docs-template]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [tcod-ecs]: New version: [4.0.0] Old Version: [3.5.0]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [svcs]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [cerbos]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [OCR-with-format]: New version: [0.9] Old Version: [0.8]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [seveno-pyutil]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [ckanext-relationship]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/8b/8a/d8242880cada6ab5cea609263b165e3d1098c2d6abf6a100b67c5224693e/tcod_ecs-3.5.0.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 15:12:14] INFO root fetch - processPackages [OCR-with-format]: Downloading https://files.pythonhosted.org/packages/06/ae/ae2ae67df6cec602575ea293bf9fed609079beab39222d8d5d9c7fdbe182/OCR_with_format-0.8.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/3b/0e/661ecd159a9c14bd7b0d88c97e77b810478c47d6afb701a0d82b02eb8438/svcs-23.4.0.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/f0/c6/616240d4c2725543dd19b1d692452706a109b0011754706df4d2fe598a43/cerbos-0.9.0.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Downloading https://files.pythonhosted.org/packages/d3/a5/bd779352abdf206c2ff7cec94793a78ca3fa6f880fb9c58c2281272d053e/mkdocs-tech-docs-template-0.0.9.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/0a/54/76fbe3200959fc7cccbe660218c213f7b9ce9a7eb9ef4d5784b71335ccb9/ckanext-relationship-0.2.3.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/ca/ed/60f991789b02ca4099dc94c03681523362c208fe7bd7309a56dc87314b63/seveno-pyutil-0.8.3.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/23/a0/ad7d367a9f19d1631d1607c28e76fa2af1285f1c7bf75f533ab1b80a5d6e/tcod_ecs-4.0.0.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-26 15:12:14] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.5.0.tar.gz tmp/tcod_ecs-4.0.0.tar.gz --markdown 20230726/t/tcod-ecs/3.5.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-26 15:12:14] INFO root fetch - processPackages [OCR-with-format]: Downloading https://files.pythonhosted.org/packages/a3/fe/72adcbad172095c8f0e9e5114c5424c6811696324089badc3ac21ea9b631/OCR_with_format-0.9.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-26 15:12:14] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/3e/80/1d93b4edd84644bd03d0ce26ff38bb8b8ffbd8ce742f9fe9a8ceedbe3a91/svcs-23.5.0.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/5d/e0/fedee06b454b02928bc3abbfa01c4b490241c8b6cd8d0e7e249f0259fde6/ckanext-relationship-0.2.5.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/c6/5a/a2a885e048d44b63b36be4973a9db7e5ed9054388fe259b9c200afd8bbf6/seveno-pyutil-0.8.4.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/31/eb/2d6d38f96bfd3c38fbf2535b8da4302611b3dbefe05672051f95e9c17d97/cerbos-0.9.1.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [svcs]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [svcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svcs-23.4.0.tar.gz tmp/svcs-23.5.0.tar.gz --markdown 20230726/s/svcs/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230726/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230726/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [OCR-with-format]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [OCR-with-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OCR_with_format-0.8.tar.gz tmp/OCR_with_format-0.9.tar.gz --markdown 20230726/O/OCR-with-format/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230726/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [seveno-pyutil]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [seveno-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seveno-pyutil-0.8.3.tar.gz tmp/seveno-pyutil-0.8.4.tar.gz --markdown 20230726/s/seveno-pyutil/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [ckanext-relationship]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [ckanext-relationship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-relationship-0.2.3.tar.gz tmp/ckanext-relationship-0.2.5.tar.gz --markdown 20230726/c/ckanext-relationship/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [cerbos]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [cerbos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbos-0.9.0.tar.gz tmp/cerbos-0.9.1.tar.gz --markdown 20230726/c/cerbos/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 15:12:15] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Downloading https://files.pythonhosted.org/packages/d9/53/0a7d1282a0913582cffe08984b29d2c3270515297e2ee639ae6b107230a8/mkdocs-tech-docs-template-0.1.1.tar.gz
+[2023-07-26 15:12:15] INFO root fetch - processPackages [mkdocs-tech-docs-template]: executing diffoscope
+[2023-07-26 15:12:15] INFO root fetch - processPackages [mkdocs-tech-docs-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-tech-docs-template-0.0.9.tar.gz tmp/mkdocs-tech-docs-template-0.1.1.tar.gz --markdown 20230726/m/mkdocs-tech-docs-template/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 15:12:16] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.5.0.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-4.0.0.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [tcod-ecs]: Start processing: nbdev-numpy
+[2023-07-26 15:12:16] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: otgCrypto
+[2023-07-26 15:12:16] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-26 15:12:16] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [bridgecrew]: Start processing: nbdev-pandas
+[2023-07-26 15:12:16] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-26 15:12:16] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 15:12:16] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/d6/62/75f3bba298c07da5c9947b751d5fd8126bd5e7779d1f8c56de9dce839a61/otgCrypto-0.0.5.tar.gz
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-26 15:12:16] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230726/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 15:12:17] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.4.0.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.5.0.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [svcs]: Start processing: AshCrypt
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [svcs]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [AshCrypt]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [OCR-with-format]: Remove: archive file [/home/abi/fetcher/tmp/OCR_with_format-0.8.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [OCR-with-format]: Remove: archive file [/home/abi/fetcher/tmp/OCR_with_format-0.9.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [OCR-with-format]: Start processing: LogTranslate
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [OCR-with-format]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/e4/37/71e5f58fa481e719486843dd9d51e1d82686297190cb17bc12ced272a68a/AshCrypt-3.0.4.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [oarepo-ui]: Start processing: c2cwsgiutils
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.3.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.4.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [seveno-pyutil]: Start processing: nbdev-pytorch
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [seveno-pyutil]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [LogTranslate]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-tech-docs-template-0.0.9.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-tech-docs-template-0.1.1.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [mkdocs-tech-docs-template]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.3.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.5.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [ckanext-relationship]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/a8/f7/f22227586b2b4a1c2c7aa62e48f51512352ca9c34d3d194b6eda23705eac/otgCrypto-0.0.6.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.9.0.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.9.1.tar.gz]
+[2023-07-26 15:12:17] INFO root fetch - main [MainThread]: End processing [cerbos]: success
+[2023-07-26 15:12:17] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230726/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 15:12:17] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/16/2f/6e2a1d2cbff6cec3b4ad47491fbbc82fb025139e45d64009ca755b55e897/LogTranslate-1.2.7.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/f8/16/67e895250df664de7026edde42113538884f9fa78e859fc03cedaff0c9ff/AshCrypt-3.0.5.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-26 15:12:17] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.5.tar.gz tmp/otgCrypto-0.0.6.tar.gz --markdown 20230726/o/otgCrypto/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 15:12:17] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-26 15:12:17] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-3.0.4.tar.gz tmp/AshCrypt-3.0.5.tar.gz --markdown 20230726/A/AshCrypt/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-26 15:12:17] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/34/bd/4efcbbac2102e0cfca01be14acea3a4ff0fa5b20a55c45efdcc652e6a58f/LogTranslate-1.2.8.tar.gz
+[2023-07-26 15:12:17] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-26 15:12:17] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230726/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 15:12:18] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2023-07-26 15:12:18] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.2.7.tar.gz tmp/LogTranslate-1.2.8.tar.gz --markdown 20230726/L/LogTranslate/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230726/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-26 15:12:18] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.5.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.6.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-26 15:12:18] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.4.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.5.tar.gz]
+[2023-07-26 15:12:18] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-26 15:12:19] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.7.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.8.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2023-07-26 15:12:19] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-26 15:12:19] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-26 15:12:19] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-26 15:12:19] INFO root fetch - main [MainThread]: Store serial: [19043931]
