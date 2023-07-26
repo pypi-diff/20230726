@@ -11141,3 +11141,41 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:09:26] INFO root fetch - processPackages [inventree]: Remove: archive file [/home/abi/fetcher/tmp/inventree-0.9.2.tar.gz]
 [2023-07-26 06:09:26] INFO root fetch - main [MainThread]: End processing [inventree]: success
 [2023-07-26 06:09:26] INFO root fetch - main [MainThread]: Store serial: [19039209]
+[2023-07-26 06:14:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039209]
+[2023-07-26 06:14:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-26 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-l10n-spain
+[2023-07-26 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garak
+[2023-07-26 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openedx-learning
+[2023-07-26 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cudagrad
+[2023-07-26 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2023-07-26 06:14:34] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230725.0] Old Version: [16.0.20230707.0]
+[2023-07-26 06:14:34] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2023-07-26 06:14:34] INFO root fetch - processPackages [cudagrad]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-26 06:14:34] WARNING root fetch - processPackages [openedx-learning]: Skipping, unable to determine old version
+[2023-07-26 06:14:34] INFO root fetch - main [MainThread]: End processing [openedx-learning] error
+[2023-07-26 06:14:34] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/a0/12/b017777c0c6a2d72e85e1f8dbec964e03fa443dc95829fecac92a24384de/cudagrad-0.0.23.tar.gz
+[2023-07-26 06:14:34] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2023-07-26 06:14:34] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.6.1b8] Old Version: [1.6.1b7]
+[2023-07-26 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/44/9e/335921ad8ccf6552dd97ebc8aab4a372e3bb3e6b53edda82e91cb09d26a2/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl
+[2023-07-26 06:14:35] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/b3/61/2607fa5cb5d3f064bec955455c53563a12a0d78eb62aee6a4b6fefc1c11d/cudagrad-0.0.24.tar.gz
+[2023-07-26 06:14:35] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2023-07-26 06:14:35] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/91/27/37283faaefec4bcd50758e5e46dc596d6ebc912f328d2cb95e9d73b41b91/sourcery_nightly-1.6.1b7-py2.py3-none-win_amd64.whl
+[2023-07-26 06:14:35] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-26 06:14:35] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.23.tar.gz tmp/cudagrad-0.0.24.tar.gz --markdown 20230726/c/cudagrad/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-26 06:14:35] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-07-26 06:14:35] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20230726/g/garak/0.9.post2-0.9.post3/diff.md --exclude *.pyd
+[2023-07-26 06:14:35] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 66162494>=10485760
+[2023-07-26 06:14:35] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-07-26 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/8d/16/008ecf776524e736b5050d436a1b7eefeea386e50dfd40cc28d32a4990d5/odoo_addons_oca_l10n_spain-16.0.20230725.0-py3-none-any.whl
+[2023-07-26 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-26 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230725.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-l10n-spain/16.0.20230707.0-16.0.20230725.0/diff.md --exclude *.pyd
+[2023-07-26 06:14:36] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.23.tar.gz]
+[2023-07-26 06:14:36] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.24.tar.gz]
+[2023-07-26 06:14:36] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-26 06:14:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-07-26 06:14:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-07-26 06:14:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-07-26 06:14:36] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2023-07-26 06:14:36] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2023-07-26 06:14:36] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-07-26 06:14:36] INFO root fetch - main [MainThread]: Store serial: [19039232]
