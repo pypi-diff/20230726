@@ -12471,3 +12471,93 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:28:03] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.7-py3-none-any.whl.zip]
 [2023-07-26 07:28:03] INFO root fetch - main [MainThread]: End processing [radstar]: success
 [2023-07-26 07:28:03] INFO root fetch - main [MainThread]: Store serial: [19039631]
+[2023-07-26 07:33:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039631]
+[2023-07-26 07:33:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tvolib
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NSlogger
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-activity-board
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrecdp
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p3droslo
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypod
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zutool
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tcman
+[2023-07-26 07:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub
+[2023-07-26 07:33:12] WARNING root fetch - processPackages [NSlogger]: Skipping, unable to determine old version
+[2023-07-26 07:33:12] INFO root fetch - processPackages [NSlogger]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-26 07:33:12] INFO root fetch - main [MainThread]: End processing [NSlogger] error
+[2023-07-26 07:33:12] INFO root fetch - processPackages [zutool]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [tvolib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [pyrecdp]: New version: [1.6.1b2023072602] Old Version: [1.6.1b2023072601]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-26 07:33:12] WARNING root fetch - processPackages [tcman]: Skipping, unable to determine old version
+[2023-07-26 07:33:12] INFO root fetch - main [MainThread]: End processing [tcman] error
+[2023-07-26 07:33:12] INFO root fetch - processPackages [p3droslo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [hypod]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-26 07:33:12] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/10/bd/d2f3c7be6e0325c2ccb926a2ca1e2e9095344d7240af822bd4fdae28c941/pyrecdp-1.6.1b2023072601.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [p3droslo]: Downloading https://files.pythonhosted.org/packages/9d/a8/c0f846635cca18fd3b1be4b1e03ef9663260af2d3d13081581a92be5841a/p3droslo-0.0.8.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Downloading https://files.pythonhosted.org/packages/2b/6b/753202652408af4eff31af3e9828e49a55c01ce84138a6fab8ed30e61224/odoo_addon_mail_activity_board-16.0.1.1.0-py3-none-any.whl
+[2023-07-26 07:33:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [tvolib]: Downloading https://files.pythonhosted.org/packages/a6/f0/f3acf20395cab55f1898be8071566546a4586b4b51680ea716067a1434bc/tvolib-0.2.1.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/64/33/3cee71d7716dbe065db25087f3ef642eb6dcd2b357c76a7388229f90e9da/zutool-0.0.0.tar.gz
+[2023-07-26 07:33:12] INFO root fetch - processPackages [hypod]: Downloading https://files.pythonhosted.org/packages/cf/53/a3b8d852f96d36346e5cdd0d9e8924b5653af3569b16f9542cad7b169c54/hypod-0.0.1.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [p3droslo]: Downloading https://files.pythonhosted.org/packages/59/1d/c6eb0f3d2da44104da4f6bab577ac04043ffc2aca820551afddb0f3378e6/p3droslo-0.0.9.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/d7/18/a8595612f5628ef08687f432d5c15e03de869dde94601a0ece0112161a51/pyrecdp-1.6.1b2023072602.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [tvolib]: Downloading https://files.pythonhosted.org/packages/93/e6/270486d13be079389d52897308257c7c16e570c18e8fe1ad4866dec197c4/tvolib-0.2.2.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Downloading https://files.pythonhosted.org/packages/b2/5f/b3298e9f661e96b37052d88d579e4b42c56734caf7163273199382359319/odoo_addon_mail_activity_board-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/f9/22/89e41735dbb6113a86b879b76162ed059bc5f7cbfbdb1c6bcdc2a4bd782d/zutool-0.0.1.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230726/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [hypod]: Downloading https://files.pythonhosted.org/packages/08/27/b39f75d9f91b7f69709cf717901c03cc6513739b06418e63a1ff02ead46a/hypod-0.0.2.tar.gz
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230726/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [p3droslo]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [p3droslo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3droslo-0.0.8.tar.gz tmp/p3droslo-0.0.9.tar.gz --markdown 20230726/p/p3droslo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.6.1b2023072601.tar.gz tmp/pyrecdp-1.6.1b2023072602.tar.gz --markdown 20230726/p/pyrecdp/1.6.1b2023072601-1.6.1b2023072602/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_board-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_board-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-mail-activity-board/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [hypod]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [hypod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypod-0.0.1.tar.gz tmp/hypod-0.0.2.tar.gz --markdown 20230726/h/hypod/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [tvolib]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [tvolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvolib-0.2.1.tar.gz tmp/tvolib-0.2.2.tar.gz --markdown 20230726/t/tvolib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [zutool]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [zutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zutool-0.0.0.tar.gz tmp/zutool-0.0.1.tar.gz --markdown 20230726/z/zutool/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-26 07:33:13] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230726/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-26 07:33:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [tvolib]: Remove: archive file [/home/abi/fetcher/tmp/tvolib-0.2.1.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [tvolib]: Remove: archive file [/home/abi/fetcher/tmp/tvolib-0.2.2.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [tvolib]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_board-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_board-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-board]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.0.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.1.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [zutool]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [p3droslo]: Remove: archive file [/home/abi/fetcher/tmp/p3droslo-0.0.8.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [p3droslo]: Remove: archive file [/home/abi/fetcher/tmp/p3droslo-0.0.9.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [p3droslo]: success
+[2023-07-26 07:33:14] INFO root fetch - processPackages [hypod]: Remove: archive file [/home/abi/fetcher/tmp/hypod-0.0.1.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - processPackages [hypod]: Remove: archive file [/home/abi/fetcher/tmp/hypod-0.0.2.tar.gz]
+[2023-07-26 07:33:14] INFO root fetch - main [MainThread]: End processing [hypod]: success
+[2023-07-26 07:33:15] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.6.1b2023072601.tar.gz]
+[2023-07-26 07:33:15] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.6.1b2023072602.tar.gz]
+[2023-07-26 07:33:15] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-07-26 07:33:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-26 07:33:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-26 07:33:17] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-26 07:33:17] INFO root fetch - main [MainThread]: Store serial: [19039666]
