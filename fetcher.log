@@ -21370,3 +21370,100 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:03:03] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.6-cp311-cp311-macosx_12_0_x86_64.whl.zip]
 [2023-07-26 14:03:03] INFO root fetch - main [MainThread]: End processing [devchat-ask]: success
 [2023-07-26 14:03:03] INFO root fetch - main [MainThread]: Store serial: [19043247]
+[2023-07-26 14:08:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043247]
+[2023-07-26 14:08:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alertlogic-sdk-definitions
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdr-utils
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tooz
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrOSDevToolKit
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: database-testing-tools
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kegg2svg
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydactim
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PDKMaster
+[2023-07-26 14:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pdr-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [tooz]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [kegg2svg]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pydactim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [database-testing-tools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.20.8] Old Version: [1.20.7]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230726.12.6.653823] Old Version: [20230725.8.57.697813]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [kegg2svg]: Downloading https://files.pythonhosted.org/packages/3e/da/10d3b663fce81d33cb6a0ea7dbdeacc86d1d7afb4b2e4e7609d1ffcb138d/kegg2svg-0.4.7.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [database-testing-tools]: Downloading https://files.pythonhosted.org/packages/96/32/6ee419983a925a065135accaf78dbe870acf1f64a6f01f5328ada38950a0/database_testing_tools-1.0.0.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/37/2d/d04022db2c2c7242403a185b45a95837c0bbf7ef694d779bce552a2e6a39/alertlogic-sdk-definitions-0.1.98.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/70/ea/20c23b35e638243d97e43d9546630eb519355da50a051e5d9a3c445d6672/pdr-utils-0.0.8.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/76/f2/fba95a898f936dcf007c8dabee1489c34af11a54a80a374885e6530c9afa/tooz-4.1.0.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/85/c7/9c1f08c47e8f0d8f89065c9df0db0b9ee53ba940028e70a9d37492135b25/certora-cli-alpha-nast-mutation-test-20230725.8.57.697813.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/98/e6/89b1c15fea7fcf0a0289e70e5fdfdaf1ba3e4f02a86c39064f7b9ac7e240/PDKMaster-0.9.3.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/fc/9b/ccdc6764e0fbed5dd3eb0f75f3c67e4fdb25c226b926083a301bf94dbe0d/micrOSDevToolKit-1.20.7.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/97/1d/82045e98b291a1b604e469fb74bfcbd3ce179faab796174e8b7d9070a1cf/pydactim-0.0.8.tar.gz
+[2023-07-26 14:08:13] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37488854>=10485760
+[2023-07-26 14:08:13] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Start processing: oras
+[2023-07-26 14:08:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pydactim]: executing diffoscope
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pydactim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydactim-0.0.7.tar.gz tmp/pydactim-0.0.8.tar.gz --markdown 20230726/p/pydactim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 14:08:13] INFO root fetch - processPackages [oras]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-07-26 14:08:13] INFO root fetch - processPackages [database-testing-tools]: Downloading https://files.pythonhosted.org/packages/dc/2d/0067e134a594b50ebabd85672fc6887234d693248197bff7394ce46aff94/database_testing_tools-1.0.1.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/ea/0b/3e25465c42df320a3c79be244d454b4bb94f70fb1b1936e759569cac5316/pdr-utils-0.0.9.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/05/6e/1f7cc973771a8e006355e4061a50aaeeced64f7cafbf71bee1edbefddcf2/tooz-4.2.0.tar.gz
+[2023-07-26 14:08:13] INFO root fetch - processPackages [kegg2svg]: Downloading https://files.pythonhosted.org/packages/06/11/b96ca1c3dce4dd79d3d1e16a15dc7672bdd49437ae5ec95391b8bee6702a/kegg2svg-0.4.8.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [database-testing-tools]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [database-testing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_testing_tools-1.0.0.tar.gz tmp/database_testing_tools-1.0.1.tar.gz --markdown 20230726/d/database-testing-tools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/ca/40/d491b53e878475fc259c3994f3d4c75b8f55fa82e36e0cef73f6e58c5418/alertlogic-sdk-definitions-0.1.99.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/c7/12/0596dd3d52173faf67813af349939e18528c2de90659f0f88c13cc9a2328/PDKMaster-0.9.4.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [kegg2svg]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [kegg2svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegg2svg-0.4.7.tar.gz tmp/kegg2svg-0.4.8.tar.gz --markdown 20230726/k/kegg2svg/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [tooz]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [tooz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooz-4.1.0.tar.gz tmp/tooz-4.2.0.tar.gz --markdown 20230726/t/tooz/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/68/0a/88c48f006210c5a04e64ec81a6157da556690285287c61d232a845eb5dbc/oras-0.1.22.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [pdr-utils]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [pdr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdr-utils-0.0.8.tar.gz tmp/pdr-utils-0.0.9.tar.gz --markdown 20230726/p/pdr-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230726/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230726/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.3.tar.gz tmp/PDKMaster-0.9.4.tar.gz --markdown 20230726/P/PDKMaster/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/5a/ea/a776b3a04d6d0f72a821ce378ba14a452daf30458eccd63f84cce18c9629/micrOSDevToolKit-1.20.8.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/99/97/b2acb173e553cadd4e59038d9e8927e577d96cfdd67a5b7182c1d3096aaf/oras-0.1.23.tar.gz
+[2023-07-26 14:08:14] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.20.7.tar.gz tmp/micrOSDevToolKit-1.20.8.tar.gz --markdown 20230726/m/micrOSDevToolKit/1.20.7-1.20.8/diff.md --exclude *.pyd
+[2023-07-26 14:08:14] INFO root fetch - processPackages [pydactim]: Remove: archive file [/home/abi/fetcher/tmp/pydactim-0.0.7.tar.gz]
+[2023-07-26 14:08:14] INFO root fetch - processPackages [pydactim]: Remove: archive file [/home/abi/fetcher/tmp/pydactim-0.0.8.tar.gz]
+[2023-07-26 14:08:14] INFO root fetch - main [MainThread]: End processing [pydactim]: success
+[2023-07-26 14:08:14] INFO root fetch - processPackages [oras]: executing diffoscope
+[2023-07-26 14:08:14] INFO root fetch - processPackages [oras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oras-0.1.22.tar.gz tmp/oras-0.1.23.tar.gz --markdown 20230726/o/oras/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-07-26 14:08:15] INFO root fetch - processPackages [kegg2svg]: Remove: archive file [/home/abi/fetcher/tmp/kegg2svg-0.4.7.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - processPackages [kegg2svg]: Remove: archive file [/home/abi/fetcher/tmp/kegg2svg-0.4.8.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - main [MainThread]: End processing [kegg2svg]: success
+[2023-07-26 14:08:15] INFO root fetch - processPackages [database-testing-tools]: Remove: archive file [/home/abi/fetcher/tmp/database_testing_tools-1.0.0.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - processPackages [database-testing-tools]: Remove: archive file [/home/abi/fetcher/tmp/database_testing_tools-1.0.1.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - main [MainThread]: End processing [database-testing-tools]: success
+[2023-07-26 14:08:15] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.8.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.9.tar.gz]
+[2023-07-26 14:08:15] INFO root fetch - main [MainThread]: End processing [pdr-utils]: success
+[2023-07-26 14:08:16] INFO root fetch - processPackages [tooz]: Remove: archive file [/home/abi/fetcher/tmp/tooz-4.1.0.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - processPackages [tooz]: Remove: archive file [/home/abi/fetcher/tmp/tooz-4.2.0.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - main [MainThread]: End processing [tooz]: success
+[2023-07-26 14:08:16] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.22.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.23.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - main [MainThread]: End processing [oras]: success
+[2023-07-26 14:08:16] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-26 14:08:16] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Remove: archive file [/home/abi/fetcher/tmp/alertlogic-sdk-definitions-0.1.98.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Remove: archive file [/home/abi/fetcher/tmp/alertlogic-sdk-definitions-0.1.99.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-07-26 14:08:16] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.3.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.4.tar.gz]
+[2023-07-26 14:08:16] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2023-07-26 14:08:17] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.7.tar.gz]
+[2023-07-26 14:08:17] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.8.tar.gz]
+[2023-07-26 14:08:17] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-26 14:08:17] INFO root fetch - main [MainThread]: Store serial: [19043291]
