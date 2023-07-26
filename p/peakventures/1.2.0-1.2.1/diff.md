@@ -1,0 +1,128 @@
+# Comparing `tmp/peakventures-1.2.0.tar.gz` & `tmp/peakventures-1.2.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "peakventures-1.2.0.tar", max compression
++gzip compressed data, was "peakventures-1.2.1.tar", max compression
+```
+
+## Comparing `peakventures-1.2.0.tar` & `peakventures-1.2.1.tar`
+
+### file list
+
+```diff
+@@ -1,8 +1,8 @@
+--rw-r--r--   0        0        0        0 2023-05-26 05:31:43.775672 peakventures-1.2.0/peakventures/__init__.py
+--rw-r--r--   0        0        0     1813 2023-07-12 17:49:47.662944 peakventures-1.2.0/peakventures/api.py
+--rw-r--r--   0        0        0     3516 2023-07-26 09:31:16.618364 peakventures-1.2.0/peakventures/conversions.py
+--rw-r--r--   0        0        0     1095 2023-07-26 09:29:28.910842 peakventures-1.2.0/peakventures/credentials.py
+--rw-r--r--   0        0        0      830 2023-07-26 09:28:36.228718 peakventures-1.2.0/peakventures/storage.py
+--rw-r--r--   0        0        0      366 2023-07-26 09:30:18.751333 peakventures-1.2.0/pyproject.toml
+--rw-r--r--   0        0        0      715 1970-01-01 00:00:00.000000 peakventures-1.2.0/setup.py
+--rw-r--r--   0        0        0      580 1970-01-01 00:00:00.000000 peakventures-1.2.0/PKG-INFO
++-rw-r--r--   0        0        0        0 2023-05-26 05:31:43.775672 peakventures-1.2.1/peakventures/__init__.py
++-rw-r--r--   0        0        0     1813 2023-07-12 17:49:47.662944 peakventures-1.2.1/peakventures/api.py
++-rw-r--r--   0        0        0     3582 2023-07-26 09:55:50.706499 peakventures-1.2.1/peakventures/conversions.py
++-rw-r--r--   0        0        0     1095 2023-07-26 09:29:28.910842 peakventures-1.2.1/peakventures/credentials.py
++-rw-r--r--   0        0        0      830 2023-07-26 09:28:36.228718 peakventures-1.2.1/peakventures/storage.py
++-rw-r--r--   0        0        0      366 2023-07-26 10:08:41.731226 peakventures-1.2.1/pyproject.toml
++-rw-r--r--   0        0        0      715 1970-01-01 00:00:00.000000 peakventures-1.2.1/setup.py
++-rw-r--r--   0        0        0      580 1970-01-01 00:00:00.000000 peakventures-1.2.1/PKG-INFO
+```
+
+### Comparing `peakventures-1.2.0/peakventures/api.py` & `peakventures-1.2.1/peakventures/api.py`
+
+ * *Files identical despite different names*
+
+### Comparing `peakventures-1.2.0/peakventures/conversions.py` & `peakventures-1.2.1/peakventures/conversions.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -66,14 +66,15 @@
+ 
+         logger.info("Disconnected from %s", self.url)
+ 
+     def send(
+             self: "ConversionsClient",
+             buyside_network: str,
+             buyside_network_account: str,
++            partner_id: str,
+             pixel_id: str,
+             pixel_event: str,
+             click_id: str,
+             conversion_date: int,
+             user_agent: str,
+             id_address: str,
+             conversion_value: float) -> None:
+@@ -81,14 +82,15 @@
+ 
+         if not self.initialized:
+             raise RuntimeError("ConversionsClient is not initialized, use `with` statement")
+ 
+         self.connection.send(json.dumps({
+             "BuysideNetwork": buyside_network,
+             "BuysideNetworkAccount": buyside_network_account,
++            "PartnerId": partner_id,
+             "PixelId": pixel_id,
+             "PixelEvent": pixel_event,
+             "ClickId": click_id,
+             "ConversionDate": conversion_date,
+             "UserAgent": user_agent,
+             "IpAddress": id_address,
+             "ConversionValue": conversion_value,
+```
+
+### Comparing `peakventures-1.2.0/peakventures/credentials.py` & `peakventures-1.2.1/peakventures/credentials.py`
+
+ * *Files identical despite different names*
+
+### Comparing `peakventures-1.2.0/peakventures/storage.py` & `peakventures-1.2.1/peakventures/storage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `peakventures-1.2.0/setup.py` & `peakventures-1.2.1/setup.py`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -10,15 +10,15 @@
+ install_requires = \
+ ['boto3>=1.28.11,<2.0.0',
+  'tenacity>=8.2.2,<9.0.0',
+  'websockets>=11.0.3,<12.0.0']
+ 
+ setup_kwargs = {
+     'name': 'peakventures',
+-    'version': '1.2.0',
++    'version': '1.2.1',
+     'description': 'PeakVentures Python Utilities for DataBricks',
+     'long_description': 'None',
+     'author': 'Volodymyr Smirnov',
+     'author_email': 'volodymyr@peakventures.co',
+     'maintainer': 'None',
+     'maintainer_email': 'None',
+     'url': 'None',
+```
+
+### Comparing `peakventures-1.2.0/PKG-INFO` & `peakventures-1.2.1/PKG-INFO`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: peakventures
+-Version: 1.2.0
++Version: 1.2.1
+ Summary: PeakVentures Python Utilities for DataBricks
+ Author: Volodymyr Smirnov
+ Author-email: volodymyr@peakventures.co
+ Requires-Python: >=3.8,<4.0
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+```
+

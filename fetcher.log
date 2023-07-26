@@ -18782,3 +18782,112 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:04:42] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-26 12:04:42] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-26 12:04:42] INFO root fetch - main [MainThread]: Store serial: [19042211]
+[2023-07-26 12:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042211]
+[2023-07-26 12:09:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgal
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gauth-python
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ksos
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDCRPy
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mucus
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viktor
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-identity-sdk
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CheeseLog
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyafmreader
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slack-react
+[2023-07-26 12:09:51] WARNING root fetch - processPackages [mucus]: Skipping, unable to determine old version
+[2023-07-26 12:09:51] INFO root fetch - processPackages [mucus]: Start processing: propertree
+[2023-07-26 12:09:51] INFO root fetch - main [MainThread]: End processing [mucus] error
+[2023-07-26 12:09:51] INFO root fetch - processPackages [pyafmreader]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 12:09:51] WARNING root fetch - processPackages [CheeseLog]: Skipping, unable to determine old version
+[2023-07-26 12:09:51] INFO root fetch - processPackages [CheeseLog]: Start processing: peakventures
+[2023-07-26 12:09:51] INFO root fetch - main [MainThread]: End processing [CheeseLog] error
+[2023-07-26 12:09:51] INFO root fetch - processPackages [ksos]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [cgal]: New version: [5.5.post202210051748] Old Version: [5.5.post202210041706]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [gauth-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [viktor]: New version: [14.4.0] Old Version: [14.3.0]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [slack-react]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [propertree]: New version: [1.0.1.post3] Old Version: [0.1]
+[2023-07-26 12:09:51] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 12:09:52] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2511]
+[2023-07-26 12:09:52] INFO root fetch - processPackages [peakventures]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-26 12:09:52] INFO root fetch - processPackages [pyafmreader]: Downloading https://files.pythonhosted.org/packages/ef/b0/cc44aba998a95d42d8dc37d2901767b96aea5cc95841ab8a49f8daade1de/pyafmreader-0.1.1.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [peakventures]: Downloading https://files.pythonhosted.org/packages/d0/4b/fd85b74d0c0bb58f8b65613053874e641df9b7897053928aa7e03c32dbaa/peakventures-1.2.0.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/be/a8/6ebe29122cc2fc71a528860c8534fbcc6454e9a2060c38860a86d084580a/gauth_python-0.1.1.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/f1/8b/8797ca6667ff371f14f3cdc628ed811c71d00c6b6f803e016ed37c80e4f9/cgal-5.5.post202210041706.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/f8/8c/a8084b0097719b1edf4fe65484872dfcb915a0e87eaee842f6fd5eafdc6b/viktor-14.3.0-cp39-cp39-win_amd64.whl
+[2023-07-26 12:09:52] INFO root fetch - processPackages [propertree]: Downloading https://files.pythonhosted.org/packages/45/bb/ef8266edfba56d2a31384e321610b0d6dee5318df1a4d653a2b3cc4d2fe0/propertree-0.1.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/ba/2b/2ccf8ad492f1417f674258f7266940cbdbed42e43894b40ee18272ab2ce8/finbourne-identity-sdk-0.0.2511.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/01/6e/a567cb079c56c3391c2e64bc6521ed3a7ca7c5f52263649d8707ae54929a/slack-react-0.2.1.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [ksos]: executing diffoscope
+[2023-07-26 12:09:52] INFO root fetch - processPackages [ksos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksos-4.9.0-py3-none-any.whl.zip tmp/ksos-4.9.1-py3-none-any.whl.zip --markdown 20230726/k/ksos/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-26 12:09:52] INFO root fetch - processPackages [pyafmreader]: Downloading https://files.pythonhosted.org/packages/2c/6f/31dbd0e3ba279ca14230a53388a4fb880a2eca9172f6fdce204a8337c308/pyafmreader-0.1.2.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [peakventures]: Downloading https://files.pythonhosted.org/packages/c7/33/cb3cfd146177bcbfcda800c5537976be545266b413dd0665dd398b34e254/peakventures-1.2.1.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/09/e4/edce664b567e520e00b582137568d6d4394dac11ca616460ff2a16603729/gauth_python-0.1.2.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-26 12:09:52] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230726/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:09:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [propertree]: Downloading https://files.pythonhosted.org/packages/f6/95/2e5241022021ad911c2caa147a5dd9e31e805b362df2212de602502280d8/propertree-1.0.1.post3.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/10/10/b91b612499db338fbc7b1cf7fb120a12e5022407d9aeba6d6c9fbc1a5e1d/cgal-5.5.post202210051748.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/82/5d/6d32ac102dbf803ea48435aa0fe02a2cd988ecc9714983d01164069c0e94/slack-react-0.2.2.tar.gz
+[2023-07-26 12:09:52] INFO root fetch - processPackages [peakventures]: executing diffoscope
+[2023-07-26 12:09:52] INFO root fetch - processPackages [peakventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakventures-1.2.0.tar.gz tmp/peakventures-1.2.1.tar.gz --markdown 20230726/p/peakventures/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-26 12:09:52] INFO root fetch - processPackages [pyafmreader]: executing diffoscope
+[2023-07-26 12:09:52] INFO root fetch - processPackages [pyafmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyafmreader-0.1.1.tar.gz tmp/pyafmreader-0.1.2.tar.gz --markdown 20230726/p/pyafmreader/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-26 12:09:53] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2511.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230726/f/finbourne-identity-sdk/0.0.2511-0.0.840/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 12:09:53] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.1.tar.gz tmp/gauth_python-0.1.2.tar.gz --markdown 20230726/g/gauth-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [propertree]: executing diffoscope
+[2023-07-26 12:09:53] INFO root fetch - processPackages [propertree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertree-0.1.tar.gz tmp/propertree-1.0.1.post3.tar.gz --markdown 20230726/p/propertree/0.1-1.0.1.post3/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [cgal]: executing diffoscope
+[2023-07-26 12:09:53] INFO root fetch - processPackages [cgal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgal-5.5.post202210041706.tar.gz tmp/cgal-5.5.post202210051748.tar.gz --markdown 20230726/c/cgal/5.5.post202210041706-5.5.post202210051748/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [slack-react]: executing diffoscope
+[2023-07-26 12:09:53] INFO root fetch - processPackages [slack-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-react-0.2.1.tar.gz tmp/slack-react-0.2.2.tar.gz --markdown 20230726/s/slack-react/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 12:09:53] INFO root fetch - processPackages [ksos]: Remove: archive file [/home/abi/fetcher/tmp/ksos-4.9.0-py3-none-any.whl.zip]
+[2023-07-26 12:09:53] INFO root fetch - processPackages [ksos]: Remove: archive file [/home/abi/fetcher/tmp/ksos-4.9.1-py3-none-any.whl.zip]
+[2023-07-26 12:09:53] INFO root fetch - processPackages [ksos]: Start processing: sspqdd
+[2023-07-26 12:09:53] INFO root fetch - main [MainThread]: End processing [ksos]: success
+[2023-07-26 12:09:53] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 12:09:53] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/7a/b7/fe9b7974b717fc887b7f3dc5504b876653cc83015b30d3aba8a78dd1df77/viktor-14.4.0-cp39-cp39-win_amd64.whl
+[2023-07-26 12:09:54] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/74/84/dee7a352a0f6e5428c36d6e5f30f857096ad4ed6e606753f5691e46fbbbf/sspqdd-1.0.8.tar.gz
+[2023-07-26 12:09:54] INFO root fetch - processPackages [peakventures]: Remove: archive file [/home/abi/fetcher/tmp/peakventures-1.2.0.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [peakventures]: Remove: archive file [/home/abi/fetcher/tmp/peakventures-1.2.1.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [peakventures]: Start processing: screenshot2code
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [peakventures]: success
+[2023-07-26 12:09:54] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/a2/74/5eb7c50051e82829030ce9db964560aa321c7989562ef5343379c44c67b0/sspqdd-1.0.9.tar.gz
+[2023-07-26 12:09:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [pyafmreader]: Remove: archive file [/home/abi/fetcher/tmp/pyafmreader-0.1.1.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [pyafmreader]: Remove: archive file [/home/abi/fetcher/tmp/pyafmreader-0.1.2.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [pyafmreader]: success
+[2023-07-26 12:09:54] INFO root fetch - processPackages [cgal]: Remove: archive file [/home/abi/fetcher/tmp/cgal-5.5.post202210041706.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [cgal]: Remove: archive file [/home/abi/fetcher/tmp/cgal-5.5.post202210051748.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [cgal]: success
+[2023-07-26 12:09:54] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.1.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.2.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 12:09:54] WARNING root fetch - processPackages [screenshot2code]: Skipping, unable to determine old version
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [screenshot2code] error
+[2023-07-26 12:09:54] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-07-26 12:09:54] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230726/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:09:54] INFO root fetch - processPackages [propertree]: Remove: archive file [/home/abi/fetcher/tmp/propertree-0.1.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [propertree]: Remove: archive file [/home/abi/fetcher/tmp/propertree-1.0.1.post3.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [propertree]: success
+[2023-07-26 12:09:54] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.1.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.2.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [slack-react]: success
+[2023-07-26 12:09:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2511.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-26 12:09:54] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-26 12:09:55] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2023-07-26 12:09:55] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.3.0-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20230726/v/viktor/14.3.0-14.4.0/diff.md --exclude *.pyd
+[2023-07-26 12:09:55] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.8.tar.gz]
+[2023-07-26 12:09:55] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.9.tar.gz]
+[2023-07-26 12:09:55] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-07-26 12:09:59] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 12:09:59] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 12:09:59] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2023-07-26 12:09:59] INFO root fetch - main [MainThread]: Store serial: [19042282]
