@@ -10535,3 +10535,35 @@
 [2023-07-26 05:27:52] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.26.tar.gz]
 [2023-07-26 05:27:52] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
 [2023-07-26 05:27:52] INFO root fetch - main [MainThread]: Store serial: [19038945]
+[2023-07-26 05:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038945]
+[2023-07-26 05:33:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-26 05:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genmo
+[2023-07-26 05:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: health-check-utils
+[2023-07-26 05:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-07-26 05:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-07-26 05:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jionlp
+[2023-07-26 05:33:01] WARNING root fetch - processPackages [genmo]: Skipping, unable to determine old version
+[2023-07-26 05:33:01] WARNING root fetch - processPackages [health-check-utils]: Skipping, unable to determine old version
+[2023-07-26 05:33:01] INFO root fetch - main [MainThread]: End processing [genmo] error
+[2023-07-26 05:33:01] INFO root fetch - main [MainThread]: End processing [health-check-utils] error
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.6]
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2023-07-26 05:33:01] INFO root fetch - processPackages [jionlp]: New version: [1.5.2] Old Version: [1.4.7]
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/cc/2a/5853f9553ec398fee450017879432d3762a059d835cfa031d6b03a3a7027/odoo_addon_helpdesk_mgmt-16.0.1.1.0.6-py3-none-any.whl
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2023-07-26 05:33:01] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/d0/59/06121d45e6cc7c3daa884ece9d834aed57d6597a2634027803145fc637fb/jionlp-1.4.7-py2.py3-none-any.whl
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/6f/de/e5c3b367e01f250d72b4cb63189af0775c1e325eb2f6d976b5791d9608f8/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl
+[2023-07-26 05:33:01] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 20729620>=10485760
+[2023-07-26 05:33:01] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-helpdesk-mgmt/16.0.1.1.0.6-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-07-26 05:33:01] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/diff.md --exclude *.pyd
+[2023-07-26 05:33:02] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.6-py3-none-any.whl.zip]
+[2023-07-26 05:33:02] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-07-26 05:33:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-07-26 05:33:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2023-07-26 05:33:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2023-07-26 05:33:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-07-26 05:33:02] INFO root fetch - main [MainThread]: Store serial: [19038962]
