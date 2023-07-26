@@ -15100,3 +15100,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:30:31] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2023-07-26 09:30:31] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2023-07-26 09:30:31] INFO root fetch - main [MainThread]: Store serial: [19040687]
+[2023-07-26 09:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040687]
+[2023-07-26 09:35:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pollect
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illumigator
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-editor-dev
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filter-stations
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zit
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDCRPy
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-neat
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: andi-datasets
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-07-26 09:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ailess
+[2023-07-26 09:35:40] INFO root fetch - processPackages [cognite-neat]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [illumigator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [andi-datasets]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [pollect]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-26 09:35:40] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 09:35:41] WARNING root fetch - processPackages [ailess]: Skipping, unable to determine old version
+[2023-07-26 09:35:41] INFO root fetch - main [MainThread]: End processing [ailess] error
+[2023-07-26 09:35:41] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/7a/ec/d2a49f29a4e27f376eb1ff842ae09e312ab1ceaa40c7151de0df8c6498c3/cognite_neat-0.18.0.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/ee/e2/5abe02914bd2c0aaca3c1ba7600181214c864e3ad93c4e6411421c3fe349/illumigator-0.0.8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-07-26 09:35:41] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 62524130>=10485760
+[2023-07-26 09:35:41] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-07-26 09:35:41] INFO root fetch - processPackages [andi-datasets]: Downloading https://files.pythonhosted.org/packages/d7/ab/08f5725e5f0de59cbb0464bbdf1e58f141a68e51d5d124f194cad35f0693/andi_datasets-2.0.3.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [pollect]: Downloading https://files.pythonhosted.org/packages/f0/5e/8a823c57613a6a0c17f957a7babcec531f181676d511089a5adf91b25c78/pollect-1.1.8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/16/ee/71a3fc1ddcf84db13c091a4d2465864b672e648bdf94e87943b1512c3519/cognite_neat-0.18.1.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230726/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230726/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [andi-datasets]: Downloading https://files.pythonhosted.org/packages/54/d6/727d9f3877e2cae2d1f5dcff91804e80755a74feab2064e1bc85064e8531/andi_datasets-2.0.4.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/91/ba/1f264deec49ee97cd331cb158d59988eae18cefcf4570f77eb3b20daa2d7/automation_editor_dev-0.0.9.tar.gz
+[2023-07-26 09:35:41] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230726/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230726/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.8.tar.gz tmp/automation_editor_dev-0.0.9.tar.gz --markdown 20230726/a/automation-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [andi-datasets]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [andi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andi_datasets-2.0.3.tar.gz tmp/andi_datasets-2.0.4.tar.gz --markdown 20230726/a/andi-datasets/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-26 09:35:41] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.18.0.tar.gz tmp/cognite_neat-0.18.1.tar.gz --markdown 20230726/c/cognite-neat/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-07-26 09:35:41] INFO root fetch - processPackages [pollect]: Downloading https://files.pythonhosted.org/packages/a6/4e/67e55adb221fc8a536abb97eee6d8377f8607ae806577e52f77075d3142d/pollect-1.1.9.tar.gz
+[2023-07-26 09:35:42] INFO root fetch - processPackages [pollect]: executing diffoscope
+[2023-07-26 09:35:42] INFO root fetch - processPackages [pollect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollect-1.1.8.tar.gz tmp/pollect-1.1.9.tar.gz --markdown 20230726/p/pollect/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-26 09:35:43] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [andi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/andi_datasets-2.0.3.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [andi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/andi_datasets-2.0.4.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [andi-datasets]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-07-26 09:35:43] INFO root fetch - processPackages [pollect]: Remove: archive file [/home/abi/fetcher/tmp/pollect-1.1.8.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - processPackages [pollect]: Remove: archive file [/home/abi/fetcher/tmp/pollect-1.1.9.tar.gz]
+[2023-07-26 09:35:43] INFO root fetch - main [MainThread]: End processing [pollect]: success
+[2023-07-26 09:35:44] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.0.tar.gz]
+[2023-07-26 09:35:44] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.1.tar.gz]
+[2023-07-26 09:35:44] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-26 09:35:44] INFO root fetch - main [MainThread]: Store serial: [19040719]
