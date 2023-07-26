@@ -13277,3 +13277,176 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:15:08] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl.zip]
 [2023-07-26 08:15:08] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-26 08:15:08] INFO root fetch - main [MainThread]: Store serial: [19039937]
+[2023-07-26 08:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039937]
+[2023-07-26 08:20:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-core
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-aqt
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-rigetti
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-web
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-pasqal
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-07-26 08:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: illumigator
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-web]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [illumigator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-aqt]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-core]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [pretext]: New version: [1.7.3.dev20230726] Old Version: [1.7.3.dev20230722]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.97] Old Version: [1.0.96]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-google]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/ee/e2/5abe02914bd2c0aaca3c1ba7600181214c864e3ad93c4e6411421c3fe349/illumigator-0.0.8.tar.gz
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq]: New version: [1.3.0.dev20230726061441] Old Version: [1.3.0.dev20230725201132]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b0/5e/6f2d40392e2c3ab43f3a86286fed30887f30eef199ef52b9d61f5e24329c/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/d6/42/ecf8781fad3e5e3281f9ffd262c546375013605e60cc44104854312fb567/cirq_web-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/b4/3f/3c5909282eab2ae9f301d398a40f4a979dbf732996e5e0d6684e7b90c7ed/cirq_aqt-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/30/32/8b83d743142c940922b148470fc880c10286df98ff7c27c5320c02a6635f/cirq_rigetti-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 62524130>=10485760
+[2023-07-26 08:20:17] INFO root fetch - processPackages [illumigator]: Start processing: card91-business-SDK
+[2023-07-26 08:20:17] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/16/d7/02f94b4f2ed401b8d263d375851eef63aaa587b0f54e44e29061632abf3e/cirq_google-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/a2/71/3b9baf23a3fe724ac089471f0563d9c65215f76f8d4c115361471346edac/cirq_pasqal-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:17] INFO root fetch - processPackages [card91-business-SDK]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-26 08:20:17] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/fa/f1/4c8c238ea23a00617cb1dda581d7094479f8616320b8b0d097270ee21312/pretext-1.7.3.dev20230722.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/e6/4f/21440d1b5e113c8885291dbd3d5a63f572fdaf169b1e67e94a8e60d90d1c/seven_cloudapp_frame-1.0.96.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/78/93/f1e8e1ba5698ce23c71bf6e45118a6d3770c9dd4f2c49eb030a9907cc382/cirq-1.3.0.dev20230725201132-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [card91-business-SDK]: Downloading https://files.pythonhosted.org/packages/c9/eb/0a54e1091c5bf73f1ee91e1e5533ca873fbe646510f3b163b1d7a638513e/Card91-Business-SDK-0.0.13.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/73/10/318a16c32736849396a242dd39dedd27b3fabf61d7761d034ee6e80148db/cirq_aqt-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/31/3d/84049d01e5625cb6ee9aaf458718c2dfb07ed9a94df5b897d37f05c9a20f/cirq_web-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/bb/a7/06b4273d84ed5792a9e6ea1f4dc1de59f0161a85cac6fc3ce38428b1030c/cirq_rigetti-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/14/f9/62b9f5537853b0f0d210eea016348cd0c8476ab305cbd344eea2dc542acd/cirq_core-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/0f/4a/fb9fe76b36ed55fffd4e9880452f310b060afadf89d4f891827510a5b1da/cirq_pasqal-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ff/ed/fc422064129ddc37ab3ff015c13c6a9559174c7e0261ba601803e145f300/cirq-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_aqt-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-aqt/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/8e/d9/51bafa85d8e1af14660fd8e49fc42676ef847f0971aa797e4d741b6ef5b4/seven_cloudapp_frame-1.0.97.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/2f/ef/8db932bc5f6fb8002904e6379203a74b611ff85dc47cfaf3577124fa0465/pretext-1.7.3.dev20230726.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/c9/ca/f606bdbeae480cc48ae313707469d2c7e04c6264310d007ae220d0231cbd/cirq_google-1.3.0.dev20230726061441-py3-none-any.whl
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_web-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-web/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_pasqal-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-pasqal/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [card91-business-SDK]: Downloading https://files.pythonhosted.org/packages/72/0a/88c4128219d1fc766f8e0d1e0e1845f78a0129792d8c4f8c9e4c65ef518c/card91_business_SDK-0.0.14.tar.gz
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_rigetti-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-rigetti/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.96.tar.gz tmp/seven_cloudapp_frame-1.0.97.tar.gz --markdown 20230726/s/seven-cloudapp-frame/1.0.96-1.0.97/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [card91-business-SDK]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [card91-business-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Card91-Business-SDK-0.0.13.tar.gz tmp/card91_business_SDK-0.0.14.tar.gz --markdown 20230726/c/card91-business-SDK/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_google-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-google/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:18] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-26 08:20:18] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.3.dev20230722.tar.gz tmp/pretext-1.7.3.dev20230726.tar.gz --markdown 20230726/p/pretext/1.7.3.dev20230722-1.7.3.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 08:20:19] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-07-26 08:20:19] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl.zip tmp/cirq_core-1.3.0.dev20230726061441-py3-none-any.whl.zip --markdown 20230726/c/cirq-core/1.3.0.dev20230725201132-1.3.0.dev20230726061441/diff.md --exclude *.pyd
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq]: Start processing: shipper-shippy
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-aqt]: Start processing: redsession
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-07-26 08:20:20] INFO root fetch - processPackages [shipper-shippy]: New version: [2.18.0] Old Version: [2.17.0]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [redsession]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-web]: Start processing: adafri
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-07-26 08:20:20] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/25/d3/3eb21db1088110fa03abf35bb13e0236371ac8a77c67a6bac9797bd00060/shipper-shippy-2.17.0.tar.gz
+[2023-07-26 08:20:20] INFO root fetch - processPackages [adafri]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/0f/d3/d7142f354e8da31867d88f3eaeaf5afe7c1b246e8d3e96b4bfa90f76c862/adafri-0.0.60.tar.gz
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-pasqal]: Start processing: lbt-honeybee
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-07-26 08:20:20] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/2b/d2/08717b8212eb2ab2c6a10ce77cd4e11df421f88a87c740e802ac56af92cd/redsession-1.0.2.tar.gz
+[2023-07-26 08:20:20] INFO root fetch - processPackages [card91-business-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Card91-Business-SDK-0.0.13.tar.gz]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [card91-business-SDK]: Remove: archive file [/home/abi/fetcher/tmp/card91_business_SDK-0.0.14.tar.gz]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [card91-business-SDK]: Start processing: sdksio-juniper-mist-sdk
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [card91-business-SDK]: success
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [cirq-rigetti]: Start processing: edgar-py
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-07-26 08:20:20] WARNING root fetch - processPackages [sdksio-juniper-mist-sdk]: Skipping, unable to determine old version
+[2023-07-26 08:20:20] INFO root fetch - processPackages [sdksio-juniper-mist-sdk]: Start processing: lmcloud
+[2023-07-26 08:20:20] INFO root fetch - main [MainThread]: End processing [sdksio-juniper-mist-sdk] error
+[2023-07-26 08:20:20] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [edgar-py]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 08:20:20] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/ee/e2/89712045c5a840b3c88246b59f1582f497d33270b7a4c6d896aed2eea82d/shipper-shippy-2.18.0.tar.gz
+[2023-07-26 08:20:20] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/67/34/76ec89a1d4ba07c9fabc14f4994d5ad19590fdd0196af22f8925d9bbfc48/adafri-0.0.61.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [edgar-py]: Downloading https://files.pythonhosted.org/packages/5e/ae/88e797b65aefe473b9f4371bdd2f033dbe6ccbcd1ac1c011844e0896a8d7/edgar-py-0.0.0.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/52/35/f43a0abafbc8049b67321a0bd70928c26a08ebaad8a0d3a065fcf9cfe5fc/redsession-1.1.0.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.17.0.tar.gz tmp/shipper-shippy-2.18.0.tar.gz --markdown 20230726/s/shipper-shippy/2.17.0-2.18.0/diff.md --exclude *.pyd
+[2023-07-26 08:20:21] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.60.tar.gz tmp/adafri-0.0.61.tar.gz --markdown 20230726/a/adafri/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [redsession]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [redsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redsession-1.0.2.tar.gz tmp/redsession-1.1.0.tar.gz --markdown 20230726/r/redsession/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230726/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [edgar-py]: Downloading https://files.pythonhosted.org/packages/2a/08/ad934755e64aeebb58a7690216eaa86eaebc451a4ea3057388a8d3ce14c7/edgar-py-0.1.0.tar.gz
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230726/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 08:20:21] INFO root fetch - processPackages [edgar-py]: executing diffoscope
+[2023-07-26 08:20:21] INFO root fetch - processPackages [edgar-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgar-py-0.0.0.tar.gz tmp/edgar-py-0.1.0.tar.gz --markdown 20230726/e/edgar-py/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 08:20:22] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.96.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.97.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [seven-cloudapp-frame]: Start processing: hivecode
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-26 08:20:22] INFO root fetch - processPackages [hivecode]: New version: [0.0.0.8.20] Old Version: [0.0.0.8.19]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [hivecode]: Downloading https://files.pythonhosted.org/packages/0a/39/9343d81ba25b625c2417646691f36aa23793a352a7cd71ce56cd84520517/hivecode-0.0.0.8.19.tar.gz
+[2023-07-26 08:20:22] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.17.0.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.0.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [shipper-shippy]: Start processing: dragonfly-energy
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-07-26 08:20:22] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.0.2.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.1.0.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [redsession]: success
+[2023-07-26 08:20:22] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-26 08:20:22] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.60.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.61.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-26 08:20:22] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-26 08:20:22] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-26 08:20:23] INFO root fetch - processPackages [hivecode]: Downloading https://files.pythonhosted.org/packages/70/d8/a883cf6f273e36815c3dd9fa0857aeeece04efd6f6b74a072983a3276163/hivecode-0.0.0.8.20.tar.gz
+[2023-07-26 08:20:23] INFO root fetch - processPackages [edgar-py]: Remove: archive file [/home/abi/fetcher/tmp/edgar-py-0.0.0.tar.gz]
+[2023-07-26 08:20:23] INFO root fetch - processPackages [edgar-py]: Remove: archive file [/home/abi/fetcher/tmp/edgar-py-0.1.0.tar.gz]
+[2023-07-26 08:20:23] INFO root fetch - main [MainThread]: End processing [edgar-py]: success
+[2023-07-26 08:20:23] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-26 08:20:23] INFO root fetch - processPackages [hivecode]: executing diffoscope
+[2023-07-26 08:20:23] INFO root fetch - processPackages [hivecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivecode-0.0.0.8.19.tar.gz tmp/hivecode-0.0.0.8.20.tar.gz --markdown 20230726/h/hivecode/0.0.0.8.19-0.0.0.8.20/diff.md --exclude *.pyd
+[2023-07-26 08:20:23] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:23] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:23] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-07-26 08:20:23] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-26 08:20:23] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-26 08:20:23] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-26 08:20:23] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230726/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-26 08:20:24] INFO root fetch - processPackages [hivecode]: Remove: archive file [/home/abi/fetcher/tmp/hivecode-0.0.0.8.19.tar.gz]
+[2023-07-26 08:20:24] INFO root fetch - processPackages [hivecode]: Remove: archive file [/home/abi/fetcher/tmp/hivecode-0.0.0.8.20.tar.gz]
+[2023-07-26 08:20:24] INFO root fetch - main [MainThread]: End processing [hivecode]: success
+[2023-07-26 08:20:24] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230722.tar.gz]
+[2023-07-26 08:20:24] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230726.tar.gz]
+[2023-07-26 08:20:24] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-26 08:20:25] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-26 08:20:25] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-26 08:20:25] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-26 08:20:27] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230725201132-py3-none-any.whl.zip]
+[2023-07-26 08:20:27] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230726061441-py3-none-any.whl.zip]
+[2023-07-26 08:20:27] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-07-26 08:20:27] INFO root fetch - main [MainThread]: Store serial: [19040000]
