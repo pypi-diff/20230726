@@ -16232,3 +16232,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 10:23:31] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.9.0.tar.gz]
 [2023-07-26 10:23:31] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
 [2023-07-26 10:23:31] INFO root fetch - main [MainThread]: Store serial: [19041189]
+[2023-07-26 10:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041189]
+[2023-07-26 10:28:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actnova-yolo
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vembrane
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-huawei
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: x3deep
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fosslight-scanner
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhk
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raga-cli
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mxcubeweb
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-finance
+[2023-07-26 10:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dactim-mri
+[2023-07-26 10:28:40] INFO root fetch - processPackages [vembrane]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [huhk]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-26 10:28:40] WARNING root fetch - processPackages [apache-airflow-providers-huawei]: Skipping, unable to determine old version
+[2023-07-26 10:28:40] INFO root fetch - processPackages [apache-airflow-providers-huawei]: Start processing: mylove
+[2023-07-26 10:28:40] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-huawei] error
+[2023-07-26 10:28:40] WARNING root fetch - processPackages [x3deep]: Skipping, unable to determine old version
+[2023-07-26 10:28:40] INFO root fetch - processPackages [x3deep]: Start processing: actnova-yolo
+[2023-07-26 10:28:40] INFO root fetch - main [MainThread]: End processing [x3deep] error
+[2023-07-26 10:28:40] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [mxcubeweb]: New version: [1.62.0] Old Version: [1.61.0]
+[2023-07-26 10:28:40] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 10:28:41] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/46/32/29e2d77afafa8af31e72650716410bca915172719d98092f7b1be427650d/huhk-1.8.5.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 10:28:41] ERROR root fetch - processPackages [mylove]: Unable to get metadata: No such project 'mylove'
+[2023-07-26 10:28:41] INFO root fetch - processPackages [mylove]: Start processing: aspose-tasks
+[2023-07-26 10:28:41] INFO root fetch - main [MainThread]: End processing [mylove] error
+[2023-07-26 10:28:41] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [vembrane]: Downloading https://files.pythonhosted.org/packages/a9/cc/32caf0fa14db521458db0e9ff4dcac350aa09078f0fb9d031d87945a43e0/vembrane-1.0.2.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/8d/17/c7076436a96452c1f8fa9c8077a1690bab5e7f3d60b1b063a740d8b1c3c8/mxcubeweb-1.61.0.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [aspose-tasks]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-26 10:28:41] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [aspose-tasks]: Downloading https://files.pythonhosted.org/packages/bc/5b/52e1609093e1fd1e2acae2aa4147f435b357e689482c2166052f9700734d/aspose_tasks-23.6.0-py3-none-win_amd64.whl
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 10:28:41] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-07-26 10:28:41] INFO root fetch - processPackages [dactim-mri]: Start processing: pyoes
+[2023-07-26 10:28:41] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-07-26 10:28:41] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/c8/5e/3cd09b3f49f53bb3fd1121783f6f9c9fca5472c54e6455a8f435529cf800/huhk-1.8.6.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [vembrane]: Downloading https://files.pythonhosted.org/packages/04/57/ac7cae4ce0b1e465a823a45eaeac48ebf3454d4f3b7899d599c11ef50e52/vembrane-1.0.3.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/47/42/7e587c9b1c2a1c87037c437ad0a4a6ae781b3eac29bae46579adf4b94469/mxcubeweb-1.62.0.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-07-26 10:28:41] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230726/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 10:28:41] WARNING root fetch - processPackages [aspose-tasks]: Skipping package: exceeds size limit 47442465>=10485760
+[2023-07-26 10:28:41] INFO root fetch - main [MainThread]: End processing [aspose-tasks] error
+[2023-07-26 10:28:41] INFO root fetch - processPackages [pyoes]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-26 10:28:41] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 10:28:41] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 10:28:41] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-26 10:28:41] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.8.5.tar.gz tmp/huhk-1.8.6.tar.gz --markdown 20230726/h/huhk/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-07-26 10:28:42] INFO root fetch - processPackages [vembrane]: executing diffoscope
+[2023-07-26 10:28:42] INFO root fetch - processPackages [vembrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vembrane-1.0.2.tar.gz tmp/vembrane-1.0.3.tar.gz --markdown 20230726/v/vembrane/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 10:28:42] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2023-07-26 10:28:42] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20230726/f/fosslight-scanner/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-26 10:28:42] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-07-26 10:28:42] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.61.0.tar.gz tmp/mxcubeweb-1.62.0.tar.gz --markdown 20230726/m/mxcubeweb/1.61.0-1.62.0/diff.md --exclude *.pyd
+[2023-07-26 10:28:42] INFO root fetch - processPackages [pyoes]: Downloading https://files.pythonhosted.org/packages/a8/1b/dd0c1d6b31c86db1aac92a5b6c4da235ac782e82d15d699b449a5a3cc82f/pyoes-0.9.1-py2.py3-none-any.whl
+[2023-07-26 10:28:42] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-07-26 10:28:42] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-07-26 10:28:42] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230726/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-26 10:28:43] INFO root fetch - processPackages [pyoes]: Downloading https://files.pythonhosted.org/packages/a4/19/b9e2dc46fca609bfd9944f584823bbaa3d52a6b2f5ab8ae8f43bd3e07aed/pyoes-0.9.2-py2.py3-none-any.whl
+[2023-07-26 10:28:43] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-07-26 10:28:43] INFO root fetch - processPackages [vembrane]: Remove: archive file [/home/abi/fetcher/tmp/vembrane-1.0.2.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [vembrane]: Remove: archive file [/home/abi/fetcher/tmp/vembrane-1.0.3.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [vembrane]: success
+[2023-07-26 10:28:43] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.5.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.6.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-26 10:28:43] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.8.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2023-07-26 10:28:43] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-07-26 10:28:43] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.61.0.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.62.0.tar.gz]
+[2023-07-26 10:28:43] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-07-26 10:28:44] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 10:28:44] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 10:28:44] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 10:28:44] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 10:28:44] INFO root fetch - processPackages [pyoes]: executing diffoscope
+[2023-07-26 10:28:44] INFO root fetch - processPackages [pyoes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoes-0.9.1-py2.py3-none-any.whl.zip tmp/pyoes-0.9.2-py2.py3-none-any.whl.zip --markdown 20230726/p/pyoes/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-26 10:28:46] INFO root fetch - processPackages [pyoes]: Remove: archive file [/home/abi/fetcher/tmp/pyoes-0.9.1-py2.py3-none-any.whl.zip]
+[2023-07-26 10:28:46] INFO root fetch - processPackages [pyoes]: Remove: archive file [/home/abi/fetcher/tmp/pyoes-0.9.2-py2.py3-none-any.whl.zip]
+[2023-07-26 10:28:46] INFO root fetch - main [MainThread]: End processing [pyoes]: success
+[2023-07-26 10:28:46] INFO root fetch - main [MainThread]: Store serial: [19041239]
