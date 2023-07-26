@@ -13450,3 +13450,102 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:20:27] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230726061441-py3-none-any.whl.zip]
 [2023-07-26 08:20:27] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-26 08:20:27] INFO root fetch - main [MainThread]: Store serial: [19040000]
+[2023-07-26 08:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040000]
+[2023-07-26 08:25:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actnova-yolo
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audioshake-queue-manager
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhixuewang
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knack
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor-dev
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-cloudapp-frame
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-opnsense
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stability-matrix-tools
+[2023-07-26 08:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-bpy-module-latest
+[2023-07-26 08:25:36] WARNING root fetch - processPackages [audioshake-queue-manager]: Skipping, unable to determine old version
+[2023-07-26 08:25:36] INFO root fetch - processPackages [audioshake-queue-manager]: Start processing: kynaylibs
+[2023-07-26 08:25:36] INFO root fetch - main [MainThread]: End processing [audioshake-queue-manager] error
+[2023-07-26 08:25:36] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [zhixuewang]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.88] Old Version: [0.0.87]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [knack]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230726] Old Version: [20230725]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.97] Old Version: [1.0.96.1]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [kynaylibs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-26 08:25:36] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/52/c8/3653c673fd58bc29d57aadf72305fe8facf2d9b4037f14184cb65e5eae8b/pulumi_opnsense-0.0.87.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [zhixuewang]: Downloading https://files.pythonhosted.org/packages/10/dc/e94572e1f61f89fd2ebace07c8a4a8ed5107c351c15d6199ad9a9ae6239d/zhixuewang-1.1.8-py3-none-any.whl
+[2023-07-26 08:25:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ad/cf/e7dad7e82162ae8c9545c17c85b4bb1b61dadfd07272e726df50ccecb817/fake-bpy-module-latest-20230725.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/52/eb/0954b904813e15e19397ecce0a29471c094c0a230d9a11c7a994d4969b02/stability_matrix_tools-0.2.1.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/ce/c5/fc91b4fbdd7491bedd2c0c4a0d8dd9ff8cba5dab8e2df31731692564d67d/seven_cloudapp_frame-1.0.96.1.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [knack]: Downloading https://files.pythonhosted.org/packages/b2/4f/4c6fc2ee28055b961ebbbbed5e7f645c70e25b774b564ae152e3aa62ce9e/knack-0.8.2.tar.gz
+[2023-07-26 08:25:36] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/ee/d7/d96ae0629270d44b0d70dbd3cb4354422f4550f1f52d649a5f793bdba61a/kynaylibs-1.9.1.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [zhixuewang]: Downloading https://files.pythonhosted.org/packages/c2/ee/17b69376e1bf7b51fb76b3e97b84736e0ff386e65f17adc03a3ccb060bf0/zhixuewang-1.1.9-py3-none-any.whl
+[2023-07-26 08:25:37] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/25/be/8c2464a066ca1913a526e126b00c82ad0477c34375a2c807ff9fe960e9e1/pulumi_opnsense-0.0.88.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/60/8e/1bf7debda5e7f582f8146d61be79629e1dd7534f391e926097ad672c0681/fake-bpy-module-latest-20230726.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/8e/d9/51bafa85d8e1af14660fd8e49fc42676ef847f0971aa797e4d741b6ef5b4/seven_cloudapp_frame-1.0.97.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [knack]: Downloading https://files.pythonhosted.org/packages/da/9c/d04c32ecf37e0ed5a887b30058de4bb817791550462383e3473cc8527309/knack-0.9.0.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [zhixuewang]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [zhixuewang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhixuewang-1.1.8-py3-none-any.whl.zip tmp/zhixuewang-1.1.9-py3-none-any.whl.zip --markdown 20230726/z/zhixuewang/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/b0/ae/909409a7d86f834943509e1f29cfa05bdf098c692189969a22ad6f5efd55/stability_matrix_tools-0.2.2.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230726/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/f3/03/b1cded2ea7f382c82cbe43b7fa381fb24d22ce35f76c0856a8f73f7b33ca/kynaylibs-1.9.2.tar.gz
+[2023-07-26 08:25:37] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230726/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.2.1.tar.gz tmp/stability_matrix_tools-0.2.2.tar.gz --markdown 20230726/s/stability-matrix-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.96.1.tar.gz tmp/seven_cloudapp_frame-1.0.97.tar.gz --markdown 20230726/s/seven-cloudapp-frame/1.0.96.1-1.0.97/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.87.tar.gz tmp/pulumi_opnsense-0.0.88.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.87-0.0.88/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [knack]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [knack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knack-0.8.2.tar.gz tmp/knack-0.9.0.tar.gz --markdown 20230726/k/knack/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.9.1.tar.gz tmp/kynaylibs-1.9.2.tar.gz --markdown 20230726/k/kynaylibs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-26 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230725.tar.gz tmp/fake-bpy-module-latest-20230726.tar.gz --markdown 20230726/f/fake-bpy-module-latest/20230725-20230726/diff.md --exclude *.pyd
+[2023-07-26 08:25:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: odin-sdk-python
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-26 08:25:39] WARNING root fetch - processPackages [odin-sdk-python]: Skipping, unable to determine old version
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [odin-sdk-python] error
+[2023-07-26 08:25:39] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.87.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.88.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:25:39] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.2.1.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.2.2.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-26 08:25:39] INFO root fetch - processPackages [zhixuewang]: Remove: archive file [/home/abi/fetcher/tmp/zhixuewang-1.1.8-py3-none-any.whl.zip]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [zhixuewang]: Remove: archive file [/home/abi/fetcher/tmp/zhixuewang-1.1.9-py3-none-any.whl.zip]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [zhixuewang]: success
+[2023-07-26 08:25:39] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-07-26 08:25:39] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.9.1.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.9.2.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-07-26 08:25:39] INFO root fetch - processPackages [knack]: Remove: archive file [/home/abi/fetcher/tmp/knack-0.8.2.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - processPackages [knack]: Remove: archive file [/home/abi/fetcher/tmp/knack-0.9.0.tar.gz]
+[2023-07-26 08:25:39] INFO root fetch - main [MainThread]: End processing [knack]: success
+[2023-07-26 08:25:40] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 08:25:40] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 08:25:40] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 08:25:40] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.96.1.tar.gz]
+[2023-07-26 08:25:40] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.97.tar.gz]
+[2023-07-26 08:25:40] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-26 08:25:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230725.tar.gz]
+[2023-07-26 08:25:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230726.tar.gz]
+[2023-07-26 08:25:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-26 08:25:42] INFO root fetch - main [MainThread]: Store serial: [19040045]
