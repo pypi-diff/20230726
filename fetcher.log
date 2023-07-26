@@ -13897,3 +13897,111 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:42:16] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.4.tar.gz]
 [2023-07-26 08:42:16] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-07-26 08:42:16] INFO root fetch - main [MainThread]: Store serial: [19040176]
+[2023-07-26 08:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040176]
+[2023-07-26 08:47:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KorDigits
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p3droslo
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actnova-yolo
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-27
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpcal
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-opnsense
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: audioshake-job-manager
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-editor-dev
+[2023-07-26 08:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-opnsense
+[2023-07-26 08:47:25] INFO root fetch - processPackages [KorDigits]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [cdk8s-plus-27]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [gpcal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-26 08:47:25] WARNING root fetch - processPackages [audioshake-job-manager]: Skipping, unable to determine old version
+[2023-07-26 08:47:25] INFO root fetch - processPackages [p3droslo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [audioshake-job-manager]: Start processing: lexikanon
+[2023-07-26 08:47:25] INFO root fetch - main [MainThread]: End processing [audioshake-job-manager] error
+[2023-07-26 08:47:25] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [lexikanon]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 08:47:25] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/00/1c/79f355011319a1e74db5ecf9b4a457024958e76d7cbe68032117c9b96d9f/cdk8s-plus-27-2.1.0.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/fe/4e/6e2233ceca1b79a531602e18e9a32cead001be920a907db678b6195b1016/KorDigits-1.1.4-py3-none-any.whl
+[2023-07-26 08:47:25] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/32/42/e22893cf1d12989a41dfde1f5d66421f090023b20451ea521413e87d66f2/pulumi_opnsense-0.0.91.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [p3droslo]: Downloading https://files.pythonhosted.org/packages/9d/a8/c0f846635cca18fd3b1be4b1e03ef9663260af2d3d13081581a92be5841a/p3droslo-0.0.8.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-26 08:47:25] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/32/42/e22893cf1d12989a41dfde1f5d66421f090023b20451ea521413e87d66f2/pulumi_opnsense-0.0.91.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/b6/e0/9c6ae35bbbf9c31167d379c360fa939f4c29218b058cefb93d605263538b/gpcal-0.9.4.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/f0/37/13cef9f90a4d5b3801a3d53bde290487c8cc6549af5e3d5dc77c2be6e0f1/lexikanon-0.3.0.tar.gz
+[2023-07-26 08:47:26] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61312139>=10485760
+[2023-07-26 08:47:26] INFO root fetch - processPackages [KorDigits]: Start processing: lark-oapi
+[2023-07-26 08:47:26] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 08:47:26] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/11/55/074394ecaf129b15c1beb16cac68bbf33151620d4d5857f51a3316a612c8/cdk8s-plus-27-2.2.0.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/4b/67/8299c7e3af6c3503c343c095dab53f63a638a768d212ba68a56c46ca1653/lark-oapi-1.0.3.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [p3droslo]: Downloading https://files.pythonhosted.org/packages/59/1d/c6eb0f3d2da44104da4f6bab577ac04043ffc2aca820551afddb0f3378e6/p3droslo-0.0.9.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/55/46/2ea0567b8122b8054b20183fc8ee2200ad05930e1c3d7fe52916c631eae5/actnova-yolo-1.0.9.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/86/26/853d37992df372513c5cbf5780011126608fb749e78c88c6ebffa495f238/pulumi_opnsense-0.0.92.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/86/26/853d37992df372513c5cbf5780011126608fb749e78c88c6ebffa495f238/pulumi_opnsense-0.0.92.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230726/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230726/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/bf/21/a8c7f036c6e0fb630953be97ad0f5b19272aff913b7b5c20b402b6c36fb4/lexikanon-0.3.1.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/22/75/b9e9bc123d3748da8635a08acbb8de582d24cb8126e7d38396ebcdd3fddd/gpcal-0.9.5.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.91.tar.gz tmp/pulumi_opnsense-0.0.92.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [p3droslo]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [p3droslo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3droslo-0.0.8.tar.gz tmp/p3droslo-0.0.9.tar.gz --markdown 20230726/p/p3droslo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.91.tar.gz tmp/pulumi_opnsense-0.0.92.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.8.tar.gz tmp/actnova-yolo-1.0.9.tar.gz --markdown 20230726/a/actnova-yolo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [cdk8s-plus-27]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [cdk8s-plus-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-27-2.1.0.tar.gz tmp/cdk8s-plus-27-2.2.0.tar.gz --markdown 20230726/c/cdk8s-plus-27/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/0a/59/9d0ca695df4552663a3d6a97d4dd7be49cb4908d506b3c895469da827596/lark-oapi-1.0.4.tar.gz
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.3.0.tar.gz tmp/lexikanon-0.3.1.tar.gz --markdown 20230726/l/lexikanon/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 08:47:26] INFO root fetch - processPackages [gpcal]: executing diffoscope
+[2023-07-26 08:47:26] INFO root fetch - processPackages [gpcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpcal-0.9.4.tar.gz tmp/gpcal-0.9.5.tar.gz --markdown 20230726/g/gpcal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-26 08:47:27] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-26 08:47:27] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.3.tar.gz tmp/lark-oapi-1.0.4.tar.gz --markdown 20230726/l/lark-oapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 08:47:28] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.91.tar.gz]
+[2023-07-26 08:47:28] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.92.tar.gz]
+[2023-07-26 08:47:28] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: ciokatana
+[2023-07-26 08:47:28] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [ciokatana]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [p3droslo]: Remove: archive file [/home/abi/fetcher/tmp/p3droslo-0.0.8.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [p3droslo]: Remove: archive file [/home/abi/fetcher/tmp/p3droslo-0.0.9.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [p3droslo]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/cc/b5/191a0724be8d5656428c2cf2a443c562a2d431e1bc9b999fc883da5e5121/ciokatana-0.1.0rc2-py2.py3-none-any.whl
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.4.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [gpcal]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.3.0.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.3.1.tar.gz]
+[2023-07-26 08:47:29] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-26 08:47:29] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/33/cc/f612c03bfb014834dd2fda06f81a4de01f7d499c4b4b8e0a4839fbb49e97/ciokatana-0.1.0rc3-py2.py3-none-any.whl
+[2023-07-26 08:47:29] INFO root fetch - processPackages [ciokatana]: executing diffoscope
+[2023-07-26 08:47:29] INFO root fetch - processPackages [ciokatana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciokatana-0.1.0rc2-py2.py3-none-any.whl.zip tmp/ciokatana-0.1.0rc3-py2.py3-none-any.whl.zip --markdown 20230726/c/ciokatana/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-07-26 08:47:30] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.1.0.tar.gz]
+[2023-07-26 08:47:30] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.2.0.tar.gz]
+[2023-07-26 08:47:30] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
+[2023-07-26 08:47:30] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-26 08:47:30] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.9.tar.gz]
+[2023-07-26 08:47:30] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-26 08:47:31] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.0rc2-py2.py3-none-any.whl.zip]
+[2023-07-26 08:47:31] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.0rc3-py2.py3-none-any.whl.zip]
+[2023-07-26 08:47:31] INFO root fetch - main [MainThread]: End processing [ciokatana]: success
+[2023-07-26 08:48:23] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.3.tar.gz]
+[2023-07-26 08:48:23] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.4.tar.gz]
+[2023-07-26 08:48:23] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-26 08:48:23] INFO root fetch - main [MainThread]: Store serial: [19040214]
