@@ -17874,3 +17874,158 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 11:22:02] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-8.0.2.tar.gz]
 [2023-07-26 11:22:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2023-07-26 11:22:02] INFO root fetch - main [MainThread]: Store serial: [19041851]
+[2023-07-26 11:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041851]
+[2023-07-26 11:27:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-hcp
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydactim
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datahelp
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydactim
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydactim
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qesdk
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundationdb
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitease
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-function
+[2023-07-26 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phlorest
+[2023-07-26 11:27:11] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [pydactim]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [gitease]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [pydactim]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [pydactim]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [phlorest]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [openai-function]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [datahelp]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [qesdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 11:27:11] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/78/24/54d5725b816864723646b8cfa0db6703ef04c3aab388680f2184e00980c4/gitease-0.0.8.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/1e/e9/0d32606e6471762df310659ca32cd246253bcf9246aa9572937ca08dfdb1/datahelp-0.1.6.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/03/60/a66f469a52ae3d8e692047f5660f14e56f20af3d5082839fa9f3b68540d4/pydactim-0.0.5.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/03/60/a66f469a52ae3d8e692047f5660f14e56f20af3d5082839fa9f3b68540d4/pydactim-0.0.5.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/03/60/a66f469a52ae3d8e692047f5660f14e56f20af3d5082839fa9f3b68540d4/pydactim-0.0.5.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/e6/2a/4075d896945c61265c07590f6c4ccbb475fe3bb483e9455f10567a4251c5/cdktf-cdktf-provider-hcp-6.0.1.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/e3/a2/fcf528905493eb2173426cd23ca80f3fe8401566cb927104b38402dfd6ae/openai_function-0.0.1.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [phlorest]: Downloading https://files.pythonhosted.org/packages/38/6a/6e0e9a13d5947f97d8728b272c55c5d02130108f558cbd1b0cfea08d972c/phlorest-1.1.0.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [qesdk]: Downloading https://files.pythonhosted.org/packages/46/68/5ad67769ccee0b9d557ce3d6a8297fdc139c24cdcc4cd21ed0c39417d957/qesdk-0.1.8.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/41/31/6d81d00b02735ba9cb8b622c2a24ea5a13a6cd09645600a0d43e24e65d0b/gitease-0.0.9.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/6e/5c/f16c0663241b199aae62cecae5ea6afd1ca539a862618797456a4ceac3e7/datahelp-0.2.0.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/d5/f6/3e8d3c4c12cff241587cc805ee3b71850039621fffd2442f2e636c07f8bd/pydactim-0.0.6.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/d5/f6/3e8d3c4c12cff241587cc805ee3b71850039621fffd2442f2e636c07f8bd/pydactim-0.0.6.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/0c/f0/e86c014755fb9c29d491dcbadcf952855fd315787cab239fe63df82199d9/cdktf-cdktf-provider-hcp-6.0.2.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/d5/f6/3e8d3c4c12cff241587cc805ee3b71850039621fffd2442f2e636c07f8bd/pydactim-0.0.6.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/2d/20/96f44d7cd85de097820acf97c727928685957429c2dde22b226329b42a3b/openai_function-0.1.0.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [phlorest]: Downloading https://files.pythonhosted.org/packages/47/4c/00fd1a08a6b39c1bf9d899a9c84e83741632c51c265686e6b13a160f6828/phlorest-1.2.0.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [gitease]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [gitease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitease-0.0.8.tar.gz tmp/gitease-0.0.9.tar.gz --markdown 20230726/g/gitease/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [datahelp]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [datahelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahelp-0.1.6.tar.gz tmp/datahelp-0.2.0.tar.gz --markdown 20230726/d/datahelp/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [qesdk]: Downloading https://files.pythonhosted.org/packages/46/a4/b603ec7bf7f92d2fb5f15abf0dffb3a78f1cd5fd438f9cf8a2559c6f3692/qesdk-0.1.9.tar.gz
+[2023-07-26 11:27:12] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20230726/f/foundationdb/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [phlorest]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [phlorest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phlorest-1.1.0.tar.gz tmp/phlorest-1.2.0.tar.gz --markdown 20230726/p/phlorest/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.0.1.tar.gz tmp/openai_function-0.1.0.tar.gz --markdown 20230726/o/openai-function/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-6.0.1.tar.gz tmp/cdktf-cdktf-provider-hcp-6.0.2.tar.gz --markdown 20230726/c/cdktf-cdktf-provider-hcp/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydactim-0.0.5.tar.gz tmp/pydactim-0.0.6.tar.gz --markdown 20230726/p/pydactim/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydactim-0.0.5.tar.gz tmp/pydactim-0.0.6.tar.gz --markdown 20230726/p/pydactim/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: executing diffoscope
+[2023-07-26 11:27:12] INFO root fetch - processPackages [pydactim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydactim-0.0.5.tar.gz tmp/pydactim-0.0.6.tar.gz --markdown 20230726/p/pydactim/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-26 11:27:13] INFO root fetch - processPackages [qesdk]: executing diffoscope
+[2023-07-26 11:27:13] INFO root fetch - processPackages [qesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qesdk-0.1.8.tar.gz tmp/qesdk-0.1.9.tar.gz --markdown 20230726/q/qesdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 11:27:14] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.8.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.9.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [gitease]: Start processing: har2tree
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [gitease]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [har2tree]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.6.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.2.0.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [datahelp]: Start processing: djangocms-aldryn-forms
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [datahelp]: success
+[2023-07-26 11:27:14] WARNING root fetch - processPackages [djangocms-aldryn-forms]: Skipping, unable to determine old version
+[2023-07-26 11:27:14] INFO root fetch - processPackages [djangocms-aldryn-forms]: Start processing: pdr-utils
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-forms] error
+[2023-07-26 11:27:14] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.0.1.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.0.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [openai-function]: Start processing: pydactim
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pdr-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/ab/1c/fa462b6fc68113b09310268a01e459e0c8d5e55039f3137af27181369e7a/har2tree-1.9.1.tar.gz
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/70/ea/20c23b35e638243d97e43d9546630eb519355da50a051e5d9a3c445d6672/pdr-utils-0.0.8.tar.gz
+[2023-07-26 11:27:14] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [foundationdb]: Start processing: pbix-chinese
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pbix-chinese]: New version: [23.7.5] Old Version: [23.7.3]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/ea/0b/3e25465c42df320a3c79be244d454b4bb94f70fb1b1936e759569cac5316/pdr-utils-0.0.9.tar.gz
+[2023-07-26 11:27:14] INFO root fetch - processPackages [qesdk]: Remove: archive file [/home/abi/fetcher/tmp/qesdk-0.1.8.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: Remove: archive file [/home/abi/fetcher/tmp/pydactim-0.0.5.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: Remove: archive file [/home/abi/fetcher/tmp/pydactim-0.0.6.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [qesdk]: Remove: archive file [/home/abi/fetcher/tmp/qesdk-0.1.9.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: Start processing: selenium-driverless
+[2023-07-26 11:27:14] INFO root fetch - processPackages [qesdk]: Start processing: rebotics-sdk
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [pydactim]: success
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [qesdk]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: Downloading https://files.pythonhosted.org/packages/db/fb/873b2655127b934aa746585ef8b67cd7d6bf8998fb0f6357df693a6777dc/pydactim-0.0.7.tar.gz
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pydactim]: Start processing: affinda
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [pydactim]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [phlorest]: Remove: archive file [/home/abi/fetcher/tmp/phlorest-1.1.0.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - processPackages [phlorest]: Remove: archive file [/home/abi/fetcher/tmp/phlorest-1.2.0.tar.gz]
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [phlorest]: success
+[2023-07-26 11:27:14] INFO root fetch - processPackages [pbix-chinese]: Downloading https://files.pythonhosted.org/packages/8e/64/9fea545d39b7057d1912b81ea2af6ed477328d25eae39ae9098750d540a9/pbix_chinese-23.7.3-py3-none-any.whl
+[2023-07-26 11:27:14] INFO root fetch - main [MainThread]: End processing [pydactim]: success
+[2023-07-26 11:27:15] INFO root fetch - processPackages [selenium-driverless]: New version: [1.2] Old Version: [1.1.2]
+[2023-07-26 11:27:15] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-26 11:27:15] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pdr-utils]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pdr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdr-utils-0.0.8.tar.gz tmp/pdr-utils-0.0.9.tar.gz --markdown 20230726/p/pdr-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pydactim]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pydactim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydactim-0.0.6.tar.gz tmp/pydactim-0.0.7.tar.gz --markdown 20230726/p/pydactim/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/6d/57/5a665cbe34f97ecce79d0adf72588c9dbbc06bed96f86a81671df1ca8396/selenium_driverless-1.1.2.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-6.0.1.tar.gz]
+[2023-07-26 11:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-6.0.2.tar.gz]
+[2023-07-26 11:27:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2023-07-26 11:27:15] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pbix-chinese]: Downloading https://files.pythonhosted.org/packages/b7/23/2035e65503b631c2c1172fea79cd128278f1a1766bd8df671b41ed577bdf/pbix_chinese-23.7.5.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/d5/e7/2b2311330f353586a94cd7d47f1c1460458ed98491ec39c490b14a3955a0/har2tree-1.9.2.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pbix-chinese]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [pbix-chinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_chinese-23.7.3-py3-none-any.whl.zip tmp/pbix_chinese-23.7.5.tar.gz --markdown 20230726/p/pbix-chinese/23.7.3-23.7.5/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/89/32/21c8e699e56cd5bbc94a10713560107dc4439ed445bbf2eacad1c7386f74/selenium_driverless-1.2.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [har2tree]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [har2tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2tree-1.9.1.tar.gz tmp/har2tree-1.9.2.tar.gz --markdown 20230726/h/har2tree/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2023-07-26 11:27:15] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.1.2.tar.gz tmp/selenium_driverless-1.2.tar.gz --markdown 20230726/s/selenium-driverless/1.1.2-1.2/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] ERROR root fetch - processPackages [pydactim]: Diffoscope failed: time="2023-07-26T11:27:15+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pydactim-0.0.6.tar.gz: No such file or directory
+
+[2023-07-26 11:27:15] INFO root fetch - main [MainThread]: End processing [pydactim] error
+[2023-07-26 11:27:15] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20230726/a/affinda/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-07-26 11:27:15] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-26 11:27:15] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230726/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-26 11:27:16] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.8.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.9.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - main [MainThread]: End processing [pdr-utils]: success
+[2023-07-26 11:27:16] INFO root fetch - processPackages [pbix-chinese]: Remove: archive file [/home/abi/fetcher/tmp/pbix_chinese-23.7.3-py3-none-any.whl.zip]
+[2023-07-26 11:27:16] INFO root fetch - processPackages [pbix-chinese]: Remove: archive file [/home/abi/fetcher/tmp/pbix_chinese-23.7.5.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - main [MainThread]: End processing [pbix-chinese]: success
+[2023-07-26 11:27:16] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.1.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.2.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - main [MainThread]: End processing [har2tree]: success
+[2023-07-26 11:27:16] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.1.2.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.2.tar.gz]
+[2023-07-26 11:27:16] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2023-07-26 11:27:17] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-26 11:27:17] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-26 11:27:17] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-26 11:27:18] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2023-07-26 11:27:18] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2023-07-26 11:27:18] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-07-26 11:27:18] INFO root fetch - main [MainThread]: Store serial: [19041909]
