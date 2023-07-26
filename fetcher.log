@@ -2570,3 +2570,196 @@
 [2023-07-26 02:17:44] INFO root fetch - processPackages [azure-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-ml-1.9.0.zip]
 [2023-07-26 02:17:44] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
 [2023-07-26 02:17:44] INFO root fetch - main [MainThread]: Store serial: [19036157]
+[2023-07-26 02:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19036157]
+[2023-07-26 02:22:53] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyunifiprotect
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdash
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a-bigelow.cdk-eventbridge-partner-processors
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testmhdbAPI
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coaxial-client
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.appsync-utils
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymino
+[2023-07-26 02:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-antiddos
+[2023-07-26 02:22:53] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-26 02:22:53] INFO root fetch - processPackages [langdash]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-26 02:22:53] INFO root fetch - processPackages [testmhdbAPI]: New version: [1.5] Old Version: [1.4]
+[2023-07-26 02:22:53] WARNING root fetch - processPackages [coaxial-client]: Skipping, unable to determine old version
+[2023-07-26 02:22:53] INFO root fetch - processPackages [coaxial-client]: Start processing: bionemo
+[2023-07-26 02:22:54] INFO root fetch - main [MainThread]: End processing [coaxial-client] error
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/bf/4a/98ce45b85cc81cbd2f780796ef337a4e63aae31d447d490340e5101622a1/testmhdbAPI-1.4.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [pymino]: New version: [1.2.4.4] Old Version: [1.2.4.3]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-26 02:22:54] WARNING root fetch - processPackages [bionemo]: Skipping, unable to determine old version
+[2023-07-26 02:22:54] INFO root fetch - processPackages [bionemo]: Start processing: eeggan
+[2023-07-26 02:22:54] INFO root fetch - main [MainThread]: End processing [bionemo] error
+[2023-07-26 02:22:54] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: New version: [3.0.943] Old Version: [3.0.942]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [eeggan]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/48/a8/263041f72e28e48a61da3038506e6dff7e193f0a9a99659f5af5f290f46f/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/9d/3d/b9d7a849d059f43232f5756c5a2090ab4540549731286ada3e0c304eaa22/pyunifiprotect-4.9.0.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/c7/a9/d58ebf7d075e3f83e76a504600a053a3b6adbdff9012be1bd6a2a8f927bf/pymino-1.2.4.3.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/6e/2c/3a0d1ab4d4f82049ed1730023299b745fb4235fdd935525d9b6c217832b4/tencentcloud-sdk-python-antiddos-3.0.942.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/a4/bd/7d5708671bd36fffe58601adb7813cac54696e8d95737497d54568002fcc/eeggan-0.1.5.tar.gz
+[2023-07-26 02:22:54] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 32906059>=10485760
+[2023-07-26 02:22:54] INFO root fetch - processPackages [eeggan]: Start processing: cdk8s-valheim
+[2023-07-26 02:22:54] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2023-07-26 02:22:54] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/6a/14/28a67c60ba9a1e7944d1898a3fccd002d56dfb3bfdf0b00e2b47bf98195d/langdash-1.9.2.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/30/d0/0f99b15dece1c9b0a7f7827179d38814c1186e463612d88b29c6737b4b2e/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/31/7b/c1d9cacfb39e7ebe7b80a1e02ef9be80028b85b3f0544982d99a001560e1/testmhdbAPI-1.5.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/63/45/42f4149b592dde71e519b3521383b63738b99b7ca4220d9001ee51803c9c/pyunifiprotect-4.9.1.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [testmhdbAPI]: executing diffoscope
+[2023-07-26 02:22:54] INFO root fetch - processPackages [testmhdbAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmhdbAPI-1.4.tar.gz tmp/testmhdbAPI-1.5.tar.gz --markdown 20230726/t/testmhdbAPI/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-26 02:22:54] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-26 02:22:54] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.1.tar.gz tmp/langdash-1.9.2.tar.gz --markdown 20230726/l/langdash/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/09/09/d644bfe6ff5781538024405b571e030911bbde8894884f985c1bc0205179/tencentcloud-sdk-python-antiddos-3.0.943.tar.gz
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-07-26 02:22:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20230726/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:54] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: executing diffoscope
+[2023-07-26 02:22:54] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz --markdown 20230726/a/a-bigelow.cdk-eventbridge-partner-processors/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-07-26 02:22:55] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/4c/d3/0e8d7613733b6e6d7a9cc12186e44540add74b2921549b19bfd9423bb1a4/pymino-1.2.4.4.tar.gz
+[2023-07-26 02:22:55] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.9.0.tar.gz tmp/pyunifiprotect-4.9.1.tar.gz --markdown 20230726/p/pyunifiprotect/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-antiddos-3.0.942.tar.gz tmp/tencentcloud-sdk-python-antiddos-3.0.943.tar.gz --markdown 20230726/t/tencentcloud-sdk-python-antiddos/3.0.942-3.0.943/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230726/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230726/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.4.3.tar.gz tmp/pymino-1.2.4.4.tar.gz --markdown 20230726/p/pymino/1.2.4.3-1.2.4.4/diff.md --exclude *.pyd
+[2023-07-26 02:22:55] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-26 02:22:55] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-26 02:22:55] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230726/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:56] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.4.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.5.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [testmhdbAPI]: Start processing: cdk-amazon-chime-resources
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [testmhdbAPI]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.appsync-utils]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-07-26 02:22:56] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: cdk-budibase
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.2.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [langdash]: Start processing: pip-services4-data
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [pip-services4-data]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2023-07-26 02:22:56] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.942.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.943.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Start processing: writerai
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-antiddos]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [pip-services4-data]: Downloading https://files.pythonhosted.org/packages/da/0d/fe7a62854b3be72e21568883bebfa3129e403fe6272fcb571704d741fd8e/pip_services4_data-0.0.2.tar.gz
+[2023-07-26 02:22:56] INFO root fetch - processPackages [writerai]: New version: [0.6.0] Old Version: [0.4.0]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-07-26 02:22:56] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Start processing: cdk-gitlab-runner
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Start processing: cdk-nag
+[2023-07-26 02:22:56] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-07-26 02:22:56] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk8s-valheim]: Start processing: cdktf-surreal-backend
+[2023-07-26 02:22:57] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [writerai]: Downloading https://files.pythonhosted.org/packages/75/61/fb74975d75f63c07ea4e54f948b2b07a54ddc97ffa392d58d9f4b8d97481/writerai-0.4.0.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.4.3.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.4.4.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pymino]: Start processing: Leonardo-Ai-SDK
+[2023-07-26 02:22:57] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230726/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20230726/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pip-services4-data]: Downloading https://files.pythonhosted.org/packages/f5/ac/02f95542d0644eb8141f6cc2310342e8b990f1795710f3b02ad4ec3a3708/pip_services4_data-0.0.3.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.0.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pip-services4-data]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.1.tar.gz]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pip-services4-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_services4_data-0.0.2.tar.gz tmp/pip_services4_data-0.0.3.tar.gz --markdown 20230726/p/pip-services4-data/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [pyunifiprotect]: Start processing: cdklabs.cdk-ethereum-node
+[2023-07-26 02:22:57] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:22:57] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/39/76/5f4c6bc83e8b0d42d3479d25eaa5d9fb196c828420b6bd2485632e982688/Leonardo-Ai-SDK-1.9.0.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [writerai]: Downloading https://files.pythonhosted.org/packages/d3/31/94125a8e30938783c500775563ae29ee7f0a5a749c1565c9c7bca107d7da/writerai-0.6.0.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230726/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230726/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230726/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230726/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:22:57] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/1d/7e/21211f1d6e93f2854ea4ac38b0ea9833ef669da4862aebf0cb77cf1c3b95/Leonardo-Ai-SDK-1.9.1.tar.gz
+[2023-07-26 02:22:57] INFO root fetch - processPackages [writerai]: executing diffoscope
+[2023-07-26 02:22:57] INFO root fetch - processPackages [writerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/writerai-0.4.0.tar.gz tmp/writerai-0.6.0.tar.gz --markdown 20230726/w/writerai/0.4.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-26 02:22:58] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2023-07-26 02:22:58] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-1.9.0.tar.gz tmp/Leonardo-Ai-SDK-1.9.1.tar.gz --markdown 20230726/L/Leonardo-Ai-SDK/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-26 02:22:58] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Start processing: pip-services4-persistence
+[2023-07-26 02:22:58] INFO root fetch - main [MainThread]: End processing [a-bigelow.cdk-eventbridge-partner-processors]: success
+[2023-07-26 02:22:58] WARNING root fetch - processPackages [pip-services4-persistence]: Skipping, unable to determine old version
+[2023-07-26 02:22:58] INFO root fetch - main [MainThread]: End processing [pip-services4-persistence] error
+[2023-07-26 02:22:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-07-26 02:22:58] INFO root fetch - processPackages [pip-services4-data]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_data-0.0.2.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - processPackages [pip-services4-data]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_data-0.0.3.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - main [MainThread]: End processing [pip-services4-data]: success
+[2023-07-26 02:22:58] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2023-07-26 02:22:58] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.98.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.99.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.0.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.1.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2023-07-26 02:22:59] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.4.0.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.6.0.tar.gz]
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [writerai]: success
+[2023-07-26 02:22:59] INFO root fetch - main [MainThread]: Store serial: [19036230]
