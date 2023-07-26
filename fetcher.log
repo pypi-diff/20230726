@@ -10909,3 +10909,81 @@
 [2023-07-26 05:59:00] INFO root fetch - processPackages [rbi-tree]: Remove: archive file [/home/abi/fetcher/tmp/rbi_tree-0.2.tar.gz]
 [2023-07-26 05:59:00] INFO root fetch - main [MainThread]: End processing [rbi-tree]: success
 [2023-07-26 05:59:00] INFO root fetch - main [MainThread]: Store serial: [19039139]
+[2023-07-26 06:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039139]
+[2023-07-26 06:04:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rusty-anc
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zerocap-websocket-test
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evals-nightly
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mentat-ai
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skellyai
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: problem-bank-helpers
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: garak
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: durkinza.cdk-networkfirewall-l2
+[2023-07-26 06:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparglim
+[2023-07-26 06:04:09] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230724] Old Version: [1.0.3.dev20230723]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [zerocap-websocket-test]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-26 06:04:09] WARNING root fetch - processPackages [rusty-anc]: Skipping, unable to determine old version
+[2023-07-26 06:04:09] INFO root fetch - main [MainThread]: End processing [rusty-anc] error
+[2023-07-26 06:04:09] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [skellyai]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [problem-bank-helpers]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-26 06:04:09] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/3e/8b/611b812e6cfde67630a7784435e7a034aa2fb3939a931a5e87cda9d8eb11/sparglim-0.1.0rc3.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/73/3e/f2ba661a1ab0af2a993d4d9f10434429b6211173a44e23d9b2485b539580/evals-nightly-1.0.3.dev20230723.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/aa/c0/df6c8c1a9db29a578e93e7b6fe7d23edb694da97ee9430e718fef2d4192c/zerocap_websocket_test-1.0.7.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/19/a0/bd7427d67eb208cd4e337bd42072a702a2d20bb60a59ff78ad7a84e57b63/durkinza.cdk-networkfirewall-l2-0.0.1.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/cd/51/54cfe2a5bc109116a152f9081bf60b3cdef765b46202ee73a28fff822033/skellyai-0.2.4.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [problem-bank-helpers]: Downloading https://files.pythonhosted.org/packages/c3/da/2f1b36289d5d8b3d4eff0e11d97a44c675fbacb8236b5b795096ad4dfa78/problem_bank_helpers-0.1.9.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/c2/c8/a767f5ee550bae019c08a1322f9bbee10affd87090d8d6c39cb40784c7cf/sparglim-0.1.0rc4.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/b2/27/387e18d41ec25fdfcb34aa7fe9a42c670be743e5f43bb8e7e85297cd6709/evals-nightly-1.0.3.dev20230724.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/94/7d/12a60f65f9b0aad09868da9e46efbb0916da04f42d6b7e09c3042e75e96c/mentat-ai-0.1.1.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/87/8c/067f8429715f1831be7e6f429e09fc1099cb16132707a1c0ad32eb2b9e61/zerocap_websocket_test-1.0.9.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/d4/60/a84c631db2d3e56f0951a8346f723b213f3d15b2385738b050334bcb9192/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/a9/97/79d8dc2c3c8856210b90335d31811aad377291b6ca47c7b7def576ba861e/skellyai-0.2.5.tar.gz
+[2023-07-26 06:04:09] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-26 06:04:09] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230723.tar.gz tmp/evals-nightly-1.0.3.dev20230724.tar.gz --markdown 20230726/e/evals-nightly/1.0.3.dev20230723-1.0.3.dev20230724/diff.md --exclude *.pyd
+[2023-07-26 06:04:09] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-26 06:04:09] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc3.tar.gz tmp/sparglim-0.1.0rc4.tar.gz --markdown 20230726/s/sparglim/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-07-26 06:04:09] INFO root fetch - processPackages [zerocap-websocket-test]: executing diffoscope
+[2023-07-26 06:04:09] INFO root fetch - processPackages [zerocap-websocket-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_websocket_test-1.0.7.tar.gz tmp/zerocap_websocket_test-1.0.9.tar.gz --markdown 20230726/z/zerocap-websocket-test/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 06:04:10] INFO root fetch - processPackages [problem-bank-helpers]: Downloading https://files.pythonhosted.org/packages/7a/10/ac7a4f14f8fd91832a110a46ff57897698a91e4d0f4dde60bd6ecfa973c6/problem_bank_helpers-0.2.0.tar.gz
+[2023-07-26 06:04:10] INFO root fetch - processPackages [skellyai]: executing diffoscope
+[2023-07-26 06:04:10] INFO root fetch - processPackages [skellyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skellyai-0.2.4.tar.gz tmp/skellyai-0.2.5.tar.gz --markdown 20230726/s/skellyai/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-26 06:04:10] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: executing diffoscope
+[2023-07-26 06:04:10] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durkinza.cdk-networkfirewall-l2-0.0.1.tar.gz tmp/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz --markdown 20230726/d/durkinza.cdk-networkfirewall-l2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 06:04:10] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-07-26 06:04:10] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20230726/g/garak/0.9.post2-0.9.post3/diff.md --exclude *.pyd
+[2023-07-26 06:04:10] INFO root fetch - processPackages [problem-bank-helpers]: executing diffoscope
+[2023-07-26 06:04:10] INFO root fetch - processPackages [problem-bank-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_helpers-0.1.9.tar.gz tmp/problem_bank_helpers-0.2.0.tar.gz --markdown 20230726/p/problem-bank-helpers/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 06:04:10] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/9b/a0/f0efc88accced135a0cedfe8368bb0ef4127e876bca92e6201334d97dd03/mentat-ai-0.1.2.tar.gz
+[2023-07-26 06:04:10] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-07-26 06:04:10] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.1.tar.gz tmp/mentat-ai-0.1.2.tar.gz --markdown 20230726/m/mentat-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 06:04:11] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.7.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.9.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [zerocap-websocket-test]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.1.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [durkinza.cdk-networkfirewall-l2]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [problem-bank-helpers]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_helpers-0.1.9.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [problem-bank-helpers]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_helpers-0.2.0.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [problem-bank-helpers]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc3.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc4.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.4.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.5.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [skellyai]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.1.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.2.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-07-26 06:04:11] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2023-07-26 06:04:11] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-07-26 06:04:12] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230723.tar.gz]
+[2023-07-26 06:04:12] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230724.tar.gz]
+[2023-07-26 06:04:12] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-26 06:04:12] INFO root fetch - main [MainThread]: Store serial: [19039166]
