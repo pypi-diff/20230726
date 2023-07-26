@@ -20253,3 +20253,175 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 13:13:06] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-26 13:13:06] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-26 13:13:06] INFO root fetch - main [MainThread]: Store serial: [19042815]
+[2023-07-26 13:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042815]
+[2023-07-26 13:18:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extendable-pydantic
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catchpoint-trace
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-loader
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radioSphere
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pixel-font-builder
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: juviz-app
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catchpoint-trace
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webuntis
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EstymaApiWrapper
+[2023-07-26 13:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymolviz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111255] Old Version: [0.0.3rc20230726111057]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [extendable-pydantic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [EstymaApiWrapper]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [pymolviz]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [radioSphere]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [webuntis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.3rc20230726111255] Old Version: [0.0.3rc20230726111057]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [juviz-app]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 13:18:16] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/38/1b/06393fb137e92a63b55886dfe4579543556e35598da30586e62ff2d46128/pixel-font-builder-0.0.6.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/70/b2/d07f7e060c87b83b7736ae447bc17a6c8ff5f249e69e00a6ba1244e8422e/catchpoint-trace-0.0.3rc20230726111057.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [radioSphere]: Downloading https://files.pythonhosted.org/packages/b4/b9/b073bca55b819e9547df58e0b749f9cf76409c8a349f26610e69300208a6/radioSphere-2.0.0.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [EstymaApiWrapper]: Downloading https://files.pythonhosted.org/packages/21/1c/a326133276062c0cabde069d52ce804a8f668f1abed0f8e1ecc7cd6f7721/EstymaApiWrapper-0.0.53.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/70/b2/d07f7e060c87b83b7736ae447bc17a6c8ff5f249e69e00a6ba1244e8422e/catchpoint-trace-0.0.3rc20230726111057.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/99/f9/debc62f1f9bcd7143a6691cb0f35211ebed7404a84e0373c208f5c297f4a/pymolviz-1.1.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [webuntis]: Downloading https://files.pythonhosted.org/packages/7e/fc/06dc74c6afeddb003733293d68bcdf50b4b9fb08cefeb1998f000c11bf17/webuntis-0.1.8.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [juviz-app]: Downloading https://files.pythonhosted.org/packages/82/63/42eef1720717afa91d5aac3a7ef92e26191933261550b72f76da8517f937/juviz-app-0.1.0.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/b9/2f/9ff196b143a2a3e441b5f4342c38536e09268ae496ef152dc57a6f877efd/extendable_pydantic-1.0.0.tar.gz
+[2023-07-26 13:18:16] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/7a/fc/e4cdbaf249eaa53ebd5a924f5568f64d35d61620a1e797e155dae397628b/pixel-font-builder-0.0.7.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [EstymaApiWrapper]: Downloading https://files.pythonhosted.org/packages/a3/38/a8bcb8c0800c06b0d3e02e28061fd9c2073fb72a4d5b66fef2843c9736eb/EstymaApiWrapper-0.0.54.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230726/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [radioSphere]: Downloading https://files.pythonhosted.org/packages/8a/00/6cd1512a952d5e0b71929b3691feddd75cd1cd315c0c81fe7ac7eb04ad6d/radioSphere-2.0.1.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/77/80/213e07bdbee58d2176f67c25bbd7799cb087544030b010424df4192c695e/catchpoint-trace-0.0.3rc20230726111255.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/77/80/213e07bdbee58d2176f67c25bbd7799cb087544030b010424df4192c695e/catchpoint-trace-0.0.3rc20230726111255.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/f3/c7/13fd11833e31ca7e0c2442dbfe99027d033a5e653861d6376799709c5fc9/pymolviz-1.1.1.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [juviz-app]: Downloading https://files.pythonhosted.org/packages/ce/6d/a2650aa72639290afa3ce317692348f8a85df6c9f43701bda293c56e3d87/juviz-app-0.1.1.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [EstymaApiWrapper]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [EstymaApiWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EstymaApiWrapper-0.0.53.tar.gz tmp/EstymaApiWrapper-0.0.54.tar.gz --markdown 20230726/E/EstymaApiWrapper/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/c2/c3/37bbef70059f7c653a186a4dd65c688be849ca27c54227b888ecddfab953/extendable_pydantic-1.0.1.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.6.tar.gz tmp/pixel-font-builder-0.0.7.tar.gz --markdown 20230726/p/pixel-font-builder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [webuntis]: Downloading https://files.pythonhosted.org/packages/ed/67/2dd3bb01af6244976073e239b8fbf2d9b7336a017e508cf618f0f9df8088/webuntis-0.1.9.tar.gz
+[2023-07-26 13:18:17] INFO root fetch - processPackages [juviz-app]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [juviz-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juviz-app-0.1.0.tar.gz tmp/juviz-app-0.1.1.tar.gz --markdown 20230726/j/juviz-app/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pymolviz]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [pymolviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymolviz-1.1.tar.gz tmp/pymolviz-1.1.1.tar.gz --markdown 20230726/p/pymolviz/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [extendable-pydantic]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [extendable-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable_pydantic-1.0.0.tar.gz tmp/extendable_pydantic-1.0.1.tar.gz --markdown 20230726/e/extendable-pydantic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111255.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3rc20230726111057-0.0.3rc20230726111255/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz tmp/catchpoint-trace-0.0.3rc20230726111255.tar.gz --markdown 20230726/c/catchpoint-trace/0.0.3rc20230726111057-0.0.3rc20230726111255/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [radioSphere]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [radioSphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioSphere-2.0.0.tar.gz tmp/radioSphere-2.0.1.tar.gz --markdown 20230726/r/radioSphere/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 13:18:17] INFO root fetch - processPackages [webuntis]: executing diffoscope
+[2023-07-26 13:18:17] INFO root fetch - processPackages [webuntis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuntis-0.1.8.tar.gz tmp/webuntis-0.1.9.tar.gz --markdown 20230726/w/webuntis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-26 13:18:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [code-loader]: Start processing: libprocess
+[2023-07-26 13:18:18] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-26 13:18:18] INFO root fetch - processPackages [libprocess]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [EstymaApiWrapper]: Remove: archive file [/home/abi/fetcher/tmp/EstymaApiWrapper-0.0.53.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [EstymaApiWrapper]: Remove: archive file [/home/abi/fetcher/tmp/EstymaApiWrapper-0.0.54.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [EstymaApiWrapper]: Start processing: prancer-basic
+[2023-07-26 13:18:18] INFO root fetch - main [MainThread]: End processing [EstymaApiWrapper]: success
+[2023-07-26 13:18:18] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.6.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.7.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [pixel-font-builder]: Start processing: gauth-python
+[2023-07-26 13:18:18] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2023-07-26 13:18:18] INFO root fetch - processPackages [gauth-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [libprocess]: Downloading https://files.pythonhosted.org/packages/01/77/036c476eef868ba1f85310f1fff82811e699f7bc2e55550447d05a97ea9d/libprocess-0.1.2.tar.gz
+[2023-07-26 13:18:18] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/aa/84/af1ed8d4187effa46448e60b5065a2834fb3ee3b62dfba8b6f591cde32c4/prancer-basic-3.0.8.tar.gz
+[2023-07-26 13:18:18] INFO root fetch - processPackages [juviz-app]: Remove: archive file [/home/abi/fetcher/tmp/juviz-app-0.1.0.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [juviz-app]: Remove: archive file [/home/abi/fetcher/tmp/juviz-app-0.1.1.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [juviz-app]: Start processing: simple-pydash
+[2023-07-26 13:18:18] INFO root fetch - main [MainThread]: End processing [juviz-app]: success
+[2023-07-26 13:18:18] INFO root fetch - processPackages [simple-pydash]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/24/17/69502b700e0f33d91e4270fe0d2a4f5bc3f90037b8eedda4784a65d3f26e/gauth_python-0.1.6.tar.gz
+[2023-07-26 13:18:18] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-1.0.0.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-1.0.1.tar.gz]
+[2023-07-26 13:18:18] INFO root fetch - processPackages [extendable-pydantic]: Start processing: pulumi-opnsense
+[2023-07-26 13:18:18] INFO root fetch - main [MainThread]: End processing [extendable-pydantic]: success
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/de/0c/4c9a503caa42588ff0259d7a86efa606b88739d47d90aa34ba90d89deab7/simple_pydash-0.2.1-py3-none-any.whl
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.1.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.1.1.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pymolviz]: Start processing: systemdumpy
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [pymolviz]: success
+[2023-07-26 13:18:19] INFO root fetch - processPackages [webuntis]: Remove: archive file [/home/abi/fetcher/tmp/webuntis-0.1.8.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [webuntis]: Remove: archive file [/home/abi/fetcher/tmp/webuntis-0.1.9.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [webuntis]: Start processing: kodexa
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [webuntis]: success
+[2023-07-26 13:18:19] WARNING root fetch - processPackages [systemdumpy]: Skipping, unable to determine old version
+[2023-07-26 13:18:19] INFO root fetch - processPackages [systemdumpy]: Start processing: simple-pydash
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [systemdumpy] error
+[2023-07-26 13:18:19] INFO root fetch - processPackages [libprocess]: Downloading https://files.pythonhosted.org/packages/94/c9/09492aa83648fda73bf3ca892f66d62f561cc83b68e10f00d8031238df9d/libprocess-0.1.3.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [kodexa]: New version: [6.3.35668071917] Old Version: [6.3.35609835783]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [gauth-python]: Downloading https://files.pythonhosted.org/packages/98/96/d36b2cab28cf7d964d88f68b523537034b0c089c32a90c1cf75ef5e67ff2/gauth_python-0.1.7.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/1a/53/0b31884948dd5646a62eca133c035534fdab1adf7e4f48f95a30f17f39ae/prancer-basic-3.0.9.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [radioSphere]: Remove: archive file [/home/abi/fetcher/tmp/radioSphere-2.0.0.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [radioSphere]: Remove: archive file [/home/abi/fetcher/tmp/radioSphere-2.0.1.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [radioSphere]: Start processing: prowler
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [radioSphere]: success
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prowler]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [libprocess]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [libprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprocess-0.1.2.tar.gz tmp/libprocess-0.1.3.tar.gz --markdown 20230726/l/libprocess/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3rc20230726111057.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.3rc20230726111255.tar.gz]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [catchpoint-trace]: Start processing: prowler-cloud
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:18:19] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/eb/f3/f0c383eef3cf4e882dc1fa754b29c0591afa8ffe3fb14f91f8e2fbaf23da/kodexa-6.3.35609835783.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/72/ae/449ab1a5baebb8a9c684d9af090ffe870af122a49554ed361c3e41344caf/simple_pydash-0.2.2-py3-none-any.whl
+[2023-07-26 13:18:19] INFO root fetch - processPackages [gauth-python]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [gauth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth_python-0.1.6.tar.gz tmp/gauth_python-0.1.7.tar.gz --markdown 20230726/g/gauth-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.8.tar.gz tmp/prancer-basic-3.0.9.tar.gz --markdown 20230726/p/prancer-basic/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: Downloading https://files.pythonhosted.org/packages/72/ae/449ab1a5baebb8a9c684d9af090ffe870af122a49554ed361c3e41344caf/simple_pydash-0.2.2-py3-none-any.whl
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prowler-cloud]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/5c/ef/b80918354a5dc3f9a563b9f21ea16804a4e2de73f98cfcf31b77426e0674/prowler-3.7.1.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.2.1-py3-none-any.whl.zip tmp/simple_pydash-0.2.2-py3-none-any.whl.zip --markdown 20230726/s/simple-pydash/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: executing diffoscope
+[2023-07-26 13:18:19] INFO root fetch - processPackages [simple-pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pydash-0.2.1-py3-none-any.whl.zip tmp/simple_pydash-0.2.2-py3-none-any.whl.zip --markdown 20230726/s/simple-pydash/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 13:18:19] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/57/58/d93c274a7a1f3116728950870ddf5a0c30aa014c34d85ee31611ccb46faa/prowler_cloud-3.7.1.tar.gz
+[2023-07-26 13:18:19] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/a3/ac/8962d4fa6805954195c2696535c6f9e0b5986ecc821f59e2706c0ed15bda/kodexa-6.3.35668071917.tar.gz
+[2023-07-26 13:18:20] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-26 13:18:20] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35609835783.tar.gz tmp/kodexa-6.3.35668071917.tar.gz --markdown 20230726/k/kodexa/6.3.35609835783-6.3.35668071917/diff.md --exclude *.pyd
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/f2/8a/f5412b66a49d5f331f1dfe12d9086f5c8cf26fe79546b32d1fb1aaff5ca1/prowler-3.7.2.tar.gz
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.7.1.tar.gz tmp/prowler-3.7.2.tar.gz --markdown 20230726/p/prowler/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/97/a4/44babd4111e7d99fbc9ace3356b36509c8825650a10706654f8f3d5b26f4/prowler_cloud-3.7.2.tar.gz
+[2023-07-26 13:18:20] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.6.tar.gz]
+[2023-07-26 13:18:20] INFO root fetch - processPackages [gauth-python]: Remove: archive file [/home/abi/fetcher/tmp/gauth_python-0.1.7.tar.gz]
+[2023-07-26 13:18:20] INFO root fetch - main [MainThread]: End processing [gauth-python]: success
+[2023-07-26 13:18:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 13:18:20] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 13:18:20] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-07-26 13:18:20] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.7.1.tar.gz tmp/prowler_cloud-3.7.2.tar.gz --markdown 20230726/p/prowler-cloud/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-07-26 13:18:21] INFO root fetch - processPackages [libprocess]: Remove: archive file [/home/abi/fetcher/tmp/libprocess-0.1.2.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - processPackages [libprocess]: Remove: archive file [/home/abi/fetcher/tmp/libprocess-0.1.3.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - main [MainThread]: End processing [libprocess]: success
+[2023-07-26 13:18:21] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.2.1-py3-none-any.whl.zip]
+[2023-07-26 13:18:21] INFO root fetch - processPackages [simple-pydash]: Remove: archive file [/home/abi/fetcher/tmp/simple_pydash-0.2.2-py3-none-any.whl.zip]
+[2023-07-26 13:18:21] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:18:21] INFO root fetch - main [MainThread]: End processing [simple-pydash]: success
+[2023-07-26 13:18:21] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.8.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2023-07-26 13:18:21] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35609835783.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35668071917.tar.gz]
+[2023-07-26 13:18:21] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-26 13:18:27] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.7.1.tar.gz]
+[2023-07-26 13:18:27] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.7.2.tar.gz]
+[2023-07-26 13:18:27] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-07-26 13:18:28] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.7.1.tar.gz]
+[2023-07-26 13:18:28] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.7.2.tar.gz]
+[2023-07-26 13:18:28] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-07-26 13:18:28] INFO root fetch - main [MainThread]: Store serial: [19042879]
