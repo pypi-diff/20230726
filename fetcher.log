@@ -19456,3 +19456,111 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 12:36:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a0.tar.gz]
 [2023-07-26 12:36:26] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-07-26 12:36:26] INFO root fetch - main [MainThread]: Store serial: [19042489]
+[2023-07-26 12:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042489]
+[2023-07-26 12:41:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalayer
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfmreader
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sspqdd
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samna
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: craft2d
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twinstop
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auth0-python
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: himut
+[2023-07-26 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agent-os-py
+[2023-07-26 12:41:35] INFO root fetch - processPackages [craft2d]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [twinstop]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [datalayer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [auth0-python]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [himut]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 12:41:35] WARNING root fetch - processPackages [agent-os-py]: Skipping, unable to determine old version
+[2023-07-26 12:41:35] INFO root fetch - processPackages [agent-os-py]: Start processing: goplus
+[2023-07-26 12:41:35] INFO root fetch - main [MainThread]: End processing [agent-os-py] error
+[2023-07-26 12:41:35] WARNING root fetch - processPackages [pyfmreader]: Skipping, unable to determine old version
+[2023-07-26 12:41:35] INFO root fetch - processPackages [pyfmreader]: Start processing: lesscode-utils
+[2023-07-26 12:41:35] INFO root fetch - main [MainThread]: End processing [pyfmreader] error
+[2023-07-26 12:41:35] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-26 12:41:35] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-07-26 12:41:36] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 12:41:36] INFO root fetch - processPackages [goplus]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 12:41:36] INFO root fetch - processPackages [datalayer]: Downloading https://files.pythonhosted.org/packages/9a/38/3369165237daddb5d0221827b43ed19855a19955d32c8327e0710356a20b/datalayer-0.0.2.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/74/84/dee7a352a0f6e5428c36d6e5f30f857096ad4ed6e606753f5691e46fbbbf/sspqdd-1.0.8.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/02/e8/f147262d299e9874284cbf8d4ef97b46c1eaf7c90ded4a1c445c84224507/craft2d-0.1.5.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/ca/f1/ff8ee382833222ed4dfa9ec4549748742a02f556f38486488c663d295574/twinstop-0.0.2.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [auth0-python]: Downloading https://files.pythonhosted.org/packages/74/d3/4200ffc2bfaa751ff72f99e3177050bb8c8f13cf9ea16ef6032e0907c55a/auth0-python-4.3.0.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/31/d1/f7e86b67a843383e826d8d1a182d8614054b545d2bb7425791304f7d848a/lesscode_utils-0.0.7.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [himut]: Downloading https://files.pythonhosted.org/packages/79/52/994c53615f5b80f7dc9b9beafe541e63b2b169189478bbba7f93718ceb1c/himut-1.0.3.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/50/31/770810c3d509fb1274e4a70ba15011446fc2457b1a136f917e7b61011cd9/goplus-0.1.4.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-07-26 12:41:36] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/a2/74/5eb7c50051e82829030ce9db964560aa321c7989562ef5343379c44c67b0/sspqdd-1.0.9.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/24/f6/0e3571633478bf267995a032d4ff0ec884413426cd1516add45a4b0729c5/twinstop-0.0.3.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 12:41:36] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 12:41:36] INFO root fetch - processPackages [datalayer]: Downloading https://files.pythonhosted.org/packages/fb/e3/d96b405e0bc989ccb6fd201f2492661514240782a7a96fe221ebb8990500/datalayer-0.0.3.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [auth0-python]: Downloading https://files.pythonhosted.org/packages/cd/74/963c60e46608ef8cda6d6beb4e8cfdc7ff9db22f70bb656c251437a72f43/auth0-python-4.4.0.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/d8/49/253cc27763365b271dd582779c24eadefe1afc1ffbe39ebd20b24936eb5f/goplus-0.1.5.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [himut]: Downloading https://files.pythonhosted.org/packages/22/76/f97dfd6c53e65c823dfa207c068666e6efb2f7c9d66d6ca5e699f525bd41/himut-1.0.4.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-07-26 12:41:36] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230726/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:41:36] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-07-26 12:41:36] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/6b/84/5d2bb0ae859a1de084a548606a9e8d440870ad5d9585f75a1360b1db7879/craft2d-0.1.6.tar.gz
+[2023-07-26 12:41:36] INFO root fetch - processPackages [twinstop]: executing diffoscope
+[2023-07-26 12:41:36] INFO root fetch - processPackages [twinstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinstop-0.0.2.tar.gz tmp/twinstop-0.0.3.tar.gz --markdown 20230726/t/twinstop/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [auth0-python]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [auth0-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth0-python-4.3.0.tar.gz tmp/auth0-python-4.4.0.tar.gz --markdown 20230726/a/auth0-python/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [himut]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [himut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/himut-1.0.3.tar.gz tmp/himut-1.0.4.tar.gz --markdown 20230726/h/himut/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [datalayer]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [datalayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalayer-0.0.2.tar.gz tmp/datalayer-0.0.3.tar.gz --markdown 20230726/d/datalayer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.7.tar.gz tmp/lesscode_utils-0.0.8.tar.gz --markdown 20230726/l/lesscode-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [goplus]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [goplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goplus-0.1.4.tar.gz tmp/goplus-0.1.5.tar.gz --markdown 20230726/g/goplus/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [craft2d]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [craft2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft2d-0.1.5.tar.gz tmp/craft2d-0.1.6.tar.gz --markdown 20230726/c/craft2d/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-26 12:41:37] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-07-26 12:41:37] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230726/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-07-26 12:41:38] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: skypilot-nightly
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230725] Old Version: [1.0.0.dev20230724]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.8.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.9.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8e/b5/bff06767d71c84547cb269473adc1a802660203e4935f9741639d713755b/skypilot-nightly-1.0.0.dev20230724.tar.gz
+[2023-07-26 12:41:38] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.0.2.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.0.3.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [twinstop]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.7.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [himut]: Remove: archive file [/home/abi/fetcher/tmp/himut-1.0.3.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [himut]: Remove: archive file [/home/abi/fetcher/tmp/himut-1.0.4.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [himut]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-07-26 12:41:38] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.5.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.6.tar.gz]
+[2023-07-26 12:41:38] INFO root fetch - main [MainThread]: End processing [craft2d]: success
+[2023-07-26 12:41:39] INFO root fetch - processPackages [auth0-python]: Remove: archive file [/home/abi/fetcher/tmp/auth0-python-4.3.0.tar.gz]
+[2023-07-26 12:41:39] INFO root fetch - processPackages [auth0-python]: Remove: archive file [/home/abi/fetcher/tmp/auth0-python-4.4.0.tar.gz]
+[2023-07-26 12:41:39] INFO root fetch - main [MainThread]: End processing [auth0-python]: success
+[2023-07-26 12:41:39] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.4.tar.gz]
+[2023-07-26 12:41:39] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.5.tar.gz]
+[2023-07-26 12:41:39] INFO root fetch - main [MainThread]: End processing [goplus]: success
+[2023-07-26 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/68/39/a7e8ac4a2d8331b27de271d6f692956b98ccde318258df6eb4811163b7d0/skypilot-nightly-1.0.0.dev20230725.tar.gz
+[2023-07-26 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-26 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230724.tar.gz tmp/skypilot-nightly-1.0.0.dev20230725.tar.gz --markdown 20230726/s/skypilot-nightly/1.0.0.dev20230724-1.0.0.dev20230725/diff.md --exclude *.pyd
+[2023-07-26 12:41:40] INFO root fetch - processPackages [datalayer]: Remove: archive file [/home/abi/fetcher/tmp/datalayer-0.0.2.tar.gz]
+[2023-07-26 12:41:40] INFO root fetch - processPackages [datalayer]: Remove: archive file [/home/abi/fetcher/tmp/datalayer-0.0.3.tar.gz]
+[2023-07-26 12:41:40] INFO root fetch - main [MainThread]: End processing [datalayer]: success
+[2023-07-26 12:41:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230724.tar.gz]
+[2023-07-26 12:41:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230725.tar.gz]
+[2023-07-26 12:41:41] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-26 12:41:41] INFO root fetch - main [MainThread]: Store serial: [19042530]
