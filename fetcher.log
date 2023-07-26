@@ -1903,3 +1903,77 @@
 [2023-07-26 01:56:29] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.0.tar.gz]
 [2023-07-26 01:56:29] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
 [2023-07-26 01:56:29] INFO root fetch - main [MainThread]: Store serial: [19035878]
+[2023-07-26 02:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035878]
+[2023-07-26 02:01:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openapi-server-dev-test
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-data-mock
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SummarizedExperiment
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airtouch5py
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citsci-notebook-core-pipeline
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opvious
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eeggan
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparse-lm
+[2023-07-26 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablemap
+[2023-07-26 02:01:38] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [sparse-lm]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [airtouch5py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-26 02:01:38] WARNING root fetch - processPackages [citsci-notebook-core-pipeline]: Skipping, unable to determine old version
+[2023-07-26 02:01:38] INFO root fetch - main [MainThread]: End processing [citsci-notebook-core-pipeline] error
+[2023-07-26 02:01:38] INFO root fetch - processPackages [py-data-mock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [tablemap]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [eeggan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [SummarizedExperiment]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-26 02:01:38] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-26 02:01:38] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/a4/45/cd7ec2990324886dec57d59b931bb959da2465059d544b06ac1a2f45a44c/SummarizedExperiment-0.2.8.tar.gz
+[2023-07-26 02:01:38] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/30/a4/4de29ec806e9dd1fd9b806bf7b8cdeb3648aef1b55c0c636bc2d8b3849fb/openapi-server-dev-test-1.0.2.tar.gz
+[2023-07-26 02:01:38] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/53/d2/79109e29d0fdc56564dda7244bb6c9a1f2049a774624c396a288b57ca5f5/airtouch5py-0.2.0.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/21/d8/9d5dc91ee4a524fea8f39eb09fc265442071fa2afedc89213609e49c5006/py-data-mock-0.0.8.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [sparse-lm]: Downloading https://files.pythonhosted.org/packages/f6/ed/616a09bee43e82a32db61cb61fa4a165bcf52ad552bc84833aa456e64c5f/sparse-lm-0.5.0.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/b9/51/61a07c39acd61f682892d88e0e36ac74fdbc8caf122e3ac8c871ef83d387/eeggan-0.1.3.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/b5/a5/1b24db435bd59a5e8dfe90e7d3444d07591df5510ce0211e71470bcbed65/tablemap-0.3.5.tar.gz
+[2023-07-26 02:01:39] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 38269528>=10485760
+[2023-07-26 02:01:39] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2023-07-26 02:01:39] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/ed/70/955ba49c027e6ee2147154b2493d4c25fc52a8150698a103ececc81ad9c4/openapi-server-dev-test-1.0.3.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/f9/8f/775435fe16978ae4f67af1b5bfe705ccb02b0735bee422e68b8012fb4306/SummarizedExperiment-0.2.9.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230726/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/7d/3a/b0216016c46f2d3aed357a573a993085f0a8cf355e9d7330d9e659dbd0c0/airtouch5py-0.2.1.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/d2/55/234fa2150c48fde820171fcf1074f8c816e80f1e00cdca90ed7098ecd6ff/py-data-mock-0.0.9.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [sparse-lm]: Downloading https://files.pythonhosted.org/packages/75/4c/d0aad470a4011ec0a6dd68a51c0a5b642e4cdd1d337517286880c54f9c60/sparse-lm-0.5.1.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [airtouch5py]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [airtouch5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch5py-0.2.0.tar.gz tmp/airtouch5py-0.2.1.tar.gz --markdown 20230726/a/airtouch5py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/df/2b/a753a43cec32cbfdeaacc9b51bf133428791e184e7acef04e19e1b49efe0/tablemap-0.3.6.tar.gz
+[2023-07-26 02:01:39] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-server-dev-test-1.0.2.tar.gz tmp/openapi-server-dev-test-1.0.3.tar.gz --markdown 20230726/o/openapi-server-dev-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [py-data-mock]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [py-data-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-data-mock-0.0.8.tar.gz tmp/py-data-mock-0.0.9.tar.gz --markdown 20230726/p/py-data-mock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [SummarizedExperiment]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [SummarizedExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SummarizedExperiment-0.2.8.tar.gz tmp/SummarizedExperiment-0.2.9.tar.gz --markdown 20230726/S/SummarizedExperiment/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [tablemap]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [tablemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemap-0.3.5.tar.gz tmp/tablemap-0.3.6.tar.gz --markdown 20230726/t/tablemap/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-26 02:01:39] INFO root fetch - processPackages [sparse-lm]: executing diffoscope
+[2023-07-26 02:01:39] INFO root fetch - processPackages [sparse-lm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-lm-0.5.0.tar.gz tmp/sparse-lm-0.5.1.tar.gz --markdown 20230726/s/sparse-lm/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-26 02:01:40] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-26 02:01:40] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.8.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.9.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - main [MainThread]: End processing [py-data-mock]: success
+[2023-07-26 02:01:40] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.0.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.1.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - main [MainThread]: End processing [airtouch5py]: success
+[2023-07-26 02:01:40] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.5.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.6.tar.gz]
+[2023-07-26 02:01:40] INFO root fetch - main [MainThread]: End processing [tablemap]: success
+[2023-07-26 02:01:41] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.2.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.3.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-26 02:01:41] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.8.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.9.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - main [MainThread]: End processing [SummarizedExperiment]: success
+[2023-07-26 02:01:41] INFO root fetch - processPackages [sparse-lm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lm-0.5.0.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - processPackages [sparse-lm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lm-0.5.1.tar.gz]
+[2023-07-26 02:01:41] INFO root fetch - main [MainThread]: End processing [sparse-lm]: success
+[2023-07-26 02:01:41] INFO root fetch - main [MainThread]: Store serial: [19035905]
