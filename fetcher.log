@@ -5663,3 +5663,104 @@
 [2023-07-26 03:11:08] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
 [2023-07-26 03:11:08] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-07-26 03:11:08] INFO root fetch - main [MainThread]: Store serial: [19037207]
+[2023-07-26 03:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19037207]
+[2023-07-26 03:16:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwpdb.apps.ann-tasks-v2
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harmony-toolbox
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: STEP.py
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: task3
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Deformation3D
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: base64-to-hex-converter
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nsface-match-python
+[2023-07-26 03:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lumibot
+[2023-07-26 03:16:18] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: New version: [0.33.3] Old Version: [0.33.2.dev1]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [task3]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [Deformation3D]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [nsface-match-python]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [STEP.py]: New version: [2.3] Old Version: [2.2]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [base64-to-hex-converter]: New version: [0.4.0rc0] Old Version: [0.4.0]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [harmony-toolbox]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [lumibot]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-26 03:16:18] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/f0/f6/1615593cb619505f2c6940ab82cb590c235af54668b330edd56557c6bbe0/lumibot-2.7.2.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [task3]: Downloading https://files.pythonhosted.org/packages/c5/92/88cbcd6c25b8d16d5ff40ac7e0580ee71c669d26b504e74c2285bb4487a7/task3-1.0.4.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/37/40/3bc853f63d6d9093d887b21600c166d0c439ee20e960c865bdea32590d4e/Deformation3D-1.0.3-py3-none-any.whl
+[2023-07-26 03:16:18] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/65/75/5e3d42c7e44fdfad692b63c3e024b1ff25a53897fe55acbd6eeedf90e440/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [nsface-match-python]: Downloading https://files.pythonhosted.org/packages/4b/67/ba6a8b3c7aacdc59ef1e71b308e152d5c49c227dbaf2e877486a2d926080/nsface_match_python-0.0.13-py3-none-any.whl
+[2023-07-26 03:16:18] INFO root fetch - processPackages [base64-to-hex-converter]: Downloading https://files.pythonhosted.org/packages/65/f3/2652e76a0a5269d569a2f1582a4588ae669cea74825e63845623598f66e6/base64-to-hex-converter-0.4.0.tar.gz
+[2023-07-26 03:16:18] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23896703>=10485760
+[2023-07-26 03:16:18] INFO root fetch - processPackages [lumibot]: Start processing: wordcel
+[2023-07-26 03:16:18] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-07-26 03:16:18] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/b1/b1/7adb15d3a0f356fbfea71dc01470f7d132c54eda9d179ff79d371e31af08/STEP.py-2.2.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [harmony-toolbox]: Downloading https://files.pythonhosted.org/packages/31/9d/03bc08d064e5e5e14ec54843ccf506b6e2d4e4b78069522afe067f57cac3/harmony_toolbox-1.0.8.tar.gz
+[2023-07-26 03:16:18] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-26 03:16:18] WARNING root fetch - processPackages [wordcel]: Skipping, unable to determine old version
+[2023-07-26 03:16:18] INFO root fetch - processPackages [wordcel]: Start processing: lesscode-py
+[2023-07-26 03:16:18] INFO root fetch - main [MainThread]: End processing [wordcel] error
+[2023-07-26 03:16:19] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [task3]: Downloading https://files.pythonhosted.org/packages/05/8e/ff3763d40ab37ff6866958a5f2c410ff851b8f416ed3e45273cb41614fda/task3-1.0.5.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [nsface-match-python]: Downloading https://files.pythonhosted.org/packages/d9/5e/34b29381b31dd35213fac6b93b9d6fe6703de89e0d95e06d28f15ab6f8f0/nsface_match_python-0.0.14-py3-none-any.whl
+[2023-07-26 03:16:19] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 03:16:19] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/df/59/2a3a1c90000fb056f5b9768fc02e6b2c9ff239f3ded89258aee58cfa73ac/Deformation3D-1.0.4-py3-none-any.whl
+[2023-07-26 03:16:19] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/15/b3/b04e3e80eb80bfe4cd627c819b651508de49a61a8eca5ff54a272d4256be/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [base64-to-hex-converter]: Downloading https://files.pythonhosted.org/packages/c9/e3/47b42962094739e2cd0a72bb9f9c4999c831f5f4c14b8c14ea0298109b65/base64-to-hex-converter-0.4.0rc0.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230726/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [harmony-toolbox]: Downloading https://files.pythonhosted.org/packages/5e/d9/bed347191a901d8cc37d684e52ef84997bf9f3c0053302dbd74d3aec3c2d/harmony_toolbox-1.1.0.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/09/68/0d05d3a9283bbffd71ab931d66f74848bff689eccc1d8c582adf6b4cd1a7/STEP.py-2.3.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [task3]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [task3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task3-1.0.4.tar.gz tmp/task3-1.0.5.tar.gz --markdown 20230726/t/task3/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [nsface-match-python]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [nsface-match-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_match_python-0.0.13-py3-none-any.whl.zip tmp/nsface_match_python-0.0.14-py3-none-any.whl.zip --markdown 20230726/n/nsface-match-python/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [base64-to-hex-converter]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [base64-to-hex-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base64-to-hex-converter-0.4.0.tar.gz tmp/base64-to-hex-converter-0.4.0rc0.tar.gz --markdown 20230726/b/base64-to-hex-converter/0.4.0-0.4.0rc0/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [harmony-toolbox]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [harmony-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmony_toolbox-1.0.8.tar.gz tmp/harmony_toolbox-1.1.0.tar.gz --markdown 20230726/h/harmony-toolbox/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz tmp/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz --markdown 20230726/w/wwpdb.apps.ann-tasks-v2/0.33.2.dev1-0.33.3/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-26 03:16:19] INFO root fetch - processPackages [Deformation3D]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [Deformation3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deformation3D-1.0.3-py3-none-any.whl.zip tmp/Deformation3D-1.0.4-py3-none-any.whl.zip --markdown 20230726/D/Deformation3D/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [STEP.py]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [STEP.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEP.py-2.2.tar.gz tmp/STEP.py-2.3.tar.gz --markdown 20230726/S/STEP.py/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-26 03:16:19] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230726/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-26 03:16:19] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-26 03:16:20] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-26 03:16:20] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230726/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 03:16:20] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-26 03:16:20] INFO root fetch - processPackages [task3]: Remove: archive file [/home/abi/fetcher/tmp/task3-1.0.4.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - processPackages [task3]: Remove: archive file [/home/abi/fetcher/tmp/task3-1.0.5.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - main [MainThread]: End processing [task3]: success
+[2023-07-26 03:16:20] INFO root fetch - processPackages [nsface-match-python]: Remove: archive file [/home/abi/fetcher/tmp/nsface_match_python-0.0.13-py3-none-any.whl.zip]
+[2023-07-26 03:16:20] INFO root fetch - processPackages [nsface-match-python]: Remove: archive file [/home/abi/fetcher/tmp/nsface_match_python-0.0.14-py3-none-any.whl.zip]
+[2023-07-26 03:16:20] INFO root fetch - main [MainThread]: End processing [nsface-match-python]: success
+[2023-07-26 03:16:20] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.3-py3-none-any.whl.zip]
+[2023-07-26 03:16:20] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.0.4-py3-none-any.whl.zip]
+[2023-07-26 03:16:20] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
+[2023-07-26 03:16:20] INFO root fetch - processPackages [base64-to-hex-converter]: Remove: archive file [/home/abi/fetcher/tmp/base64-to-hex-converter-0.4.0.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - processPackages [base64-to-hex-converter]: Remove: archive file [/home/abi/fetcher/tmp/base64-to-hex-converter-0.4.0rc0.tar.gz]
+[2023-07-26 03:16:20] INFO root fetch - main [MainThread]: End processing [base64-to-hex-converter]: success
+[2023-07-26 03:16:21] INFO root fetch - processPackages [harmony-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/harmony_toolbox-1.0.8.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - processPackages [harmony-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/harmony_toolbox-1.1.0.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [harmony-toolbox]: success
+[2023-07-26 03:16:21] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.2.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.3.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [STEP.py]: success
+[2023-07-26 03:16:21] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-26 03:16:21] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.2.dev1.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
+[2023-07-26 03:16:21] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-26 03:16:21] INFO root fetch - main [MainThread]: Store serial: [19037238]
