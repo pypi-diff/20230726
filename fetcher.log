@@ -14725,3 +14725,127 @@ AssertionError: tmp/lsrestclient-0.2.2.tar.gz does not exist
 [2023-07-26 09:14:46] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-26 09:14:46] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-26 09:14:46] INFO root fetch - main [MainThread]: Store serial: [19040493]
+[2023-07-26 09:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040493]
+[2023-07-26 09:19:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audioshake-job-manager
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kioss
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filter-stations
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastpdf
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-poe-client
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bcedit-madeby-train
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multisig-ci
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xxt
+[2023-07-26 09:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zimran-fastapi
+[2023-07-26 09:19:55] INFO root fetch - processPackages [xxt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [audioshake-job-manager]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [kioss]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [async-poe-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [bcedit-madeby-train]: New version: [1.0] Old Version: [0.0.9]
+[2023-07-26 09:19:55] WARNING root fetch - processPackages [zimran-fastapi]: Skipping, unable to determine old version
+[2023-07-26 09:19:55] INFO root fetch - processPackages [fastpdf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [zimran-fastapi]: Start processing: PySide6-Essentials
+[2023-07-26 09:19:55] INFO root fetch - main [MainThread]: End processing [zimran-fastapi] error
+[2023-07-26 09:19:55] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230726] Old Version: [0.7.3.dev20230725]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/5b/78/9c0c1917e3da503374200d4ce034a94728f07e351b82a98d9cc1e5d456bb/bcedit_madeby_train-0.0.9.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [fastpdf]: Downloading https://files.pythonhosted.org/packages/84/db/ed482fc1bb1f31c2bb71ae571fb0c6244e70d3faeb007da02fd8bc972583/fastpdf-1.0.0.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [PySide6-Essentials]: New version: [6.5.2] Old Version: [6.5.1.1]
+[2023-07-26 09:19:55] INFO root fetch - processPackages [audioshake-job-manager]: Downloading https://files.pythonhosted.org/packages/a6/fd/d3a9c104ba6a6bb68a4fedb7c6b3f1e0a375b4ede21553ad282ffbe4edf5/audioshake_job_manager-0.0.0.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/5a/75/bc604df004cc8f59c1af858a100db0dbddad3d262d5fe1007debc53f3cb1/kioss-0.0.7.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [xxt]: Downloading https://files.pythonhosted.org/packages/0d/0f/95bcfb0397ea4836b744f27b3eb4574d48ff4af7eb26f6bf25f9a674c5c6/xxt-0.0.3.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [PySide6-Essentials]: Downloading https://files.pythonhosted.org/packages/b5/9d/6dca2c1f22bff82e9a4083ae7c5573674f7e7f809b8af9c7d48b226f2f15/PySide6_Essentials-6.5.1.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-26 09:19:55] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/c1/30/739660281e30e8077621799c46eea67404eb7aa940ce5a2837ea4a8d12fe/multisig_ci-0.5.0.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/64/c7/8030c0e1afa19d5fcf2652ecd800c1755838e43cef1464775b6eb94b6de2/async_poe_client-0.2.2.tar.gz
+[2023-07-26 09:19:55] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/85/66/267c389626e1333a84125b069b9a002b3c66ec2472306828278a8900f7ff/tfq_nightly-0.7.3.dev20230725-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 09:19:55] WARNING root fetch - processPackages [PySide6-Essentials]: Skipping package: exceeds size limit 72682053>=10485760
+[2023-07-26 09:19:55] INFO root fetch - processPackages [PySide6-Essentials]: Start processing: odoo14-addon-shopfloor-reception-mobile
+[2023-07-26 09:19:55] INFO root fetch - main [MainThread]: End processing [PySide6-Essentials] error
+[2023-07-26 09:19:55] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: New version: [14.0.0.7.0] Old Version: [14.0.0.6.0]
+[2023-07-26 09:19:56] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-07-26 09:19:56] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-26 09:19:56] INFO root fetch - processPackages [tfq-nightly]: Start processing: hak
+[2023-07-26 09:19:56] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-26 09:19:56] INFO root fetch - processPackages [fastpdf]: Downloading https://files.pythonhosted.org/packages/96/7d/4c48de2813c71d422e1c7a5c945a3872fdb3dff0e3cedc23bc072b7965a7/fastpdf-1.0.1.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Downloading https://files.pythonhosted.org/packages/b2/1f/2bce6d020f05ba7a77b07d306f9d4631e712960c2cea970aa6c9b1f3cd5e/odoo14_addon_shopfloor_reception_mobile-14.0.0.6.0-py3-none-any.whl
+[2023-07-26 09:19:56] INFO root fetch - processPackages [bcedit-madeby-train]: Downloading https://files.pythonhosted.org/packages/e0/52/830f9990969cf42c43dfa8651feb19d47e54325944a194086b5584116164/bcedit_madeby_train-1.0.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [hak]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-26 09:19:56] INFO root fetch - processPackages [audioshake-job-manager]: Downloading https://files.pythonhosted.org/packages/b0/30/2ece9fcd1e2da6f80a833fd259bb54c9fd4fbd3d790e2cccf34a9bf38d40/audioshake_job_manager-0.0.1.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/79/26/760817c0e123d01cca0bc6631201c794712649e96ba0770e8795a31483ec/multisig_ci-0.6.0.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/7e/04/e4784a565e272cfdda0a87afa9a6b7727ef89300bdc6e59bad59e3c58ddc/async_poe_client-0.2.3.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [fastpdf]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [fastpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpdf-1.0.0.tar.gz tmp/fastpdf-1.0.1.tar.gz --markdown 20230726/f/fastpdf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [xxt]: Downloading https://files.pythonhosted.org/packages/e2/48/a0a8c711a7ca4dda33984958e062d4cba1e0578b8b22c1b73532ae406c68/xxt-0.0.4.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/c3/4b/4c6fd322b51271d83d37f11656b677a22866b2e50b212d68024c6b5f5575/kioss-0.0.8.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230726/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [bcedit-madeby-train]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [bcedit-madeby-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcedit_madeby_train-0.0.9.tar.gz tmp/bcedit_madeby_train-1.0.tar.gz --markdown 20230726/b/bcedit-madeby-train/0.0.9-1.0/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [audioshake-job-manager]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [audioshake-job-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioshake_job_manager-0.0.0.tar.gz tmp/audioshake_job_manager-0.0.1.tar.gz --markdown 20230726/a/audioshake-job-manager/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/01/46/3f32343e74a647353ed885324485008867b4871190bf582299b77122253a/hak-0.0.96.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [xxt]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [xxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxt-0.0.3.tar.gz tmp/xxt-0.0.4.tar.gz --markdown 20230726/x/xxt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.5.0.tar.gz tmp/multisig_ci-0.6.0.tar.gz --markdown 20230726/m/multisig-ci/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.2.2.tar.gz tmp/async_poe_client-0.2.3.tar.gz --markdown 20230726/a/async-poe-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.0.7.tar.gz tmp/kioss-0.0.8.tar.gz --markdown 20230726/k/kioss/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Downloading https://files.pythonhosted.org/packages/f9/19/d0ce6a89c73fb67208d8d8242d225c2ca011db7d91c48e04f1aeb34215b7/odoo14_addon_shopfloor_reception_mobile-14.0.0.7.0-py3-none-any.whl
+[2023-07-26 09:19:56] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/61/0c/440743736beab2080764a19d50fce18796dba30de54e8992ad357aef3b53/hak-0.0.97.tar.gz
+[2023-07-26 09:19:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.6.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.7.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-shopfloor-reception-mobile/14.0.0.6.0-14.0.0.7.0/diff.md --exclude *.pyd
+[2023-07-26 09:19:56] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-26 09:19:56] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.96.tar.gz tmp/hak-0.0.97.tar.gz --markdown 20230726/h/hak/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-26 09:19:57] INFO root fetch - processPackages [audioshake-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/audioshake_job_manager-0.0.0.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [audioshake-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/audioshake_job_manager-0.0.1.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [audioshake-job-manager]: Start processing: odoo14-addon-shopfloor-reception
+[2023-07-26 09:19:57] INFO root fetch - main [MainThread]: End processing [audioshake-job-manager]: success
+[2023-07-26 09:19:57] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [filter-stations]: Start processing: nonebot-plugin-templates
+[2023-07-26 09:19:57] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-07-26 09:19:57] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.0]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.0.7.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.0.8.tar.gz]
+[2023-07-26 09:19:57] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [fastpdf]: Remove: archive file [/home/abi/fetcher/tmp/fastpdf-1.0.0.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [fastpdf]: Remove: archive file [/home/abi/fetcher/tmp/fastpdf-1.0.1.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [fastpdf]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [nonebot-plugin-templates]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [xxt]: Remove: archive file [/home/abi/fetcher/tmp/xxt-0.0.3.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/17/8e/41b7ae4a604aa238693378e497816276673d04f9bf2f0fc6541b262aeee9/odoo14_addon_shopfloor_reception-14.0.2.2.0-py3-none-any.whl
+[2023-07-26 09:19:58] INFO root fetch - processPackages [xxt]: Remove: archive file [/home/abi/fetcher/tmp/xxt-0.0.4.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [xxt]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.5.0.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.0.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.2.2.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.2.3.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-0.0.9.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [bcedit-madeby-train]: Remove: archive file [/home/abi/fetcher/tmp/bcedit_madeby_train-1.0.tar.gz]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [bcedit-madeby-train]: success
+[2023-07-26 09:19:58] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/51/a9/cf4efcd70f5092147281c92712a6defb339d179057f2af48c8d35123aaab/nonebot_plugin_templates-0.1.4.tar.gz
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/71/69/aaef28cf78e0bf2da179aceb72e5d65e72b67d7e7457253f71d9c9732aaf/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: executing diffoscope
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-shopfloor-reception/14.0.2.2.0-14.0.2.3.0/diff.md --exclude *.pyd
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.6.0-py3-none-any.whl.zip]
+[2023-07-26 09:19:58] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.7.0-py3-none-any.whl.zip]
+[2023-07-26 09:19:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception-mobile]: success
+[2023-07-26 09:19:59] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/f6/f2/ed6ea1a45e9deba5f90696200c1129058186c7dd375d351b7ad882a0c447/nonebot_plugin_templates-0.1.5.tar.gz
+[2023-07-26 09:19:59] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.96.tar.gz]
+[2023-07-26 09:19:59] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.97.tar.gz]
+[2023-07-26 09:19:59] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-26 09:19:59] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.2.0-py3-none-any.whl.zip]
+[2023-07-26 09:19:59] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl.zip]
+[2023-07-26 09:19:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception]: success
+[2023-07-26 09:20:00] INFO root fetch - processPackages [nonebot-plugin-templates]: executing diffoscope
+[2023-07-26 09:20:00] INFO root fetch - processPackages [nonebot-plugin-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_templates-0.1.4.tar.gz tmp/nonebot_plugin_templates-0.1.5.tar.gz --markdown 20230726/n/nonebot-plugin-templates/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-26 09:20:01] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.4.tar.gz]
+[2023-07-26 09:20:01] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.5.tar.gz]
+[2023-07-26 09:20:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-templates]: success
+[2023-07-26 09:20:01] INFO root fetch - main [MainThread]: Store serial: [19040546]
