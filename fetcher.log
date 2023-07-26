@@ -15546,3 +15546,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-26 09:51:28] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-26 09:51:28] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-26 09:51:28] INFO root fetch - main [MainThread]: Store serial: [19040900]
+[2023-07-26 09:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040900]
+[2023-07-26 09:56:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-keycloak-api-client
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastmysql
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svo-api
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-editor
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrfuniverse
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamazing
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-uncertainty
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiliot-deployment-tools
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DEMO5578
+[2023-07-26 09:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-07-26 09:56:37] INFO root fetch - processPackages [fastmysql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [python-keycloak-api-client]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [datamazing]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [svo-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [pyrfuniverse]: New version: [0.9.11] Old Version: [0.9.10]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [torch-uncertainty]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 09:56:37] WARNING root fetch - processPackages [DEMO5578]: Skipping, unable to determine old version
+[2023-07-26 09:56:37] INFO root fetch - processPackages [DEMO5578]: Start processing: odoo14-addon-partner-multi-company
+[2023-07-26 09:56:37] INFO root fetch - main [MainThread]: End processing [DEMO5578] error
+[2023-07-26 09:56:37] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-07-26 09:56:37] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/04/bf/223fdd543d37cb0342a79d3ab94ed10515b93d7afb13a182f880703f4fa3/fastmysql-0.2.1.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [python-keycloak-api-client]: Downloading https://files.pythonhosted.org/packages/87/07/8194046f116cd856424d30fadcecc798572ffc36d466d22ac1735d42800c/python-keycloak-api-client-0.7.0.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/f0/3b/f9612f82a06e5cf1858e668828f1951f110e3475dc38f60913c57c49fd00/wiliot-deployment-tools-4.1.2.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [svo-api]: Downloading https://files.pythonhosted.org/packages/58/e7/ec4254a15986963f1213f84d2f0c83167efdbc0cde6c9ccd56d486060e3f/svo_api-0.1.0.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/b5/4d/7a075d4a879378cb7957e5eb538cc7b0d70d0ebdc8f1e1b76150454bc3ec/datamazing-2.0.1.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [torch-uncertainty]: Downloading https://files.pythonhosted.org/packages/1e/42/924e935b512a860f64270862632321e23712629f8be49067b94721c8494f/torch_uncertainty-0.1.2.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/9b/26/4513ecad43fb8d42cd123deef742fb02875b01dfdb88e81ec29042e7c0e5/pyrfuniverse-0.9.10.tar.gz
+[2023-07-26 09:56:37] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-07-26 09:56:37] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: Downloading https://files.pythonhosted.org/packages/20/d4/608f37f1d8b674521b2e811d2bc2d2337ae95709182095941f3744cc8ef9/odoo14_addon_partner_multi_company-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-26 09:56:38] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/55/90/bd5a4b8badf002ddf9b0506a7eb5baa66103516f0fa9e4d90129c087c11e/fastmysql-0.2.2.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [python-keycloak-api-client]: Downloading https://files.pythonhosted.org/packages/a0/a9/1b064d5f3b0bc0ed333205ec4ec6ff69339627f18a200e906831efdf0b3c/python-keycloak-api-client-0.7.1.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/e2/1e/0920f53a5844b5e15610b94d168fe364e07da486fd58db1ecc646669f9ed/wiliot-deployment-tools-4.1.3.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [svo-api]: Downloading https://files.pythonhosted.org/packages/b8/e2/bfa0984ed7f629c9615998c55ec260820d672733c09728d60de5c59889a2/svo_api-0.1.1.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/74/6b/0a7e6b26b61f59e080eb5403af58ab074d0c991d7e297267449ccd77de66/datamazing-2.0.2.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [torch-uncertainty]: Downloading https://files.pythonhosted.org/packages/c8/4f/cc2f192c1ffb34e5db37fbe53eb026b3c7c247ce3cdef2c40f99104dbfcc/torch_uncertainty-0.1.3.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/e5/f6/4266b5157a8fff35cc867106dba813b9b3a0e8790ad4e24f3df36efc809f/pyrfuniverse-0.9.11.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-07-26 09:56:38] INFO root fetch - processPackages [fastmysql]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [fastmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmysql-0.2.1.tar.gz tmp/fastmysql-0.2.2.tar.gz --markdown 20230726/f/fastmysql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-07-26 09:56:38] INFO root fetch - processPackages [python-keycloak-api-client]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [python-keycloak-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-keycloak-api-client-0.7.0.tar.gz tmp/python-keycloak-api-client-0.7.1.tar.gz --markdown 20230726/p/python-keycloak-api-client/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [svo-api]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [svo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svo_api-0.1.0.tar.gz tmp/svo_api-0.1.1.tar.gz --markdown 20230726/s/svo-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-2.0.1.tar.gz tmp/datamazing-2.0.2.tar.gz --markdown 20230726/d/datamazing/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.1.2.tar.gz tmp/wiliot-deployment-tools-4.1.3.tar.gz --markdown 20230726/w/wiliot-deployment-tools/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [torch-uncertainty]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [torch-uncertainty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_uncertainty-0.1.2.tar.gz tmp/torch_uncertainty-0.1.3.tar.gz --markdown 20230726/t/torch-uncertainty/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230726/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [pyrfuniverse]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [pyrfuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfuniverse-0.9.10.tar.gz tmp/pyrfuniverse-0.9.11.tar.gz --markdown 20230726/p/pyrfuniverse/0.9.10-0.9.11/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: Downloading https://files.pythonhosted.org/packages/12/c1/894b89e7b47f75cf32fe246176dc87fda902e1b39159f29d09fdffdc037e/odoo14_addon_partner_multi_company-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: executing diffoscope
+[2023-07-26 09:56:38] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_multi_company-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_partner_multi_company-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-partner-multi-company/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-26 09:56:40] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.2.1.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.2.2.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [fastmysql]: Start processing: TDCRPy
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [fastmysql]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [svo-api]: Remove: archive file [/home/abi/fetcher/tmp/svo_api-0.1.0.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [svo-api]: Remove: archive file [/home/abi/fetcher/tmp/svo_api-0.1.1.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [svo-api]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-26 09:56:40] INFO root fetch - processPackages [python-keycloak-api-client]: Remove: archive file [/home/abi/fetcher/tmp/python-keycloak-api-client-0.7.0.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [python-keycloak-api-client]: Remove: archive file [/home/abi/fetcher/tmp/python-keycloak-api-client-0.7.1.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [python-keycloak-api-client]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-2.0.1.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-2.0.2.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_multi_company-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [odoo14-addon-partner-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_multi_company-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-multi-company]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-26 09:56:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-26 09:56:40] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230726/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 09:56:40] INFO root fetch - processPackages [torch-uncertainty]: Remove: archive file [/home/abi/fetcher/tmp/torch_uncertainty-0.1.2.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [torch-uncertainty]: Remove: archive file [/home/abi/fetcher/tmp/torch_uncertainty-0.1.3.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [torch-uncertainty]: success
+[2023-07-26 09:56:40] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.1.2.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.1.3.tar.gz]
+[2023-07-26 09:56:40] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-07-26 09:56:41] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.10.tar.gz]
+[2023-07-26 09:56:41] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.11.tar.gz]
+[2023-07-26 09:56:41] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
+[2023-07-26 09:56:41] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-26 09:56:41] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-26 09:56:41] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-26 09:56:41] INFO root fetch - main [MainThread]: Store serial: [19040933]
