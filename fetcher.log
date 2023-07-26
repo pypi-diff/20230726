@@ -5764,3 +5764,59 @@
 [2023-07-26 03:16:21] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
 [2023-07-26 03:16:21] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
 [2023-07-26 03:16:21] INFO root fetch - main [MainThread]: Store serial: [19037238]
+[2023-07-26 03:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19037238]
+[2023-07-26 03:21:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperopt-prophet
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmvcs
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rockset
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testmhdbAPI
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raydp
+[2023-07-26 03:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-subminute
+[2023-07-26 03:21:30] INFO root fetch - processPackages [testmhdbAPI]: New version: [1.9] Old Version: [1.7]
+[2023-07-26 03:21:30] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 03:21:30] WARNING root fetch - processPackages [pmvcs]: Skipping, unable to determine old version
+[2023-07-26 03:21:30] INFO root fetch - main [MainThread]: End processing [pmvcs] error
+[2023-07-26 03:21:30] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230726.dev0] Old Version: [1.6.0b20230711.dev0]
+[2023-07-26 03:21:30] INFO root fetch - processPackages [rockset]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-07-26 03:21:30] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-26 03:21:30] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-26 03:21:30] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/cb/86/ef3b65b67ae0ff34d9df3efe6892d402ecd59d37c2369ae89ac641f4f823/testmhdbAPI-1.7.tar.gz
+[2023-07-26 03:21:30] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-26 03:21:30] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/ee/7b/648e518c1772c369b92edd48410d709adef8b4fd7d915171b4c7b1a1b68e/hyperopt_prophet-0.1.0.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/5d/03/d9bcdf65c0d867a57b7c928e39376b8c4b60f63f4bf6acc0aca2f9d37602/raydp-1.6.0b20230711.dev0-py3-none-any.whl
+[2023-07-26 03:21:31] INFO root fetch - processPackages [rockset]: Downloading https://files.pythonhosted.org/packages/28/58/e30cc485b301c67f8b29e0c88cb543e81b5a32fa86e85a13c2716609d003/rockset-2.0.0.tar.gz
+[2023-07-26 03:21:31] WARNING root fetch - processPackages [raydp]: Skipping package: exceeds size limit 14070650>=10485760
+[2023-07-26 03:21:31] INFO root fetch - main [MainThread]: End processing [raydp] error
+[2023-07-26 03:21:31] INFO root fetch - processPackages [testmhdbAPI]: Downloading https://files.pythonhosted.org/packages/c7/ab/d79111554ec62a2772eb7e8e65257f842c38ac4d63b62c52a16568f4b051/testmhdbAPI-1.9.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/7d/6b/0a7bde3e6a1b5ba2a1effacfd71c7cf2e2bef8dacee364811e79071ad49a/hyperopt_prophet-0.1.1.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [rockset]: Downloading https://files.pythonhosted.org/packages/a5/26/6ef415438ce21a8b9378534fc22e9a82588d6433d6222903fa8cc060abcf/rockset-2.0.2.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [testmhdbAPI]: executing diffoscope
+[2023-07-26 03:21:31] INFO root fetch - processPackages [testmhdbAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmhdbAPI-1.7.tar.gz tmp/testmhdbAPI-1.9.tar.gz --markdown 20230726/t/testmhdbAPI/1.7-1.9/diff.md --exclude *.pyd
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230726/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-26 03:21:31] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-26 03:21:31] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.0.tar.gz tmp/hyperopt_prophet-0.1.1.tar.gz --markdown 20230726/h/hyperopt-prophet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-26 03:21:31] INFO root fetch - processPackages [rockset]: executing diffoscope
+[2023-07-26 03:21:31] INFO root fetch - processPackages [rockset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockset-2.0.0.tar.gz tmp/rockset-2.0.2.tar.gz --markdown 20230726/r/rockset/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-26 03:21:31] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230726/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-26 03:21:32] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-26 03:21:32] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.7.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - processPackages [testmhdbAPI]: Remove: archive file [/home/abi/fetcher/tmp/testmhdbAPI-1.9.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - main [MainThread]: End processing [testmhdbAPI]: success
+[2023-07-26 03:21:32] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.0.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.1.tar.gz]
+[2023-07-26 03:21:32] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-26 03:21:33] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-26 03:21:33] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-26 03:21:33] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-26 03:21:34] INFO root fetch - processPackages [rockset]: Remove: archive file [/home/abi/fetcher/tmp/rockset-2.0.0.tar.gz]
+[2023-07-26 03:21:34] INFO root fetch - processPackages [rockset]: Remove: archive file [/home/abi/fetcher/tmp/rockset-2.0.2.tar.gz]
+[2023-07-26 03:21:34] INFO root fetch - main [MainThread]: End processing [rockset]: success
+[2023-07-26 03:21:34] INFO root fetch - main [MainThread]: Store serial: [19037261]
