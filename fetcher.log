@@ -18029,3 +18029,108 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 11:27:18] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
 [2023-07-26 11:27:18] INFO root fetch - main [MainThread]: End processing [affinda]: success
 [2023-07-26 11:27:18] INFO root fetch - main [MainThread]: Store serial: [19041909]
+[2023-07-26 11:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19041909]
+[2023-07-26 11:32:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aksharify
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matchmock
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyone
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requestsbankrko
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudio-glue-python
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lieops
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-launchdarkly
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-connector-importer
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autocreateapp
+[2023-07-26 11:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finterion
+[2023-07-26 11:32:29] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [matchmock]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [finterion]: New version: [0.4] Old Version: [0.3]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [lieops]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [aksharify]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [pyone]: New version: [6.6.3] Old Version: [6.6.2]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [autocreateapp]: New version: [0.3] Old Version: [0.2]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [odoo-addon-connector-importer]: New version: [15.0.1.6.0] Old Version: [15.0.1.5.0]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [cloudio-glue-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-26 11:32:29] WARNING root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Skipping, unable to determine old version
+[2023-07-26 11:32:29] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Start processing: temp-api
+[2023-07-26 11:32:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-launchdarkly] error
+[2023-07-26 11:32:29] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/82/2c/6496edb17517e85e76f57fdb613bf2a2e6d9bbdb1d58009a413202ff9eff/requestsbankrko-0.2.7.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/2a/5a/8740cf13577a026124f8263391c764cdda36b7f6dd849b77e3c6d54cae64/finterion-0.3.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [temp-api]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-26 11:32:29] INFO root fetch - processPackages [matchmock]: Downloading https://files.pythonhosted.org/packages/61/6d/cee038b12e57494501868e2825877f9349d64d876473310683357d0b5693/matchmock-2.1.0.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [autocreateapp]: Downloading https://files.pythonhosted.org/packages/67/4c/abd9f962ea97a0543362c3f5a79c38bc2471035fe2eb4bcdf8ecd37cbc8d/autocreateapp-0.2.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [lieops]: Downloading https://files.pythonhosted.org/packages/48/86/284260f16be894b0cd970fa7b26f00e09777a8a797d39152046f3c6fec20/lieops-0.2.2.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/17/00/a66dcb89e672c7bba384ce893924cff20b8a403fdfe51e9c1f388feae9a4/aksharify-0.1.7.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [odoo-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/dc/0c/59c5c9120f3ec1aff379bf1ab2d7a8939a2780a1e33d9d03ef1173a9b4b8/odoo_addon_connector_importer-15.0.1.5.0-py3-none-any.whl
+[2023-07-26 11:32:29] INFO root fetch - processPackages [cloudio-glue-python]: Downloading https://files.pythonhosted.org/packages/e4/2f/5ba5aad5d55f4ee823744a3bd7045ff462ec77ccf6068a0531005c54cf92/cloudio-glue-python-1.0.2.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [pyone]: Downloading https://files.pythonhosted.org/packages/5e/1c/dd84293906f7c0b9c2e396687a1865bd9fae875de7bfb9b2fac78501acab/pyone-6.6.2.tar.gz
+[2023-07-26 11:32:29] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/dd/82/12141ecf4da214d33f7ef2dd84fe00ada8f3a53da6dbacda2321c505dd5f/finterion-0.4.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [temp-api]: Downloading https://files.pythonhosted.org/packages/c8/0d/c145d39719dc1624bac3f19f4bc1ab27184ada4f284bf1c803b81d3354cd/temp_api-0.1.1.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/74/0b/3825be188a130045b4b8dddff5c8c9aad555ae72aa8989a46a092ce2066a/requestsbankrko-0.2.8.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [finterion]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [finterion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion-0.3.tar.gz tmp/finterion-0.4.tar.gz --markdown 20230726/f/finterion/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [autocreateapp]: Downloading https://files.pythonhosted.org/packages/41/36/35f522968b12a07814ceec1dfbc7b53ccb7164f700bdf7c780908860ed67/autocreateapp-0.3.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.7.tar.gz tmp/requestsbankrko-0.2.8.tar.gz --markdown 20230726/r/requestsbankrko/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/ac/b7/364721d3700ae15c17b99a24005b614f6f394792d5304be5199a726c9c73/aksharify-0.1.8.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [odoo-addon-connector-importer]: Downloading https://files.pythonhosted.org/packages/5a/bc/ef0d65293ac968514c66f9009a400e783e3eb9e6912e0f47b12ff0348021/odoo_addon_connector_importer-15.0.1.6.0-py3-none-any.whl
+[2023-07-26 11:32:30] INFO root fetch - processPackages [matchmock]: Downloading https://files.pythonhosted.org/packages/e8/ef/502b2eba4e29f75c53457fc4d15211db240fd8a19bbcc0b945e7e1e09da3/matchmock-2.1.1.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [cloudio-glue-python]: Downloading https://files.pythonhosted.org/packages/b8/96/229425677e2ded021adf0b048a00ea2bfd55fa7402b703440b15d95035b1/cloudio-glue-python-1.0.3.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [pyone]: Downloading https://files.pythonhosted.org/packages/cc/93/2154602189279054d68011b17095f4b26705d4fb65f088fdceecadb732ac/pyone-6.6.3.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-0.1.7.tar.gz tmp/aksharify-0.1.8.tar.gz --markdown 20230726/a/aksharify/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [matchmock]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [matchmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchmock-2.1.0.tar.gz tmp/matchmock-2.1.1.tar.gz --markdown 20230726/m/matchmock/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [odoo-addon-connector-importer]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [odoo-addon-connector-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_importer-15.0.1.5.0-py3-none-any.whl.zip tmp/odoo_addon_connector_importer-15.0.1.6.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-connector-importer/15.0.1.5.0-15.0.1.6.0/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [cloudio-glue-python]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [cloudio-glue-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudio-glue-python-1.0.2.tar.gz tmp/cloudio-glue-python-1.0.3.tar.gz --markdown 20230726/c/cloudio-glue-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [temp-api]: Downloading https://files.pythonhosted.org/packages/83/51/282c4e6ac06c48f770a67439de4f5eb1fdba558790227cc18e059727a619/temp_api-0.2.0.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [pyone]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [pyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyone-6.6.2.tar.gz tmp/pyone-6.6.3.tar.gz --markdown 20230726/p/pyone/6.6.2-6.6.3/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [autocreateapp]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [autocreateapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocreateapp-0.2.tar.gz tmp/autocreateapp-0.3.tar.gz --markdown 20230726/a/autocreateapp/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-26 11:32:30] INFO root fetch - processPackages [lieops]: Downloading https://files.pythonhosted.org/packages/7c/23/f062d0c459e3f163fb354548991cfd5a63d7b9233ee77bfe9612f48491bb/lieops-0.2.3.tar.gz
+[2023-07-26 11:32:30] INFO root fetch - processPackages [temp-api]: executing diffoscope
+[2023-07-26 11:32:30] INFO root fetch - processPackages [temp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temp_api-0.1.1.tar.gz tmp/temp_api-0.2.0.tar.gz --markdown 20230726/t/temp-api/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 11:32:31] INFO root fetch - processPackages [lieops]: executing diffoscope
+[2023-07-26 11:32:31] INFO root fetch - processPackages [lieops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lieops-0.2.2.tar.gz tmp/lieops-0.2.3.tar.gz --markdown 20230726/l/lieops/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 11:32:31] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.3.tar.gz]
+[2023-07-26 11:32:31] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.4.tar.gz]
+[2023-07-26 11:32:31] INFO root fetch - processPackages [finterion]: Start processing: peakventures
+[2023-07-26 11:32:31] INFO root fetch - main [MainThread]: End processing [finterion]: success
+[2023-07-26 11:32:31] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.7.tar.gz]
+[2023-07-26 11:32:31] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.8.tar.gz]
+[2023-07-26 11:32:31] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-26 11:32:31] INFO root fetch - processPackages [peakventures]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [peakventures]: Downloading https://files.pythonhosted.org/packages/e2/58/8a11b2be09571215999c8f27e3f8a90ae5c240d59c92c9d5dac1b36ebb53/peakventures-1.1.3.tar.gz
+[2023-07-26 11:32:32] INFO root fetch - processPackages [autocreateapp]: Remove: archive file [/home/abi/fetcher/tmp/autocreateapp-0.2.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [autocreateapp]: Remove: archive file [/home/abi/fetcher/tmp/autocreateapp-0.3.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [autocreateapp]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [cloudio-glue-python]: Remove: archive file [/home/abi/fetcher/tmp/cloudio-glue-python-1.0.2.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [cloudio-glue-python]: Remove: archive file [/home/abi/fetcher/tmp/cloudio-glue-python-1.0.3.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [cloudio-glue-python]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.7.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.8.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [matchmock]: Remove: archive file [/home/abi/fetcher/tmp/matchmock-2.1.0.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [matchmock]: Remove: archive file [/home/abi/fetcher/tmp/matchmock-2.1.1.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [matchmock]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [temp-api]: Remove: archive file [/home/abi/fetcher/tmp/temp_api-0.1.1.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [temp-api]: Remove: archive file [/home/abi/fetcher/tmp/temp_api-0.2.0.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [temp-api]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [odoo-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer-15.0.1.5.0-py3-none-any.whl.zip]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [odoo-addon-connector-importer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer-15.0.1.6.0-py3-none-any.whl.zip]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-importer]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [peakventures]: Downloading https://files.pythonhosted.org/packages/d0/4b/fd85b74d0c0bb58f8b65613053874e641df9b7897053928aa7e03c32dbaa/peakventures-1.2.0.tar.gz
+[2023-07-26 11:32:32] INFO root fetch - processPackages [pyone]: Remove: archive file [/home/abi/fetcher/tmp/pyone-6.6.2.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - processPackages [pyone]: Remove: archive file [/home/abi/fetcher/tmp/pyone-6.6.3.tar.gz]
+[2023-07-26 11:32:32] INFO root fetch - main [MainThread]: End processing [pyone]: success
+[2023-07-26 11:32:32] INFO root fetch - processPackages [peakventures]: executing diffoscope
+[2023-07-26 11:32:32] INFO root fetch - processPackages [peakventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakventures-1.1.3.tar.gz tmp/peakventures-1.2.0.tar.gz --markdown 20230726/p/peakventures/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-26 11:32:33] INFO root fetch - processPackages [lieops]: Remove: archive file [/home/abi/fetcher/tmp/lieops-0.2.2.tar.gz]
+[2023-07-26 11:32:33] INFO root fetch - processPackages [lieops]: Remove: archive file [/home/abi/fetcher/tmp/lieops-0.2.3.tar.gz]
+[2023-07-26 11:32:33] INFO root fetch - main [MainThread]: End processing [lieops]: success
+[2023-07-26 11:32:33] INFO root fetch - processPackages [peakventures]: Remove: archive file [/home/abi/fetcher/tmp/peakventures-1.1.3.tar.gz]
+[2023-07-26 11:32:33] INFO root fetch - processPackages [peakventures]: Remove: archive file [/home/abi/fetcher/tmp/peakventures-1.2.0.tar.gz]
+[2023-07-26 11:32:33] INFO root fetch - main [MainThread]: End processing [peakventures]: success
+[2023-07-26 11:32:33] INFO root fetch - main [MainThread]: Store serial: [19041949]
