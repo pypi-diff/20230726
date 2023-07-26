@@ -21467,3 +21467,102 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:08:17] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.8.tar.gz]
 [2023-07-26 14:08:17] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
 [2023-07-26 14:08:17] INFO root fetch - main [MainThread]: Store serial: [19043291]
+[2023-07-26 14:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043291]
+[2023-07-26 14:13:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyalltools
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DataPreprocessing4Analytics
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: root-tomography
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ruamel.std.warning
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sberpm
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pympc
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywolf
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simpleworkspace
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pyalltools]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pywolf]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-26 14:13:26] WARNING root fetch - processPackages [ruamel.std.warning]: Skipping, unable to determine old version
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ruamel.std.warning]: Start processing: c2cciutils
+[2023-07-26 14:13:26] INFO root fetch - main [MainThread]: End processing [ruamel.std.warning] error
+[2023-07-26 14:13:26] WARNING root fetch - processPackages [DataPreprocessing4Analytics]: Skipping, unable to determine old version
+[2023-07-26 14:13:26] INFO root fetch - processPackages [DataPreprocessing4Analytics]: Start processing: swiftly-windows
+[2023-07-26 14:13:26] INFO root fetch - main [MainThread]: End processing [DataPreprocessing4Analytics] error
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pympc]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [sberpm]: New version: [2.5.1rc0] Old Version: [2.5.0rc0]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [root-tomography]: New version: [0.6] Old Version: [0.5]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/a0/8b/751d9f34a41d4ed7a41254abdec0e88c317175ab1c34fc037bd4c8d55fcd/pyalltools-1.1.1.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/a4/47/624614b142214ce2579a0cbe6669a8ec17802d3de5a52f2d2c2acf3ab180/sberpm-2.5.0rc0.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [swiftly-windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 14:13:26] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pywolf]: Downloading https://files.pythonhosted.org/packages/04/17/ae7e2052519473e578bb13f2ece5db2936f501e5e7da680e05d490170e7d/pywolf-0.3.2.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [root-tomography]: Downloading https://files.pythonhosted.org/packages/01/8c/d9363a8f6e946c8233b6b328c39c1f2987c22d6696203c963fe5dbfa4b7f/root-tomography-0.5.tar.gz
+[2023-07-26 14:13:26] INFO root fetch - processPackages [pympc]: Downloading https://files.pythonhosted.org/packages/4f/5d/e1c29fe02cfa6da1421ca3fe684725e179c43092c96b59d67e60addbeeb7/pympc-1.0.0.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/3c/76/0e32afa5916f47dd99509566836673d9087e2f5672efe382d289448eac62/swiftly-windows-0.0.8.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/8e/97/fe3a11aebb69b795f1495f6eb0ec118e28241d6f7def17cb4ffb7ec0b863/pyalltools-2.0.0.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pywolf]: Downloading https://files.pythonhosted.org/packages/91/b0/acd73a7349e7ac13e2d47d44d9383644173d8938c573809e274d7d79ea46/pywolf-0.3.3.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pyalltools]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pyalltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalltools-1.1.1.tar.gz tmp/pyalltools-2.0.0.tar.gz --markdown 20230726/p/pyalltools/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pywolf]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pywolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywolf-0.3.2.tar.gz tmp/pywolf-0.3.3.tar.gz --markdown 20230726/p/pywolf/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/ba/07/51e0174b0825c5bb3b2027aed067e6f8942798800020a33fad8762256e1a/sberpm-2.5.1rc0.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/9b/27/a1cc64bc554f73c065719b011101ed5b604c821e9d802e867a71cfcec97c/swiftly-windows-0.0.9.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230726/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230726/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [swiftly-windows]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [swiftly-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-windows-0.0.8.tar.gz tmp/swiftly-windows-0.0.9.tar.gz --markdown 20230726/s/swiftly-windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [root-tomography]: Downloading https://files.pythonhosted.org/packages/a1/c3/0a3017510b5ae5355bffdab1788d5d4ddd1495b388238d71df3adc25b066/root-tomography-0.6.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pympc]: Downloading https://files.pythonhosted.org/packages/84/a8/5a95e25c7b5486fded44977da536851901cc5f82682deeb3f04fdeb2ee86/pympc-1.1.0.tar.gz
+[2023-07-26 14:13:27] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230726/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [sberpm]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [sberpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sberpm-2.5.0rc0.tar.gz tmp/sberpm-2.5.1rc0.tar.gz --markdown 20230726/s/sberpm/2.5.0rc0-2.5.1rc0/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230726/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [root-tomography]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [root-tomography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/root-tomography-0.5.tar.gz tmp/root-tomography-0.6.tar.gz --markdown 20230726/r/root-tomography/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pympc]: executing diffoscope
+[2023-07-26 14:13:27] INFO root fetch - processPackages [pympc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympc-1.0.0.tar.gz tmp/pympc-1.1.0.tar.gz --markdown 20230726/p/pympc/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-26 14:13:28] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-1.1.1.tar.gz]
+[2023-07-26 14:13:28] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-2.0.0.tar.gz]
+[2023-07-26 14:13:28] INFO root fetch - main [MainThread]: End processing [pyalltools]: success
+[2023-07-26 14:13:28] INFO root fetch - processPackages [pywolf]: Remove: archive file [/home/abi/fetcher/tmp/pywolf-0.3.2.tar.gz]
+[2023-07-26 14:13:28] INFO root fetch - processPackages [pywolf]: Remove: archive file [/home/abi/fetcher/tmp/pywolf-0.3.3.tar.gz]
+[2023-07-26 14:13:28] INFO root fetch - main [MainThread]: End processing [pywolf]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.8.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.9.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [swiftly-windows]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [pympc]: Remove: archive file [/home/abi/fetcher/tmp/pympc-1.0.0.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [pympc]: Remove: archive file [/home/abi/fetcher/tmp/pympc-1.1.0.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [pympc]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [root-tomography]: Remove: archive file [/home/abi/fetcher/tmp/root-tomography-0.5.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [root-tomography]: Remove: archive file [/home/abi/fetcher/tmp/root-tomography-0.6.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [root-tomography]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.5.0rc0.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.5.1rc0.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [sberpm]: success
+[2023-07-26 14:13:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-26 14:13:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-26 14:13:32] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-26 14:13:32] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-26 14:13:32] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-26 14:13:32] INFO root fetch - main [MainThread]: Store serial: [19043325]
