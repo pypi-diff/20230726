@@ -2763,3 +2763,95 @@
 [2023-07-26 02:22:59] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.6.0.tar.gz]
 [2023-07-26 02:22:59] INFO root fetch - main [MainThread]: End processing [writerai]: success
 [2023-07-26 02:22:59] INFO root fetch - main [MainThread]: Store serial: [19036230]
+[2023-07-26 02:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19036230]
+[2023-07-26 02:28:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-remote-stack
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-tweet-queue
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-redis
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cr-constructs
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mikkoo
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boulder-opal
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axion
+[2023-07-26 02:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-07-26 02:28:08] INFO root fetch - processPackages [axion]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [anyon]: New version: [3.8.1] Old Version: [3.7.9]
+[2023-07-26 02:28:08] WARNING root fetch - processPackages [boulder-opal]: Skipping, unable to determine old version
+[2023-07-26 02:28:08] INFO root fetch - processPackages [boulder-opal]: Start processing: cdk-docker-image-deployment
+[2023-07-26 02:28:08] INFO root fetch - main [MainThread]: End processing [boulder-opal] error
+[2023-07-26 02:28:08] INFO root fetch - processPackages [mikkoo]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-26 02:28:08] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/5e/df/1387d51aefb5f4ac114833610f96bfd6448725e49c28752e2ef3ce352773/anyon-3.7.9-cp311-none-win_amd64.whl
+[2023-07-26 02:28:08] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/ab/66/54bdd4f8f8ff9316bba98bbace45301d3c11845b32506de34c6b8dda72e9/axion-3.6.2-cp311-none-win_amd64.whl
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [mikkoo]: Downloading https://files.pythonhosted.org/packages/3d/8e/a383f222de2b6dc4ef9d950a31518ccc9d0ea86d667208f35ba35b7a1646/mikkoo-2.2.0.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-26 02:28:08] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-26 02:28:08] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-26 02:28:08] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/6e/4f/0dcf998633ac268c27122d9258c678a31a66a6c6c6c3d4ba3712b73d27cf/anyon-3.8.1-cp311-none-win_amd64.whl
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-26 02:28:08] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-26 02:28:09] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/de/80/a64a9c02bf90204672babb5941d1268eeb71084c755805a69e7b01c4c628/axion-3.6.3-cp311-none-win_amd64.whl
+[2023-07-26 02:28:09] INFO root fetch - processPackages [mikkoo]: Downloading https://files.pythonhosted.org/packages/cd/d0/03346bbf9f10244d7a429451b67a7c5613c7b43ec2fe418ee0721202a7c6/mikkoo-2.2.1.tar.gz
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230726/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230726/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-07-26 02:28:09] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip tmp/anyon-3.8.1-cp311-none-win_amd64.whl.zip --markdown 20230726/a/anyon/3.7.9-3.8.1/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230726/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230726/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230726/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [mikkoo]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [mikkoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikkoo-2.2.0.tar.gz tmp/mikkoo-2.2.1.tar.gz --markdown 20230726/m/mikkoo/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-26 02:28:09] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.2-cp311-none-win_amd64.whl.zip tmp/axion-3.6.3-cp311-none-win_amd64.whl.zip --markdown 20230726/a/axion/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-26 02:28:09] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-26 02:28:10] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.1-cp311-none-win_amd64.whl.zip]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.2-cp311-none-win_amd64.whl.zip]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.3-cp311-none-win_amd64.whl.zip]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [mikkoo]: Remove: archive file [/home/abi/fetcher/tmp/mikkoo-2.2.0.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - processPackages [mikkoo]: Remove: archive file [/home/abi/fetcher/tmp/mikkoo-2.2.1.tar.gz]
+[2023-07-26 02:28:10] INFO root fetch - main [MainThread]: End processing [mikkoo]: success
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-26 02:28:10] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230726/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-26 02:28:12] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-26 02:28:12] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-26 02:28:12] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-26 02:28:12] INFO root fetch - main [MainThread]: Store serial: [19036264]
