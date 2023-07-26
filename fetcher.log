@@ -14005,3 +14005,138 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 08:48:23] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.4.tar.gz]
 [2023-07-26 08:48:23] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-07-26 08:48:23] INFO root fetch - main [MainThread]: Store serial: [19040214]
+[2023-07-26 08:53:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19040214]
+[2023-07-26 08:53:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obiba-opal
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsjsonclasses
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-opnsense
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aloso
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-gpdb20160503-py2
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-26
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bcmd
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-gpdb20160503
+[2023-07-26 08:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-25
+[2023-07-26 08:53:33] INFO root fetch - processPackages [obiba-opal]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [lsjsonclasses]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [graphene]: New version: [3.3] Old Version: [3.2.2]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.9.0] Old Version: [2.8.98]
+[2023-07-26 08:53:33] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/86/26/853d37992df372513c5cbf5780011126608fb749e78c88c6ebffa495f238/pulumi_opnsense-0.0.92.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [graphene]: Downloading https://files.pythonhosted.org/packages/64/59/71fffb25d8587f58254dad3710bd2ad2d6aa5292678fe880544d337676fa/graphene-3.2.2.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/d2/ea/a95fb938621c00da665acf03d476758b01ebe2e776b23de7d4de170d096a/cdk8s-plus-25-2.8.98.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/9e/5f/38293ebd323769a88c06dc3faa6bf3eea198c54fdf8c1ee23a57788c2525/obiba_opal-5.2.0.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [lsjsonclasses]: Downloading https://files.pythonhosted.org/packages/6a/87/fa9724f3df22d565d4ca1d1717d1f346cf61a805e783c106983329e3ffbc/lsjsonclasses-1.1.0.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-26 08:53:33] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/57/27/c7dc7b7a6ca589c8557e2fcdfa03d98cabb52552fd18df535b3e675f7dc0/cdk8s-plus-26-2.8.1.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/a3/99/01ef1d65aa5959675bcf412364ab98950b3e00c49a60457491baa41f74c9/alibabacloud_gpdb20160503-2.0.0.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/f5/14/4f8d0cbf612d660a80e17d7a33a607680ec65303a3f0aa7563f421eb5414/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/0e/ec/329ce53e8d465bba13a1d1ac4ffc9bfe7fe993094548a32f5d636eac00f7/pulumi_opnsense-0.0.93.tar.gz
+[2023-07-26 08:53:33] INFO root fetch - processPackages [graphene]: Downloading https://files.pythonhosted.org/packages/82/75/02875858c7c09fc156840181cdee27b23408fac75720a2e1e9128f3d48a5/graphene-3.3.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [lsjsonclasses]: Downloading https://files.pythonhosted.org/packages/b3/92/fbe88b7306c1d2f8fdb034aa9a63e46923c729f31a8fa65fedddd76a4074/lsjsonclasses-1.1.1.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/13/80/f2400f9cb3621417c7b6c7a312421f75288679ed95e1742c6a7cbd4ad306/cdk8s-plus-25-2.9.0.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/a3/e3/f1aaf3207f1a5b6b2725cb452dbb1e51b4839835df8eb62bc7b2db11ab17/obiba_opal-5.2.1.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/90/da/ce987f70ec1a647af2863232a1c28ce7265809eaa9b8ed99a16fb16ccc53/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/c1/39/ce91966aa0d7287385e5740efbd359e59c01bf841ed82a87f0953903b693/alibabacloud_gpdb20160503-2.0.1.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.92.tar.gz tmp/pulumi_opnsense-0.0.93.tar.gz --markdown 20230726/p/pulumi-opnsense/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/f9/b5/db2ea94d29c01b146fcfb2e07a32393e9961c1c1f5a9a2bc2232af84a4dd/cdk8s-plus-26-2.9.0.tar.gz
+[2023-07-26 08:53:34] INFO root fetch - processPackages [graphene]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [graphene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene-3.2.2.tar.gz tmp/graphene-3.3.tar.gz --markdown 20230726/g/graphene/3.2.2-3.3/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [lsjsonclasses]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [lsjsonclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsjsonclasses-1.1.0.tar.gz tmp/lsjsonclasses-1.1.1.tar.gz --markdown 20230726/l/lsjsonclasses/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230726/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [obiba-opal]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [obiba-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obiba_opal-5.2.0.tar.gz tmp/obiba_opal-5.2.1.tar.gz --markdown 20230726/o/obiba-opal/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz --markdown 20230726/a/alibabacloud-gpdb20160503-py2/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503-2.0.0.tar.gz tmp/alibabacloud_gpdb20160503-2.0.1.tar.gz --markdown 20230726/a/alibabacloud-gpdb20160503/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.98.tar.gz tmp/cdk8s-plus-25-2.9.0.tar.gz --markdown 20230726/c/cdk8s-plus-25/2.8.98-2.9.0/diff.md --exclude *.pyd
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-26 08:53:34] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.8.1.tar.gz tmp/cdk8s-plus-26-2.9.0.tar.gz --markdown 20230726/c/cdk8s-plus-26/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-26 08:53:36] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [bcmd]: Start processing: clickzetta-connector
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [lsjsonclasses]: Remove: archive file [/home/abi/fetcher/tmp/lsjsonclasses-1.1.0.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [lsjsonclasses]: Remove: archive file [/home/abi/fetcher/tmp/lsjsonclasses-1.1.1.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [lsjsonclasses]: Start processing: clickzetta-sqlalchemy
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [lsjsonclasses]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.92.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-07-26 08:53:36] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.93.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: my-math-library
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-26 08:53:36] WARNING root fetch - processPackages [my-math-library]: Skipping, unable to determine old version
+[2023-07-26 08:53:36] INFO root fetch - processPackages [my-math-library]: Start processing: fastmysql
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [my-math-library] error
+[2023-07-26 08:53:36] INFO root fetch - processPackages [fastmysql]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-07-26 08:53:36] INFO root fetch - processPackages [obiba-opal]: Remove: archive file [/home/abi/fetcher/tmp/obiba_opal-5.2.0.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [obiba-opal]: Remove: archive file [/home/abi/fetcher/tmp/obiba_opal-5.2.1.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [obiba-opal]: Start processing: snakemake
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [obiba-opal]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/50/fa/09d89dbffc0407687dca41cee4ffe2d5d6313b552a2b82b8dfff8cf63c34/fastmysql-0.1.2.tar.gz
+[2023-07-26 08:53:36] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [aloso]: Start processing: snusbase.py
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230726/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-26 08:53:36] WARNING root fetch - processPackages [snusbase.py]: Skipping, unable to determine old version
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [snusbase.py] error
+[2023-07-26 08:53:36] INFO root fetch - processPackages [graphene]: Remove: archive file [/home/abi/fetcher/tmp/graphene-3.2.2.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [graphene]: Remove: archive file [/home/abi/fetcher/tmp/graphene-3.3.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [graphene]: success
+[2023-07-26 08:53:36] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-07-26 08:53:36] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz]
+[2023-07-26 08:53:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
+[2023-07-26 08:53:37] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-07-26 08:53:37] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230726/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-26 08:53:37] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-07-26 08:53:37] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/ee/cb/d1c949e836e3e198bf370451ce48c8f2d765ba3a8f02cc30a56482389a4a/fastmysql-0.2.0.tar.gz
+[2023-07-26 08:53:37] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.98.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.9.0.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-26 08:53:37] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.0.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.1.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
+[2023-07-26 08:53:37] INFO root fetch - processPackages [fastmysql]: executing diffoscope
+[2023-07-26 08:53:37] INFO root fetch - processPackages [fastmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmysql-0.1.2.tar.gz tmp/fastmysql-0.2.0.tar.gz --markdown 20230726/f/fastmysql/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-26 08:53:37] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.8.1.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.9.0.tar.gz]
+[2023-07-26 08:53:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-26 08:53:37] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-07-26 08:53:37] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-07-26 08:53:37] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230726/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-07-26 08:53:38] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-07-26 08:53:38] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.1.2.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.2.0.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - main [MainThread]: End processing [fastmysql]: success
+[2023-07-26 08:53:38] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-07-26 08:53:38] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-07-26 08:53:39] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-07-26 08:53:39] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-07-26 08:53:39] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-07-26 08:53:39] INFO root fetch - main [MainThread]: Store serial: [19040272]
