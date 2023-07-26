@@ -11259,3 +11259,81 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 06:19:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-26 06:19:52] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-07-26 06:19:52] INFO root fetch - main [MainThread]: Store serial: [19039260]
+[2023-07-26 06:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039260]
+[2023-07-26 06:25:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-utils
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyinit
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medviz
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx-labour-cost
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperopt-prophet
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-replenishment-cost
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-margin-analysis
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-mgmt-sphere
+[2023-07-26 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2023-07-26 06:25:01] INFO root fetch - processPackages [lazyinit]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 06:25:01] WARNING root fetch - processPackages [azure-mgmt-sphere]: Skipping, unable to determine old version
+[2023-07-26 06:25:01] INFO root fetch - main [MainThread]: End processing [azure-mgmt-sphere] error
+[2023-07-26 06:25:01] INFO root fetch - processPackages [medviz]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: New version: [16.0.20230725.0] Old Version: [16.0.20230621.0]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.944573153.dev12436] Old Version: [0.2.944393829.dev12432]
+[2023-07-26 06:25:01] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/02/81/86393b80f5e9fe841d9278488ae234b3d32ca59db2b7f6e297c8b94f57eb/lesscode_utils-0.0.4.tar.gz
+[2023-07-26 06:25:01] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ee/9b/9b7ea1e7edd5c06df0e9096543c8e1caaefc671fe3736e5dbe3e818d90ef/lazyinit-0.0.22.tar.gz
+[2023-07-26 06:25:01] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/b9/4e/a9ac633f10dc06f321090be192fc721fd58b7a1a6e60a814e62073676ad4/hyperopt_prophet-0.1.2.tar.gz
+[2023-07-26 06:25:01] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/19/1f/9840a020bf51edac0fc813170d9011aa49bd7a73c8838f262df30aae95a5/quickstart-vdk-0.2.944393829.dev12432.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/37/41/5d95b4b9cd91a0afb9b3a764fa266094e9400925a1613326066452676bd3/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/ef/1d/abc0b9846a136ba69033662218a1db6c1679a2ab5f6edad69527b21a988a/medviz-1.0.1.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Downloading https://files.pythonhosted.org/packages/a5/a7/d446e211bfc560d52f87fb506985362543235e947c8c98686cb3f63fb128/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Downloading https://files.pythonhosted.org/packages/ff/03/087d56fd4a83837ed529f3a5b93b4e15f07334febe6bc53024e9184933e9/odoo_addon_product_replenishment_cost-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/3b/af/80955f3c0c07d7bca585acb2d1e65ea8aa0f84c76a9f947c64f7a7554c36/hyperopt_prophet-0.1.3.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/dc/4f/e2f9b1b246094b6656c0d97ec082dd974eae4ced82ddf7545187cdd24db0/lesscode_utils-0.0.5.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.2.tar.gz tmp/hyperopt_prophet-0.1.3.tar.gz --markdown 20230726/h/hyperopt-prophet/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/b6/8d/d6b10cc6ad366dd1dfda7391011a10e01b395f802399ed3b440a3decf4b1/lazyinit-0.0.23.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/93/ab/0c5422622ad5173fa389f9cf1e310421dc80282e8b3db773785cf5209df9/quickstart-vdk-0.2.944573153.dev12436.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/17/10/599d9792aa77cab9eb052c29515a43da653c92f5425b2fdfef3c87fd0257/odoo_addons_oca_margin_analysis-16.0.20230725.0-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/44/af/d3a11697361726b079e6776778eec95262e0e6b2cec47c18e05f5ee3985e/medviz-1.0.2.tar.gz
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.4.tar.gz tmp/lesscode_utils-0.0.5.tar.gz --markdown 20230726/l/lesscode-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Downloading https://files.pythonhosted.org/packages/93/1a/fb814279e6cfd81fe84fb6de10223a5354808e8ba26b9f3f2f0420bf65c0/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz tmp/quickstart-vdk-0.2.944573153.dev12436.tar.gz --markdown 20230726/q/quickstart-vdk/0.2.944393829.dev12432-0.2.944573153.dev12436/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.22.tar.gz tmp/lazyinit-0.0.23.tar.gz --markdown 20230726/l/lazyinit/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Downloading https://files.pythonhosted.org/packages/3d/fa/83409a2e1f44569ff78d41deb4e42647c8c02796a6c3cf39993152b08ab0/odoo_addon_product_replenishment_cost-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl.zip tmp/odoo_addons_oca_margin_analysis-16.0.20230725.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-margin-analysis/16.0.20230621.0-16.0.20230725.0/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [medviz]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [medviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medviz-1.0.1.tar.gz tmp/medviz-1.0.2.tar.gz --markdown 20230726/m/medviz/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-mrp-flattened-bom-xlsx-labour-cost/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: executing diffoscope
+[2023-07-26 06:25:02] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230726/o/odoo-addon-product-replenishment-cost/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-26 06:25:03] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.2.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.3.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-26 06:25:03] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl.zip]
+[2023-07-26 06:25:03] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-07-26 06:25:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-margin-analysis]: success
+[2023-07-26 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.944573153.dev12436.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-26 06:25:03] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.4.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.5.tar.gz]
+[2023-07-26 06:25:03] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-26 06:25:04] INFO root fetch - processPackages [medviz]: Remove: archive file [/home/abi/fetcher/tmp/medviz-1.0.1.tar.gz]
+[2023-07-26 06:25:04] INFO root fetch - processPackages [medviz]: Remove: archive file [/home/abi/fetcher/tmp/medviz-1.0.2.tar.gz]
+[2023-07-26 06:25:04] INFO root fetch - main [MainThread]: End processing [medviz]: success
+[2023-07-26 06:25:04] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.22.tar.gz]
+[2023-07-26 06:25:04] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.23.tar.gz]
+[2023-07-26 06:25:04] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 06:25:04] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-26 06:25:04] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-26 06:25:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-replenishment-cost]: success
+[2023-07-26 06:25:04] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-26 06:25:04] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_flattened_bom_xlsx_labour_cost-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-26 06:25:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: success
+[2023-07-26 06:25:04] INFO root fetch - main [MainThread]: Store serial: [19039284]
