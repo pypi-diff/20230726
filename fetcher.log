@@ -10867,3 +10867,45 @@
 [2023-07-26 05:53:49] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.2.4.tar.gz]
 [2023-07-26 05:53:49] INFO root fetch - main [MainThread]: End processing [bnpm]: success
 [2023-07-26 05:53:49] INFO root fetch - main [MainThread]: Store serial: [19039098]
+[2023-07-26 05:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039098]
+[2023-07-26 05:58:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-26 05:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparglim
+[2023-07-26 05:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rbi-tree
+[2023-07-26 05:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmd
+[2023-07-26 05:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airtouch5py
+[2023-07-26 05:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chikvdf
+[2023-07-26 05:58:58] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:58:58] INFO root fetch - processPackages [rbi-tree]: New version: [0.2] Old Version: [0.1.5.dev1]
+[2023-07-26 05:58:58] ERROR root fetch - processPackages [chikvdf]: Unable to get metadata: No such project 'chikvdf'
+[2023-07-26 05:58:58] INFO root fetch - main [MainThread]: End processing [chikvdf] error
+[2023-07-26 05:58:58] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-07-26 05:58:58] INFO root fetch - processPackages [airtouch5py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-26 05:58:58] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/7d/3a/b0216016c46f2d3aed357a573a993085f0a8cf355e9d7330d9e659dbd0c0/airtouch5py-0.2.1.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/b5/06/b4d7f82d03a02a20e485478826c0104d32ffb27c7a47c8da18d742cb714d/sparglim-0.1.0rc2.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [rbi-tree]: Downloading https://files.pythonhosted.org/packages/7d/bc/add3291258e7972480d12b84a3feb8b672ff1874c8cd1b2eac0e8f5d409c/rbi_tree-0.1.5.dev1.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-26 05:58:58] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230726/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:58:58] INFO root fetch - processPackages [airtouch5py]: Downloading https://files.pythonhosted.org/packages/2f/4e/1fffcfbb6b80c5ef449e3d62c70d2bfe21784e36a2eed954efb9dd3def3d/airtouch5py-0.2.2.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [airtouch5py]: executing diffoscope
+[2023-07-26 05:58:58] INFO root fetch - processPackages [airtouch5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch5py-0.2.1.tar.gz tmp/airtouch5py-0.2.2.tar.gz --markdown 20230726/a/airtouch5py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-26 05:58:58] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/3e/8b/611b812e6cfde67630a7784435e7a034aa2fb3939a931a5e87cda9d8eb11/sparglim-0.1.0rc3.tar.gz
+[2023-07-26 05:58:58] INFO root fetch - processPackages [rbi-tree]: Downloading https://files.pythonhosted.org/packages/94/63/b8c486b962c698696c565fef10bccb755179effa9a32654fd9c26e0b3817/rbi_tree-0.2.tar.gz
+[2023-07-26 05:58:59] INFO root fetch - processPackages [rbi-tree]: executing diffoscope
+[2023-07-26 05:58:59] INFO root fetch - processPackages [rbi-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbi_tree-0.1.5.dev1.tar.gz tmp/rbi_tree-0.2.tar.gz --markdown 20230726/r/rbi-tree/0.1.5.dev1-0.2/diff.md --exclude *.pyd
+[2023-07-26 05:58:59] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-26 05:58:59] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc2.tar.gz tmp/sparglim-0.1.0rc3.tar.gz --markdown 20230726/s/sparglim/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-07-26 05:58:59] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-26 05:58:59] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-26 05:58:59] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-26 05:58:59] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.1.tar.gz]
+[2023-07-26 05:58:59] INFO root fetch - processPackages [airtouch5py]: Remove: archive file [/home/abi/fetcher/tmp/airtouch5py-0.2.2.tar.gz]
+[2023-07-26 05:58:59] INFO root fetch - main [MainThread]: End processing [airtouch5py]: success
+[2023-07-26 05:59:00] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc2.tar.gz]
+[2023-07-26 05:59:00] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc3.tar.gz]
+[2023-07-26 05:59:00] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-26 05:59:00] INFO root fetch - processPackages [rbi-tree]: Remove: archive file [/home/abi/fetcher/tmp/rbi_tree-0.1.5.dev1.tar.gz]
+[2023-07-26 05:59:00] INFO root fetch - processPackages [rbi-tree]: Remove: archive file [/home/abi/fetcher/tmp/rbi_tree-0.2.tar.gz]
+[2023-07-26 05:59:00] INFO root fetch - main [MainThread]: End processing [rbi-tree]: success
+[2023-07-26 05:59:00] INFO root fetch - main [MainThread]: Store serial: [19039139]
