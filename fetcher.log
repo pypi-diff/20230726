@@ -10615,3 +10615,96 @@
 [2023-07-26 05:38:14] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-07-26 05:38:14] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-07-26 05:38:14] INFO root fetch - main [MainThread]: Store serial: [19038985]
+[2023-07-26 05:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19038985]
+[2023-07-26 05:43:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-hr-holidays
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zheinit
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhei
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parea-ai
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamini-toolkits
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptarcade
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: annb
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unit-syntax
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hust-login
+[2023-07-26 05:43:23] INFO root fetch - processPackages [annb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: New version: [16.0.20230630.0] Old Version: [16.0.20230221.0]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [ptarcade]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [zheinit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [unit-syntax]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [parea-ai]: New version: [0.1.2] Old Version: [0.1.1a4]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [datamini-toolkits]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [hust-login]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-26 05:43:23] INFO root fetch - processPackages [annb]: Downloading https://files.pythonhosted.org/packages/20/5f/fd604022c8394b1a3ed709d274ac204e1b350949779243b73427a91e90dd/annb-0.1.1.tar.gz
+[2023-07-26 05:43:23] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-26 05:43:23] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/bf/86/c755c1ac2e37311dc3bad0050c5ac3b49909945e7643d394f00ab2f30d32/zheinit-0.0.8.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/8b/82/3a2cd0d726c65e1ba126e8b40b3e8102f1b6613f7ee38ac0dbdffd690b8d/parea_ai-0.1.1a4.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/88/63/3532e48d51bf15e7b8ee4efa8fd1c8935b60bf2f1d6b7c2a15b623a0f3af/datamini_toolkits-0.1.6.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: Downloading https://files.pythonhosted.org/packages/d3/72/b1c69cacb9421ae1f7f53ca3de677107a5fb08c2735551cede9d730f2170/odoo_addons_oca_hr_holidays-16.0.20230221.0-py3-none-any.whl
+[2023-07-26 05:43:24] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/75/b5/0e26bf5d467acff34619caa0adc33007474aaece89d8c8977f669e16ca84/ptarcade-0.1.4.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/ec/b3/31d517122f566485a8e34a0638b7bdb026b83c5ab5bcb2c69d4eb0303575/hust-login-1.0.0.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/d8/ff/bcd54efe8a307c12fd176932ed0b46250dbfe963643bed1d54371287c160/unit_syntax-0.2.0.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/b0/ac/1186cb7eb8ee1347674808e9e43734111a382dc128b9efe2df906f8eaa21/zheinit-0.0.9.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [annb]: Downloading https://files.pythonhosted.org/packages/41/84/63691fbdf6165b0eb9216d551bdf1df570a29f5e2cc6dc3cb59e5ce2e075/annb-0.1.2.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230726/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/63/3e/11d460ef09f7e8be1bb26cb8cd12e7691bb8d1c5e7621e98d42f78aa0a93/parea_ai-0.1.2.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/3c/b9/8b2080f8fa7f4f6f4bbd2f8887d08f306af9c33869a5f7687988fead3c5a/datamini_toolkits-0.1.7.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.8.tar.gz tmp/zheinit-0.0.9.tar.gz --markdown 20230726/z/zheinit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/cf/1a/6ccea6c599fb96aa0aab23b80125d3989a31b745ceaf25ad8cee489e2f75/ptarcade-0.1.5.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/fd/ea/78b31e2d0614a41760934c8ca217d2abe0580c3a5869acf87cf754c8a666/unit_syntax-0.2.1.tar.gz
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/f6/ca/8f7bb9e1d02e2721fe8c18fbdbe32531a52decdbe6fe9e8e8573737ac9c7/hust_login-1.0.1-py3.11.egg
+[2023-07-26 05:43:24] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.1.1a4.tar.gz tmp/parea_ai-0.1.2.tar.gz --markdown 20230726/p/parea-ai/0.1.1a4-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [annb]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [annb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annb-0.1.1.tar.gz tmp/annb-0.1.2.tar.gz --markdown 20230726/a/annb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: Downloading https://files.pythonhosted.org/packages/58/84/a3740348eb9608716f8e53979802e6410cf85fa26b03a606ba81049bc425/odoo_addons_oca_hr_holidays-16.0.20230630.0-py3-none-any.whl
+[2023-07-26 05:43:24] INFO root fetch - processPackages [datamini-toolkits]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [datamini-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamini_toolkits-0.1.6.tar.gz tmp/datamini_toolkits-0.1.7.tar.gz --markdown 20230726/d/datamini-toolkits/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230726/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [ptarcade]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [ptarcade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptarcade-0.1.4.tar.gz tmp/ptarcade-0.1.5.tar.gz --markdown 20230726/p/ptarcade/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [unit-syntax]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [unit-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_syntax-0.2.0.tar.gz tmp/unit_syntax-0.2.1.tar.gz --markdown 20230726/u/unit-syntax/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hust-login]: executing diffoscope
+[2023-07-26 05:43:24] INFO root fetch - processPackages [hust-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hust-login-1.0.0.tar.gz tmp/hust_login-1.0.1-py3.11.egg --markdown 20230726/h/hust-login/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-26 05:43:25] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: executing diffoscope
+[2023-07-26 05:43:25] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr_holidays-16.0.20230221.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr_holidays-16.0.20230630.0-py3-none-any.whl.zip --markdown 20230726/o/odoo-addons-oca-hr-holidays/16.0.20230221.0-16.0.20230630.0/diff.md --exclude *.pyd
+[2023-07-26 05:43:25] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-26 05:43:25] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-26 05:43:25] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.8.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.9.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.1.1a4.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.1.2.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust-login-1.0.0.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.1-py3.11.egg]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [hust-login]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [annb]: Remove: archive file [/home/abi/fetcher/tmp/annb-0.1.1.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [annb]: Remove: archive file [/home/abi/fetcher/tmp/annb-0.1.2.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [annb]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr_holidays-16.0.20230221.0-py3-none-any.whl.zip]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [odoo-addons-oca-hr-holidays]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr_holidays-16.0.20230630.0-py3-none-any.whl.zip]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr-holidays]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.4.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.5.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [ptarcade]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.0.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.1.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [unit-syntax]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-26 05:43:26] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.6.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.7.tar.gz]
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: End processing [datamini-toolkits]: success
+[2023-07-26 05:43:26] INFO root fetch - main [MainThread]: Store serial: [19039011]
