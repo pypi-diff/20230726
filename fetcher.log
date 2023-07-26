@@ -12637,3 +12637,42 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:38:31] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.1.tar.gz]
 [2023-07-26 07:38:31] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2023-07-26 07:38:31] INFO root fetch - main [MainThread]: Store serial: [19039688]
+[2023-07-26 07:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039688]
+[2023-07-26 07:43:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-26 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaadhaar
+[2023-07-26 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyquafu
+[2023-07-26 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bo4e
+[2023-07-26 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rest-zerocap-client
+[2023-07-26 07:43:40] INFO root fetch - processPackages [pyaadhaar]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-26 07:43:40] INFO root fetch - processPackages [bo4e]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-26 07:43:40] INFO root fetch - processPackages [rest-zerocap-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 07:43:40] INFO root fetch - processPackages [pyquafu]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-26 07:43:40] INFO root fetch - processPackages [pyaadhaar]: Downloading https://files.pythonhosted.org/packages/b3/28/a7854b730e24bbea747c59459ce2bc5ccaf961799f324ef7c3b6915e25f5/pyaadhaar-2.0.0-py3-none-any.whl
+[2023-07-26 07:43:40] INFO root fetch - processPackages [rest-zerocap-client]: Downloading https://files.pythonhosted.org/packages/72/96/adaabeff18f34deb1442500384eccce5ce8c852e5e6e1023b940094f6fe2/rest_zerocap_client-0.0.4.tar.gz
+[2023-07-26 07:43:40] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/70/8d/914d306415a6bcebf8f180a0a9045d43023a8274a63055a1a5c7d163111c/bo4e-0.5.2.tar.gz
+[2023-07-26 07:43:40] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/ba/ca/b5c0767bfa096f1f907efaa0186d10352acd3de8a8e1fab2dfb559e978d9/pyquafu-0.3.0-cp39-cp39-win_amd64.whl
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyaadhaar]: Downloading https://files.pythonhosted.org/packages/6f/d0/e5993c18c681168a2d00d77e5f3b72776ac1104f2b95059e75f414200990/pyaadhaar-2.0.1-py3-none-any.whl
+[2023-07-26 07:43:41] INFO root fetch - processPackages [rest-zerocap-client]: Downloading https://files.pythonhosted.org/packages/d4/9b/be5080e0cc3a0c679ed1a6d8148bcbb62f557eb424e414d1bb338cd1fee9/rest_zerocap_client-0.0.5.tar.gz
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyaadhaar]: executing diffoscope
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyaadhaar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaadhaar-2.0.0-py3-none-any.whl.zip tmp/pyaadhaar-2.0.1-py3-none-any.whl.zip --markdown 20230726/p/pyaadhaar/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-26 07:43:41] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/5f/61/56635cf37fecf0d987a142f9e48d868154750f48d50d6974f4782a04a687/bo4e-0.5.3.tar.gz
+[2023-07-26 07:43:41] INFO root fetch - processPackages [rest-zerocap-client]: executing diffoscope
+[2023-07-26 07:43:41] INFO root fetch - processPackages [rest-zerocap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_zerocap_client-0.0.4.tar.gz tmp/rest_zerocap_client-0.0.5.tar.gz --markdown 20230726/r/rest-zerocap-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/69/e4/26cac808787366cd3d6135ac8a7e1053ca3f62b4bec6c6f2b13a52324ca5/pyquafu-0.3.1-cp39-cp39-win_amd64.whl
+[2023-07-26 07:43:41] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2023-07-26 07:43:41] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-0.5.2.tar.gz tmp/bo4e-0.5.3.tar.gz --markdown 20230726/b/bo4e/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyquafu]: executing diffoscope
+[2023-07-26 07:43:41] INFO root fetch - processPackages [pyquafu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquafu-0.3.0-cp39-cp39-win_amd64.whl.zip tmp/pyquafu-0.3.1-cp39-cp39-win_amd64.whl.zip --markdown 20230726/p/pyquafu/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-26 07:43:42] INFO root fetch - processPackages [pyaadhaar]: Remove: archive file [/home/abi/fetcher/tmp/pyaadhaar-2.0.0-py3-none-any.whl.zip]
+[2023-07-26 07:43:42] INFO root fetch - processPackages [pyaadhaar]: Remove: archive file [/home/abi/fetcher/tmp/pyaadhaar-2.0.1-py3-none-any.whl.zip]
+[2023-07-26 07:43:42] INFO root fetch - main [MainThread]: End processing [pyaadhaar]: success
+[2023-07-26 07:43:42] INFO root fetch - processPackages [rest-zerocap-client]: Remove: archive file [/home/abi/fetcher/tmp/rest_zerocap_client-0.0.4.tar.gz]
+[2023-07-26 07:43:42] INFO root fetch - processPackages [rest-zerocap-client]: Remove: archive file [/home/abi/fetcher/tmp/rest_zerocap_client-0.0.5.tar.gz]
+[2023-07-26 07:43:42] INFO root fetch - main [MainThread]: End processing [rest-zerocap-client]: success
+[2023-07-26 07:43:42] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 07:43:42] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-26 07:43:42] INFO root fetch - main [MainThread]: End processing [pyquafu]: success
+[2023-07-26 07:43:43] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.2.tar.gz]
+[2023-07-26 07:43:43] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.3.tar.gz]
+[2023-07-26 07:43:43] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2023-07-26 07:43:43] INFO root fetch - main [MainThread]: Store serial: [19039714]
