@@ -12720,3 +12720,107 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:48:56] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-26 07:48:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
 [2023-07-26 07:48:56] INFO root fetch - main [MainThread]: Store serial: [19039728]
+[2023-07-26 07:54:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039728]
+[2023-07-26 07:54:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-tvm
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyreason
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cartup-dag
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdq
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zutool
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zerocap-api-test
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vcc-lib
+[2023-07-26 07:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schemantic
+[2023-07-26 07:54:05] INFO root fetch - processPackages [pyreason]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev9]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [zutool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [vcc-lib]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [bdq]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-26 07:54:05] ERROR root fetch - processPackages [cartup-dag]: Unable to get metadata: No such project 'cartup-dag'
+[2023-07-26 07:54:05] INFO root fetch - processPackages [cartup-dag]: Start processing: kv-deta
+[2023-07-26 07:54:05] INFO root fetch - main [MainThread]: End processing [cartup-dag] error
+[2023-07-26 07:54:05] INFO root fetch - processPackages [schemantic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 07:54:05] WARNING root fetch - processPackages [zerocap-api-test]: Skipping, unable to determine old version
+[2023-07-26 07:54:05] INFO root fetch - processPackages [zerocap-api-test]: Start processing: odoo13-addons-oca-web
+[2023-07-26 07:54:05] INFO root fetch - main [MainThread]: End processing [zerocap-api-test] error
+[2023-07-26 07:54:05] INFO root fetch - processPackages [modal]: New version: [0.50.2754] Old Version: [0.50.2751]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [odoo13-addons-oca-web]: New version: [13.0.20230725.0] Old Version: [13.0.20220823.0]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [modal-client]: New version: [0.50.2754] Old Version: [0.50.2751]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [kv-deta]: New version: [0.1.8a0] Old Version: [0.1.7a0]
+[2023-07-26 07:54:05] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/f9/22/89e41735dbb6113a86b879b76162ed059bc5f7cbfbdb1c6bcdc2a4bd782d/zutool-0.0.1.tar.gz
+[2023-07-26 07:54:05] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/b5/7d/8a352c292a015df4f8c68db0b8a64b20a2bee7b39555d857c712b650b52e/pyreason-1.8.6.tar.gz
+[2023-07-26 07:54:05] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/2d/fd/233507a493adc5dd807cc60169638cd2ad402ba366d31fffae2cede455f2/kv_deta-0.1.7a0-py3-none-any.whl
+[2023-07-26 07:54:05] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/b6/97/8eaa84e4801cd726a9edddbe70ff5c303e024c5270c60418ea516f545738/vcc_lib-0.3.1-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/97/25/3524632ea469082fdcd74f8989d5b4ac507351cb9f2ed216b86976d1dbaf/apache_tvm-0.14.dev9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/1b/bd/2b90a1e480d646573cd1e64b9d1f0dcc898992fd5a401cec9589dfa14ec1/bdq-0.0.5.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [schemantic]: Downloading https://files.pythonhosted.org/packages/69/2e/589f8351e61da05a6ed4c4fe0c85d26e2d93412a0ee5bab962e3e120ab99/schemantic-0.1.0.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [odoo13-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/d7/f4/f23a690ea0e5508c1a9f36e3900de659106bc6bba4a857c1648b39bf38de/odoo13_addons_oca_web-13.0.20220823.0-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/38/0713c588f3650c3b96aef4ea06da390be4bcff38188903c45c565f018944/modal_client-0.50.2751-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/ca/29/50ce23b2e2fcca327bf9ca5f6d46353c4c4ac5b8ce2f5844d8f5246bdba2/modal-0.50.2751-py3-none-any.whl
+[2023-07-26 07:54:06] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 82327624>=10485760
+[2023-07-26 07:54:06] INFO root fetch - processPackages [apache-tvm]: Start processing: AppWrapper
+[2023-07-26 07:54:06] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-07-26 07:54:06] INFO root fetch - processPackages [zutool]: Downloading https://files.pythonhosted.org/packages/24/72/0ae869e61bad8820baaec389bf1a68d38223f5dd15f835fef6c3ad5df7e8/zutool-0.0.2.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/75/ab/f67dd146b33a36f05fb81cb3638d1f21d8b234794f37f5e90f3b9b05b1bf/kv_deta-0.1.8a0-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [AppWrapper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 07:54:06] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/11/8c/684d3fe24b86e414c705528786d60abbedc9ade0875a6ad52d204724a64d/pyreason-1.8.7.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [zutool]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [zutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zutool-0.0.1.tar.gz tmp/zutool-0.0.2.tar.gz --markdown 20230726/z/zutool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [schemantic]: Downloading https://files.pythonhosted.org/packages/59/5b/954f059d8be902fa0531523f27b98b5588100ea72ebea5465a85c3feca3b/schemantic-0.1.1.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [kv-deta]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [kv-deta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip --markdown 20230726/k/kv-deta/0.1.7a0-0.1.8a0/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/11/f7/8413f28ffddb638e455758a5e8acc8b4405445a9ca2f9a6193f9363c6231/bdq-0.1.0.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.8.6.tar.gz tmp/pyreason-1.8.7.tar.gz --markdown 20230726/p/pyreason/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [odoo13-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/1e/cc/f6ab2dc3683236a374a3976ef7d4b7d4d03d21e0b85527d48848bb0b31f5/odoo13_addons_oca_web-13.0.20230725.0-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c6/47/9f30e46c4283554f7cac5d070a3588d0fc7ca8757f3fe5203c12cf737600/modal-0.50.2754-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/9e/af/cac069988e4aeb1623b834cc46462f10d1be9d57cddbf9b33231aa8499c0/vcc_lib-0.3.2.tar.gz
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/7a/88/925f18d58e1bbedfac1484f9d634bc42c0352f8a502e3dd2803ab0fc6d35/modal_client-0.50.2754-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5b/a7/b1ab5fa7fe9a2ea6c3b3c59033688d325dceb6f449fe181a48216d11f796/AppWrapper-0.1.1-py3-none-any.whl
+[2023-07-26 07:54:06] INFO root fetch - processPackages [schemantic]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [schemantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemantic-0.1.0.tar.gz tmp/schemantic-0.1.1.tar.gz --markdown 20230726/s/schemantic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [bdq]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [bdq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdq-0.0.5.tar.gz tmp/bdq-0.1.0.tar.gz --markdown 20230726/b/bdq/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [odoo13-addons-oca-web]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [odoo13-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_web-13.0.20220823.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_web-13.0.20230725.0-py3-none-any.whl.zip --markdown 20230726/o/odoo13-addons-oca-web/13.0.20220823.0-13.0.20230725.0/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [vcc-lib]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [vcc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcc_lib-0.3.1-py3-none-any.whl.zip tmp/vcc_lib-0.3.2.tar.gz --markdown 20230726/v/vcc-lib/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2751-py3-none-any.whl.zip tmp/modal-0.50.2754-py3-none-any.whl.zip --markdown 20230726/m/modal/0.50.2751-0.50.2754/diff.md --exclude *.pyd
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-26 07:54:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2751-py3-none-any.whl.zip tmp/modal_client-0.50.2754-py3-none-any.whl.zip --markdown 20230726/m/modal-client/0.50.2751-0.50.2754/diff.md --exclude *.pyd
+[2023-07-26 07:54:07] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/6d/66/0b134dc1f11d8558b9ed9304429ce0ec537eeb753bd930b83b30d196bf23/AppWrapper-0.1.2-py3-none-any.whl
+[2023-07-26 07:54:07] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2023-07-26 07:54:07] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.1.1-py3-none-any.whl.zip tmp/AppWrapper-0.1.2-py3-none-any.whl.zip --markdown 20230726/A/AppWrapper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 07:54:08] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [kv-deta]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.1.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [zutool]: Remove: archive file [/home/abi/fetcher/tmp/zutool-0.0.2.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [zutool]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [schemantic]: Remove: archive file [/home/abi/fetcher/tmp/schemantic-0.1.0.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [schemantic]: Remove: archive file [/home/abi/fetcher/tmp/schemantic-0.1.1.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [schemantic]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2751-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2754-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.6.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.7.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.1-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.2.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [vcc-lib]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.0.5.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.1.0.tar.gz]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [bdq]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [odoo13-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_web-13.0.20220823.0-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [odoo13-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_web-13.0.20230725.0-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-web]: success
+[2023-07-26 07:54:08] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.1.1-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.1.2-py3-none-any.whl.zip]
+[2023-07-26 07:54:08] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2023-07-26 07:54:09] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2751-py3-none-any.whl.zip]
+[2023-07-26 07:54:09] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2754-py3-none-any.whl.zip]
+[2023-07-26 07:54:09] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-26 07:54:09] INFO root fetch - main [MainThread]: Store serial: [19039769]
