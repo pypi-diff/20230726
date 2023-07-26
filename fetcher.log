@@ -11774,3 +11774,87 @@ AssertionError: tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip does
 [2023-07-26 07:01:31] INFO root fetch - processPackages [docker-harpoon]: Remove: archive file [/home/abi/fetcher/tmp/docker-harpoon-0.9.7.tar.gz]
 [2023-07-26 07:01:31] INFO root fetch - main [MainThread]: End processing [docker-harpoon]: success
 [2023-07-26 07:01:31] INFO root fetch - main [MainThread]: Store serial: [19039435]
+[2023-07-26 07:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19039435]
+[2023-07-26 07:06:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyinit
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lognflow
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-sdk
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafri
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-sale-order-type
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peitho-data
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-sale-order-type
+[2023-07-26 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-sale-order-type
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev7]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: New version: [10.0.1.1.0.99.dev8] Old Version: [10.0.1.1.0.99.dev7]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lazyinit]: New version: [0.0.263] Old Version: [0.0.262]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [peitho-data]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [adafri]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lognflow]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230726] Old Version: [0.1.1.dev20230725]
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/f4/2a/c58a36b2f36cbdb840d254cbe5c843aa497ce4827a9eca6c63ea4d2d6eb3/lazyinit-0.0.262.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/0a/79/4daf67c0d6523b09f6636abc61ee7bf223b5cd2444adeb2ca6ca07b170bd/wow_ai_sdk-0.1.6.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a2/a0/f3c77ae13e6a57a20baf8a231ffb18bc00b3542225f5d12e06b81f76b250/adafri-0.0.58.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/fd/e9/f9380a8cd474e7d6fceef00bcba250f63be8eb27ba9948b45b3c96457a03/rapid_pe-0.1.1.dev20230725.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/2f/13/714e609a1f9c607c43c7d353a2a5d2d04ead7c6d031898e9c3797aab7013/lognflow-0.8.0.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/64/85/2bbacb1b9679b7a36117e944216b847a9c1eb2cfd5782610db66895104a6/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/6b/98/5639ad480e524e72481850024f0933580448b67c7072b351984582f1ac10/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev7-py2-none-any.whl
+[2023-07-26 07:06:40] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0a/e0/b4f79b081e708d8bf409767f90ff7905569ee0e8346868576bb612554464/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev7-py2-none-any.whl
+[2023-07-26 07:06:40] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/5d/98/16a113f6e96729c49330d6bee3332006b2d33941e97fb24a02f17bc2c7c8/peitho_data-2.3.8.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/37/44/01dd3dc93c5572f8cfffa54d8f1d96d69356adee1582610554fbbc86d556/rapid_pe-0.1.1.dev20230726.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/b8/e5/452f28c916727e31fd7c91aa70625ff79011ae5e0691e142076deac09cde/lazyinit-0.0.263.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/97/ea/a4757d0b70771b369b77e420f13edd8895b6f7b24e61fc9d06c567211f8b/wow_ai_sdk-0.1.7.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/d9/05/d049827dd881e786029de2bc371bebdb005643e40b74bada140d59f721a5/lognflow-0.8.1.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-26 07:06:40] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.262.tar.gz tmp/lazyinit-0.0.263.tar.gz --markdown 20230726/l/lazyinit/0.0.262-0.0.263/diff.md --exclude *.pyd
+[2023-07-26 07:06:40] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/d0/30/1c7d3e9bb5514ceb96bcf6d311a716240f93482c1e63fa10f482a4db3b2f/adafri-0.0.59.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/3a/97/1b1d1cc3bcd90cb86919cf7ea0204d2b19564231ebcd35eb217cb1ce3837/peitho_data-2.3.9.tar.gz
+[2023-07-26 07:06:40] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-07-26 07:06:40] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.6.tar.gz tmp/wow_ai_sdk-0.1.7.tar.gz --markdown 20230726/w/wow-ai-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/20/6b/d22e6aeb61f94941c5b4b5ba32cf5ddb58882047017b333bfcb5f651c3e7/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0c/cb/f7e4947852040df5648c99c51f040616a61bca1fde147c569bda51d0ff33/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-26 07:06:41] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.0.tar.gz tmp/lognflow-0.8.1.tar.gz --markdown 20230726/l/lognflow/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230725.tar.gz tmp/rapid_pe-0.1.1.dev20230726.tar.gz --markdown 20230726/r/rapid-pe/0.1.1.dev20230725-0.1.1.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.58.tar.gz tmp/adafri-0.0.59.tar.gz --markdown 20230726/a/adafri/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.8.tar.gz tmp/peitho_data-2.3.9.tar.gz --markdown 20230726/p/peitho-data/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/fb/f6/c305c22940a2b2483c74eed7d29377c683db81fc2c369441c02e6d1c386e/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev8-py2-none-any.whl.zip --markdown 20230726/o/odoo10-addon-sale-order-type/10.0.1.1.0.99.dev7-10.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230726/o/odoo8-addon-sale-order-type/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: executing diffoscope
+[2023-07-26 07:06:41] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230726/o/odoo9-addon-sale-order-type/9.0.1.2.0.99.dev7-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-26 07:06:42] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.6.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.7.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.58.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.59.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.262.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.263.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230725.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230726.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.0.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.1.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.8.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.9.tar.gz]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-07-26 07:06:42] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-26 07:06:42] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-26 07:06:42] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-order-type]: success
+[2023-07-26 07:06:43] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-26 07:06:43] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-26 07:06:43] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-order-type]: success
+[2023-07-26 07:06:43] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-26 07:06:43] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-26 07:06:43] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-order-type]: success
+[2023-07-26 07:06:43] INFO root fetch - main [MainThread]: Store serial: [19039458]
