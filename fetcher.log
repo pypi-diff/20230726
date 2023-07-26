@@ -18699,3 +18699,86 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 11:58:54] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
 [2023-07-26 11:58:54] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
 [2023-07-26 11:58:54] INFO root fetch - main [MainThread]: Store serial: [19042176]
+[2023-07-26 12:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19042176]
+[2023-07-26 12:04:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydlmeta
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coppeliasim-zmqremoteapi-client
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xpack
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zuora-swagger-client
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-template-rendering
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phanos
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simpleworkspace
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-sdk
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dm-reverb-nightly
+[2023-07-26 12:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aicli
+[2023-07-26 12:04:03] INFO root fetch - processPackages [dash-template-rendering]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2023-07-26 12:04:03] INFO root fetch - processPackages [zuora-swagger-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-26 12:04:03] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 12:04:03] WARNING root fetch - processPackages [xpack]: Skipping, unable to determine old version
+[2023-07-26 12:04:03] INFO root fetch - main [MainThread]: End processing [xpack] error
+[2023-07-26 12:04:03] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-26 12:04:03] INFO root fetch - processPackages [pydlmeta]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-26 12:04:03] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-26 12:04:03] INFO root fetch - processPackages [cognite-sdk]: New version: [6.9.0] Old Version: [6.8.7]
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-26 12:04:04] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Downloading https://files.pythonhosted.org/packages/56/38/feed223aa945f6f725b8cae493e932351f3528cb2c5c71d7a55dd5dd5667/coppeliasim_zmqremoteapi_client-0.0.4.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [zuora-swagger-client]: Downloading https://files.pythonhosted.org/packages/c9/0d/7ddcf92eb3edf76301df8377d7886c18738840ce357b40d189928cc3caba/zuora-swagger-client-1.1.0.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dash-template-rendering]: Downloading https://files.pythonhosted.org/packages/17/f1/6e2f70447027f6db00d72f7fe7b23329371397d82dce2c5b067e9962a99e/dash-template-rendering-0.0.1b3.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [pydlmeta]: Downloading https://files.pythonhosted.org/packages/03/e4/34d4380b3b3d5afe2ce7effab091c955a4e570471ce68e536f9ce5dc3b4a/pydlmeta-1.0.1.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-26 12:04:04] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/78/2a/28d91cf6eb642a8d6c362100bf353e9fe16ae3c12d44d7bf02683979e066/cognite_sdk-6.8.7.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [aicli]: New version: [99.0.202307261003] Old Version: [99.0.202307141022]
+[2023-07-26 12:04:04] WARNING root fetch - processPackages [zuora-swagger-client]: Skipping package: exceeds size limit 31784230>=10485760
+[2023-07-26 12:04:04] INFO root fetch - main [MainThread]: End processing [zuora-swagger-client] error
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-26 12:04:04] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Downloading https://files.pythonhosted.org/packages/ef/88/e28cd39ed5b65b05c937e414f33489b75c22ed6da6acfeea73bfe2c89ec9/coppeliasim_zmqremoteapi_client-0.0.5.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/b8/11/8f6e82ae8435d2ca3f3dc953d9650167acf5ff1881961146099c034f9721/aicli-99.0.202307141022-py3-none-any.whl
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dash-template-rendering]: Downloading https://files.pythonhosted.org/packages/f2/e0/022a07c6faf4d5e1eeb18d9736b2f410eb42e21c566e8caaed81cfcbcdca/dash-template-rendering-0.0.1b4.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [pydlmeta]: Downloading https://files.pythonhosted.org/packages/ad/1c/730ab4f3269cb1f36f9e5d674e51d911e89ca16f219972c2efd72eaa1dd5/pydlmeta-1.0.2.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ee/0f/6b014b445f08f43cc544922b182c361674f897642deae49079706e127ce0/cognite_sdk-6.9.0.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: executing diffoscope
+[2023-07-26 12:04:04] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coppeliasim_zmqremoteapi_client-0.0.4.tar.gz tmp/coppeliasim_zmqremoteapi_client-0.0.5.tar.gz --markdown 20230726/c/coppeliasim-zmqremoteapi-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-26 12:04:04] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dash-template-rendering]: executing diffoscope
+[2023-07-26 12:04:04] INFO root fetch - processPackages [dash-template-rendering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-template-rendering-0.0.1b3.tar.gz tmp/dash-template-rendering-0.0.1b4.tar.gz --markdown 20230726/d/dash-template-rendering/0.0.1b3-0.0.1b4/diff.md --exclude *.pyd
+[2023-07-26 12:04:04] INFO root fetch - processPackages [pydlmeta]: executing diffoscope
+[2023-07-26 12:04:04] INFO root fetch - processPackages [pydlmeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydlmeta-1.0.1.tar.gz tmp/pydlmeta-1.0.2.tar.gz --markdown 20230726/p/pydlmeta/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-26 12:04:04] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-26 12:04:05] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-26 12:04:05] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230726/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 12:04:05] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-26 12:04:05] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.7.tar.gz tmp/cognite_sdk-6.9.0.tar.gz --markdown 20230726/c/cognite-sdk/6.8.7-6.9.0/diff.md --exclude *.pyd
+[2023-07-26 12:04:05] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-26 12:04:05] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230726/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-26 12:04:05] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/f5/2a/91c7e3cf0b19100a298d5164ea12d6141ff39f326a2cc01cb6efea8ae136/aicli-99.0.202307261003-py3-none-any.whl
+[2023-07-26 12:04:05] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-26 12:04:05] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307141022-py3-none-any.whl.zip tmp/aicli-99.0.202307261003-py3-none-any.whl.zip --markdown 20230726/a/aicli/99.0.202307141022-99.0.202307261003/diff.md --exclude *.pyd
+[2023-07-26 12:04:05] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-26 12:04:06] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b3.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b4.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - main [MainThread]: End processing [dash-template-rendering]: success
+[2023-07-26 12:04:06] INFO root fetch - processPackages [pydlmeta]: Remove: archive file [/home/abi/fetcher/tmp/pydlmeta-1.0.1.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [pydlmeta]: Remove: archive file [/home/abi/fetcher/tmp/pydlmeta-1.0.2.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Remove: archive file [/home/abi/fetcher/tmp/coppeliasim_zmqremoteapi_client-0.0.4.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Remove: archive file [/home/abi/fetcher/tmp/coppeliasim_zmqremoteapi_client-0.0.5.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - main [MainThread]: End processing [pydlmeta]: success
+[2023-07-26 12:04:06] INFO root fetch - main [MainThread]: End processing [coppeliasim-zmqremoteapi-client]: success
+[2023-07-26 12:04:06] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-26 12:04:06] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-26 12:04:06] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-26 12:04:06] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-26 12:04:06] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-26 12:04:07] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307141022-py3-none-any.whl.zip]
+[2023-07-26 12:04:07] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307261003-py3-none-any.whl.zip]
+[2023-07-26 12:04:07] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-26 12:04:07] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-26 12:04:07] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230726/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-26 12:04:07] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.7.tar.gz]
+[2023-07-26 12:04:07] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.9.0.tar.gz]
+[2023-07-26 12:04:07] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-26 12:04:42] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-26 12:04:42] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-26 12:04:42] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-26 12:04:42] INFO root fetch - main [MainThread]: Store serial: [19042211]
