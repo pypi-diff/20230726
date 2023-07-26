@@ -22167,3 +22167,126 @@ AssertionError: tmp/pydactim-0.0.2.tar.gz does not exist
 [2023-07-26 14:40:03] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a1.tar.gz]
 [2023-07-26 14:40:03] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-07-26 14:40:03] INFO root fetch - main [MainThread]: Store serial: [19043599]
+[2023-07-26 14:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19043599]
+[2023-07-26 14:45:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophecy-libs
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-relationship
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-strawberry-fields
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneople
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaikosdk
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: east-tool
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AFiles
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-experimental
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain
+[2023-07-26 14:45:12] WARNING root fetch - processPackages [AFiles]: Skipping, unable to determine old version
+[2023-07-26 14:45:12] INFO root fetch - processPackages [AFiles]: Start processing: digimat.bac0
+[2023-07-26 14:45:12] INFO root fetch - main [MainThread]: End processing [AFiles] error
+[2023-07-26 14:45:12] INFO root fetch - processPackages [ckanext-relationship]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [pyneople]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [kaikosdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [qoqo-strawberry-fields]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [prophecy-libs]: New version: [1.5.9.dev3] Old Version: [1.5.9.dev2]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-26 14:45:12] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-26 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/6e/31/f412b1a60c81a1b14236d433c3393b76a006dbb28a7ed002e737439d27a9/pyneople-0.0.7.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/aa/b9/a419d04e61bd48ae734d95f9cd4f958486d35393487838669b55b851e22c/east-tool-0.8.0.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/12/03/10b3af4ed7c6d6045313197b51090fea63bfc02a842bf67a301ff0d403e6/kaikosdk-1.8.0.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/b4/37/1b3612b620cc7aa2443cf1d80d643f8afdf9cd18b6c5db545606be960092/ckanext-relationship-0.2.2.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/38/82/23501b82d15ca2578f0288745ec35df62f79cf174038bea5aebc0daea1ab/langchain_experimental-0.0.3.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4a/b8/bf79479d4270c6451013e7bcb0ed8e54dc94173c438e0c96e493907926fd/prophecy-libs-1.5.9.dev2.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [qoqo-strawberry-fields]: Downloading https://files.pythonhosted.org/packages/9d/a6/c2a0d2941cb03e060cfc55784e75345a29ab051f575fe9c39a01ba006edd/qoqo_strawberry_fields-0.1.0.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/9b/6f/2e25b49e9a58602e4dce92b098f9a5e902680457f352224bd59321655dd2/east-tool-0.9.0.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d2/ee/ddcdcb47480ba0dc4825ffb61ac12d5dc803f72c0d435f789419b343c27f/pyneople-0.0.8.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/0a/54/76fbe3200959fc7cccbe660218c213f7b9ce9a7eb9ef4d5784b71335ccb9/ckanext-relationship-0.2.3.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/fc/da/332d78277e3d5377287735b92a4a001cc63b74dd40b10d827b5318f9115e/kaikosdk-1.9.0.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2023-07-26 14:45:13] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20230726/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-26 14:45:13] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/4f/c4/f7411aaea046256f61b3a16f256c2dadd7fea7c06e9df2e5e1028b07f462/langchain_experimental-0.0.4.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-26 14:45:13] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230726/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-26 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230726/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-26 14:45:13] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/9d/c8/d1c13be84993497aaeefd283fdf5f6a3a2e354848eda8b0317ddfcca6ead/prophecy-libs-1.5.9.dev3.tar.gz
+[2023-07-26 14:45:13] INFO root fetch - processPackages [ckanext-relationship]: executing diffoscope
+[2023-07-26 14:45:13] INFO root fetch - processPackages [ckanext-relationship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-relationship-0.2.2.tar.gz tmp/ckanext-relationship-0.2.3.tar.gz --markdown 20230726/c/ckanext-relationship/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [kaikosdk]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [kaikosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaikosdk-1.8.0.tar.gz tmp/kaikosdk-1.9.0.tar.gz --markdown 20230726/k/kaikosdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [qoqo-strawberry-fields]: Downloading https://files.pythonhosted.org/packages/08/9d/d11c00d9afc5d2c452653f4c1782efad669c64b436b209c7fa8442955ed5/qoqo_strawberry_fields-0.1.1.tar.gz
+[2023-07-26 14:45:14] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-26 14:45:14] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.3.tar.gz tmp/langchain_experimental-0.0.4.tar.gz --markdown 20230726/l/langchain-experimental/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.0.7.tar.gz tmp/pyneople-0.0.8.tar.gz --markdown 20230726/p/pyneople/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.5.9.dev2.tar.gz tmp/prophecy-libs-1.5.9.dev3.tar.gz --markdown 20230726/p/prophecy-libs/1.5.9.dev2-1.5.9.dev3/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230726/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-26 14:45:14] INFO root fetch - processPackages [qoqo-strawberry-fields]: executing diffoscope
+[2023-07-26 14:45:14] INFO root fetch - processPackages [qoqo-strawberry-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_strawberry_fields-0.1.0.tar.gz tmp/qoqo_strawberry_fields-0.1.1.tar.gz --markdown 20230726/q/qoqo-strawberry-fields/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-26 14:45:15] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [digimat.bac0]: Start processing: guidata
+[2023-07-26 14:45:15] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-26 14:45:15] INFO root fetch - processPackages [guidata]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [guidata]: Downloading https://files.pythonhosted.org/packages/70/07/1f2ebddc66c661f2d93de4eac1bdd71a1e3a9daf76c751aed5727ad45fac/guidata-3.0.2.tar.gz
+[2023-07-26 14:45:15] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.7.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.8.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [pyneople]: Start processing: arelle-release
+[2023-07-26 14:45:15] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2023-07-26 14:45:15] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [guidata]: Downloading https://files.pythonhosted.org/packages/f8/8a/0ad9f8b653a86536eaa2a0630ab16632f51c37255d1a07b9104360ffcc73/guidata-3.0.3.tar.gz
+[2023-07-26 14:45:15] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.8.0.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.9.0.tar.gz]
+[2023-07-26 14:45:15] INFO root fetch - processPackages [east-tool]: Start processing: dagshub
+[2023-07-26 14:45:15] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2023-07-26 14:45:15] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-07-26 14:45:16] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.2.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.3.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [ckanext-relationship]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.8.0.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.9.0.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [kaikosdk]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.3.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.4.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [dagshub]: New version: [0.3.0.post4] Old Version: [0.3.0.post3]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [guidata]: executing diffoscope
+[2023-07-26 14:45:16] INFO root fetch - processPackages [guidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidata-3.0.2.tar.gz tmp/guidata-3.0.3.tar.gz --markdown 20230726/g/guidata/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-26 14:45:16] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev2.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev3.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [qoqo-strawberry-fields]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_strawberry_fields-0.1.0.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [qoqo-strawberry-fields]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_strawberry_fields-0.1.1.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [qoqo-strawberry-fields]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/98/00/50a334ca3ac3fb96750a70e6cca169b0f3949456ea4f872f658a5672e4d4/dagshub-0.3.0.post3.tar.gz
+[2023-07-26 14:45:16] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/f8/7c/78a0adf6c2458f5dedd657bb4b2c0f4669749f7cbb50f47c11f74ea95e89/dagshub-0.3.0.post4.tar.gz
+[2023-07-26 14:45:16] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-07-26 14:45:16] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-26 14:45:16] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-26 14:45:16] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-26 14:45:16] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.post3.tar.gz tmp/dagshub-0.3.0.post4.tar.gz --markdown 20230726/d/dagshub/0.3.0.post3-0.3.0.post4/diff.md --exclude *.pyd
+[2023-07-26 14:45:17] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-07-26 14:45:17] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230726/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-26 14:45:17] INFO root fetch - processPackages [guidata]: Remove: archive file [/home/abi/fetcher/tmp/guidata-3.0.2.tar.gz]
+[2023-07-26 14:45:17] INFO root fetch - processPackages [guidata]: Remove: archive file [/home/abi/fetcher/tmp/guidata-3.0.3.tar.gz]
+[2023-07-26 14:45:17] INFO root fetch - main [MainThread]: End processing [guidata]: success
+[2023-07-26 14:45:18] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post3.tar.gz]
+[2023-07-26 14:45:18] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post4.tar.gz]
+[2023-07-26 14:45:18] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-26 14:45:24] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2023-07-26 14:45:24] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2023-07-26 14:45:24] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-07-26 14:45:24] INFO root fetch - main [MainThread]: Store serial: [19043654]
