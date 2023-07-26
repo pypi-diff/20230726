@@ -1977,3 +1977,149 @@
 [2023-07-26 02:01:41] INFO root fetch - processPackages [sparse-lm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lm-0.5.1.tar.gz]
 [2023-07-26 02:01:41] INFO root fetch - main [MainThread]: End processing [sparse-lm]: success
 [2023-07-26 02:01:41] INFO root fetch - main [MainThread]: Store serial: [19035905]
+[2023-07-26 02:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19035905]
+[2023-07-26 02:06:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iqmotion
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcqgen
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rljitai
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dicomset
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scphylo-tools
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-weekly-cuda120
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataclasses-struct
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openapi-server-dev-test
+[2023-07-26 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-07-26 02:06:49] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230725.post417] Old Version: [1.9.0.20230724.post436]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690243407] Old Version: [1690157022]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [scphylo-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [mcqgen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [iqmotion]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [dataclasses-struct]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-26 02:06:49] WARNING root fetch - processPackages [rljitai]: Skipping, unable to determine old version
+[2023-07-26 02:06:49] INFO root fetch - processPackages [rljitai]: Start processing: nvidia-dali-weekly-cuda120
+[2023-07-26 02:06:49] INFO root fetch - main [MainThread]: End processing [rljitai] error
+[2023-07-26 02:06:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: New version: [1.29.0.dev20230723] Old Version: [1.29.0.dev20230716]
+[2023-07-26 02:06:49] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.29.0.dev20230723] Old Version: [1.29.0.dev20230716]
+[2023-07-26 02:06:50] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/2b/81/6799f06584e074edac4b9f43f345155abb7deb19c2705b3f6b471e785964/torchdatasets-nightly-1690157022.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/47/72/3d6bc57a510b9e989f5f8af7e38b8e2c570741a8e91cd690f1e5727bd181/mct-nightly-1.9.0.20230724.post436.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/ed/70/955ba49c027e6ee2147154b2493d4c25fc52a8150698a103ececc81ad9c4/openapi-server-dev-test-1.0.3.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [scphylo-tools]: Downloading https://files.pythonhosted.org/packages/27/dd/c648134035645c0940c71a5b8407b90f6869a72e6df545fb5d12ea384302/scphylo-tools-0.0.3.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dataclasses-struct]: Downloading https://files.pythonhosted.org/packages/04/b3/52a1873ab9ad06be0cad3c57aee7d691609ad7b4021b7e401428597e350d/dataclasses_struct-0.5.0.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [mcqgen]: Downloading https://files.pythonhosted.org/packages/36/70/1d5ac659838356c359908ed706341cb57641e3043d862368dc5b2cccdc49/mcqgen-0.1.1.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/b5/0a/ae26943e12e70787b518a3ef04c890e1b9d4aeb1a5af39fe7fddae712d3d/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/db/39/f246d7a1cebdaf859e826314df31dfcff4f9efe22f33d989a31e0bd8821c/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/ea/98/6064b454685dafe6c4e5e7122a44adfbbab5d132bc349ac3424198208b3e/iqmotion-0.9.2.tar.gz
+[2023-07-26 02:06:50] WARNING root fetch - processPackages [scphylo-tools]: Skipping package: exceeds size limit 22047215>=10485760
+[2023-07-26 02:06:50] INFO root fetch - processPackages [scphylo-tools]: Start processing: Steppenwolf
+[2023-07-26 02:06:50] INFO root fetch - main [MainThread]: End processing [scphylo-tools] error
+[2023-07-26 02:06:50] INFO root fetch - processPackages [Steppenwolf]: New version: [1.8] Old Version: [1.7]
+[2023-07-26 02:06:50] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/67/80/4794b0361f174b3ed126899434d829ef85a85bee9595f7f426f74591a1e7/openapi-server-dev-test-1.0.4.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/39/84/3981fdc674a5478e1d3c0f1f959960b668b29b67b101b081892b62f1933c/torchdatasets-nightly-1690243407.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dataclasses-struct]: Downloading https://files.pythonhosted.org/packages/19/68/1b306db818479c2daa5c12b633fd10c28c99e54bf748c1773805a4120837/dataclasses_struct-0.6.0.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [mcqgen]: Downloading https://files.pythonhosted.org/packages/69/be/25eb7da648e87a5257d4c72dc06c03665f38c2c25da1bd76eb34be3c1e03/mcqgen-0.1.2.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [iqmotion]: Downloading https://files.pythonhosted.org/packages/c5/bd/e0e822fe29eca6852ed05652e150c11b8dc57f4352ccdb66a34640b3b3d3/iqmotion-0.9.3.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/42/59/5d8e622a47aebbde740070541a3f8d11b02082b225e0a2b7ec608de0cc0d/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230723.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/9d/33/ddf6ccec1dc6290be91d2bee36ce699e05d60ffc20cdc6fb7861845f6da8/mct-nightly-1.9.0.20230725.post417.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [Steppenwolf]: Downloading https://files.pythonhosted.org/packages/09/ba/a90d2f7f85248a5b30334b112027ee67141b0a12fec56878b803cdf61bcc/Steppenwolf-1.7.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/df/0a/241769fc041ba85c0cde610467a288e78935c0ce8eee26a9e04e923214d1/nvidia-dali-weekly-cuda120-1.29.0.dev20230723.tar.gz
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dataclasses-struct]: executing diffoscope
+[2023-07-26 02:06:50] INFO root fetch - processPackages [dataclasses-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_struct-0.5.0.tar.gz tmp/dataclasses_struct-0.6.0.tar.gz --markdown 20230726/d/dataclasses-struct/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-26 02:06:50] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-26 02:06:50] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690157022.tar.gz tmp/torchdatasets-nightly-1690243407.tar.gz --markdown 20230726/t/torchdatasets-nightly/1690157022-1690243407/diff.md --exclude *.pyd
+[2023-07-26 02:06:50] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-26 02:06:50] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-server-dev-test-1.0.3.tar.gz tmp/openapi-server-dev-test-1.0.4.tar.gz --markdown 20230726/o/openapi-server-dev-test/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230726/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [mcqgen]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [mcqgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqgen-0.1.1.tar.gz tmp/mcqgen-0.1.2.tar.gz --markdown 20230726/m/mcqgen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230723.tar.gz --markdown 20230726/n/nvidia-dali-tf-plugin-weekly-cuda120/1.29.0.dev20230716-1.29.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [iqmotion]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [iqmotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmotion-0.9.2.tar.gz tmp/iqmotion-0.9.3.tar.gz --markdown 20230726/i/iqmotion/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230723.tar.gz --markdown 20230726/n/nvidia-dali-weekly-cuda120/1.29.0.dev20230716-1.29.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230724.post436.tar.gz tmp/mct-nightly-1.9.0.20230725.post417.tar.gz --markdown 20230726/m/mct-nightly/1.9.0.20230724.post436-1.9.0.20230725.post417/diff.md --exclude *.pyd
+[2023-07-26 02:06:51] INFO root fetch - processPackages [Steppenwolf]: Downloading https://files.pythonhosted.org/packages/8f/fb/8e0a2746d205d011aa7c77fc0553f87a62a52d83922f2a3c09b241d4126c/Steppenwolf-1.8.tar.gz
+[2023-07-26 02:06:51] INFO root fetch - processPackages [Steppenwolf]: executing diffoscope
+[2023-07-26 02:06:51] INFO root fetch - processPackages [Steppenwolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Steppenwolf-1.7.tar.gz tmp/Steppenwolf-1.8.tar.gz --markdown 20230726/S/Steppenwolf/1.7-1.8/diff.md --exclude *.pyd
+[2023-07-26 02:06:52] INFO root fetch - processPackages [dataclasses-struct]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_struct-0.5.0.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [dataclasses-struct]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_struct-0.6.0.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [dataclasses-struct]: Start processing: jaxkern-nightly
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [dataclasses-struct]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230716.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.29.0.dev20230723.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Start processing: mkdocs-minify-plugin
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-weekly-cuda120]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230716.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.29.0.dev20230723.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Start processing: odoo14-addon-biba-ardoak
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690157022.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690243407.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [torchdatasets-nightly]: Start processing: jaxutils-nightly
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-26 02:06:52] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: New version: [14.0.0.0.6.dev5] Old Version: [14.0.0.0.6.dev4]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [mkdocs-minify-plugin]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.2.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [iqmotion]: Remove: archive file [/home/abi/fetcher/tmp/iqmotion-0.9.3.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [iqmotion]: Start processing: chartfactor
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [iqmotion]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [Steppenwolf]: Remove: archive file [/home/abi/fetcher/tmp/Steppenwolf-1.7.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [Steppenwolf]: Remove: archive file [/home/abi/fetcher/tmp/Steppenwolf-1.8.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [Steppenwolf]: success
+[2023-07-26 02:06:52] INFO root fetch - processPackages [mcqgen]: Remove: archive file [/home/abi/fetcher/tmp/mcqgen-0.1.1.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - processPackages [mcqgen]: Remove: archive file [/home/abi/fetcher/tmp/mcqgen-0.1.2.tar.gz]
+[2023-07-26 02:06:52] INFO root fetch - main [MainThread]: End processing [mcqgen]: success
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230726/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-26 02:06:53] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.3.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.4.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-26 02:06:53] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: Downloading https://files.pythonhosted.org/packages/ab/ba/e88bfca4340d7f2fdacf235a980d04409736055af230dd1771d12c5739c2/odoo14_addon_biba_ardoak-14.0.0.0.6.dev4-py3-none-any.whl
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230726] Old Version: [0.0.8.dev20230725]
+[2023-07-26 02:06:53] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-26 02:06:53] INFO root fetch - processPackages [mkdocs-minify-plugin]: Downloading https://files.pythonhosted.org/packages/09/b0/ae4e5eb003f1856a7f37780d7cd7fa49998cb042a35902139ed0ace69dc9/mkdocs-minify-plugin-0.6.4.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [chartfactor]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/44/001dd5ae6e0b0218b3f0ff8d9ec89d07d48192c44a93da032d3aaf248f1e/jaxutils-nightly-0.0.8.dev20230725.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/51/bd/236f1ae29b3cc86d202a733d2aaeb78c86201ef7bc61fc1cd30bddbce0f2/chartfactor-4.1.8.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [mkdocs-minify-plugin]: Downloading https://files.pythonhosted.org/packages/1a/25/9fe9d04b6af770e1f5bec2f0e253a2a47fcc34881b6fb194c32d0f430968/mkdocs-minify-plugin-0.7.0.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: Downloading https://files.pythonhosted.org/packages/2c/bb/ac0c893634e54efae476144fe267d63aa4e2752351326bc47e2e2215aad7/odoo14_addon_biba_ardoak-14.0.0.0.6.dev5-py3-none-any.whl
+[2023-07-26 02:06:53] INFO root fetch - processPackages [mkdocs-minify-plugin]: executing diffoscope
+[2023-07-26 02:06:53] INFO root fetch - processPackages [mkdocs-minify-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-minify-plugin-0.6.4.tar.gz tmp/mkdocs-minify-plugin-0.7.0.tar.gz --markdown 20230726/m/mkdocs-minify-plugin/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/f7/ee/ac802edc6e33b31f19c12f9a57019f5a17296914b31c1f9b2d775c74c5d3/jaxutils-nightly-0.0.8.dev20230726.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: executing diffoscope
+[2023-07-26 02:06:53] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_biba_ardoak-14.0.0.0.6.dev4-py3-none-any.whl.zip tmp/odoo14_addon_biba_ardoak-14.0.0.0.6.dev5-py3-none-any.whl.zip --markdown 20230726/o/odoo14-addon-biba-ardoak/14.0.0.0.6.dev4-14.0.0.0.6.dev5/diff.md --exclude *.pyd
+[2023-07-26 02:06:53] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/8e/5d/6202a224abbd847f997118507e9fe6896e2196a4601df38fb897fe5308fc/chartfactor-4.1.9.tar.gz
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-26 02:06:53] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-26 02:06:53] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230725.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz --markdown 20230726/j/jaxutils-nightly/0.0.8.dev20230725-0.0.8.dev20230726/diff.md --exclude *.pyd
+[2023-07-26 02:06:54] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2023-07-26 02:06:54] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230726:/home/abi/fetcher/20230726:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-4.1.8.tar.gz tmp/chartfactor-4.1.9.tar.gz --markdown 20230726/c/chartfactor/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-26 02:06:54] INFO root fetch - processPackages [mkdocs-minify-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-minify-plugin-0.6.4.tar.gz]
+[2023-07-26 02:06:54] INFO root fetch - processPackages [mkdocs-minify-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-minify-plugin-0.7.0.tar.gz]
+[2023-07-26 02:06:54] INFO root fetch - main [MainThread]: End processing [mkdocs-minify-plugin]: success
+[2023-07-26 02:06:54] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230725.tar.gz]
+[2023-07-26 02:06:54] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz]
+[2023-07-26 02:06:54] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-26 02:06:54] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_biba_ardoak-14.0.0.0.6.dev4-py3-none-any.whl.zip]
+[2023-07-26 02:06:54] INFO root fetch - processPackages [odoo14-addon-biba-ardoak]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_biba_ardoak-14.0.0.0.6.dev5-py3-none-any.whl.zip]
+[2023-07-26 02:06:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-biba-ardoak]: success
+[2023-07-26 02:06:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230724.post436.tar.gz]
+[2023-07-26 02:06:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230725.post417.tar.gz]
+[2023-07-26 02:06:55] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-26 02:06:55] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.8.tar.gz]
+[2023-07-26 02:06:55] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
+[2023-07-26 02:06:55] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2023-07-26 02:06:55] INFO root fetch - main [MainThread]: Store serial: [19035965]
